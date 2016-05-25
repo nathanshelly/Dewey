@@ -26,9 +26,9 @@ def train(path = 'books', pos_train = [], neg_train = [], smooth_factor = 1, nam
 def bulk_train(path = 'books', genre = '', smooth_factor = 1, name_offset = ''):
     """Trains the Naive Bayes Sentiment Classifier using unigrams"""
     catalogs = {}
-    print os.listdir(path)[0:8]
-    #  print os.listdir(path)[8:16]
-    for genre in os.listdir(path)[0:8]:
+    # print os.listdir(path)[0:8]
+    print os.listdir(path)[8:16]
+    for genre in os.listdir(path)[8:16]:
         print genre
         save(generate_numeric_catalog(path + '/' + genre), genre + '.p')
         # catalogs[genre] = generate_percentile_catalog(generate_numeric_catalog(path + '/' + genre))
@@ -60,32 +60,6 @@ def count_occurrence_of_grams(file_path, catalog):
     for word in words:
         catalog['total_words'] += 1
         catalog[word.lower()] += 1
-
-def smooth(first_catalog, second_catalog, num_to_add = 1):
-    """ Perform add-one (add-num_to_add) smoothing on existing features dictionaries. """
-    first_keys = set(first_catalog.keys())
-    second_keys = set(second_catalog.keys())
-
-    first_new = list(second_keys - first_keys)
-    second_new = list(first_keys - second_keys)
-
-    add_keys(first_catalog, first_new, num_to_add)
-    add_keys(second_catalog, second_new, num_to_add)
-
-    return (first_catalog, second_catalog)
-
-def smooth_dict_of_catalogs(dict_of_catalogs, num_to_add, name_offset):
-    """ Perform add-one (add-num_to_add) smoothing on existing features dictionaries. """
-    negative_set_keys = set(neg_catalog.keys())
-    positive_set_keys = set(pos_catalog.keys())
-
-    neg_new = list(positive_set_keys - negative_set_keys)
-    pos_new = list(negative_set_keys - positive_set_keys)
-
-    add_keys(neg_catalog, neg_new, num_to_add)
-    add_keys(pos_catalog, pos_new, num_to_add)
-
-    return (neg_catalog, pos_catalog)
 
 def generate_percentile_catalog(catalog):
     """ Convert our feature dictionaries from numeric to log frequency (log(percentiles)) """
@@ -195,30 +169,6 @@ def bulk_test(path, dict_of_catalogs):
     print overall
     return overall
 
-    # temp_results['positive'] = class_test(path, 'positive', pos_test)
-    # temp_results['negative'] = class_test(path, 'negative', neg_test)
-
-    # results = {  }
-    # keys = temp_results.keys()
-
-    # for key, vals_list in temp_results.iteritems():
-        # results_list = [1.0*vals_list[0]/vals_list[1]]
-        # print 'Recall for ' + key + ': ', results_list[0]
-
-        # if key == 'positive':
-            # false_positives = temp_results['negative'][1] - temp_results['negative'][0]
-        # else:
-            # false_positives = temp_results['positive'][1] - temp_results['positive'][0]
-        # results_list.append(1.0*vals_list[0] / (vals_list[0] + false_positives))
-        # # print 'Precision for ' + key + ': ', results_list[1]
-        #
-        # results_list.append(2*results_list[0]*results_list[1] / (results_list[0] + results_list[1]))
-        # # print 'F1 measure for ' + key + ': ', results_list[2]
-
-        # results[key] = results_list
-
-    # return results
-
 def class_test(path, correct_klass, dict_of_catalogs, files_to_test=[]):
     """ Perform classification on a list of files, assumed to be of the same target class. """
     path += '/'+correct_klass
@@ -238,6 +188,31 @@ def class_test(path, correct_klass, dict_of_catalogs, files_to_test=[]):
         total += 1
 
     return [correct, total]
+
+##################################### Smoothing
+
+def smooth(first_catalog, second_catalog, num_to_add = 1):
+    """ Perform add-one (add-num_to_add) smoothing on existing features dictionaries. """
+    first_keys = set(first_catalog.keys())
+    second_keys = set(second_catalog.keys())
+
+    first_new = list(second_keys - first_keys)
+    second_new = list(first_keys - second_keys)
+
+    add_keys(first_catalog, first_new, num_to_add)
+    add_keys(second_catalog, second_new, num_to_add)
+
+    return (first_catalog, second_catalog)
+
+def master_word_list():
+    """ Create list of all words in our library. """
+    words = set()
+    for genre_pickle in os.listdir('catalogs'):
+        genre_words = set(loadFile(genre_pickle).keys())
+        words = words.union(genre_words)
+
+    save(words, 'all_words_list.p')
+    return words
 
 ##################################### Provided code
 
@@ -260,27 +235,6 @@ def load(fileName):
 
 def main():
     catalog_path = 'catalogs/'
-    # teen_catalog = unpickleFile(catalog_path + 'numeric_teen.p')
-    # horror_catalog = unpickleFile(catalog_path + 'numeric_horror.p')
-    #
-    # teen_catalog_frac = generate_percentile_catalog(teen_catalog)
-    # horror_catalog_frac = generate_percentile_catalog(horror_catalog)
-    #
-    # for smooth_factor in [1, .5, .25, .1]:
-    #     teen, horror = smooth(load(catalog_path + 'Teen.p'), load(catalog_path + 'Horror.p'), smooth_factor)
-    #     catalog_dict = {'Teen': teen, 'Horror': horror}
-    #     print 'Smooth factor: ' + str(smooth_factor)
-    #     print bulk_test('books', catalog_dict)
-    #
-    # # test_file_path = 'books/horror/51950.txt'
-    # # with open(test_file_path, 'r') as myfile:
-    # #     test_text = myfile.read()
-    #
-    bulk_train('books')
-
-    # books_path = 'books'
-    # for folder in os.listdir(books_path):
-    #     print '\n\n', folder, '\n\n'
-    #     generate_numeric_catalog(books_path + '/' + folder, 'numeric_' + folder.lower() + '.p')
+    print master_word_list()
 
 main()

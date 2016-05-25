@@ -218,7 +218,11 @@ def smooth_all(catalogs_path, smoothed_path, master_word_list, smoothing_factor)
     for catalog in os.listdir(catalogs_path):
         cat = load(catalogs_path + catalog)
         for word in master_word_list:
+            if word in ['num_files', 'total_words']:
+                continue
             cat[word] += smoothing_factor
+            cat['total_words'] += smoothing_factor
+
         save(cat, smoothed_path + catalog[:-2] + "_smoothed.p")
 
 
@@ -243,10 +247,16 @@ def load(fileName):
     return data
 
 def main():
-    catalogs_path = 'catalogs/'
-    smoothed_path = 'catalogs_smoothed/'
-    master_word_list = load('all_words_list.p')
-    smoothing_factor = 1
-    smooth_all(catalogs_path, smoothed_path, master_word_list, smoothing_factor)
+    # catalogs_path = 'catalogs/'
+    # smoothed_path = 'catalogs_smoothed/'
+    # master_word_list = load('all_words_list.p')
+    # smoothing_factor = 1
+    # smooth_all(catalogs_path, smoothed_path, master_word_list, smoothing_factor)
+
+    catsize = len(load('catalogs_smoothed/Adventure_smoothed.p'))
+    for catalog in os.listdir('catalogs_smoothed/'):
+        if len(load('catalogs_smoothed/' + catalog)) != catsize:
+            print "NOT THE SAME SIZE"
+
 
 main()

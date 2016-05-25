@@ -8,7 +8,7 @@ from nltk import word_tokenize
 def train(path = 'books', pos_train = [], neg_train = [], smooth_factor = 1, name_offset = ''):
     """Trains the Naive Bayes Sentiment Classifier using unigrams"""
     if not pos_train or not neg_train:
-    files = os.listdir(path)
+        files = os.listdir(path)
     pos_train = [temp_file for temp_file in files if 'movies-5' in temp_file]
     neg_train = [temp_file for temp_file in files if 'movies-1' in temp_file]
     pos_catalog = generate_numeric_catalog(path, pos_train)

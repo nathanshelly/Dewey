@@ -204,15 +204,24 @@ def smooth(first_catalog, second_catalog, num_to_add = 1):
 
     return (first_catalog, second_catalog)
 
-def master_word_list():
+def master_word_list(catalogs_path):
     """ Create list of all words in our library. """
     words = set()
-    for genre_pickle in os.listdir('catalogs'):
-        genre_words = set(loadFile(genre_pickle).keys())
+    for genre_pickle in os.listdir(catalogs_path):
+        genre_words = set(load(catalogs_path + genre_pickle).keys())
         words = words.union(genre_words)
 
     save(words, 'all_words_list.p')
     return words
+
+def smooth_all(catalogs_path, smoothed_path, master_word_list, smoothing_factor):
+    for catalog in os.listdir(catalogs_path):
+        cat = load(catalogs_path + catalog)
+        for word in master_word_list:
+            cat[word] += smoothing_factor
+        save(cat, smoothed_path + catalog[:-2] + "_smoothed.p")
+
+
 
 ##################################### Provided code
 
@@ -234,7 +243,10 @@ def load(fileName):
     return data
 
 def main():
-    catalog_path = 'catalogs/'
-    print master_word_list()
+    catalogs_path = 'catalogs/'
+    smoothed_path = 'catalogs_smoothed/'
+    master_word_list = load('all_words_list.p')
+    smoothing_factor = 1
+    smooth_all(catalogs_path, smoothed_path, master_word_list, smoothing_factor)
 
 main()

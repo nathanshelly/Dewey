@@ -1,0 +1,8 @@
+books
+books_opened
+books-opened
+unwanted-books
+Corpus
+*.pyc
+*.zip
+cock_tree.*

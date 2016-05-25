@@ -3,25 +3,36 @@ import cPickle as pickle
 from collections import defaultdict
 from nltk import word_tokenize
 
+
 ##################################### Training
 
-# def train(path = 'books',  smooth_factor = 1, name_offset = ''):
-#      """Trains the Naive Bayes Sentiment Classifier using unigrams"""
-#      if not pos_train or not neg_train:
-#          files = os.listdir(path)
-#          pos_train = [temp_file for temp_file in files if 'movies-5' in temp_file]
-#          neg_train = [temp_file for temp_file in files if 'movies-1' in temp_file]
-#      pos_catalog = generate_numeric_catalog(path, pos_train)
-#      neg_catalog = generate_numeric_catalog(path, neg_train)
-#      (neg_catalog, pos_catalog) = smooth(neg_catalog, pos_catalog, smooth_factor, name_offset)
-#      neg_catalog = generate_percentile_catalog(neg_catalog)
-#      pos_catalog = generate_percentile_catalog(pos_catalog)
-#
-#      save(neg_catalog, 'neg_' + name_offset + '.p')
-#      save(pos_catalog, 'pos_' + name_offset + '.p')
-#
-#      neg_features = neg_catalog
-#      pos_features = pos_catalog
+def train(path = 'books', pos_train = [], neg_train = [], smooth_factor = 1, name_offset = ''):
+     """Trains the Naive Bayes Sentiment Classifier using unigrams"""
+     if not pos_train or not neg_train:
+         files = os.listdir(path)
+         pos_train = [temp_file for temp_file in files if 'movies-5' in temp_file]
+         neg_train = [temp_file for temp_file in files if 'movies-1' in temp_file]
+     pos_catalog = generate_numeric_catalog(path, pos_train)
+     neg_catalog = generate_numeric_catalog(path, neg_train)
+     (neg_catalog, pos_catalog) = smooth(neg_catalog, pos_catalog, smooth_factor, name_offset)
+     neg_catalog = generate_percentile_catalog(neg_catalog)
+     pos_catalog = generate_percentile_catalog(pos_catalog)
+
+     save(neg_catalog, 'neg_' + name_offset + '.p')
+     save(pos_catalog, 'pos_' + name_offset + '.p')
+
+     neg_features = neg_catalog
+     pos_features = pos_catalog
+
+def bulk_train(path = 'books', genre = '', smooth_factor = 1, name_offset = ''):
+     """Trains the Naive Bayes Sentiment Classifier using unigrams"""
+     catalogs = {}
+     for genre in os.listdir(path):
+          print genre
+          save(generate_percentile_catalog(generate_numeric_catalog(path + '/' + genre)), genre + '.p')
+          # catalogs[genre] = generate_percentile_catalog(generate_numeric_catalog(path + '/' + genre))
+          # save(catalogs[genre], genre + '.p')
+     # save(generate_percentile_catalog(generate_numeric_catalog(path + '/' + genre)), genre + '.p')
 
 def generate_numeric_catalog(folder_path, file_name_list = []):
      """ Generate dictionaries with frequency for each word in our training set. """
@@ -40,15 +51,16 @@ def generate_numeric_catalog(folder_path, file_name_list = []):
 def count_occurrence_of_grams(file_path, catalog):
      """ Count the number of occurences of a word. """
      # Catalog must have total_words and num_files keys
+     print file_path
      file_string = loadFile(file_path)
      catalog['num_files'] += 1
 
-     words = tokenize(file_string)
+     words = word_tokenize(file_string)
      for word in words:
          catalog['total_words'] += 1
          catalog[word.lower()] += 1
 
-def smooth(catalogs, num_to_add, name_offset):
+def smooth(neg_catalog, pos_catalog, num_to_add, name_offset):
      """ Perform add-one (add-num_to_add) smoothing on existing features dictionaries. """
      negative_set_keys = set(neg_catalog.keys())
      positive_set_keys = set(pos_catalog.keys())
@@ -91,10 +103,12 @@ def classify(sText, dict_of_catalogs):
      """Given a target string sText, this function returns the most likely document
      class to which the target string belongs (i.e., positive, negative or neutral).
      """
-     words = tokenize(sText)
+     words = word_tokenize(sText)
 
-     # probs = {'positive': 0, 'negative': 0}
-     probs = { key: 0 for key in dict_of_catalogs.keys()}
+     probs = {}
+     for key in dict_of_catalogs.keys():
+          probs[key] = 0
+     # probs = {key: 0 for key in dict_of_catalogs.keys()}
 
      for word in words:
          word = word.lower()
@@ -111,18 +125,6 @@ def classify(sText, dict_of_catalogs):
      # m = max(probs.values())
      # ind = [i for i, j in enumerate(probs.values()) if j == m][0]
      return max(probs, key=probs.get) # return the key corresponding to the max value# probs.keys()[ind]
-
-def pick_neutral(probs, threshold):
-     """ Determine whether or not to classify something as neutral, based on a relative difference threshold. """
-     avg_prob = math.fabs(sum(probs.values())/len(probs.values()))
-     diff = math.fabs(probs['positive'] - probs['negative'])
-
-     try:
-         if diff/avg_prob < threshold:
-             return True # difference is too small
-     except ZeroDivisionError:
-         pass
-     return False
 
 ##################################### Evaluation
 
@@ -162,9 +164,15 @@ def cross_validate(folds, path, smooth_factor = 1):
 
 def bulk_test(path, dict_of_catalogs):
      '''Run class_test on all classes, generate recall, precision and F-Measure values for each class'''
-     temp_results = { classification: class_test(path, classification, dict_of_catalogs)  for classification in dict_of_catalogs.keys()}
+     temp_results = {}
+     for classification in dict_of_catalogs.keys():
+          temp_results[classification] = class_test(path, classification, dict_of_catalogs)
+          print classification + ': ', temp_results[classification][0]/temp_results[classification][1]
+     # temp_results = {classification: class_test(path, classification, dict_of_catalogs) for classification in dict_of_catalogs.keys()}
 
-     return 1.0 * sum([x[0] for x in temp_results.values()]) / sum([x[1] for x in temp_results.values()])
+     overall = 1.0 * sum([x[0] for x in temp_results.values()]) / sum([x[1] for x in temp_results.values()])
+     print overall
+     return overall
 
      # temp_results['positive'] = class_test(path, 'positive', pos_test)
      # temp_results['negative'] = class_test(path, 'negative', neg_test)
@@ -198,12 +206,12 @@ def class_test(path, correct_klass, dict_of_catalogs, files_to_test=[]):
      if not files_to_test:
          files_to_test = os.listdir(path)
      for name in files_to_test:
-         print name
-         review = loadFile(path + '/' + name)
-         sentiment = classify(review, dict_of_catalogs)
-         if sentiment == correct_klass:
-             correct += 1
-         total += 1
+        print name
+        review = loadFile(path + '/' + name)
+        sentiment = classify(review, dict_of_catalogs)
+        if sentiment == correct_klass:
+            correct += 1
+        total += 1
 
      return [correct, total]
 
@@ -211,82 +219,41 @@ def class_test(path, correct_klass, dict_of_catalogs, files_to_test=[]):
 
 def loadFile(sFilename):
      """Given a file name, return the contents of the file as a string."""
-
      f = open(sFilename, "r")
      sTxt = f.read()
      f.close()
      return sTxt
 
-def save(dObj, sFilename):
-     """Given an object and a file name, write the object to the file using pickle."""
-
-     f = open(sFilename, "w")
-     p = pickle.Pickler(f)
-     p.dump(dObj)
-     f.close()
-
-def load(sFilename):
-     """Given a file name, load and return the object stored in the file."""
-
-     f = open(sFilename, "r")
-     u = pickle.Unpickler(f)
-     dObj = u.load()
-     f.close()
-     return dObj
-
-def tokenize(sText):
-     """Given a string of text sText, returns a list of the individual tokens that
-     occur in that string (in order)."""
-
-     lTokens = []
-     sToken = ""
-     for c in sText:
-         if re.match("[a-zA-Z0-9]", str(c)) != None or c == "\"" or c == "_" or c == "-":
-             sToken += c
-         else:
-             if sToken != "":
-                 lTokens.append(sToken)
-                 sToken = ""
-             if c.strip() != "":
-                 lTokens.append(str(c.strip()))
-
-     if sToken != "":
-         lTokens.append(sToken)
-
-     return lTokens
-
-def pickleSomething(data, fileName):
+def save(data, fileName):
 	pickleFile = open(fileName, 'w')
 	pickle.dump(data, pickleFile)
 	pickleFile.close()
 
-def unpickleFile(fileName):
+def load(fileName):
 	pickleFile = open(fileName, 'r')
 	data = pickle.load(pickleFile)
 	return data
 
 def main():
     catalog_path = 'catalogs/'
-    teen_catalog = unpickleFile(catalog_path + 'numeric_teen.p')
-    horror_catalog = unpickleFile(catalog_path + 'numeric_horror.p')
-
-    teen_catalog_frac = generate_percentile_catalog(teen_catalog)
-    horror_catalog_frac = generate_percentile_catalog(horror_catalog)
-
-    catalog_dict = {'Teen': teen_catalog_frac, 'Horror': horror_catalog_frac}
-
-    # test_file_path = 'books/horror/51950.txt'
-    # with open(test_file_path, 'r') as myfile:
-    #     test_text = myfile.read()
-
+    # teen_catalog = unpickleFile(catalog_path + 'numeric_teen.p')
+    # horror_catalog = unpickleFile(catalog_path + 'numeric_horror.p')
+    #
+    # teen_catalog_frac = generate_percentile_catalog(teen_catalog)
+    # horror_catalog_frac = generate_percentile_catalog(horror_catalog)
+    #
+    catalog_dict = {'Teen': load(catalog_path + 'Teen.p'), 'Horror': load(catalog_path + 'Horror.p')}
+    #
+    # # test_file_path = 'books/horror/51950.txt'
+    # # with open(test_file_path, 'r') as myfile:
+    # #     test_text = myfile.read()
+    #
     print bulk_test('books', catalog_dict)
-
-
-
+    # bulk_train('books')
 
    # books_path = 'books'
    # for folder in os.listdir(books_path):
    #    print '\n\n', folder, '\n\n'
    #    generate_numeric_catalog(books_path + '/' + folder, 'numeric_' + folder.lower() + '.p')
 
-# main()
+main()

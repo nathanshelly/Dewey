@@ -150,7 +150,7 @@ def cross_validate(folds, path, smooth_factor = 1):
     neg_averages = [val/folds for val in neg]
     return pos_averages, neg_averages
 
-def bulk_test(path, dict_of_catalogs):
+def bulk_test(dict_of_catalogs, path = 'books'):
     '''Run class_test on all classes, generate recall, precision and F-Measure values for each class'''
     f = open('results.txt', 'w')
     temp_results = {}
@@ -234,7 +234,8 @@ def load(fileName):
     return data
 
 def main():
-    catalog_path = 'catalogs/'
-    print master_word_list()
+    catalog_path = 'smoothed_catalogs'
+    catalogs = {'Teen': generate_percentile_catalog(load(catalog_path + '/' + 'Teen')), 'Horror': generate_percentile_catalog(load(catalog_path + '/' + 'Horror')}
+    bulk_test(catalogs)
 
 main()

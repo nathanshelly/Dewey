@@ -27,9 +27,11 @@ def train(path = 'books', pos_train = [], neg_train = [], smooth_factor = 1, nam
 def bulk_train(path = 'books', genre = '', smooth_factor = 1, name_offset = ''):
      """Trains the Naive Bayes Sentiment Classifier using unigrams"""
      catalogs = {}
-     for genre in os.listdir(path):
+     print os.listdir(path)[0:8]
+    #  print os.listdir(path)[8:16]
+     for genre in os.listdir(path)[0:8]:
           print genre
-          save(generate_percentile_catalog(generate_numeric_catalog(path + '/' + genre)), genre + '.p')
+          save(generate_numeric_catalog(path + '/' + genre), genre + '.p')
           # catalogs[genre] = generate_percentile_catalog(generate_numeric_catalog(path + '/' + genre))
           # save(catalogs[genre], genre + '.p')
      # save(generate_percentile_catalog(generate_numeric_catalog(path + '/' + genre)), genre + '.p')
@@ -60,7 +62,20 @@ def count_occurrence_of_grams(file_path, catalog):
          catalog['total_words'] += 1
          catalog[word.lower()] += 1
 
-def smooth(neg_catalog, pos_catalog, num_to_add, name_offset):
+def smooth(first_catalog, second_catalog, num_to_add = 1):
+     """ Perform add-one (add-num_to_add) smoothing on existing features dictionaries. """
+     first_keys = set(first_catalog.keys())
+     second_keys = set(second_catalog.keys())
+
+     first_new = list(second_keys - first_keys)
+     second_new = list(first_keys - second_keys)
+
+     add_keys(first_catalog, first_new, num_to_add)
+     add_keys(second_catalog, second_new, num_to_add)
+
+     return (first_catalog, second_catalog)
+
+def smooth_dict_of_catalogs(dict_of_catalogs, num_to_add, name_offset):
      """ Perform add-one (add-num_to_add) smoothing on existing features dictionaries. """
      negative_set_keys = set(neg_catalog.keys())
      positive_set_keys = set(pos_catalog.keys())
@@ -164,13 +179,20 @@ def cross_validate(folds, path, smooth_factor = 1):
 
 def bulk_test(path, dict_of_catalogs):
      '''Run class_test on all classes, generate recall, precision and F-Measure values for each class'''
+     f = open('results.txt', 'w')
      temp_results = {}
      for classification in dict_of_catalogs.keys():
-          temp_results[classification] = class_test(path, classification, dict_of_catalogs)
-          print classification + ': ', temp_results[classification][0]/temp_results[classification][1]
+          print classification
+          files_to_test = os.listdir(path + '/' + classification)[:len(os.listdir(path + '/' + classification))/4]
+          print len(files_to_test)
+          temp_results[classification] = class_test(path, classification, dict_of_catalogs, files_to_test)
+          print classification + ': ', 1.0*temp_results[classification][0]/temp_results[classification][1]
+          f.write(classification + ': ' + str(1.0*temp_results[classification][0]/temp_results[classification][1]))
      # temp_results = {classification: class_test(path, classification, dict_of_catalogs) for classification in dict_of_catalogs.keys()}
 
      overall = 1.0 * sum([x[0] for x in temp_results.values()]) / sum([x[1] for x in temp_results.values()])
+     f.write(str(overall) + '\n\n')
+     f.close()
      print overall
      return overall
 
@@ -206,9 +228,12 @@ def class_test(path, correct_klass, dict_of_catalogs, files_to_test=[]):
      if not files_to_test:
          files_to_test = os.listdir(path)
      for name in files_to_test:
-        print name
+     #    print name
         review = loadFile(path + '/' + name)
         sentiment = classify(review, dict_of_catalogs)
+        print 'Name: ', name
+        print 'Correct classification: ', correct_klass
+        print 'Generated Sentiment: ', sentiment
         if sentiment == correct_klass:
             correct += 1
         total += 1
@@ -242,14 +267,17 @@ def main():
     # teen_catalog_frac = generate_percentile_catalog(teen_catalog)
     # horror_catalog_frac = generate_percentile_catalog(horror_catalog)
     #
-    catalog_dict = {'Teen': load(catalog_path + 'Teen.p'), 'Horror': load(catalog_path + 'Horror.p')}
+    # for smooth_factor in [1, .5, .25, .1]:
+    #     teen, horror = smooth(load(catalog_path + 'Teen.p'), load(catalog_path + 'Horror.p'), smooth_factor)
+    #     catalog_dict = {'Teen': teen, 'Horror': horror}
+    #     print 'Smooth factor: ' + str(smooth_factor)
+    #     print bulk_test('books', catalog_dict)
     #
     # # test_file_path = 'books/horror/51950.txt'
     # # with open(test_file_path, 'r') as myfile:
     # #     test_text = myfile.read()
     #
-    print bulk_test('books', catalog_dict)
-    # bulk_train('books')
+    bulk_train('books')
 
    # books_path = 'books'
    # for folder in os.listdir(books_path):

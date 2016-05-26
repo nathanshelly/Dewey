@@ -5,7 +5,7 @@ from nltk import word_tokenize
 
 ##################################### Training
 
--def train(path = 'books', pos_train = [], neg_train = [], smooth_factor = 1, name_offset = ''):
+def train(path = 'books', pos_train = [], neg_train = [], smooth_factor = 1, name_offset = ''):
     """Trains the Naive Bayes Sentiment Classifier using unigrams"""
     if not pos_train or not neg_train:
         files = os.listdir(path)
@@ -106,12 +106,11 @@ def classify(sText, dict_of_catalogs):
             except KeyError:
                 pass
 
-    # if pick_neutral(probs, neutral_thresh):
-    #     print "neutral"
-    #     return 'neutral'
-    #
-    # m = max(probs.values())
-    # ind = [i for i, j in enumerate(probs.values()) if j == m][0]
+
+    total_num_files = sum([ catalog['num_files'] for catalog in dict_of_catalogs.values()])
+    for key in dict_of_catalogs.keys():
+       probs[key] += math.log( 1.0 * dict_of_catalogs[key]['num_files'] / total_num_files)
+
     return max(probs, key=probs.get) # return the key corresponding to the max value# probs.keys()[ind]
 
 ##################################### Evaluation

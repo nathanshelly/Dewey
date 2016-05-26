@@ -5,5 +5,5 @@ unwanted-books
 Corpus
 *.pyc
 *.zip
-*.p
+.p
 cock_tree.*

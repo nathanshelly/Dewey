@@ -1,19 +1,19 @@
-import math, os, re, string
-import cPickle as pickle
+import math, os, re, string, timeit
 from collections import defaultdict
 from nltk import word_tokenize
+from pickling import *
 
 ##################################### Training
 
 def bulk_train(path = 'books', genre = '', genres_list = [], smooth_factor = 1, name_offset = ''):
-    """Trains the Naive Bayes Sentiment Classifier using unigrams"""
+    '''Trains the Naive Bayes Sentiment Classifier using unigrams'''
     catalogs = {}
     for genre in os.listdir(path):
         print genre
         save(generate_numeric_catalog(path + '/' + genre), genre + '.p')
 
 def generate_numeric_catalog(folder_path, file_name_list = []):
-    """ Generate dictionaries with frequency for each word in our training set. """
+    '''Generate dictionaries with frequency for each word in our training set.'''
     catalog = defaultdict(int)
     catalog['total_words'] = 0
     catalog['num_files'] = 0
@@ -27,7 +27,7 @@ def generate_numeric_catalog(folder_path, file_name_list = []):
     return catalog
 
 def count_occurrence_of_grams(file_path, catalog):
-    """ Count the number of occurences of a word. """
+    '''Count the number of occurences of a word.'''
     # Catalog must have total_words and num_files keys
     print file_path
     catalog['num_files'] += 1
@@ -40,7 +40,7 @@ def count_occurrence_of_grams(file_path, catalog):
     temp_file.close()
 
 def generate_percentile_catalog(catalog):
-    """ Convert our feature dictionaries from numeric to log frequency (log(percentiles)) """
+    '''Convert our feature dictionaries from numeric to log frequency (log(percentiles))'''
     total_words = catalog['total_words']
     perc_catalog = {'total_words': total_words, 'num_files': catalog['num_files']}
 
@@ -73,7 +73,7 @@ def classify_string(probs_dict, dict_of_catalogs, words_to_classify):
         word = word.lower()
         for key in dict_of_catalogs.keys():
             try:
-                probs[key] += dict_of_catalogs[key][word]
+                probs_dict[key] += dict_of_catalogs[key][word]
             except KeyError:
                 pass
 
@@ -133,7 +133,7 @@ def bulk_test(dict_of_catalogs, path = 'books'):
     return overall
 
 def class_test(path, correct_klass, dict_of_catalogs, files_to_test=[]):
-    """ Perform classification on a list of files, assumed to be of the same target class. """
+    '''Perform classification on a list of files, assumed to be of the same target class.'''
     path += '/'+correct_klass
     correct = 0
     total = 0
@@ -141,8 +141,10 @@ def class_test(path, correct_klass, dict_of_catalogs, files_to_test=[]):
         files_to_test = os.listdir(path)
     for name in files_to_test:
         # print name
-        review = loadFile(path + '/' + name)
-        sentiment = classify(review, dict_of_catalogs)
+        start_time = timeit.default_timer()
+        sentiment = classify_file(path + '/' + name, dict_of_catalogs)
+        end_time = timeit.default_timer()
+        print 'Classify time: ', end_time - start_time
         # print 'Name: ', name
         # print 'Correct classification: ', correct_klass
         # print 'Generated Sentiment: ', sentiment
@@ -155,7 +157,7 @@ def class_test(path, correct_klass, dict_of_catalogs, files_to_test=[]):
 ##################################### Smoothing
 
 def master_word_list(catalogs_path):
-    """ Create list of all words in our library. """
+    '''Create list of all words in our library.'''
     words = set()
     for genre_pickle in os.listdir(catalogs_path):
         genre_words = set(load(catalogs_path + genre_pickle).keys())
@@ -175,24 +177,7 @@ def smooth_all(catalogs_path, smoothed_path, master_word_list, smoothing_factor)
 
         save(cat, smoothed_path + catalog[:-2] + "_smoothed.p")
 
-##################################### Provided code
-
-def loadFile(sFilename):
-    """Given a file name, return the contents of the file as a string."""
-    f = open(sFilename, "r")
-    sTxt = f.read()
-    f.close()
-    return sTxt
-
-def save(data, fileName):
-    pickleFile = open(fileName, 'w')
-    pickle.dump(data, pickleFile)
-    pickleFile.close()
-
-def load(fileName):
-    pickleFile = open(fileName, 'r')
-    data = pickle.load(pickleFile)
-    return data
+##################################### Main
 
 def main():
     catalog_path = 'catalogs_smoothed/'

@@ -5,7 +5,7 @@ from nltk import word_tokenize
 
 ##################################### Training
 
-def train(path = 'books', pos_train = [], neg_train = [], smooth_factor = 1, name_offset = ''):
+-def train(path = 'books', pos_train = [], neg_train = [], smooth_factor = 1, name_offset = ''):
     """Trains the Naive Bayes Sentiment Classifier using unigrams"""
     if not pos_train or not neg_train:
         files = os.listdir(path)
@@ -180,9 +180,9 @@ def class_test(path, correct_klass, dict_of_catalogs, files_to_test=[]):
         # print name
         review = loadFile(path + '/' + name)
         sentiment = classify(review, dict_of_catalogs)
-        print 'Name: ', name
-        print 'Correct classification: ', correct_klass
-        print 'Generated Sentiment: ', sentiment
+        # print 'Name: ', name
+        # print 'Correct classification: ', correct_klass
+        # print 'Generated Sentiment: ', sentiment
         if sentiment == correct_klass:
             correct += 1
         total += 1
@@ -225,8 +225,6 @@ def smooth_all(catalogs_path, smoothed_path, master_word_list, smoothing_factor)
 
         save(cat, smoothed_path + catalog[:-2] + "_smoothed.p")
 
-
-
 ##################################### Provided code
 
 def loadFile(sFilename):
@@ -247,22 +245,9 @@ def load(fileName):
     return data
 
 def main():
-<<<<<<< HEAD
-    catalog_path = 'smoothed_catalogs'
-    catalogs = {'Teen': generate_percentile_catalog(load(catalog_path + '/' + 'Teen')), 'Horror': generate_percentile_catalog(load(catalog_path + '/' + 'Horror')}
+    catalog_path = 'catalogs_smoothed/'
+    smoothed_ending = '_smoothed.p'
+    catalogs = {'Teen': generate_percentile_catalog(load(catalog_path + 'Teen' + smoothed_ending)), 'Horror': generate_percentile_catalog(load(catalog_path + 'Horror' + smoothed_ending))}
     bulk_test(catalogs)
-=======
-    # catalogs_path = 'catalogs/'
-    # smoothed_path = 'catalogs_smoothed/'
-    # master_word_list = load('all_words_list.p')
-    # smoothing_factor = 1
-    # smooth_all(catalogs_path, smoothed_path, master_word_list, smoothing_factor)
-
-    catsize = len(load('catalogs_smoothed/Adventure_smoothed.p'))
-    for catalog in os.listdir('catalogs_smoothed/'):
-        if len(load('catalogs_smoothed/' + catalog)) != catsize:
-            print "NOT THE SAME SIZE"
-
->>>>>>> 354b3605daea420aaa8a00f7175ce109161523a6
 
 main()

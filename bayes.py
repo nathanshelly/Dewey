@@ -214,9 +214,14 @@ def smooth_all(catalogs_path, smoothed_path, master_word_list, smoothing_factor)
 ##################################### Main
 
 def main():
-    catalog_path = 'catalogs_smoothed/'
+    catalog_path = 'catalogs/'
+    smoothed_path = 'catalogs_smoothed/'
+    master_word_list = loadFile('all_words_list.p')
     smoothed_ending = '_smoothed.p'
-    catalogs = {'Teen': generate_percentile_catalog(load(catalog_path + 'Teen' + smoothed_ending)), 'Horror': generate_percentile_catalog(load(catalog_path + 'Horror' + smoothed_ending))}
-    bulk_test(catalogs)
+    for s_f in [1, .5, .25]:
+        print "Smoothing value", s_f
+        smooth_all(catalog_path, smoothed_path, master_word_list, s_f)
+        catalogs = {'Teen': generate_percentile_catalog(load(smoothed_path + 'Teen' + smoothed_ending)), 'Horror': generate_percentile_catalog(load(smoothed_path + 'Horror' + smoothed_ending))}
+        bulk_test(catalogs)
 
 main()

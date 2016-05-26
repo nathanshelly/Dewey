@@ -31,12 +31,10 @@ def count_occurrence_of_grams(file_path, catalog):
     # Catalog must have total_words and num_files keys
     print file_path
     catalog['num_files'] += 1
-    temp_file = open(file_path)
-    for line in temp_file:
-        words = word_tokenize(line)
-        for word in words:
-            catalog['total_words'] += 1
-            catalog[word.lower()] += 1
+    words = word_tokenize(loadFile(file_path))
+    for word in words:
+        catalog['total_words'] += 1
+        catalog[word.lower()] += 1
     temp_file.close()
 
 def generate_percentile_catalog(catalog):
@@ -55,10 +53,10 @@ def generate_percentile_catalog(catalog):
 def classify_text(string_to_classify, dict_of_catalogs):
     '''Given a target string, this function returns the most likely genre to which the target string belongs (i.e. fantasy, horror).'''
     probs_dict = {key: 0 for key in dict_of_catalogs.keys()}
-    classify_string(probs_dict, dict_of_catalogs, word_tokenize(string_to_classify))
+    update_probabilites(probs_dict, dict_of_catalogs, word_tokenize(string_to_classify))
     return max(probs_dict, key=probs_dict.get) # return the key corresponding to the max value# probs.keys()[ind]
 
-def classify_string(probs_dict, dict_of_catalogs, words_to_classify):
+def update_probabilites(probs_dict, dict_of_catalogs, words_to_classify):
     '''Takes string and updates the probabilities dictionary'''
     # print words_to_classify
     for word in words_to_classify:
@@ -196,6 +194,10 @@ def smooth_all(catalogs_path, smoothed_path, master_word_list, smoothing_factor)
         save(cat, smoothed_path + catalog[:-2] + "_smoothed.p")
 
 ##################################### Main
+
+def set_aside_data():
+    for value in variable:
+        pass
 
 def main():
     catalog_path = 'catalogs_smoothed/'

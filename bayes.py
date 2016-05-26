@@ -5,35 +5,12 @@ from nltk import word_tokenize
 
 ##################################### Training
 
--def train(path = 'books', pos_train = [], neg_train = [], smooth_factor = 1, name_offset = ''):
-    """Trains the Naive Bayes Sentiment Classifier using unigrams"""
-    if not pos_train or not neg_train:
-        files = os.listdir(path)
-    pos_train = [temp_file for temp_file in files if 'movies-5' in temp_file]
-    neg_train = [temp_file for temp_file in files if 'movies-1' in temp_file]
-    pos_catalog = generate_numeric_catalog(path, pos_train)
-    neg_catalog = generate_numeric_catalog(path, neg_train)
-    (neg_catalog, pos_catalog) = smooth(neg_catalog, pos_catalog, smooth_factor, name_offset)
-    neg_catalog = generate_percentile_catalog(neg_catalog)
-    pos_catalog = generate_percentile_catalog(pos_catalog)
-
-    save(neg_catalog, 'neg_' + name_offset + '.p')
-    save(pos_catalog, 'pos_' + name_offset + '.p')
-
-    neg_features = neg_catalog
-    pos_features = pos_catalog
-
-def bulk_train(path = 'books', genre = '', smooth_factor = 1, name_offset = ''):
+def bulk_train(path = 'books', genre = '', genres_list = [], smooth_factor = 1, name_offset = ''):
     """Trains the Naive Bayes Sentiment Classifier using unigrams"""
     catalogs = {}
-    # print os.listdir(path)[0:8]
-    print os.listdir(path)[8:16]
-    for genre in os.listdir(path)[8:16]:
+    for genre in os.listdir(path):
         print genre
         save(generate_numeric_catalog(path + '/' + genre), genre + '.p')
-        # catalogs[genre] = generate_percentile_catalog(generate_numeric_catalog(path + '/' + genre))
-        # save(catalogs[genre], genre + '.p')
-    # save(generate_percentile_catalog(generate_numeric_catalog(path + '/' + genre)), genre + '.p')
 
 def generate_numeric_catalog(folder_path, file_name_list = []):
     """ Generate dictionaries with frequency for each word in our training set. """
@@ -53,13 +30,14 @@ def count_occurrence_of_grams(file_path, catalog):
     """ Count the number of occurences of a word. """
     # Catalog must have total_words and num_files keys
     print file_path
-    file_string = loadFile(file_path)
     catalog['num_files'] += 1
-
-    words = word_tokenize(file_string)
-    for word in words:
-        catalog['total_words'] += 1
-        catalog[word.lower()] += 1
+    temp_file = open(file_path)
+    for line in temp_file:
+        words = word_tokenize(line)
+        for word in words:
+            catalog['total_words'] += 1
+            catalog[word.lower()] += 1
+    temp_file.close()
 
 def generate_percentile_catalog(catalog):
     """ Convert our feature dictionaries from numeric to log frequency (log(percentiles)) """
@@ -72,47 +50,32 @@ def generate_percentile_catalog(catalog):
 
     return perc_catalog
 
-def add_keys(catalog, keys, num):
-    """ Add a list of keys to a dictionary. """
-    for key in keys:
-        catalog[key] = 0
-    add_num(catalog, num)
-
-def add_num(catalog, num):
-    """ Add a number to each item in a dictionary (for smoothing). """
-    for key, val in catalog.iteritems():
-        if key not in ['total_words', 'num_files']:
-            catalog[key] += num
-            catalog['total_words'] += num
-
 ##################################### Classification
 
-def classify(sText, dict_of_catalogs):
-    """Given a target string sText, this function returns the most likely document
-    class to which the target string belongs (i.e., positive, negative or neutral).
-    """
-    words = word_tokenize(sText)
+def classify_file(file_path, dict_of_catalogs):
+    '''Given a target file, this function returns the most likely genre to which the target file belongs (i.e. fantasy, horror).'''
+    probs_dict = {key: 0 for key in dict_of_catalogs.keys()}
+    temp_file = open(file_path)
+    for line in temp_file:
+        classify_string(probs_dict, dict_of_catalogs, word_tokenize(line))
 
-    probs = {}
-    for key in dict_of_catalogs.keys():
-        probs[key] = 0
-    # probs = {key: 0 for key in dict_of_catalogs.keys()}
+    return max(probs_dict, key=probs_dict.get) # return the key corresponding to the max value# probs.keys()[ind]
 
-    for word in words:
+def classify_text(string_to_classify, dict_of_catalogs):
+    '''Given a target string, this function returns the most likely genre to which the target string belongs (i.e. fantasy, horror).'''
+    probs_dict = {key: 0 for key in dict_of_catalogs.keys()}
+    classify_string(probs_dict, dict_of_catalogs, word_tokenize(string_to_classify))
+    return max(probs_dict, key=probs_dict.get) # return the key corresponding to the max value# probs.keys()[ind]
+
+def classify_string(probs_dict, dict_of_catalogs, words_to_classify):
+    '''Takes string and updates the probabilities dictionary'''
+    for word in words_to_classify:
         word = word.lower()
         for key in dict_of_catalogs.keys():
             try:
                 probs[key] += dict_of_catalogs[key][word]
             except KeyError:
                 pass
-
-    # if pick_neutral(probs, neutral_thresh):
-    #     print "neutral"
-    #     return 'neutral'
-    #
-    # m = max(probs.values())
-    # ind = [i for i, j in enumerate(probs.values()) if j == m][0]
-    return max(probs, key=probs.get) # return the key corresponding to the max value# probs.keys()[ind]
 
 ##################################### Evaluation
 
@@ -190,19 +153,6 @@ def class_test(path, correct_klass, dict_of_catalogs, files_to_test=[]):
     return [correct, total]
 
 ##################################### Smoothing
-
-def smooth(first_catalog, second_catalog, num_to_add = 1):
-    """ Perform add-one (add-num_to_add) smoothing on existing features dictionaries. """
-    first_keys = set(first_catalog.keys())
-    second_keys = set(second_catalog.keys())
-
-    first_new = list(second_keys - first_keys)
-    second_new = list(first_keys - second_keys)
-
-    add_keys(first_catalog, first_new, num_to_add)
-    add_keys(second_catalog, second_new, num_to_add)
-
-    return (first_catalog, second_catalog)
 
 def master_word_list(catalogs_path):
     """ Create list of all words in our library. """

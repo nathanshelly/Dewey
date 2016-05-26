@@ -35,7 +35,7 @@ def count_occurrence_of_grams(file_path, catalog):
     for word in words:
         catalog['total_words'] += 1
         catalog[word.lower()] += 1
-    temp_file.close()
+
 
 def generate_percentile_catalog(catalog):
     '''Convert our feature dictionaries from numeric to log frequency (log(percentiles))'''
@@ -200,14 +200,9 @@ def set_aside_data():
         pass
 
 def main():
-    catalog_path = 'catalogs/'
-    smoothed_path = 'catalogs_smoothed/'
-    master_word_list = loadFile('all_words_list.p')
+    catalog_path = 'catalogs_smoothed/'
     smoothed_ending = '_smoothed.p'
-    for s_f in [1, .5, .25]:
-        print "Smoothing value", s_f
-        smooth_all(catalog_path, smoothed_path, master_word_list, s_f)
-        catalogs = {'Teen': generate_percentile_catalog(load(smoothed_path + 'Teen' + smoothed_ending)), 'Horror': generate_percentile_catalog(load(smoothed_path + 'Horror' + smoothed_ending))}
-        bulk_test(catalogs)
+    catalogs = {'Teen': generate_percentile_catalog(load(catalog_path + 'Teen' + smoothed_ending)), 'Horror': generate_percentile_catalog(load(catalog_path + 'Horror' + smoothed_ending))}
+    bulk_test(catalogs)
 
 main()

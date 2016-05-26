@@ -5,8 +5,8 @@ from pickling import *
 
 ##################################### Training
 
-def bulk_train(path = 'books', genre = '', genres_list = [], smooth_factor = 1, name_offset = ''):
-    '''Trains the Naive Bayes Sentiment Classifier using unigrams'''
+def bulk_train(path = 'books', genre = '', smooth_factor = 1, name_offset = ''):
+    """Trains the Naive Bayes Sentiment Classifier using unigrams"""
     catalogs = {}
     for genre in os.listdir(path):
         print genre
@@ -80,30 +80,38 @@ def evaluate(folds, path = 'movie_reviews/movies_reviews', smooth_factor = 1):
     print 'Pos - [recall, precision, F1 measure]', pos_averages
     print 'Neg - [recall, precision, F1 measure]', neg_averages
 
-def cross_validate(folds, path, smooth_factor = 1):
+def test(train_catalogs, test_files, correct_genre):
+    correct = 0.0
+    for f in test_files:
+        book = loadFile(f)
+        if classify(book, train_catalogs) == correct_genre:
+            correct += 1
+    return correct/len(test_files)
+
+def cross_validate(genres, folds, books_path, smoothing_factor):
     """ Perform k-fold cross-validation. """
-    files = os.listdir(path)
-    pos_files = [temp_file for temp_file in files if 'movies-5' in temp_file]
-    neg_files = [temp_file for temp_file in files if 'movies-1' in temp_file]
+    books = {}
+    books_test = {}
+    train_catalogs = {}
+    for genre in genres:
+        books[genre] = [f for f in os.listdir(books_path + genre)]
     percent = 1.0/folds
-    pos = [0, 0, 0]
-    neg = [0, 0, 0]
+
+    accuracies = {genre:[] for genre in genres}
 
     for i in range(folds):
-        neg_test = neg_files[int(i*percent*len(neg_files)):int((i+1)*percent*len(neg_files))]
-        neg_train  = list(set(neg_files) - set(neg_test))
-        pos_test = pos_files[int(i*percent*len(pos_files)):int((i+1)*percent*len(pos_files))]
-        pos_train  = list(set(pos_files) - set(pos_test))
+        for genre in genres:
+            books_test[genre] = books[genre][int(i*percent*len(neg_files)):int((i+1)*percent*len(neg_files))]
+            books_train = list(set(books[genre]) - set(books_test[genre]))
+            train_catalogs[genre] = generate_numeric_catalog(books_path + genre, books_train)
 
-        train(pos_train = pos_train, neg_train = neg_train, path = path, smooth_factor = smooth_factor, name_offset = 'cv')
-        results = bulk_test(path, pos_test, neg_test)
+        # smooth the catalogs
+        train_catalogs = smooth(train_catalogs, word_list(train_catalogs, genres), smoothing_factor)
 
-        pos = [x + y for x, y in zip(pos, results['positive'])]
-        neg = [x + y for x, y in zip(neg, results['negative'])]
+        for genre in genres:
+            accuracies[genre].append(test(train_catalogs, books_test[genre], genre))
 
-    pos_averages = [val/folds for val in pos]
-    neg_averages = [val/folds for val in neg]
-    return pos_averages, neg_averages
+    return = {genre:(math.fsum(accs)/folds) for genre, accs in accuracies.iteritems()}
 
 def bulk_test(dict_of_catalogs, path = 'books'):
     '''Run class_test on all classes, generate recall, precision and F-Measure values for each class'''
@@ -148,6 +156,23 @@ def class_test(path, correct_klass, dict_of_catalogs, files_to_test=[]):
     return [correct, total]
 
 ##################################### Smoothing
+
+def smooth(catalogs, word_list, smoothing_factor = 1):
+    for genre in catalogs.keys():
+        for word in word_list:
+            if word in ['num_files', 'total_words']:
+                continue
+            catalogs[genre][word] += smoothing_factor
+            catalogs[genre]['total_words'] += smoothing_factor
+    return catalogs
+
+def word_list(catalogs, genres):
+    words = set()
+    for genre_catalog in catalogs.values():
+        genre_words = set(genre_catalog.keys())
+        words = words.union(genre_words)
+
+    return words
 
 def master_word_list(catalogs_path):
     '''Create list of all words in our library.'''

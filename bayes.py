@@ -29,7 +29,7 @@ def generate_numeric_catalog(folder_path, file_name_list = []):
 def count_occurrence_of_grams(file_path, catalog):
     '''Count the number of occurences of a word.'''
     # Catalog must have total_words and num_files keys
-    print file_path
+    # print file_path
     catalog['num_files'] += 1
     temp_file = open(file_path)
     for line in temp_file:
@@ -96,11 +96,11 @@ def evaluate(folds, path = 'movie_reviews/movies_reviews', smooth_factor = 1):
     print 'Pos - [recall, precision, F1 measure]', pos_averages
     print 'Neg - [recall, precision, F1 measure]', neg_averages
 
-def test(train_catalogs, test_files, correct_genre):
+def test(train_catalogs, test_files, genre, books_path):
     correct = 0.0
     for f in test_files:
-        book = loadFile(f)
-        if classify(book, train_catalogs) == correct_genre:
+        book = loadFile(books_path + genre + '/' + f)
+        if classify_text(book, train_catalogs) == genre:
             correct += 1
     return correct/len(test_files)
 
@@ -109,25 +109,31 @@ def cross_validate(genres, folds, books_path, smoothing_factor):
     books = {}
     books_test = {}
     train_catalogs = {}
+    percent = 1.0/folds
+
     for genre in genres:
         books[genre] = [f for f in os.listdir(books_path + genre)]
-    percent = 1.0/folds
 
     accuracies = {genre:[] for genre in genres}
 
     for i in range(folds):
+        print "FOLD " + str(i)
+        print "Working on: "
         for genre in genres:
-            books_test[genre] = books[genre][int(i*percent*len(neg_files)):int((i+1)*percent*len(neg_files))]
+            print genre
+            books_test[genre] = books[genre][int(i*percent*len(books[genre])):int((i+1)*percent*len(books[genre]))]
             books_train = list(set(books[genre]) - set(books_test[genre]))
             train_catalogs[genre] = generate_numeric_catalog(books_path + genre, books_train)
 
         # smooth the catalogs
-        train_catalogs = smooth(train_catalogs, word_list(train_catalogs, genres), smoothing_factor)
+        train_catalogs = smooth(train_catalogs, word_list(train_catalogs), smoothing_factor)
 
         for genre in genres:
-            accuracies[genre].append(test(train_catalogs, books_test[genre], genre))
+            accuracies[genre].append(test(train_catalogs, books_test[genre], genre, books_path))
 
-    return = {genre:(math.fsum(accs)/folds) for genre, accs in accuracies.iteritems()}
+    results = {genre:(math.fsum(accs)/folds) for genre, accs in accuracies.iteritems()}
+    # print results
+    return results
 
 def bulk_test(dict_of_catalogs, path = 'books'):
     '''Run class_test on all classes, generate recall, precision and F-Measure values for each class'''
@@ -182,7 +188,7 @@ def smooth(catalogs, word_list, smoothing_factor = 1):
             catalogs[genre]['total_words'] += smoothing_factor
     return catalogs
 
-def word_list(catalogs, genres):
+def word_list(catalogs):
     words = set()
     for genre_catalog in catalogs.values():
         genre_words = set(genre_catalog.keys())
@@ -214,9 +220,20 @@ def smooth_all(catalogs_path, smoothed_path, master_word_list, smoothing_factor)
 ##################################### Main
 
 def main():
-    catalog_path = 'catalogs_smoothed/'
-    smoothed_ending = '_smoothed.p'
-    catalogs = {'Teen': generate_percentile_catalog(load(catalog_path + 'Teen' + smoothed_ending)), 'Horror': generate_percentile_catalog(load(catalog_path + 'Horror' + smoothed_ending))}
-    bulk_test(catalogs)
+    # catalog_path = 'catalogs_smoothed/'
+    # smoothed_ending = '_smoothed.p'
+    # catalogs = {'Teen': generate_percentile_catalog(load(catalog_path + 'Teen' + smoothed_ending)), 'Horror': generate_percentile_catalog(load(catalog_path + 'Horror' + smoothed_ending))}
+    # bulk_test(catalogs)
+
+    genres = ["Horror", "Teen"]
+    folds = 4
+    books_path = 'books/'
+    smoothing_factor = 1
+
+    results = cross_validate(genres, folds, books_path, smoothing_factor)
+
+    f = open('results.txt', 'w')
+    f.write(results)
+    print results
 
 main()

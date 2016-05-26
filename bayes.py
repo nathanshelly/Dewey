@@ -35,7 +35,6 @@ def count_occurrence_of_grams(file_path, catalog):
     for word in words:
         catalog['total_words'] += 1
         catalog[word.lower()] += 1
-    temp_file.close()
 
 def generate_percentile_catalog(catalog):
     '''Convert our feature dictionaries from numeric to log frequency (log(percentiles))'''
@@ -233,3 +232,4 @@ def test_smooth_values():
         bulk_test(catalogs)
 
 test_smooth_values()
+

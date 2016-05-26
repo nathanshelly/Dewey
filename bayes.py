@@ -189,6 +189,9 @@ def master_word_list(catalogs_path):
 
 def smooth_all(catalogs_path, smoothed_path, master_word_list, smoothing_factor):
     for catalog in os.listdir(catalogs_path):
+        if catalog == '.DS_Store':
+            continue
+
         cat = load(catalogs_path + catalog)
         for word in master_word_list:
             if word in ['num_files', 'total_words']:
@@ -216,4 +219,16 @@ def drive_cross_validate():
     f.write(results)
     print results
 
-drive_cross_validate()
+def test_smooth_values():
+    catalog_path = 'catalogs/'
+    smoothed_path = 'catalogs_smoothed/'
+    master_word_list = loadFile('all_words_list.p')
+    smoothed_ending = '_smoothed.p'
+    for s_f in [1, .5, .25]:
+        print "Smoothing value", s_f
+        smooth_all(catalog_path, smoothed_path, master_word_list, s_f)
+        catalogs = {'Teen': generate_percentile_catalog(load(smoothed_path + 'Teen' + smoothed_ending)), 'Horror': generate_percentile_catalog(load(smoothed_path + 'Horror' + smoothed_ending))}
+        bulk_test(catalogs)
+
+test_smooth_values()
+

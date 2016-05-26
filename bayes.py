@@ -77,6 +77,14 @@ def classify_string(probs_dict, dict_of_catalogs, words_to_classify):
             except KeyError:
                 pass
 
+
+    total_num_files = sum([ catalog['num_files'] for catalog in dict_of_catalogs.values()])
+    for key in dict_of_catalogs.keys():
+       probs[key] += math.log( 1.0 * dict_of_catalogs[key]['num_files'] / total_num_files)
+
+    return max(probs, key=probs.get) # return the key corresponding to the max value# probs.keys()[ind]
+
+
 ##################################### Evaluation
 
 def evaluate(folds, path = 'movie_reviews/movies_reviews', smooth_factor = 1):

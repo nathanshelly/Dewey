@@ -52,15 +52,6 @@ def generate_percentile_catalog(catalog):
 
 ##################################### Classification
 
-def classify_file(file_path, dict_of_catalogs):
-    '''Given a target file, this function returns the most likely genre to which the target file belongs (i.e. fantasy, horror).'''
-    probs_dict = {key: 0 for key in dict_of_catalogs.keys()}
-    temp_file = open(file_path)
-    for line in temp_file:
-        classify_string(probs_dict, dict_of_catalogs, word_tokenize(line))
-
-    return max(probs_dict, key=probs_dict.get) # return the key corresponding to the max value# probs.keys()[ind]
-
 def classify_text(string_to_classify, dict_of_catalogs):
     '''Given a target string, this function returns the most likely genre to which the target string belongs (i.e. fantasy, horror).'''
     probs_dict = {key: 0 for key in dict_of_catalogs.keys()}
@@ -69,6 +60,7 @@ def classify_text(string_to_classify, dict_of_catalogs):
 
 def classify_string(probs_dict, dict_of_catalogs, words_to_classify):
     '''Takes string and updates the probabilities dictionary'''
+    # print words_to_classify
     for word in words_to_classify:
         word = word.lower()
         for key in dict_of_catalogs.keys():
@@ -76,14 +68,6 @@ def classify_string(probs_dict, dict_of_catalogs, words_to_classify):
                 probs_dict[key] += dict_of_catalogs[key][word]
             except KeyError:
                 pass
-
-
-    total_num_files = sum([ catalog['num_files'] for catalog in dict_of_catalogs.values()])
-    for key in dict_of_catalogs.keys():
-       probs[key] += math.log( 1.0 * dict_of_catalogs[key]['num_files'] / total_num_files)
-
-    return max(probs, key=probs.get) # return the key corresponding to the max value# probs.keys()[ind]
-
 
 ##################################### Evaluation
 
@@ -150,8 +134,8 @@ def class_test(path, correct_klass, dict_of_catalogs, files_to_test=[]):
     for name in files_to_test:
         # print name
         start_time = timeit.default_timer()
-        # sentiment = classify_file(path + '/' + name, dict_of_catalogs)
-        sentiment = classify_text(loadFile(path + '/' + name), dict_of_catalogs)
+        sentiment = classify_file(path + '/' + name, dict_of_catalogs)
+        # sentiment = classify_text(loadFile(path + '/' + name), dict_of_catalogs)
         end_time = timeit.default_timer()
         print 'Classify time: ', end_time - start_time
         # print 'Name: ', name

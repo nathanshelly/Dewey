@@ -5,35 +5,12 @@ from nltk import word_tokenize
 
 ##################################### Training
 
-def train(path = 'books', pos_train = [], neg_train = [], smooth_factor = 1, name_offset = ''):
-    """Trains the Naive Bayes Sentiment Classifier using unigrams"""
-    if not pos_train or not neg_train:
-        files = os.listdir(path)
-    pos_train = [temp_file for temp_file in files if 'movies-5' in temp_file]
-    neg_train = [temp_file for temp_file in files if 'movies-1' in temp_file]
-    pos_catalog = generate_numeric_catalog(path, pos_train)
-    neg_catalog = generate_numeric_catalog(path, neg_train)
-    (neg_catalog, pos_catalog) = smooth(neg_catalog, pos_catalog, smooth_factor, name_offset)
-    neg_catalog = generate_percentile_catalog(neg_catalog)
-    pos_catalog = generate_percentile_catalog(pos_catalog)
-
-    save(neg_catalog, 'neg_' + name_offset + '.p')
-    save(pos_catalog, 'pos_' + name_offset + '.p')
-
-    neg_features = neg_catalog
-    pos_features = pos_catalog
-
 def bulk_train(path = 'books', genre = '', smooth_factor = 1, name_offset = ''):
     """Trains the Naive Bayes Sentiment Classifier using unigrams"""
     catalogs = {}
-    # print os.listdir(path)[0:8]
-    print os.listdir(path)[8:16]
-    for genre in os.listdir(path)[8:16]:
+    for genre in os.listdir(path):
         print genre
         save(generate_numeric_catalog(path + '/' + genre), genre + '.p')
-        # catalogs[genre] = generate_percentile_catalog(generate_numeric_catalog(path + '/' + genre))
-        # save(catalogs[genre], genre + '.p')
-    # save(generate_percentile_catalog(generate_numeric_catalog(path + '/' + genre)), genre + '.p')
 
 def generate_numeric_catalog(folder_path, file_name_list = []):
     """ Generate dictionaries with frequency for each word in our training set. """
@@ -125,30 +102,38 @@ def evaluate(folds, path = 'movie_reviews/movies_reviews', smooth_factor = 1):
     print 'Pos - [recall, precision, F1 measure]', pos_averages
     print 'Neg - [recall, precision, F1 measure]', neg_averages
 
-def cross_validate(folds, path, smooth_factor = 1):
+def test(train_catalogs, test_files, correct_genre):
+    correct = 0.0
+    for f in test_files:
+        book = loadFile(f)
+        if classify(book, train_catalogs) == correct_genre:
+            correct += 1
+    return correct/len(test_files)
+
+def cross_validate(genres, folds, books_path, smoothing_factor):
     """ Perform k-fold cross-validation. """
-    files = os.listdir(path)
-    pos_files = [temp_file for temp_file in files if 'movies-5' in temp_file]
-    neg_files = [temp_file for temp_file in files if 'movies-1' in temp_file]
+    books = {}
+    books_test = {}
+    train_catalogs = {}
+    for genre in genres:
+        books[genre] = [f for f in os.listdir(books_path + genre)]
     percent = 1.0/folds
-    pos = [0, 0, 0]
-    neg = [0, 0, 0]
+
+    accuracies = {genre:[] for genre in genres}
 
     for i in range(folds):
-        neg_test = neg_files[int(i*percent*len(neg_files)):int((i+1)*percent*len(neg_files))]
-        neg_train  = list(set(neg_files) - set(neg_test))
-        pos_test = pos_files[int(i*percent*len(pos_files)):int((i+1)*percent*len(pos_files))]
-        pos_train  = list(set(pos_files) - set(pos_test))
+        for genre in genres:
+            books_test[genre] = books[genre][int(i*percent*len(neg_files)):int((i+1)*percent*len(neg_files))]
+            books_train = list(set(books[genre]) - set(books_test[genre]))
+            train_catalogs[genre] = generate_numeric_catalog(books_path + genre, books_train)
 
-        train(pos_train = pos_train, neg_train = neg_train, path = path, smooth_factor = smooth_factor, name_offset = 'cv')
-        results = bulk_test(path, pos_test, neg_test)
+        # smooth the catalogs
+        train_catalogs = smooth(train_catalogs, word_list(train_catalogs, genres), smoothing_factor)
 
-        pos = [x + y for x, y in zip(pos, results['positive'])]
-        neg = [x + y for x, y in zip(neg, results['negative'])]
+        for genre in genres:
+            accuracies[genre].append(test(train_catalogs, books_test[genre], genre))
 
-    pos_averages = [val/folds for val in pos]
-    neg_averages = [val/folds for val in neg]
-    return pos_averages, neg_averages
+    return = {genre:(math.fsum(accs)/folds) for genre, accs in accuracies.iteritems()}
 
 def bulk_test(dict_of_catalogs, path = 'books'):
     '''Run class_test on all classes, generate recall, precision and F-Measure values for each class'''
@@ -191,18 +176,22 @@ def class_test(path, correct_klass, dict_of_catalogs, files_to_test=[]):
 
 ##################################### Smoothing
 
-def smooth(first_catalog, second_catalog, num_to_add = 1):
-    """ Perform add-one (add-num_to_add) smoothing on existing features dictionaries. """
-    first_keys = set(first_catalog.keys())
-    second_keys = set(second_catalog.keys())
+def smooth(catalogs, word_list, smoothing_factor = 1):
+    for genre in catalogs.keys():
+        for word in word_list:
+            if word in ['num_files', 'total_words']:
+                continue
+            catalogs[genre][word] += smoothing_factor
+            catalogs[genre]['total_words'] += smoothing_factor
+    return catalogs
 
-    first_new = list(second_keys - first_keys)
-    second_new = list(first_keys - second_keys)
+def word_list(catalogs, genres):
+    words = set()
+    for genre_catalog in catalogs.values():
+        genre_words = set(genre_catalog.keys())
+        words = words.union(genre_words)
 
-    add_keys(first_catalog, first_new, num_to_add)
-    add_keys(second_catalog, second_new, num_to_add)
-
-    return (first_catalog, second_catalog)
+    return words
 
 def master_word_list(catalogs_path):
     """ Create list of all words in our library. """
@@ -247,11 +236,10 @@ def load(fileName):
     return data
 
 def main():
-<<<<<<< HEAD
     catalog_path = 'smoothed_catalogs'
     catalogs = {'Teen': generate_percentile_catalog(load(catalog_path + '/' + 'Teen')), 'Horror': generate_percentile_catalog(load(catalog_path + '/' + 'Horror')}
     bulk_test(catalogs)
-=======
+
     # catalogs_path = 'catalogs/'
     # smoothed_path = 'catalogs_smoothed/'
     # master_word_list = load('all_words_list.p')
@@ -262,7 +250,5 @@ def main():
     for catalog in os.listdir('catalogs_smoothed/'):
         if len(load('catalogs_smoothed/' + catalog)) != catsize:
             print "NOT THE SAME SIZE"
-
->>>>>>> 354b3605daea420aaa8a00f7175ce109161523a6
 
 main()

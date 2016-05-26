@@ -1,7 +1,7 @@
-import math, os, re, string
-import cPickle as pickle
+import math, os, re, string, timeit
 from collections import defaultdict
 from nltk import word_tokenize
+from pickling import *
 
 ##################################### Training
 
@@ -13,7 +13,7 @@ def bulk_train(path = 'books', genre = '', smooth_factor = 1, name_offset = ''):
         save(generate_numeric_catalog(path + '/' + genre), genre + '.p')
 
 def generate_numeric_catalog(folder_path, file_name_list = []):
-    """ Generate dictionaries with frequency for each word in our training set. """
+    '''Generate dictionaries with frequency for each word in our training set.'''
     catalog = defaultdict(int)
     catalog['total_words'] = 0
     catalog['num_files'] = 0
@@ -27,19 +27,20 @@ def generate_numeric_catalog(folder_path, file_name_list = []):
     return catalog
 
 def count_occurrence_of_grams(file_path, catalog):
-    """ Count the number of occurences of a word. """
+    '''Count the number of occurences of a word.'''
     # Catalog must have total_words and num_files keys
     print file_path
-    file_string = loadFile(file_path)
     catalog['num_files'] += 1
-
-    words = word_tokenize(file_string)
-    for word in words:
-        catalog['total_words'] += 1
-        catalog[word.lower()] += 1
+    temp_file = open(file_path)
+    for line in temp_file:
+        words = word_tokenize(line)
+        for word in words:
+            catalog['total_words'] += 1
+            catalog[word.lower()] += 1
+    temp_file.close()
 
 def generate_percentile_catalog(catalog):
-    """ Convert our feature dictionaries from numeric to log frequency (log(percentiles)) """
+    '''Convert our feature dictionaries from numeric to log frequency (log(percentiles))'''
     total_words = catalog['total_words']
     perc_catalog = {'total_words': total_words, 'num_files': catalog['num_files']}
 
@@ -49,47 +50,40 @@ def generate_percentile_catalog(catalog):
 
     return perc_catalog
 
-def add_keys(catalog, keys, num):
-    """ Add a list of keys to a dictionary. """
-    for key in keys:
-        catalog[key] = 0
-    add_num(catalog, num)
-
-def add_num(catalog, num):
-    """ Add a number to each item in a dictionary (for smoothing). """
-    for key, val in catalog.iteritems():
-        if key not in ['total_words', 'num_files']:
-            catalog[key] += num
-            catalog['total_words'] += num
-
 ##################################### Classification
 
-def classify(sText, dict_of_catalogs):
-    """Given a target string sText, this function returns the most likely document
-    class to which the target string belongs (i.e., positive, negative or neutral).
-    """
-    words = word_tokenize(sText)
+def classify_file(file_path, dict_of_catalogs):
+    '''Given a target file, this function returns the most likely genre to which the target file belongs (i.e. fantasy, horror).'''
+    probs_dict = {key: 0 for key in dict_of_catalogs.keys()}
+    temp_file = open(file_path)
+    for line in temp_file:
+        classify_string(probs_dict, dict_of_catalogs, word_tokenize(line))
 
-    probs = {}
-    for key in dict_of_catalogs.keys():
-        probs[key] = 0
-    # probs = {key: 0 for key in dict_of_catalogs.keys()}
+    return max(probs_dict, key=probs_dict.get) # return the key corresponding to the max value# probs.keys()[ind]
 
-    for word in words:
+def classify_text(string_to_classify, dict_of_catalogs):
+    '''Given a target string, this function returns the most likely genre to which the target string belongs (i.e. fantasy, horror).'''
+    probs_dict = {key: 0 for key in dict_of_catalogs.keys()}
+    classify_string(probs_dict, dict_of_catalogs, word_tokenize(string_to_classify))
+    return max(probs_dict, key=probs_dict.get) # return the key corresponding to the max value# probs.keys()[ind]
+
+def classify_string(probs_dict, dict_of_catalogs, words_to_classify):
+    '''Takes string and updates the probabilities dictionary'''
+    for word in words_to_classify:
         word = word.lower()
         for key in dict_of_catalogs.keys():
             try:
-                probs[key] += dict_of_catalogs[key][word]
+                probs_dict[key] += dict_of_catalogs[key][word]
             except KeyError:
                 pass
 
-    # if pick_neutral(probs, neutral_thresh):
-    #     print "neutral"
-    #     return 'neutral'
-    #
-    # m = max(probs.values())
-    # ind = [i for i, j in enumerate(probs.values()) if j == m][0]
+
+    total_num_files = sum([ catalog['num_files'] for catalog in dict_of_catalogs.values()])
+    for key in dict_of_catalogs.keys():
+       probs[key] += math.log( 1.0 * dict_of_catalogs[key]['num_files'] / total_num_files)
+
     return max(probs, key=probs.get) # return the key corresponding to the max value# probs.keys()[ind]
+
 
 ##################################### Evaluation
 
@@ -155,7 +149,7 @@ def bulk_test(dict_of_catalogs, path = 'books'):
     return overall
 
 def class_test(path, correct_klass, dict_of_catalogs, files_to_test=[]):
-    """ Perform classification on a list of files, assumed to be of the same target class. """
+    '''Perform classification on a list of files, assumed to be of the same target class.'''
     path += '/'+correct_klass
     correct = 0
     total = 0
@@ -163,11 +157,14 @@ def class_test(path, correct_klass, dict_of_catalogs, files_to_test=[]):
         files_to_test = os.listdir(path)
     for name in files_to_test:
         # print name
-        review = loadFile(path + '/' + name)
-        sentiment = classify(review, dict_of_catalogs)
-        print 'Name: ', name
-        print 'Correct classification: ', correct_klass
-        print 'Generated Sentiment: ', sentiment
+        start_time = timeit.default_timer()
+        # sentiment = classify_file(path + '/' + name, dict_of_catalogs)
+        sentiment = classify_text(loadFile(path + '/' + name), dict_of_catalogs)
+        end_time = timeit.default_timer()
+        print 'Classify time: ', end_time - start_time
+        # print 'Name: ', name
+        # print 'Correct classification: ', correct_klass
+        # print 'Generated Sentiment: ', sentiment
         if sentiment == correct_klass:
             correct += 1
         total += 1
@@ -194,7 +191,7 @@ def word_list(catalogs, genres):
     return words
 
 def master_word_list(catalogs_path):
-    """ Create list of all words in our library. """
+    '''Create list of all words in our library.'''
     words = set()
     for genre_pickle in os.listdir(catalogs_path):
         genre_words = set(load(catalogs_path + genre_pickle).keys())
@@ -214,41 +211,12 @@ def smooth_all(catalogs_path, smoothed_path, master_word_list, smoothing_factor)
 
         save(cat, smoothed_path + catalog[:-2] + "_smoothed.p")
 
-
-
-##################################### Provided code
-
-def loadFile(sFilename):
-    """Given a file name, return the contents of the file as a string."""
-    f = open(sFilename, "r")
-    sTxt = f.read()
-    f.close()
-    return sTxt
-
-def save(data, fileName):
-    pickleFile = open(fileName, 'w')
-    pickle.dump(data, pickleFile)
-    pickleFile.close()
-
-def load(fileName):
-    pickleFile = open(fileName, 'r')
-    data = pickle.load(pickleFile)
-    return data
+##################################### Main
 
 def main():
-    catalog_path = 'smoothed_catalogs'
-    catalogs = {'Teen': generate_percentile_catalog(load(catalog_path + '/' + 'Teen')), 'Horror': generate_percentile_catalog(load(catalog_path + '/' + 'Horror')}
+    catalog_path = 'catalogs_smoothed/'
+    smoothed_ending = '_smoothed.p'
+    catalogs = {'Teen': generate_percentile_catalog(load(catalog_path + 'Teen' + smoothed_ending)), 'Horror': generate_percentile_catalog(load(catalog_path + 'Horror' + smoothed_ending))}
     bulk_test(catalogs)
-
-    # catalogs_path = 'catalogs/'
-    # smoothed_path = 'catalogs_smoothed/'
-    # master_word_list = load('all_words_list.p')
-    # smoothing_factor = 1
-    # smooth_all(catalogs_path, smoothed_path, master_word_list, smoothing_factor)
-
-    catsize = len(load('catalogs_smoothed/Adventure_smoothed.p'))
-    for catalog in os.listdir('catalogs_smoothed/'):
-        if len(load('catalogs_smoothed/' + catalog)) != catsize:
-            print "NOT THE SAME SIZE"
 
 main()

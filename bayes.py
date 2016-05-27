@@ -231,4 +231,3 @@ def test_smooth_values():
         bulk_test(catalogs)
 
 test_smooth_values()
-

@@ -145,7 +145,8 @@ def class_test(path, correct_klass, dict_of_catalogs, files_to_test=[]):
     for name in files_to_test:
         # print name
         start_time = timeit.default_timer()
-        sentiment = classify_file(path + '/' + name, dict_of_catalogs)
+        book_text = loadFile(path + '/' + name)
+        sentiment = classify_text(book_text, dict_of_catalogs)
         # sentiment = classify_text(loadFile(path + '/' + name), dict_of_catalogs)
         end_time = timeit.default_timer()
         print 'Classify time: ', end_time - start_time

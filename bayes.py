@@ -47,6 +47,25 @@ def generate_percentile_catalog(catalog):
 
     return perc_catalog
 
+##################################### Smoothing
+
+def smooth(dict_of_catalogs, word_list, smoothing_factor = 1):
+    for genre in dict_of_catalogs.keys():
+        for word in word_list:
+            if word in ['num_files', 'total_words']:
+                continue
+            dict_of_catalogs[genre][word] += smoothing_factor
+            dict_of_catalogs[genre]['total_words'] += smoothing_factor
+    return dict_of_catalogs
+
+def word_list(dict_of_catalogs):
+    words = set()
+    for genre_catalog in dict_of_catalogs.values():
+        genre_words = set(genre_catalog.keys())
+        words = words.union(genre_words)
+
+    return words
+
 ##################################### Classification
 
 def classify_text(string_to_classify, dict_of_catalogs):
@@ -70,18 +89,11 @@ def update_probabilites(probs_dict, dict_of_catalogs, words_to_classify):
 
 ##################################### Evaluation
 
-def evaluate(folds, path = 'movie_reviews/movies_reviews', smooth_factor = 1):
-    '''Run k-fold cross-validation on data set, generating recall, precision and F-measure values for all classes'''
-    pos_averages, neg_averages = cross_validate(folds, path, smooth_factor)
-    for i in range(len(pos_averages)):
-        pos_averages[i] = round(pos_averages[i], 6)
-        neg_averages[i] = round(neg_averages[i], 6)
-    print 'Pos - [recall, precision, F1 measure]', pos_averages
-    print 'Neg - [recall, precision, F1 measure]', neg_averages
-
 def test(train_catalogs, test_files, genre, books_path):
     correct = 0.0
-    print "genre", genre
+    print "genre:", genre
+    if not test_files:
+        test_files = os.listdir(books_path + genre)
     for f in test_files:
         # print f
         book = loadFile(books_path + genre + '/' + f)
@@ -89,7 +101,7 @@ def test(train_catalogs, test_files, genre, books_path):
         print "classified as", cat
         if cat == genre:
             correct += 1
-    print genre, "correct", correct
+    print genre, "correct:", correct
     return correct/len(test_files)
 
 def cross_validate(genres, folds, books_path, smoothing_factor):
@@ -134,124 +146,46 @@ def cross_validate(genres, folds, books_path, smoothing_factor):
     results = {genre:math.fsum(accs)/folds for genre, accs in accuracies.iteritems()}
     return results, accuracies
 
-def bulk_test(dict_of_catalogs, path = 'books'):
-    '''Run class_test on all classes, generate recall, precision and F-Measure values for each class'''
-    f = open('results.txt', 'w')
+def bulk_test(dict_of_catalogs, divisor = 1, path = 'books/'):
+    '''Run test on all given classes'''
     temp_results = {}
-    for classification in dict_of_catalogs.keys():
-        print classification
-        files_to_test = os.listdir(path + '/' + classification)[:len(os.listdir(path + '/' + classification))/4]
+    for genre in dict_of_catalogs.keys():
+        temp_files_list = os.listdir(path + genre)
+        files_to_test = temp_files_list[:len(temp_files_list)/divisor]
         print len(files_to_test)
-        temp_results[classification] = class_test(path, classification, dict_of_catalogs, files_to_test)
-        print classification + ': ', 1.0*temp_results[classification][0]/temp_results[classification][1]
-        f.write(classification + ': ' + str(1.0*temp_results[classification][0]/temp_results[classification][1]))
-        # temp_results = {classification: class_test(path, classification, dict_of_catalogs) for classification in dict_of_catalogs.keys()}
+        temp_results[genre] = test(dict_of_catalogs, files_to_test, genre, path)
+        print genre + ': ', temp_results[genre]
 
-    overall = 1.0 * sum([x[0] for x in temp_results.values()]) / sum([x[1] for x in temp_results.values()])
-    f.write(str(overall) + '\n\n')
-    f.close()
-    print overall
-    return overall
-
-def class_test(path, correct_klass, dict_of_catalogs, files_to_test=[]):
-    '''Perform classification on a list of files, assumed to be of the same target class.'''
-    path += '/'+correct_klass
-    correct = 0
-    total = 0
-    if not files_to_test:
-        files_to_test = os.listdir(path)
-    for name in files_to_test:
-        # print name
-        start_time = timeit.default_timer()
-        sentiment = classify_file(path + '/' + name, dict_of_catalogs)
-        # sentiment = classify_text(loadFile(path + '/' + name), dict_of_catalogs)
-        end_time = timeit.default_timer()
-        print 'Classify time: ', end_time - start_time
-        # print 'Name: ', name
-        # print 'Correct classification: ', correct_klass
-        # print 'Generated Sentiment: ', sentiment
-        if sentiment == correct_klass:
-            correct += 1
-        total += 1
-
-    return [correct, total]
-
-##################################### Smoothing
-
-def smooth(catalogs, word_list, smoothing_factor = 1):
-    for genre in catalogs.keys():
-        for word in word_list:
-            if word in ['num_files', 'total_words']:
-                continue
-            catalogs[genre][word] += smoothing_factor
-            catalogs[genre]['total_words'] += smoothing_factor
-    return catalogs
-
-def word_list(catalogs):
-    words = set()
-    for genre_catalog in catalogs.values():
-        genre_words = set(genre_catalog.keys())
-        words = words.union(genre_words)
-
-    return words
-
-def master_word_list(catalogs_path):
-    '''Create list of all words in our library.'''
-    words = set()
-    for genre_pickle in os.listdir(catalogs_path):
-        genre_words = set(load(catalogs_path + genre_pickle).keys())
-        words = words.union(genre_words)
-
-    save(words, 'all_words_list.p')
-    return words
-
-def smooth_all(catalogs_path, smoothed_path, master_word_list, smoothing_factor):
-    for catalog in os.listdir(catalogs_path):
-        if catalog == '.DS_Store':
-            continue
-
-        cat = load(catalogs_path + catalog)
-        for word in master_word_list:
-            if word in ['num_files', 'total_words']:
-                continue
-            cat[word] += smoothing_factor
-            cat['total_words'] += smoothing_factor
-
-        save(cat, smoothed_path + catalog[:-2] + "_smoothed.p")
+    print 'Final Accuracies: '
+    for genre in temp_results.keys():
+        print genre + ': ', temp_results[genre]
 
 ##################################### Main
 
-def set_aside_data():
-    for value in variable:
-        pass
-
 def drive_cross_validate():
-    genres = ["Mystery", "Vampires"]
+    genres = ['Mystery', 'Vampires']
     folds = 4
     books_path = 'books/'
     smoothing_factor = 1
 
     results, accuracies = cross_validate(genres, folds, books_path, smoothing_factor)
 
-    genre_string = ""
+    genre_string = ''
     for genre in genres:
         genre_string += genre + '_'
-    f = open('results/' + genre_string + folds + "_fold_" + smoothing_factor + "_smooth", 'w')
-    f.write("Averages: " + str(results) + '\n')
-    f.write("Per-fold accuracies: " + str(accuracies) + '\n')
-    print "Accuracies: ", accuracies
-    print "Results: ", results
+    f = open('results/' + genre_string + folds + '_fold_' + smoothing_factor + '_smooth', 'w')
+    f.write('Averages: ' + str(results) + '\n')
+    f.write('Per-fold accuracies: ' + str(accuracies) + '\n')
+    print 'Accuracies: ', accuracies
+    print 'Results: ', results
 
 def test_smooth_values():
-    catalog_path = 'catalogs/'
-    smoothed_path = 'catalogs_smoothed/'
-    master_word_list = loadFile('all_words_list.p')
-    smoothed_ending = '_smoothed.p'
+    path = 'catalogs/'
+    # smoothed_catalog_path = 'catalogs_smoothed'
+    catalogs = {'Teen': load(path + 'Teen.p'), 'Horror': load(path + 'Horror.p')}
+    words = word_list(catalogs)
     for s_f in [1, .5, .25]:
-        print "Smoothing value", s_f
-        smooth_all(catalog_path, smoothed_path, master_word_list, s_f)
-        catalogs = {'Teen': generate_percentile_catalog(load(smoothed_path + 'Teen' + smoothed_ending)), 'Horror': generate_percentile_catalog(load(smoothed_path + 'Horror' + smoothed_ending))}
-        bulk_test(catalogs)
-
-# test_smooth_values()
-drive_cross_validate()
+        catalogs = smooth(catalogs, words, s_f)
+        for key in catalogs.keys():
+            catalogs[key] = generate_percentile_catalog(catalogs[key])
+    bulk_test(catalogs, divisor = 10)

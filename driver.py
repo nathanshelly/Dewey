@@ -3,7 +3,7 @@ from bayes import *
 ########################### Driver functions
 
 def drive_cross_validate():
-    genres = ["Teen", "Horror"]
+    genres = ["Mystery", "Vampires", "Horror"]
     folds = 4
     books_path = 'books/'
     smoothing_factor = 1
@@ -29,5 +29,5 @@ def test_smooth_values():
             catalogs[key] = generate_percentile_catalog(catalogs[key])
     bulk_test(catalogs, divisor = 10)
 
-# drive_cross_validate()
-test_smooth_values()
+drive_cross_validate()
+# test_smooth_values()

@@ -3,7 +3,7 @@ import copy
 ########################### Driver functions
 
 def drive_cross_validate():
-    genres = ["Mystery", "Vampires"]
+    genres = ["Mystery", "Vampires", "Horror"]
     folds = 4
     books_path = 'books/'
     smoothing_factor = 1
@@ -29,6 +29,3 @@ def test_smooth_values():
             catalogs[key] = generate_percentile_catalog(catalogs[key])
         bulk_test(catalogs, divisor = 4)
 
-# drive_cross_validate()
-# test_smooth_values()
-add_features()

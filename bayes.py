@@ -30,6 +30,7 @@ def generate_numeric_catalog(folder_path, file_name_list = []):
 
     catalog['mean_book_length'] = numpy.mean(catalog['book_lengths'])
     catalog['std_book_lenth'] = numpy.std(catalog['book_lengths'])
+
     del catalog["book_lengths"]
 
     return catalog
@@ -40,7 +41,9 @@ def count_occurrence_of_grams(file_path, catalog):
     # print file_path
     catalog['num_files'] += 1
     words = word_tokenize(loadFile(file_path))
+
     catalog["book_lengths"].append(len(words))
+
     for word in words:
         catalog['total_words'] += 1
         catalog[word.lower()] += 1
@@ -64,7 +67,10 @@ def generate_percentile_catalog(catalog):
     '''Convert our feature dictionaries from numeric to log frequency (log(percentiles))'''
     global keys_to_ignore
     total_words = catalog['total_words']
-    perc_catalog = {'total_words': total_words, 'num_files': catalog['num_files']}
+    num_files = catalog['num_files']
+    mean_book_length = catalog['mean_book_length']
+    std_book_lenth = catalog['std_book_lenth']
+    perc_catalog = {'total_words': total_words, 'num_files': num_files, 'mean_book_length': mean_book_length, "std_book_lenth": std_book_lenth}
 
     for key, value in catalog.iteritems():
         if key not in keys_to_ignore:
@@ -145,6 +151,7 @@ def cross_validate(genres, folds, books_path, smoothing_factor):
         print "Working on: "
         for genre in genres:
             print genre
+            books[genre] = books[genre]
             books_test[genre] = books[genre][int(i*percent*len(books[genre])):int((i+1)*percent*len(books[genre]))]
 
             # print "books[genre] ", books[genre]
@@ -153,11 +160,12 @@ def cross_validate(genres, folds, books_path, smoothing_factor):
             # print "test ", books_test
             # print "train set" + genre, books_train
             train_catalogs[genre] = generate_numeric_catalog(books_path + genre, books_train)
-            # print "train_catalogs", train_catalogs
 
+        # print "train_catalogs", train_catalogs
         # smooth the catalogs
         train_catalogs = smooth(train_catalogs, word_list(train_catalogs), smoothing_factor)
         train_catalogs = {genre:generate_percentile_catalog(catalog) for genre, catalog in train_catalogs.iteritems()}
+        print train_catalogs
 
         for genre in genres:
             # print "books_test", books_test

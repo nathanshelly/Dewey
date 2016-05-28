@@ -61,7 +61,7 @@ def add_features():
         numeric_catalog['mean_book_length'] = numpy.mean(numeric_catalog['book_lengths'])
         numeric_catalog['std_book_lenth'] = numpy.std(numeric_catalog['book_lengths'])
         del numeric_catalog["book_lengths"]
-        save(numeric_catalog, numeric_catalog_pathm)
+        save(numeric_catalog, numeric_catalog_path)
 
 def generate_percentile_catalog(catalog):
     '''Convert our feature dictionaries from numeric to log frequency (log(percentiles))'''

@@ -1,4 +1,4 @@
-import math, os, re, string, timeit
+import math, os, re, string, timeit, numpy, scipy.stats
 from collections import defaultdict
 from nltk import word_tokenize
 from pickling import *
@@ -17,6 +17,7 @@ def generate_numeric_catalog(folder_path, file_name_list = []):
     catalog = defaultdict(int)
     catalog['total_words'] = 0
     catalog['num_files'] = 0
+    catalog['book_lengths'] = []
 
     if file_name_list:
         for file_name in file_name_list:
@@ -24,6 +25,11 @@ def generate_numeric_catalog(folder_path, file_name_list = []):
     else:
         for file_name in os.listdir(folder_path):
             count_occurrence_of_grams(folder_path + '/' + file_name, catalog)
+
+    catalog['mean_book_length'] = numpy.mean(catalog['book_lengths'])
+    catalog['std_book_lenth'] = numpy.std(catalog['book_lengths'])
+    del catalog["book_lengths"]
+
     return catalog
 
 def count_occurrence_of_grams(file_path, catalog):
@@ -32,6 +38,7 @@ def count_occurrence_of_grams(file_path, catalog):
     # print file_path
     catalog['num_files'] += 1
     words = word_tokenize(loadFile(file_path))
+    catalog["book_lengths"].append(len(words))
     for word in words:
         catalog['total_words'] += 1
         catalog[word.lower()] += 1
@@ -59,6 +66,12 @@ def classify_text(string_to_classify, dict_of_catalogs):
 
 def update_probabilites(probs_dict, dict_of_catalogs, words_to_classify):
     '''Takes string and updates the probabilities dictionary'''
+
+    for key in dict_of_catalogs.keys():
+        mean = dict_of_catalogs[key]['mean_book_length']
+        std = dict_of_catalogs[key]['std_book_lenth']
+        probs_dict[key] += math.log(scipy.stats.norm(mean, std).pdf(len(words_to_classify)))
+
     # print words_to_classify
     for word in words_to_classify:
         word = word.lower()
@@ -179,9 +192,11 @@ def class_test(path, correct_klass, dict_of_catalogs, files_to_test=[]):
 ##################################### Smoothing
 
 def smooth(catalogs, word_list, smoothing_factor = 1):
+    smooth_ignore_list = ['num_files', 'total_words', 'mean_book_length', "std_book_lenth"]
+
     for genre in catalogs.keys():
         for word in word_list:
-            if word in ['num_files', 'total_words']:
+            if word in smooth_ignore_list:
                 continue
             catalogs[genre][word] += smoothing_factor
             catalogs[genre]['total_words'] += smoothing_factor
@@ -194,64 +209,3 @@ def word_list(catalogs):
         words = words.union(genre_words)
 
     return words
-
-def master_word_list(catalogs_path):
-    '''Create list of all words in our library.'''
-    words = set()
-    for genre_pickle in os.listdir(catalogs_path):
-        genre_words = set(load(catalogs_path + genre_pickle).keys())
-        words = words.union(genre_words)
-
-    save(words, 'all_words_list.p')
-    return words
-
-def smooth_all(catalogs_path, smoothed_path, master_word_list, smoothing_factor):
-    for catalog in os.listdir(catalogs_path):
-        if catalog == '.DS_Store':
-            continue
-
-        cat = load(catalogs_path + catalog)
-        for word in master_word_list:
-            if word in ['num_files', 'total_words']:
-                continue
-            cat[word] += smoothing_factor
-            cat['total_words'] += smoothing_factor
-
-        save(cat, smoothed_path + catalog[:-2] + "_smoothed.p")
-
-##################################### Main
-
-def set_aside_data():
-    for value in variable:
-        pass
-
-def drive_cross_validate():
-    genres = ["Mystery", "Vampires"]
-    folds = 4
-    books_path = 'books/'
-    smoothing_factor = 1
-
-    results, accuracies = cross_validate(genres, folds, books_path, smoothing_factor)
-
-    genre_string = ""
-    for genre in genres:
-        genre_string += genre + '_'
-    f = open('results/' + genre_string + folds + "_fold_" + smoothing_factor + "_smooth", 'w')
-    f.write("Averages: " + str(results) + '\n')
-    f.write("Per-fold accuracies: " + str(accuracies) + '\n')
-    print "Accuracies: ", accuracies
-    print "Results: ", results
-
-def test_smooth_values():
-    catalog_path = 'catalogs/'
-    smoothed_path = 'catalogs_smoothed/'
-    master_word_list = loadFile('all_words_list.p')
-    smoothed_ending = '_smoothed.p'
-    for s_f in [1, .5, .25]:
-        print "Smoothing value", s_f
-        smooth_all(catalog_path, smoothed_path, master_word_list, s_f)
-        catalogs = {'Teen': generate_percentile_catalog(load(smoothed_path + 'Teen' + smoothed_ending)), 'Horror': generate_percentile_catalog(load(smoothed_path + 'Horror' + smoothed_ending))}
-        bulk_test(catalogs)
-
-# test_smooth_values()
-drive_cross_validate()

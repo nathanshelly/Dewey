@@ -7,7 +7,7 @@ def set_aside_data():
         pass
 
 def drive_cross_validate():
-    genres = ["Mystery", "Vampires"]
+    genres = ["Teen", "Horror"]
     folds = 4
     books_path = 'books/'
     smoothing_factor = 1

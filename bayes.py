@@ -59,14 +59,7 @@ def generate_percentile_catalog(catalog):
 
     for key, value in catalog.iteritems():
         if key not in keys_to_ignore:
-            try:
-                perc_catalog[key] = math.log(1.0*value/total_words)
-            except:
-                print 'key', key
-                print 'value', value
-                print 'total_words', total_words
-
-
+            perc_catalog[key] = math.log(1.0*value/total_words)
     return perc_catalog
 
 ##################################### Smoothing
@@ -94,18 +87,16 @@ def word_list(dict_of_catalogs):
 def classify_text(string_to_classify, dict_of_catalogs):
     '''Given a target string, this function returns the most likely genre to which the target string belongs (i.e. fantasy, horror).'''
     probs_dict = {key: 0 for key in dict_of_catalogs.keys()}
-    # print "probs_dict before", probs_dict
     update_probabilites(probs_dict, dict_of_catalogs, word_tokenize(string_to_classify))
-    # print "probs_dict after", probs_dict
-    return max(probs_dict, key=probs_dict.get) # return the key corresponding to the max value# probs.keys()[ind]
+    return max(probs_dict, key=probs_dict.get) # return the key corresponding to the max value probs.keys()[ind]
 
 def update_probabilites(probs_dict, dict_of_catalogs, words_to_classify):
     '''Takes string and updates the probabilities dictionary'''
 
-    # for key in dict_of_catalogs.keys():
-    #     mean = dict_of_catalogs[key]['mean_book_length']
-    #     std = dict_of_catalogs[key]['std_book_lenth']
-    #     probs_dict[key] += math.log(scipy.stats.norm(mean, std).pdf(len(words_to_classify)))
+    for key in dict_of_catalogs.keys():
+        mean = dict_of_catalogs[key]['mean_book_length']
+        std = dict_of_catalogs[key]['std_book_lenth']
+        probs_dict[key] += math.log(scipy.stats.norm(mean, std).pdf(len(words_to_classify)))
 
     # print words_to_classify
     for word in words_to_classify:
@@ -168,13 +159,16 @@ def bulk_test(dict_of_catalogs, divisor = 1, path = 'books/'):
     for genre in dict_of_catalogs.keys():
         temp_files_list = os.listdir(path + genre)
         files_to_test = temp_files_list[:len(temp_files_list)/divisor]
-        print len(files_to_test)
+        # print len(files_to_test)
         temp_results[genre] = test(dict_of_catalogs, files_to_test, genre, path)
-        print genre + ': ', temp_results[genre]
+        # print genre + ': ', temp_results[genre]
 
+    print
     print 'Final Accuracies: '
     for genre in temp_results.keys():
         print genre + ': ', temp_results[genre]
+    print
+    print
 
 def test(train_catalogs, test_files, genre, books_path):
     correct = 0.0
@@ -185,7 +179,7 @@ def test(train_catalogs, test_files, genre, books_path):
         # print f
         book = loadFile(books_path + genre + '/' + f)
         cat = classify_text(book, train_catalogs)
-        print "classified as", cat
+        # print "classified as", cat
         if cat == genre:
             correct += 1
     print genre, "correct:", correct

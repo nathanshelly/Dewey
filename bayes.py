@@ -52,7 +52,9 @@ def generate_percentile_catalog(catalog):
 def classify_text(string_to_classify, dict_of_catalogs):
     '''Given a target string, this function returns the most likely genre to which the target string belongs (i.e. fantasy, horror).'''
     probs_dict = {key: 0 for key in dict_of_catalogs.keys()}
+    # print "probs_dict before", probs_dict
     update_probabilites(probs_dict, dict_of_catalogs, word_tokenize(string_to_classify))
+    # print "probs_dict after", probs_dict
     return max(probs_dict, key=probs_dict.get) # return the key corresponding to the max value# probs.keys()[ind]
 
 def update_probabilites(probs_dict, dict_of_catalogs, words_to_classify):
@@ -79,10 +81,15 @@ def evaluate(folds, path = 'movie_reviews/movies_reviews', smooth_factor = 1):
 
 def test(train_catalogs, test_files, genre, books_path):
     correct = 0.0
+    print "genre", genre
     for f in test_files:
+        # print f
         book = loadFile(books_path + genre + '/' + f)
-        if classify_text(book, train_catalogs) == genre:
+        cat = classify_text(book, train_catalogs)
+        print "classified as", cat
+        if cat == genre:
             correct += 1
+    print genre, "correct", correct
     return correct/len(test_files)
 
 def cross_validate(genres, folds, books_path, smoothing_factor):
@@ -94,6 +101,7 @@ def cross_validate(genres, folds, books_path, smoothing_factor):
 
     for genre in genres:
         books[genre] = [f for f in os.listdir(books_path + genre)]
+    # print "books", books
 
     accuracies = {genre:[] for genre in genres}
 
@@ -103,18 +111,28 @@ def cross_validate(genres, folds, books_path, smoothing_factor):
         for genre in genres:
             print genre
             books_test[genre] = books[genre][int(i*percent*len(books[genre])):int((i+1)*percent*len(books[genre]))]
+
+            # print "books[genre] ", books[genre]
+            # print "books_test[" + genre + "] ", books_test[genre]
             books_train = list(set(books[genre]) - set(books_test[genre]))
+            # print "test ", books_test
+            # print "train set" + genre, books_train
             train_catalogs[genre] = generate_numeric_catalog(books_path + genre, books_train)
+            # print "train_catalogs", train_catalogs
 
         # smooth the catalogs
         train_catalogs = smooth(train_catalogs, word_list(train_catalogs), smoothing_factor)
+        train_catalogs = {genre:generate_percentile_catalog(catalog) for genre, catalog in train_catalogs.iteritems()}
 
         for genre in genres:
+            # print "books_test", books_test
+            # print "genre", genre
+            # print "books_test[genre]", books_test[genre]
             accuracies[genre].append(test(train_catalogs, books_test[genre], genre, books_path))
+        print "accuracies", accuracies
 
-    results = {genre:(math.fsum(accs)/folds) for genre, accs in accuracies.iteritems()}
-    # print results
-    return results
+    results = {genre:math.fsum(accs)/folds for genre, accs in accuracies.iteritems()}
+    return results, accuracies
 
 def bulk_test(dict_of_catalogs, path = 'books'):
     '''Run class_test on all classes, generate recall, precision and F-Measure values for each class'''
@@ -208,16 +226,21 @@ def set_aside_data():
         pass
 
 def drive_cross_validate():
-    genres = ["Horror", "Teen"]
+    genres = ["Mystery", "Vampires"]
     folds = 4
     books_path = 'books/'
     smoothing_factor = 1
 
-    results = cross_validate(genres, folds, books_path, smoothing_factor)
+    results, accuracies = cross_validate(genres, folds, books_path, smoothing_factor)
 
-    f = open('results.txt', 'w')
-    f.write(results)
-    print results
+    genre_string = ""
+    for genre in genres:
+        genre_string += genre + '_'
+    f = open('results/' + genre_string + folds + "_fold_" + smoothing_factor + "_smooth", 'w')
+    f.write("Averages: " + str(results) + '\n')
+    f.write("Per-fold accuracies: " + str(accuracies) + '\n')
+    print "Accuracies: ", accuracies
+    print "Results: ", results
 
 def test_smooth_values():
     catalog_path = 'catalogs/'
@@ -230,5 +253,5 @@ def test_smooth_values():
         catalogs = {'Teen': generate_percentile_catalog(load(smoothed_path + 'Teen' + smoothed_ending)), 'Horror': generate_percentile_catalog(load(smoothed_path + 'Horror' + smoothed_ending))}
         bulk_test(catalogs)
 
-test_smooth_values()
-
+# test_smooth_values()
+drive_cross_validate()

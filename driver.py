@@ -3,7 +3,7 @@ import copy
 ########################### Driver functions
 
 def drive_cross_validate():
-    genres = ["Mystery", "Vampires"]
+    genres = ["Mystery", "Vampires", "Horror"]
     folds = 4
     books_path = 'books/'
     smoothing_factor = 1
@@ -38,6 +38,6 @@ def update_books():
     save(temp, 'books_genres.p')
     return temp
 
-# drive_cross_validate()
+drive_cross_validate()
 # test_smooth_values()
-update_books()
+# update_books()

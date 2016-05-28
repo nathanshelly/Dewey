@@ -1,4 +1,4 @@
-import math, os, re, string, timeit, numpy, scipy.stats
+import math, os, re, string, timeit, numpy, scipy.stats, random
 from collections import defaultdict
 from nltk import word_tokenize
 from pickling import *
@@ -126,7 +126,7 @@ def cross_validate(genres, folds, books_path, smoothing_factor):
     percent = 1.0/folds
 
     for genre in genres:
-        books[genre] = [f for f in os.listdir(books_path + genre)]
+        books[genre] = [f for f in random.shuffle(os.listdir(books_path + genre))]
     # print "books", books
 
     accuracies = {genre:[] for genre in genres}
@@ -150,7 +150,7 @@ def cross_validate(genres, folds, books_path, smoothing_factor):
         # smooth the catalogs
         train_catalogs = smooth(train_catalogs, word_list(train_catalogs), smoothing_factor)
         train_catalogs = {genre:generate_percentile_catalog(catalog) for genre, catalog in train_catalogs.iteritems()}
-        print train_catalogs
+        # print train_catalogs
 
         for genre in genres:
             # print "books_test", books_test

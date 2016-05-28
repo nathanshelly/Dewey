@@ -1,5 +1,5 @@
 from bayes import *
-
+import copy
 ########################### Driver functions
 
 def drive_cross_validate():
@@ -21,13 +21,13 @@ def drive_cross_validate():
 
 def test_smooth_values():
     path = 'catalogs/'
-    catalogs = {'Teen': load(path + 'Teen.p'), 'Horror': load(path + 'Horror.p')}
-    words = word_list(catalogs)
     for s_f in [1, .5, .25]:
+        catalogs = {'Teen': load(path + 'Teen.p'), 'Horror': load(path + 'Horror.p')}
+        words = word_list(catalogs)
         catalogs = smooth(catalogs, words, s_f)
         for key in catalogs.keys():
             catalogs[key] = generate_percentile_catalog(catalogs[key])
-    bulk_test(catalogs, divisor = 10)
+        bulk_test(catalogs, divisor = 4)
 
 drive_cross_validate()
 # test_smooth_values()

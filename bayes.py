@@ -3,6 +3,8 @@ from collections import defaultdict
 from nltk import word_tokenize
 from pickling import *
 
+keys_to_ignore = ['total_words', 'num_files', 'mean_book_length', 'std_book_lenth']
+
 ##################################### Training
 
 def bulk_train(path = 'books', genre = '', smooth_factor = 1, name_offset = ''):
@@ -45,11 +47,12 @@ def count_occurrence_of_grams(file_path, catalog):
 
 def generate_percentile_catalog(catalog):
     '''Convert our feature dictionaries from numeric to log frequency (log(percentiles))'''
+    global keys_to_ignore
     total_words = catalog['total_words']
     perc_catalog = {'total_words': total_words, 'num_files': catalog['num_files']}
 
     for key, value in catalog.iteritems():
-        if key not in ['total_words', 'num_files']:
+        if key not in keys_to_ignore:
             perc_catalog[key] = math.log(1.0*value/total_words)
 
     return perc_catalog
@@ -57,9 +60,10 @@ def generate_percentile_catalog(catalog):
 ##################################### Smoothing
 
 def smooth(dict_of_catalogs, word_list, smoothing_factor = 1):
+    global keys_to_ignore
     for genre in dict_of_catalogs.keys():
         for word in word_list:
-            if word in ['num_files', 'total_words']:
+            if word in keys_to_ignore:
                 continue
             dict_of_catalogs[genre][word] += smoothing_factor
             dict_of_catalogs[genre]['total_words'] += smoothing_factor
@@ -101,21 +105,6 @@ def update_probabilites(probs_dict, dict_of_catalogs, words_to_classify):
                 pass
 
 ##################################### Evaluation
-
-def test(train_catalogs, test_files, genre, books_path):
-    correct = 0.0
-    print "genre:", genre
-    if not test_files:
-        test_files = os.listdir(books_path + genre)
-    for f in test_files:
-        # print f
-        book = loadFile(books_path + genre + '/' + f)
-        cat = classify_text(book, train_catalogs)
-        print "classified as", cat
-        if cat == genre:
-            correct += 1
-    print genre, "correct:", correct
-    return correct/len(test_files)
 
 def cross_validate(genres, folds, books_path, smoothing_factor):
     """ Perform k-fold cross-validation. """
@@ -172,3 +161,18 @@ def bulk_test(dict_of_catalogs, divisor = 1, path = 'books/'):
     print 'Final Accuracies: '
     for genre in temp_results.keys():
         print genre + ': ', temp_results[genre]
+
+def test(train_catalogs, test_files, genre, books_path):
+    correct = 0.0
+    print "genre:", genre
+    if not test_files:
+        test_files = os.listdir(books_path + genre)
+    for f in test_files:
+        # print f
+        book = loadFile(books_path + genre + '/' + f)
+        cat = classify_text(book, train_catalogs)
+        print "classified as", cat
+        if cat == genre:
+            correct += 1
+    print genre, "correct:", correct
+    return correct/len(test_files)

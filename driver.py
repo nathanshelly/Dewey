@@ -2,10 +2,6 @@ from bayes import *
 
 ########################### Driver functions
 
-def set_aside_data():
-    for value in variable:
-        pass
-
 def drive_cross_validate():
     genres = ["Teen", "Horror"]
     folds = 4
@@ -24,14 +20,14 @@ def drive_cross_validate():
     print "Results: ", results
 
 def test_smooth_values():
-    catalog_path = 'catalogs/'
-    smoothed_path = 'catalogs_smoothed/'
-    master_word_list = loadFile('all_words_list.p')
-    smoothed_ending = '_smoothed.p'
+    path = 'catalogs/'
+    catalogs = {'Teen': load(path + 'Teen.p'), 'Horror': load(path + 'Horror.p')}
+    words = word_list(catalogs)
     for s_f in [1, .5, .25]:
-        print "Smoothing value", s_f
-        smooth_all(catalog_path, smoothed_path, master_word_list, s_f)
-        catalogs = {'Teen': generate_percentile_catalog(load(smoothed_path + 'Teen' + smoothed_ending)), 'Horror': generate_percentile_catalog(load(smoothed_path + 'Horror' + smoothed_ending))}
-        bulk_test(catalogs)
+        catalogs = smooth(catalogs, words, s_f)
+        for key in catalogs.keys():
+            catalogs[key] = generate_percentile_catalog(catalogs[key])
+    bulk_test(catalogs, divisor = 10)
 
-drive_cross_validate()
+# drive_cross_validate()
+test_smooth_values()

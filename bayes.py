@@ -116,8 +116,10 @@ def cross_validate(genres, folds, books_path, smoothing_factor):
     train_catalogs = {}
     percent = 1.0/folds
 
+    filenames = os.listdir(books_path + genre)
+    random.shuffle(filenames)
     for genre in genres:
-        books[genre] = [f for f in random.shuffle(os.listdir(books_path + genre))]
+        books[genre] = [f for f in filenames]
     # print "books", books
 
     accuracies = {genre:[] for genre in genres}

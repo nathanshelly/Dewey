@@ -48,6 +48,21 @@ def count_occurrence_of_grams(file_path, catalog):
         catalog['total_words'] += 1
         catalog[word.lower()] += 1
 
+def add_features():
+    for numeric_catalog_path in os.listdir('catalogs'):
+        if numeric_catalog_path == '.DS_Store':
+            continue
+        genre_name = numeric_catalog_path[:-2]
+        numeric_catalog_path = "catalogs/" + numeric_catalog_path
+        numeric_catalog = load(numeric_catalog_path)
+        numeric_catalog['book_lengths'] = []
+        for book_path in os.listdir('books/'+genre_name):
+            numeric_catalog['book_lengths'].append(len(word_tokenize(loadFile('books/'+genre_name+'/'+book_path))))
+        numeric_catalog['mean_book_length'] = numpy.mean(numeric_catalog['book_lengths'])
+        numeric_catalog['std_book_lenth'] = numpy.std(numeric_catalog['book_lengths'])
+        del numeric_catalog["book_lengths"]
+        save(numeric_catalog, numeric_catalog_pathm)
+
 def generate_percentile_catalog(catalog):
     '''Convert our feature dictionaries from numeric to log frequency (log(percentiles))'''
     global keys_to_ignore
@@ -184,3 +199,10 @@ def test(train_catalogs, test_files, genre, books_path):
             correct += 1
     print genre, "correct:", correct
     return correct/len(test_files)
+
+
+
+
+
+
+

@@ -2,10 +2,6 @@ from bayes import *
 
 ########################### Driver functions
 
-def set_aside_data():
-    for value in variable:
-        pass
-
 def drive_cross_validate():
     genres = ["Mystery", "Vampires"]
     folds = 4
@@ -35,3 +31,4 @@ def test_smooth_values():
         bulk_test(catalogs)
 
 drive_cross_validate()
+# test_smooth_values()

@@ -53,7 +53,13 @@ def generate_percentile_catalog(catalog):
 
     for key, value in catalog.iteritems():
         if key not in keys_to_ignore:
-            perc_catalog[key] = math.log(1.0*value/total_words)
+            try:
+                perc_catalog[key] = math.log(1.0*value/total_words)
+            except:
+                print 'key', key
+                print 'value', value
+                print 'total_words', total_words
+
 
     return perc_catalog
 
@@ -90,10 +96,10 @@ def classify_text(string_to_classify, dict_of_catalogs):
 def update_probabilites(probs_dict, dict_of_catalogs, words_to_classify):
     '''Takes string and updates the probabilities dictionary'''
 
-    for key in dict_of_catalogs.keys():
-        mean = dict_of_catalogs[key]['mean_book_length']
-        std = dict_of_catalogs[key]['std_book_lenth']
-        probs_dict[key] += math.log(scipy.stats.norm(mean, std).pdf(len(words_to_classify)))
+    # for key in dict_of_catalogs.keys():
+    #     mean = dict_of_catalogs[key]['mean_book_length']
+    #     std = dict_of_catalogs[key]['std_book_lenth']
+    #     probs_dict[key] += math.log(scipy.stats.norm(mean, std).pdf(len(words_to_classify)))
 
     # print words_to_classify
     for word in words_to_classify:

@@ -1,4 +1,4 @@
-import math, os, re, string, timeit
+import math, os, re, string, timeit, numpy, scipy.stats
 from collections import defaultdict
 from nltk import word_tokenize
 from pickling import *
@@ -17,6 +17,7 @@ def generate_numeric_catalog(folder_path, file_name_list = []):
     catalog = defaultdict(int)
     catalog['total_words'] = 0
     catalog['num_files'] = 0
+    catalog['book_lengths'] = []
 
     if file_name_list:
         for file_name in file_name_list:
@@ -24,6 +25,11 @@ def generate_numeric_catalog(folder_path, file_name_list = []):
     else:
         for file_name in os.listdir(folder_path):
             count_occurrence_of_grams(folder_path + '/' + file_name, catalog)
+
+    catalog['mean_book_length'] = numpy.mean(catalog['book_lengths'])
+    catalog['std_book_lenth'] = numpy.std(catalog['book_lengths'])
+    del catalog["book_lengths"]
+
     return catalog
 
 def count_occurrence_of_grams(file_path, catalog):
@@ -32,6 +38,7 @@ def count_occurrence_of_grams(file_path, catalog):
     # print file_path
     catalog['num_files'] += 1
     words = word_tokenize(loadFile(file_path))
+    catalog["book_lengths"].append(len(words))
     for word in words:
         catalog['total_words'] += 1
         catalog[word.lower()] += 1
@@ -78,6 +85,12 @@ def classify_text(string_to_classify, dict_of_catalogs):
 
 def update_probabilites(probs_dict, dict_of_catalogs, words_to_classify):
     '''Takes string and updates the probabilities dictionary'''
+
+    for key in dict_of_catalogs.keys():
+        mean = dict_of_catalogs[key]['mean_book_length']
+        std = dict_of_catalogs[key]['std_book_lenth']
+        probs_dict[key] += math.log(scipy.stats.norm(mean, std).pdf(len(words_to_classify)))
+
     # print words_to_classify
     for word in words_to_classify:
         word = word.lower()

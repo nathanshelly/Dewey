@@ -30,4 +30,5 @@ def test_smooth_values():
         bulk_test(catalogs, divisor = 4)
 
 # drive_cross_validate()
-test_smooth_values()
+# test_smooth_values()
+add_features()

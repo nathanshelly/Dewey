@@ -102,21 +102,6 @@ def update_probabilites(probs_dict, dict_of_catalogs, words_to_classify):
 
 ##################################### Evaluation
 
-def test(train_catalogs, test_files, genre, books_path):
-    correct = 0.0
-    print "genre:", genre
-    if not test_files:
-        test_files = os.listdir(books_path + genre)
-    for f in test_files:
-        # print f
-        book = loadFile(books_path + genre + '/' + f)
-        cat = classify_text(book, train_catalogs)
-        print "classified as", cat
-        if cat == genre:
-            correct += 1
-    print genre, "correct:", correct
-    return correct/len(test_files)
-
 def cross_validate(genres, folds, books_path, smoothing_factor):
     """ Perform k-fold cross-validation. """
     books = {}
@@ -172,3 +157,18 @@ def bulk_test(dict_of_catalogs, divisor = 1, path = 'books/'):
     print 'Final Accuracies: '
     for genre in temp_results.keys():
         print genre + ': ', temp_results[genre]
+
+def test(train_catalogs, test_files, genre, books_path):
+    correct = 0.0
+    print "genre:", genre
+    if not test_files:
+        test_files = os.listdir(books_path + genre)
+    for f in test_files:
+        # print f
+        book = loadFile(books_path + genre + '/' + f)
+        cat = classify_text(book, train_catalogs)
+        print "classified as", cat
+        if cat == genre:
+            correct += 1
+    print genre, "correct:", correct
+    return correct/len(test_files)

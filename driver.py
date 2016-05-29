@@ -21,7 +21,7 @@ def drive_cross_validate():
 
 def test_smooth_values():
     path = 'catalogs/'
-    for s_f in [.01, .005, .001, .0005, .00001]: # [1, .5, .25, .1, .05]:
+    for s_f in [.04, .03, .02, .01]: # [1, .5, .25, .1, .05]:
         print 'Smoothing factor:', s_f
         catalogs = {'Teen': load(path + 'Teen.p'), 'Horror': load(path + 'Horror.p')}
         words = word_list(catalogs)
@@ -39,5 +39,5 @@ def update_books():
     return temp
 
 # drive_cross_validate()
-# test_smooth_values()
+test_smooth_values()
 # update_books()

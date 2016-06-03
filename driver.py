@@ -21,7 +21,13 @@ def drive_cross_validate():
 
 def test_smooth_values():
     path = 'catalogs/'
-    for s_f in [.04, .03, .02, .01]: # [1, .5, .25, .1, .05]:
+    f = open('smoothing_results.txt', 'w')
+    f.write('')
+    f.close()
+    for s_f in [.00005, .00003, .00001, .000005, .000003, .000001]: # [1, .5, .25, .1, .05, .04, .03, .02, .01, .005, .003, .001, .0005, .0003, .0001]:
+        f = open('smoothing_results.txt', 'a')
+        f.write('Smoothing factor: ' + str(s_f) + '\n')
+        f.close()
         print 'Smoothing factor:', s_f
         catalogs = {'Teen': load(path + 'Teen.p'), 'Horror': load(path + 'Horror.p')}
         words = word_list(catalogs)

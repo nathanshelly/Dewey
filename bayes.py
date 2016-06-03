@@ -1,4 +1,4 @@
-import math, os, re, string, timeit, numpy, scipy.stats, random
+import math, os, re, string, timeit, numpy, scipy.stats, random, shutil
 from collections import defaultdict
 from nltk import word_tokenize
 from pickling import *
@@ -76,6 +76,25 @@ def generate_percentile_catalog(catalog):
         if key not in keys_to_ignore:
             perc_catalog[key] = math.log(1.0*value/total_words)
     return perc_catalog
+
+def split_genres():
+    single_genre_folder = 'single_genre/'
+    if not os.path.exists(single_genre_folder):
+        os.makedirs(single_genre_folder)
+    books_genres = load('books_genres.p')
+    for folder in os.listdir('books'):
+        if not os.path.exists(single_genre_folder + folder):
+            os.makedirs(single_genre_folder + folder)
+        for book in os.listdir('books/' + folder):
+            if len(books_genres[book]) == 1:
+                shutil.copy2('books/' + folder + '/' + book, single_genre_folder + folder + '/' + book)
+
+    genres = {}
+    for folder in os.listdir(single_genre_folder):
+        genres[folder] = len(os.listdir(single_genre_folder + folder))
+    sorted_genres = sorted(genres, key=genres.get, reverse=True)
+    for folder in sorted_genres[5:]:
+    shutil.rmtree(single_genre_folder + folder)
 
 ##################################### Smoothing
 
@@ -180,12 +199,17 @@ def bulk_test(dict_of_catalogs, divisor = 1, path = 'books/'):
         temp_results[genre] = test(dict_of_catalogs, files_to_test, genre, path)
         # print genre + ': ', temp_results[genre]
 
+    f = open('smoothing_results.txt', 'a')
+    f.write('Final Accuracies:\n')
     print
     print 'Final Accuracies: '
     for genre in temp_results.keys():
         print genre + ': ', temp_results[genre]
+        f.write(str(genre) + ': ' + str(temp_results[genre]) + '\n')
+    f.write('\n\n')
     print
     print
+    f.close()
 
 def test(train_catalogs, test_files, genre, books_path):
     correct = 0.0
@@ -200,4 +224,7 @@ def test(train_catalogs, test_files, genre, books_path):
         if cat == genre:
             correct += 1
     print genre, "correct:", correct
+    smoothing_file = open('smoothing_results.txt', 'a')
+    smoothing_file.write(str(genre) + ' correct: ' + str(correct) + '\n')
+    smoothing_file.close()
     return correct/len(test_files)

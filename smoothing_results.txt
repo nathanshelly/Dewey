@@ -1,0 +1,48 @@
+Smoothing factor: 5e-05
+Teen correct: 426.0
+Horror correct: 413.0
+Final Accuracies:
+Teen: 0.990697674419
+Horror: 0.945080091533
+
+
+Smoothing factor: 3e-05
+Teen correct: 426.0
+Horror correct: 414.0
+Final Accuracies:
+Teen: 0.990697674419
+Horror: 0.947368421053
+
+
+Smoothing factor: 1e-05
+Teen correct: 426.0
+Horror correct: 418.0
+Final Accuracies:
+Teen: 0.990697674419
+Horror: 0.95652173913
+
+
+Smoothing factor: 5e-06
+Teen correct: 427.0
+Horror correct: 418.0
+Final Accuracies:
+Teen: 0.993023255814
+Horror: 0.95652173913
+
+
+Smoothing factor: 3e-06
+Teen correct: 427.0
+Horror correct: 420.0
+Final Accuracies:
+Teen: 0.993023255814
+Horror: 0.961098398169
+
+
+Smoothing factor: 1e-06
+Teen correct: 427.0
+Horror correct: 420.0
+Final Accuracies:
+Teen: 0.993023255814
+Horror: 0.961098398169
+
+

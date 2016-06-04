@@ -186,7 +186,10 @@ def update_probabilites(probs_dict, dict_of_catalogs, words_to_classify):
     for key in dict_of_catalogs.keys():
         mean = dict_of_catalogs[key]['mean_book_length']
         std = dict_of_catalogs[key]['std_book_lenth']
-        probs_dict[key] += math.log(scipy.stats.norm(mean, std).pdf(len(words_to_classify)))
+        try:
+            probs_dict[key] += scipy.stats.norm(mean, std).logpdf(len(words_to_classify))
+        except ValueError:
+            log_errors("probs_dict[key]", probs_dict[key], "length", len(words_to_classify))
 
     # print words_to_classify
     for word in words_to_classify:
@@ -196,6 +199,12 @@ def update_probabilites(probs_dict, dict_of_catalogs, words_to_classify):
                 probs_dict[key] += dict_of_catalogs[key][word]
             except KeyError:
                 pass
+
+def log_errors(*args):
+    f = open('errors/errors.txt', 'a')
+    for arg in args:
+        f.write(str(arg) + '\n')
+    f.close()
 
 ##################################### Evaluation
 
@@ -251,6 +260,7 @@ def cross_validate_multiple(folds, books_path, smoothing_factor):
     """ Perform k-fold cross-validation. """
     percent = 1.0/folds
     books = os.listdir(books_path)
+    random.shuffle(books)
 
     metrics = []
 
@@ -323,15 +333,16 @@ def test(train_catalogs, test_files, genre, books_path):
 # Assumes we have books_genres.p
 def test_with_measures(train_catalogs, test_files, books_path):
     ''' Produce a set of precision, recall, and F-measures for each genre '''
-    metrics = {genre:{'correct':0, 'classified_as':0, 'in_genre':0} for genre in train_catalogs.keys()}
+    genres = ['Adventure', 'Fantasy', 'Historical', 'Horror', 'Humor', 'Literature', 'Mystery', 'New_Adult', 'Other', 'Romance', 'Science_fiction', 'Teen', 'Themes', 'Thriller', 'Vampires', 'Young_Adult']
+    metrics = {genre:{'correct':0, 'classified_as':0, 'in_genre':0} for genre in genres}
 
     books_genres = loadFile('books_genres.p')
 
     for f in test_files:
         book = loadFile(books_path + f)
         actual_cats = books_genres[f]
-        classified_cats = classify_text_multiple(book, train_catalogs, len(correct_cats))
-        in_common = set(actual_cats).intersection(cats)
+        classified_cats = classify_text_multiple(book, train_catalogs, len(actual_cats))
+        in_common = set(actual_cats).intersection(classified_cats)
         for genre in actual_cats:
             metrics[genre]['in_genre'] += 1
         for genre in classified_cats:
@@ -340,8 +351,11 @@ def test_with_measures(train_catalogs, test_files, books_path):
             metrics[genre]['correct'] += 1
 
     for genre in metrics.keys():
-        metrics[genre]['precision'] = 1.0*metrics[genre]['correct']/metrics[genre]['classified_as']
-        metrics[genre]['recall'] = 1.0*metrics[genre]['correct']/metrics['in_genre']
-        metrics[genre]['F-measure'] = 2.0*metrics[genre]['precision']*metrics[genre]['recall']/(metrics[genre]['precision'] + metrics[genre]['recall'])
+        try:
+            metrics[genre]['precision'] = 1.0*metrics[genre]['correct']/metrics[genre]['classified_as']
+            metrics[genre]['recall'] = 1.0*metrics[genre]['correct']/metrics[genre]['in_genre']
+            metrics[genre]['F-measure'] = 2.0*metrics[genre]['precision']*metrics[genre]['recall']/(metrics[genre]['precision'] + metrics[genre]['recall'])
+        except ArithmeticError:
+            print "Precision and recall are both zero!"
 
     return metrics

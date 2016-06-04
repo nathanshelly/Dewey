@@ -12,7 +12,7 @@ def drive_cross_validate():
     genre_string = ""
     for genre in genres:
         genre_string += genre + '_'
-    f = open('results/' + genre_string + str(folds) + "_fold_" + str(smoothing_factor) + "_smooth", 'w')
+    f = open('results/' + genre_string + str(folds) + "_fold_multiplesmoothing", 'w')
 
     for sf in smoothing_factors:
         results, accuracies = cross_validate(genres, folds, books_path, sf)
@@ -30,7 +30,7 @@ def drive_cross_validate_multiple():
     genre_string = ""
     for genre in macroaverages.keys():
         genre_string += genre + '_'
-    f = open('results/' + genre_string + str(folds) + "_fold_" + str(smoothing_factor) + "_smooth", 'w')
+    f = open('results/' + genre_string + str(folds) + "_fold_" + str(smoothing_factor) + "_smooth_multiple", 'w')
     f.write("Macroaverages: " + str(macroaverages) + '\n')
     f.write("Per-fold metrics: " + str(metrics) + '\n')
     print "Macroaverages: ", macroaverages

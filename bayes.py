@@ -259,7 +259,7 @@ def cross_validate_multiple(folds, books_path, smoothing_factor):
     percent = 1.0/folds
 
     books = os.listdir(books_path)
-    books.shuffle()
+    random.shuffle(books)
 
     metrics = []
 

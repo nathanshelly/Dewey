@@ -46,3 +46,6 @@ Teen: 0.993023255814
 Horror: 0.961098398169
 
 
+Fantasy correct: 16.0
+Romance correct: 94.0
+Science_fiction correct: 25.0

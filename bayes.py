@@ -46,13 +46,11 @@ def generate_numeric_catalog_multiple(folder_path, file_name_list = []):
     for file_name in file_name_list:
         genres = books_genres[file_name]
         for genre in genres:
-            try:
-                catalogs[genre]
-            except KeyError:
-                catalog = defaultdict(int)
-                catalog['total_words'] = 0
-                catalog['num_files'] = 0
-                catalog['book_lengths'] = []
+            if genre not in catalogs:
+                catalogs[genre] = defaultdict(int)
+                catalogs[genre]['total_words'] = 0
+                catalogs[genre]['num_files'] = 0
+                catalogs[genre]['book_lengths'] = []
         count_occurrence_of_grams_multiple(folder_path + '/' + file_name, catalogs, genres)
 
     for genre in catalogs.keys():
@@ -247,11 +245,8 @@ def cross_validate(genres, folds, books_path, smoothing_factor):
     return results, accuracies
 
 # For multiple genres per book
-def cross_validate_multiple(genres, folds, books_path, smoothing_factor):
+def cross_validate_multiple(folds, books_path, smoothing_factor):
     """ Perform k-fold cross-validation. """
-    books = {}
-    books_test = {}
-    train_catalogs = {}
     percent = 1.0/folds
 
     books = os.listdir(books_path)

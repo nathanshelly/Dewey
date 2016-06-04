@@ -62,7 +62,7 @@ def update_books():
     return temp
 
 # split_genres()
-drive_cross_validate_multiple()
-# drive_cross_validate()
+# drive_cross_validate_multiple()
+drive_cross_validate()
 # test_smooth_values()
 # update_books()

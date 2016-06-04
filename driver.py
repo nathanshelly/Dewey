@@ -7,18 +7,18 @@ def drive_cross_validate():
     folds = 4
     books_path = 'single_genre/'
     genres = [f for f in os.listdir(books_path) if f != '.DS_Store']
-    smoothing_factor = 0.0005
-
-    results, accuracies = cross_validate(genres, folds, books_path, smoothing_factor)
+    smoothing_factors = [.00005, .00003, .00001, .000005, .000003, .000001]
 
     genre_string = ""
     for genre in genres:
         genre_string += genre + '_'
     f = open('results/' + genre_string + str(folds) + "_fold_" + str(smoothing_factor) + "_smooth", 'w')
-    f.write("Averages: " + str(results) + '\n')
-    f.write("Per-fold accuracies: " + str(accuracies) + '\n')
-    print "Accuracies: ", accuracies
-    print "Results: ", results
+
+    for sf in smoothing_factors:
+        results, accuracies = cross_validate(genres, folds, books_path, sf)
+        f.write("Averages for smoothing factor of " + str(sf) + ": " + str(results) + '\n')
+
+    f.close()
 
 def drive_cross_validate_multiple():
     folds = 4

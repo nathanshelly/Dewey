@@ -227,7 +227,7 @@ def cross_validate(genres, folds, books_path, smoothing_factor):
         print "Working on: "
         for genre in genres:
             print genre
-            books[genre] = books[genre]
+            # books[genre] = books[genre]
             books_test[genre] = books[genre][int(i*percent*len(books[genre])):int((i+1)*percent*len(books[genre]))]
 
             # print "books[genre] ", books[genre]
@@ -341,7 +341,7 @@ def test_with_measures(train_catalogs, test_files, books_path):
         book = loadFile(books_path + f)
         actual_cats = books_genres[f]
         classified_cats = classify_text_multiple(book, train_catalogs, len(actual_cats))
-        in_common = set(actual_cats).intersection(classified_cats)
+        in_common = set(actual_cats).intersection(set(classified_cats))
         for genre in actual_cats:
             metrics[genre]['in_genre'] += 1
         for genre in classified_cats:

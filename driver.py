@@ -3,9 +3,10 @@ import copy
 ########################### Driver functions
 
 def drive_cross_validate():
-    genres = ["Humor", "Adventure", "Science_fiction", "Fantasy", "Young_Adult"]
+    # genres = ["Humor", "Adventure", "Science_fiction", "Fantasy", "Young_Adult"]
     folds = 10
-    books_path = 'books/'
+    books_path = 'single_genre/'
+    genres = [f for f in os.listdir(books_path) if f != '.DS_Store']
     smoothing_factor = 0.05
 
     results, accuracies = cross_validate(genres, folds, books_path, smoothing_factor)
@@ -44,6 +45,7 @@ def update_books():
     save(temp, 'books_genres.p')
     return temp
 
-# drive_cross_validate()
-test_smooth_values()
+# split_genres()
+drive_cross_validate()
+# test_smooth_values()
 # update_books()

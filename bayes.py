@@ -38,7 +38,7 @@ def generate_numeric_catalog(folder_path, file_name_list = []):
 def generate_numeric_catalog_multiple(folder_path, file_name_list = []):
     '''Generate dictionaries with frequency for each word in our training set.'''
     catalogs = {}
-    books_genres = loadFile("books_genres.p")
+    books_genres = load("books_genres.p")
 
     if not file_name_list:
         file_name_list = os.listdir(folder_path)
@@ -257,7 +257,7 @@ def cross_validate_multiple(folds, books_path, smoothing_factor):
         print "FOLD " + str(i)
 
         books_test = books[int(i*percent*len(books)):int((i+1)*percent*len(books))]
-        books_train = list(set(books[genre]) - set(books_test[genre]))
+        books_train = list(set(books) - set(books_test))
 
         # NOTE: This line is going to have to be different
         train_catalogs = generate_numeric_catalog_multiple(books_path, books_train)
@@ -267,7 +267,7 @@ def cross_validate_multiple(folds, books_path, smoothing_factor):
         train_catalogs = {genre:generate_percentile_catalog(catalog) for genre, catalog in train_catalogs.iteritems()}
 
         twm = test_with_measures(train_catalogs, books_test, books_path)
-        accuracies.append(twm)
+        metrics.append(twm)
         print "metrics for this fold:", twm
 
     for genres in accuracies[0].keys():
@@ -276,7 +276,7 @@ def cross_validate_multiple(folds, books_path, smoothing_factor):
             'recall': math.fsum([acc[genre]['recall'] for acc in accuracies]),
             'F-measure': math.fsum([acc[genre]['F-measure'] for acc in accuracies])
             }
-    return macroaverages, accuracies
+    return macroaverages, metrics
 
 def bulk_test(dict_of_catalogs, divisor = 1, path = 'books/'):
     '''Run test on all given classes'''
@@ -324,7 +324,7 @@ def test_with_measures(train_catalogs, test_files, books_path):
     ''' Produce a set of precision, recall, and F-measures for each genre '''
     metrics = {genre:{'correct':0, 'classified_as':0, 'in_genre':0} for genre in train_catalogs.keys()}
 
-    books_genres = loadFile('books_genres.p')
+    books_genres = load('books_genres.p')
 
     for f in test_files:
         book = loadFile(books_path + f)

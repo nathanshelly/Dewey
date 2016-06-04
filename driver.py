@@ -4,10 +4,10 @@ import copy
 
 def drive_cross_validate():
     # genres = ["Humor", "Adventure", "Science_fiction", "Fantasy", "Young_Adult"]
-    folds = 10
+    folds = 4
     books_path = 'single_genre/'
     genres = [f for f in os.listdir(books_path) if f != '.DS_Store']
-    smoothing_factor = 0.05
+    smoothing_factor = 0.0005
 
     results, accuracies = cross_validate(genres, folds, books_path, smoothing_factor)
 
@@ -19,6 +19,22 @@ def drive_cross_validate():
     f.write("Per-fold accuracies: " + str(accuracies) + '\n')
     print "Accuracies: ", accuracies
     print "Results: ", results
+
+def drive_cross_validate_multiple():
+    folds = 4
+    books_path = 'books_opened/'
+    smoothing_factor = 0.0005
+
+    macroaverages, metrics = cross_validate_multiple(folds, books_path, smoothing_factor)
+
+    genre_string = ""
+    for genre in macroaverages.keys():
+        genre_string += genre + '_'
+    f = open('results/' + genre_string + str(folds) + "_fold_" + str(smoothing_factor) + "_smooth", 'w')
+    f.write("Macroaverages: " + str(macroaverages) + '\n')
+    f.write("Per-fold metrics: " + str(metrics) + '\n')
+    print "Macroaverages: ", macroaverages
+    print "Per-fold: ", metrics
 
 def test_smooth_values():
     path = 'catalogs/'
@@ -46,6 +62,6 @@ def update_books():
     return temp
 
 # split_genres()
-drive_cross_validate()
+drive_cross_validate_multiple()
 # test_smooth_values()
 # update_books()

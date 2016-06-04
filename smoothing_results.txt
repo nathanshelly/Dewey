@@ -49,3 +49,5 @@ Horror: 0.961098398169
 Fantasy correct: 16.0
 Romance correct: 94.0
 Science_fiction correct: 25.0
+Teen correct: 16.0
+Thriller correct: 22.0

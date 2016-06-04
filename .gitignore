@@ -1,5 +1,5 @@
 books
-books_opened
+books_opened*
 single_genre
 *.pyc
 *.zip

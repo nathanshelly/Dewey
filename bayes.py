@@ -322,15 +322,16 @@ def test(train_catalogs, test_files, genre, books_path):
 # Assumes we have books_genres.p
 def test_with_measures(train_catalogs, test_files, books_path):
     ''' Produce a set of precision, recall, and F-measures for each genre '''
-    metrics = {genre:{'correct':0, 'classified_as':0, 'in_genre':0} for genre in train_catalogs.keys()}
+    genres = ['Adventure', 'Fantasy', 'Historical', 'Horror', 'Humor', 'Literature', 'Mystery', 'New_Adult', 'Other', 'Romance', 'Science_fiction', 'Teen', 'Themes', 'Thriller', 'Vampires', 'Young_Adult']
+    metrics = {genre:{'correct':0, 'classified_as':0, 'in_genre':0} for genre in genres}
 
     books_genres = load('books_genres.p')
 
     for f in test_files:
         book = loadFile(books_path + f)
         actual_cats = books_genres[f]
-        classified_cats = classify_text_multiple(book, train_catalogs, len(correct_cats))
-        in_common = set(actual_cats).intersection(cats)
+        classified_cats = classify_text_multiple(book, train_catalogs, len(actual_cats))
+        in_common = set(actual_cats).intersection(classified_cats)
         for genre in actual_cats:
             metrics[genre]['in_genre'] += 1
         for genre in classified_cats:
@@ -339,8 +340,11 @@ def test_with_measures(train_catalogs, test_files, books_path):
             metrics[genre]['correct'] += 1
 
     for genre in metrics.keys():
-        metrics[genre]['precision'] = 1.0*metrics[genre]['correct']/metrics[genre]['classified_as']
-        metrics[genre]['recall'] = 1.0*metrics[genre]['correct']/metrics['in_genre']
-        metrics[genre]['F-measure'] = 2.0*metrics[genre]['precision']*metrics[genre]['recall']/(metrics[genre]['precision'] + metrics[genre]['recall'])
+        try:
+            metrics[genre]['precision'] = 1.0*metrics[genre]['correct']/metrics[genre]['classified_as']
+            metrics[genre]['recall'] = 1.0*metrics[genre]['correct']/metrics[genre]['in_genre']
+            metrics[genre]['F-measure'] = 2.0*metrics[genre]['precision']*metrics[genre]['recall']/(metrics[genre]['precision'] + metrics[genre]['recall'])
+        except ArithmeticError:
+            print "Precision and recall are both zero!"
 
     return metrics

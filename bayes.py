@@ -94,7 +94,7 @@ def split_genres():
         genres[folder] = len(os.listdir(single_genre_folder + folder))
     sorted_genres = sorted(genres, key=genres.get, reverse=True)
     for folder in sorted_genres[5:]:
-    shutil.rmtree(single_genre_folder + folder)
+        shutil.rmtree(single_genre_folder + folder)
 
 ##################################### Smoothing
 

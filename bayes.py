@@ -35,6 +35,34 @@ def generate_numeric_catalog(folder_path, file_name_list = []):
 
     return catalog
 
+def generate_numeric_catalog_multiple(folder_path, file_name_list = []):
+    '''Generate dictionaries with frequency for each word in our training set.'''
+    catalogs = {}
+    books_genres = loadFile("books_genres.p")
+
+    if not file_name_list:
+        file_name_list = os.listdir(folder_path)
+
+    for file_name in file_name_list:
+        genres = books_genres[file_name]
+        for genre in genres:
+            try:
+                catalogs[genre]
+            except KeyError:
+                catalog = defaultdict(int)
+                catalog['total_words'] = 0
+                catalog['num_files'] = 0
+                catalog['book_lengths'] = []
+        count_occurrence_of_grams_multiple(folder_path + '/' + file_name, catalogs, genres)
+
+    for genre in catalogs.keys():
+        catalogs[genre]['mean_book_length'] = numpy.mean(catalogs[genre]['book_lengths'])
+        catalogs[genre]['std_book_lenth'] = numpy.std(catalogs[genre]['book_lengths'])
+        del catalogs[genre]["book_lengths"]
+
+    return catalogs
+
+
 def count_occurrence_of_grams(file_path, catalog):
     '''Count the number of occurences of a word.'''
     # Catalog must have total_words and num_files keys
@@ -47,6 +75,22 @@ def count_occurrence_of_grams(file_path, catalog):
     for word in words:
         catalog['total_words'] += 1
         catalog[word.lower()] += 1
+
+def count_occurrence_of_grams_multiple(file_path, catalogs, genres):
+    '''Count the number of occurences of a word.'''
+    # Catalogs holds {genre:catalog}
+    # Catalog must have total_words and num_files keys
+    words = word_tokenize(loadFile(file_path))
+
+    for genre in genres:
+        catalogs[genre]['num_files'] += 1
+        catalogs[genre]["book_lengths"].append(len(words))
+
+    for word in words:
+        for genre in genres:
+            catalogs[genre]['total_words'] += 1
+            catalogs[genre][word.lower()] += 1
+
 
 def add_features():
     for numeric_catalog_path in os.listdir('catalogs'):
@@ -83,6 +127,8 @@ def split_genres():
         os.makedirs(single_genre_folder)
     books_genres = load('books_genres.p')
     for folder in os.listdir('books'):
+        if folder == ".DS_Store":
+            continue
         if not os.path.exists(single_genre_folder + folder):
             os.makedirs(single_genre_folder + folder)
         for book in os.listdir('books/' + folder):
@@ -91,9 +137,13 @@ def split_genres():
 
     genres = {}
     for folder in os.listdir(single_genre_folder):
+        if folder == ".DS_Store":
+            continue
         genres[folder] = len(os.listdir(single_genre_folder + folder))
     sorted_genres = sorted(genres, key=genres.get, reverse=True)
     for folder in sorted_genres[5:]:
+        if folder == ".DS_Store":
+            continue
         shutil.rmtree(single_genre_folder + folder)
 
 ##################################### Smoothing
@@ -118,11 +168,18 @@ def word_list(dict_of_catalogs):
 
 ##################################### Classification
 
+# for only one genre per books
 def classify_text(string_to_classify, dict_of_catalogs):
     '''Given a target string, this function returns the most likely genre to which the target string belongs (i.e. fantasy, horror).'''
     probs_dict = {key: 0 for key in dict_of_catalogs.keys()}
     update_probabilites(probs_dict, dict_of_catalogs, word_tokenize(string_to_classify))
     return max(probs_dict, key=probs_dict.get) # return the key corresponding to the max value probs.keys()[ind]
+
+# for multiple genres per book
+def classify_text_multiple(string_to_classify, dict_of_catalogs, num_genres):
+    probs_dict = {key: 0 for key in dict_of_catalogs.keys()}
+    update_probabilites(probs_dict, dict_of_catalogs, word_tokenize(string_to_classify))
+    return sorted(probs_dict, key=probs_dict.get, reverse=True)[:num_genres]
 
 def update_probabilites(probs_dict, dict_of_catalogs, words_to_classify):
     '''Takes string and updates the probabilities dictionary'''
@@ -189,6 +246,43 @@ def cross_validate(genres, folds, books_path, smoothing_factor):
     results = {genre:math.fsum(accs)/folds for genre, accs in accuracies.iteritems()}
     return results, accuracies
 
+# For multiple genres per book
+def cross_validate_multiple(genres, folds, books_path, smoothing_factor):
+    """ Perform k-fold cross-validation. """
+    books = {}
+    books_test = {}
+    train_catalogs = {}
+    percent = 1.0/folds
+
+    books = os.listdir(books_path)
+
+    metrics = []
+
+    for i in range(folds):
+        print "FOLD " + str(i)
+
+        books_test = books[int(i*percent*len(books)):int((i+1)*percent*len(books))]
+        books_train = list(set(books[genre]) - set(books_test[genre]))
+
+        # NOTE: This line is going to have to be different
+        train_catalogs = generate_numeric_catalog_multiple(books_path, books_train)
+
+        # smooth the catalogs
+        train_catalogs = smooth(train_catalogs, word_list(train_catalogs), smoothing_factor)
+        train_catalogs = {genre:generate_percentile_catalog(catalog) for genre, catalog in train_catalogs.iteritems()}
+
+        twm = test_with_measures(train_catalogs, books_test, books_path)
+        accuracies.append(twm)
+        print "metrics for this fold:", twm
+
+    for genres in accuracies[0].keys():
+        macroaverages[genre] = {
+            'precision': math.fsum([acc[genre]['precision'] for acc in accuracies]),
+            'recall': math.fsum([acc[genre]['recall'] for acc in accuracies]),
+            'F-measure': math.fsum([acc[genre]['F-measure'] for acc in accuracies])
+            }
+    return macroaverages, accuracies
+
 def bulk_test(dict_of_catalogs, divisor = 1, path = 'books/'):
     '''Run test on all given classes'''
     temp_results = {}
@@ -212,6 +306,7 @@ def bulk_test(dict_of_catalogs, divisor = 1, path = 'books/'):
     f.close()
 
 def test(train_catalogs, test_files, genre, books_path):
+    ''' Calculate the accuracy of classification on a set of books, all from the same genre '''
     correct = 0.0
     print "genre:", genre
     if not test_files:
@@ -228,3 +323,29 @@ def test(train_catalogs, test_files, genre, books_path):
     smoothing_file.write(str(genre) + ' correct: ' + str(correct) + '\n')
     smoothing_file.close()
     return correct/len(test_files)
+
+# Assumes we have books_genres.p
+def test_with_measures(train_catalogs, test_files, books_path):
+    ''' Produce a set of precision, recall, and F-measures for each genre '''
+    metrics = {genre:{'correct':0, 'classified_as':0, 'in_genre':0} for genre in train_catalogs.keys()}
+
+    books_genres = loadFile('books_genres.p')
+
+    for f in test_files:
+        book = loadFile(books_path + f)
+        actual_cats = books_genres[f]
+        classified_cats = classify_text_multiple(book, train_catalogs, len(correct_cats))
+        in_common = set(actual_cats).intersection(cats)
+        for genre in actual_cats:
+            metrics[genre]['in_genre'] += 1
+        for genre in classified_cats:
+            metrics[genre]['classified_as'] += 1
+        for genre in in_common:
+            metrics[genre]['correct'] += 1
+
+    for genre in metrics.keys():
+        metrics[genre]['precision'] = 1.0*metrics[genre]['correct']/metrics[genre]['classified_as']
+        metrics[genre]['recall'] = 1.0*metrics[genre]['correct']/metrics['in_genre']
+        metrics[genre]['F-measure'] = 2.0*metrics[genre]['precision']*metrics[genre]['recall']/(metrics[genre]['precision'] + metrics[genre]['recall'])
+
+    return metrics

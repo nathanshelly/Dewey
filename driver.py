@@ -22,7 +22,7 @@ def drive_cross_validate():
 
 def drive_cross_validate_multiple():
     folds = 4
-    books_path = 'books_opened_short/'
+    books_path = 'books_opened/'
     smoothing_factor = 0.0005
 
     macroaverages, metrics = cross_validate_multiple(folds, books_path, smoothing_factor)
@@ -63,5 +63,6 @@ def update_books():
 
 # split_genres()
 drive_cross_validate_multiple()
+# drive_cross_validate()
 # test_smooth_values()
 # update_books()

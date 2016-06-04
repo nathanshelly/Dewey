@@ -185,7 +185,10 @@ def update_probabilites(probs_dict, dict_of_catalogs, words_to_classify):
     for key in dict_of_catalogs.keys():
         mean = dict_of_catalogs[key]['mean_book_length']
         std = dict_of_catalogs[key]['std_book_lenth']
-        probs_dict[key] += math.log(scipy.stats.norm(mean, std).pdf(len(words_to_classify)))
+        try:
+            probs_dict[key] += scipy.stats.norm(mean, std).logpdf(len(words_to_classify))
+        except ValueError:
+            log_errors("probs_dict[key]", probs_dict[key], "length", len(words_to_classify))
 
     # print words_to_classify
     for word in words_to_classify:
@@ -195,6 +198,12 @@ def update_probabilites(probs_dict, dict_of_catalogs, words_to_classify):
                 probs_dict[key] += dict_of_catalogs[key][word]
             except KeyError:
                 pass
+
+def log_errors(*args):
+    f = open('errors/errors.txt', 'a')
+    for arg in args:
+        f.write(str(arg) + '\n')
+    f.close()
 
 ##################################### Evaluation
 
@@ -250,6 +259,7 @@ def cross_validate_multiple(folds, books_path, smoothing_factor):
     percent = 1.0/folds
 
     books = os.listdir(books_path)
+    books.shuffle()
 
     metrics = []
 

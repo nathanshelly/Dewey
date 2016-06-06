@@ -1,0 +1,818 @@
+Message from Gondwana
+____________
+
+A Novella from the Eichi Testaments Universe
+____________
+
+By David Wiley
+Message from Gondwana 
+David Wiley
+
+Smashwords Edition
+
+Copyright 2014 David Felstul
+
+Smashwords Edition, License Notes
+Thank you for downloading this ebook.  This book remains the copyrighted property of the author, and may not be redistributed to others for commercial or non-commercial purposes.  If you enjoyed this book, please encourage your friends to download their own copy from their favorite authorized retailer.  Thank you for your support.
+Table of Contents
+CHAPTER 1
+CHAPTER 2
+CHAPTER 3
+CHAPTER 4
+CHAPTER 5
+CHAPTER 6
+CHAPTER 7
+CHAPTER 8
+CHAPTER 9
+CHAPTER 10
+CHAPTER 11
+CHAPTER 12
+Epilogue
+Excerpt from Make No Martyrs
+CHAPTER 1
+
+The machine burbled as Lani's gloved hand grabbed another bunch of leaves for analysis.  Her scream did nothing to disturb the machine's contented hum.  "A snake!  A blaggin' snake, somebodyhold it.  Bax?  Bax!  Get your evil butt in here!"
+A handsome face, with blue eyes so wide-eyed innocent that even the devil would not trust him, peered around the corner.  "A problem, Lani?"
+"Damn right there's a problem.  There are no snakes on Gondwana, nothing larger than an insect, so how'd one get in my sample?  Come to think of it," she poked carefully at the inert serpent.  "You made this in the fabricator, didn't you?  How did you get the scales to look likeUm, thanks for this latest batch of leaves.  You were right, this plant is remarkably free of epiphytes."  Her hand swept the ersatz snake into the bin under the lab bench as a tall, severe woman came around the corner.  Thank the Spirit, Hermea Jonze insisted on wearing heels you could hear coming from a kilometer away.
+"A problem, Miz Callis?  I thought I heard a scream."
+Lani glared at Bax, hoping he would burst into flame, the hotter the better.  He winked at her before beating a retreat.  "No, Professor Jonze, no problem.  A sampling tube just dropped is all.  Startled me."  Goddard, but she was terrible at lying.
+"That caused you to scream?"  The dark-skinned woman did not sound at all convinced.  "Take more care, okay?  We are not exactly next to the Laboratory Glassware Bazaar now, are we?"
+Lani smiled faintly, since it seemed to be expected.  Coming from old Jonze, the leader of the Alchemistica prospecting team, that comment was a side-splitting effort at humor.  After the percussion of her boss' bootheels faded back down the corridor, Lani pulled the "snake" out of the bin.  The reptile was undeniably a work of art, the pattern of iridescent scales on the back, the black eyes, and the open mouth with fangs.  It even had the right heft.  If Bax spent half as much effort on his job of collecting specimens as he did on thinking up practical jokes to play on her.  He had been doing it since she first set foot on the ship that had brought them here.  At first she thought he was making fun of the newbie.  Then she thought it was because she was the only young and unattached female on board.  Now she was just confused.
+What in Marx was an outgoing guy like Bax doing running around the jungle on a planet in the middle of nowhere?  Probably the same thing as she was; it was a job, her first.  Bax probably had ten or twenty prospecting expeditions under his belt.  Most people were not exactly sure what pharma prospecting involved, she smiled remembering trying to explain it to her parents.  It was painstaking, dirty, and sweaty, light years from civilization, but unlike the samples they collected, jobs like this did not grow on trees and this one would not last long if Lani did not get back to work on analyzing the bits and pieces of vegetation that Bax and the others had collected in hopes of finding a valuable drug.  She smiled and coiled the snake up on the shelf above her workstation.
+She ground up the next sample of leaves for the machine to analyze.  A small bin opened to receive the sample.  She stuffed the waiting mouth.  The eager little analytical formulizer that she had named "Alfie" sat on her lab bench.  He would vaporize and analyze the chemical compounds in the vegetation samples, sharing the data with his big brother, the field laboratory's artificial intelligence, located down the hall.   The AI's quantum hardware architecture, coupled with the latest expert system software supposedly made it unbeatable for comparing the molecular configuration of the samples with the millions of other chemical compounds stored in its databanks for potential pharmaceutical uses.  Like most of their technology, the AI had enough of a personality to warrant a nickname, in this case, Hoover, derived from Hrvia Technologics, the quantum computer's manufacturer.  When Hoover had finished his analysis, Alfie would then synthesize any compounds that Hoover or Lani thought worthwhile for further tests.  
+The other two biomolecular chemists on their expedition, both older Alchemistica veterans, blindly accepted Hoover's suggestions, but Lani found she liked matching wits with the quantum AI.  Based on the trials she conducted on the sample tissue cultures with Alfie's help, Hoover's choices were beating hers six to four, but she took pride in keeping it that close.  One of her long shots, an anti-amyloid compound that might be of use in warding off senility in senior citizensa plus when the human lifespan often surpassed 150 years for those that could afford the latest rejuvenation drugswas probably why Professor Jonze tolerated her experiments.  Lani was just tracing a molecule whose atoms were arranged in an almost perfect corkscrew when a light strobed, followed by the clamor of the alarm.
+"Oh hell," she murmured, her concentration broken.  Bax hurried past with Juls, one of the other field techs.  They both carried flame throwers.  "Third time in as many days," she complained to their backs.
+"Aw, you're just jealous we get to go out," Juls shot back as they opened the hatch that led out of the lab.
+She snorted.  Juls had no idea how close the teasing struck homeor maybe he did.  The planet's star, Draco IV, was a young, blue-white furnace, bigger and hotter than old Earth's Sol.  Lani had fair, freckled skin that went well with her reddish hair but not with any outside exposure.  Less than twenty minutes that first time outside and she had wound up with blisters over every exposed centimeter, which Bax smilingly offered to anoint with salve.  It was not like she was missing anything, she told herself.  No doubt the alarm was yet another plant making a fruitless effort to encroach upon Alchemistica's base.  
+The base consisted of a field laboratory on a hundred meter square that had been blasted out of the planet's nearly impenetrable jungle, a jungle which had given Gondwana its name after some long gone spot on Earth.  The high energy beams blasting from the ship had not only burned off the vegetation, but had fused the underlying soil into a three meter thick glassy slab.  A standard fusion plant was then delivered from orbit and it powered the remainder of the installation.  A drill that punched a well down through the middle of the slab until it hit water, almost fifty meters down.  A standard lab module that self-assembled various extruded polymers into the walls and roof of a fifty-meter square building.  All of the internal furnishings that were fabricated and filled the internal compartments within a couple of days.
+The finished lab module was typical for pharmaceutical prospecting, with living quarters for a team of a dozen.  Individual quarters were a cramped three by four meters, which led to their inevitable nickname of hutches.  There was also a larger common area that served as a combination galley, conference room, recreational area, and any other activity requiring more than the dozen square meters of a hutch.  A secure electronics compartment next to the common area contained the hardware for Hoover and the base's communications equipment, while a storage room had enough supplies stuffed into it for a six-month stay.  Not surprisingly, the analysis and testing facilities made up the largest single use of the field laboratory, about forty percent of the total space.  The fusion plant came in a close second.  In addition to supplying the power for assembling and running the lab, the fusion plant electrolyzed water for the hydrogen fuel for the two flitters, Alice and Bobbie.  The flitters could take off or land vertically by tilting their turbines and were the only way for the prospecting teams to move around the jungle of Gondwana.  Or, should the worst happen, the flitters allowed them to escape to orbit by switching to hydrogen-powered rockets.  To prevent the worst from happening, the fusion plant also charged an electric grid placed around the border of the underlying slab, a grid which attempted to keep out the voracious plant life on Gondwana.  
+The hatch at the end of the hall swung open and Bax appeared, dragging an injured Juls with him.  "Lani?" Bax called, but Lani had already grabbed the medkit and dashed over.
+"What happened?"
+"Blagging plants," Juls swore as he held his leg.
+Bax explained.  "The plants have started growing thicker vines.  The zappers in the electric grid don't affect them as much.  Some had almost reached Alice before we flamed them.  Then, somehow, a vine from a plant on the other side snuck up behind Juls."
+"Blagging plants," Juls repeated, wincing as Lani pried the fabric from his pants out of the raw wounds on his legs.  She wrinkled her nose at the smell as she applied salve, cringing not at the acid burns, which they had all seen before, but rather at the thought of what might have happened to Alice.  By now, most of the other expedition members were crowding the narrow corridor, attracted by the commotion.  All except for Karl and Candece, who were off in Bobbie on a sampling trip.
+"Soren?  You and Chen go out and make sure Bax and Juls got all of the tendrils.  Okay, the rest of you, nothing more to see here," Professor Jonze waved the others off.  "Bax, take Juls, have the autodoc check him out, and then take him back to his quarters."
+Bax steered Juls towards the common area, a corner of which contained the autodoc, their semi-autonomous medical system.  Oddly enough, the autodoc did not have a nickname.  Lani had almost suggested one, when she was informed that it was considered bad luck among exploration crews.  If you named it, you were sure to need it before long.  Lani hesitated, trying to remember if Juls had ever broken that rule.  
+Professor Jonze muttered under her breath about pesky injuries and redoing duty schedules before she noticed Lani still standing there.  "Do you not have something to be doing, Miz Callis?  Unless I am mistaken, your shift is not over for another two hours."
+Lani turned away and walked back to her lab bench with clenched hands, but not before she overheard Jonze mutter.  "Shit!  They told me the place just had a few aggressive weeds, that was all, just a few weeds."
+
+Lani did not immediately pick up where she left off.  That smell from Juls' leg bothered her.  It was not the burned flesh; it was something else.  She racked her brain and then Hoover's.  Supposedly both were quantum-based, but neither proved useful for identifying what was bothering her.  She could not hook up to the Universal Web either, since the planet had no communications satellites to hook into the web's laser backbone that extended across stellar systems and through wormholes to reach most of the Empire.  
+Worst of all, the spaceship that had deposited them here had left for an unexpected trip to Missagi.  The departure was against Alchemistica's official protocols, the ship would normally maintain station above the planet being prospected in case of any problems, but Alchemistica was a young corporation, its resources stretched thin, so the Quadratic Equation had left yesterday for several weeks for some more important purpose.  Rumor had it that Alchemistica's charismatic CEO was the one with the sense of humor responsible for the ship's name.  
+Lani had to accept her coworkers' word on the humor, she had never met the CEO.  She sighed.  She missed being connected.  She especially missed her qmail, those little packets of quantum information that were a lifesaver for people like her.  She was not as good at talking face-to-face with people.
+
+Not until she was having supper in the common room did the answer finally percolate up from Lani's subconcious.  "Bananas," she announced.
+"Bananas?"  Candece asked from around a mouthful of lasagna.  Candece was one of their field techs, older and more experienced than Lani.  She was a wiry woman with black, spiky hair, skin that had become even darker under the harsh light of Draco, and lots of tattoos and unbelievable stories about exploits on previous pharma prospecting trips.  Lani had taken to her immediately.  Candece had helped Lani break out of her shell during the voyage to Gondwana.  Thankfully, Candece had thought her awkwardness was due entirely to shyness.
+"Yes, bananas.  That's what Juls smelled like earlier, sort of."
+Candece grunted, "I wouldn't know.  I've never eaten one."
+Lani toyed with her food.  She ate less than a vegetarian at a barbeque as her mother used to say; but she still had too many curves while Candece could pack it in and stay skinny.  Unfortunately, most of the billions of humans that made up the Second Empire regarded any excess weight with distaste when centuries of genetic tinkering should have taken care of that.  Lani's shape sent all the wrong signals tosignals, that was it!
+"It's a signal," she announced.
+"What's a signal?  Bananas?" asked Mumson, who was eating with them.  He was a tall man with dark, tousled hair, the expedition's mechanical engineer.  Translated it meant he kept all the base's components in running condition, including Candece.
+"No, I mean, bananas have a strong smelling chemical, an ester.  I smelled something similar on poor Juls.  Isoamyl acetate, the chemical that smells like banana is also an alarm pheromone for an insect, auggh, I can't remember which."
+"That's great, honey, but I thought we had an agreement, no words of more than three syllables at mealtimes," Candece chided her.
+Lani blushed, her fork idly pushing around her food. "Sorry.  I was just thinking.  A lot of plants can communicate with chemicals.  I wonder if that's what is happening here.  Bax said while they were torching one set of vines, another snuck up behind them, like it was planned."  She took a small bite that looked like it might be edible.
+Candece waved her hand in dismissal.  "I think you're reading too much into it.  Besides, everyone knows Bax has too good an imagination.  Now if he would just imagine the two of you naked together..."
+Mumson, grinning, had to whack Lani on the back as her food apparently went down the wrong pipe.
+CHAPTER 2
+
+Lani put down the last sample plate.  The corkscrew molecule did not seem promising after all.  Yesterday she had Alfie synthesize enough of the molecule to run against the usual accelerated test modulesthe ones for human tissue, vegetative pests, and mammalian diseasesbut the molecule's corkscrew proved too regular, there were no protrusions to latch onto any human hormones or mammalian or plant receptors.  Lani wondered what the molecule did here on Gondwana, probably something minor like make a leaf curl or uncurl depending upon water stress.  She shrugged and moved on to the other samples.
+She picked up a case containing multistemmed twigs with red leaves then put it down.  Instead, the sample containing a couple of swirled brown and yellow leaves seemed more intriguing.  She opened the plastic sample case, and, on impulse, crushed a bit of leaf between her gloved thumb and finger.  A vaguely familiar minty smell tickled her nose.  She crushed the rest of the leaf and dropped it in Alfie's waiting mouth.  A few minutes later she scanned the chromatograph analysis.  Methyl salicylate, another ester, was listed towards the top.  Its common name was oil of wintergreen.  No wonder it smelled familiar.  Well, rediscovering wintergreen was not going to earn any revenues for Alchemistica or any pats on the back for Lani.
+She started Alfie working on the next sample; then called up the chemical analysis results of her last dozen or so samples.  All of them contained fairly high levels of esters.  Not surprising since esters were pretty common and came in a wide variety of configurations, many with strong smells.  She had Hoover, the base AI, run a compilation of all of the samples that had been run since they had landed, including those analyzed by the other two biochemists.  Almost all of them contained esters, sometimes singly, sometimes in complex combinations.  Each plant species seemed to emit a unique combination of esters.  In a couple of cases, they had ended up analyzing samples that looked different, but had turned out to be from different life stages or merely from a different plant of the same species, the esters differing only slightly.  
+Lani shrugged; maybe the different esters were a form of ID for the plants.  She imagined a plant sending up shoots next to another one and squirting a bunch of esters out to introduce itself.  She could not help grinning at the thought.  This was definitely not why Alchemistica was honoring her with a paycheck, as they had put it when they first offered her the job.
+
+Lani tagged a possible insect digestive inhibitor, the only decent result out of a full day's work.  A low-pitched gong sounded, meaning Team Three was back from their prospecting trip in Alice.  Lani stretched with an audible crack sounding from her back.  She had sat hunched over for too long again.  She hoped Soren and Chen had something interesting to analyze.  If it was true that you had to kiss a lot of frogs to find a prince, then doing pharma prospecting was like having to kiss a whole pond of tadpoles.  She waited impatiently until the hatch opened at the end of the corridor.
+Chen was the senior field tech, which he kept reminding everyone of with his stories, which Lani, unfortunately was too polite to interrupt.  He came through the hatch first, a grin spreading across his weathered face as he spotted her.  "Getting a little bored, are we, Lani?"  He held up his sample kit, "You know, this can probably wait for Emma if you're too"
+"Oh, shut up and hand it over," Lani growled.  
+Soren had to duck to come through behind Chen, though even bent over his bleached hair still brushed the top of the hatch.  He chuckled as Lani grabbed the samples out of Chen's hand.  "Told you she was going to mug you."  Lani stuck her tongue out at them as she retreated back to her lab bench with her potential treasures.  "I'll have you know we had to weather an aerial assault to get those samples for you," Soren added.
+"What?" Lani was only half listening as she started to sort the samples.
+"Well, it was more like an artillery barrage," Chen amended.  "We were coming back from our collection site and were a few klicks east of the base, when a grove of trees opened fire.  It sounded like machine-gun fire on the hull"
+"Hail," corrected Soren.
+Chen ignored the interruption, waving his hands.  "The entire grove decided to shoot all of their seeds into the air at the same time.  Those babies were moving at a good fraction of Mach 1.  Fortunately, I was piloting or we would probably have crashed."  Soren rolled his eyeballs at Lani, who had to stifle a giggle, but Chen did not appear to notice.  "It reminded me of that time on Canopus"
+"C'mon, old-timer, Lani has work to do, and we have to hunt down Mumson.  We need him to take a look at Alice to make sure your killer barrage didn't do too much damage to the old girl's turbines."
+Chen coughed.  "Don't forget we need to mark the grove on the guidance system as a hazard."
+Soren chuckled.  "Sure, how about we mark it as 'Chen's Last Stand?'"
+
+"I like your new decoration," Bax grinned, pointing to the snake posed threateningly above Lani's workstation.
+Lani smile came readily.  "It seemed a shame to waste such a work of art.  Besides, I was hoping it would scare away distractions.  Obviously it failed miserably at that."
+Lani turned away, cringing.  Did I just say that?  After a short silence, she asked how Juls was doing. 
+"Judging by the amount of complaining, he should be back on his feet by tomorrow," Bax said of his field partner.  "He's pretty tough for a mazhory."
+"A what?"
+"A mazhory.  A spoiled brat from a privileged family.  His parents are actually company officers in Alchemistica.  But they wanted to make their only son work his way up from the bottom, so they're starting him out on prospecting trips."  
+Lani's jaw dropped, "But he seems so normal, so nice."
+Bax grinned.  "I'll tell him you said that.  He'll take that as a big compliment.  He is a nice guy."  Bax propped himself on the stool in the corner.
+Lani fed Alfie another sample.  "Uh, did you hear what happened to Chen and Soren?"
+"You mean the seed release?" Bax nodded.  "Of course, by now Chen is claiming the trees purposely waited until they were at their most vulnerable before letting loose.  Claims he also saw a few vines reaching up for them.  And I thought I had a vivid imagination."
+Lani snorted, thinking of Candece's comment last night.  She looked up to see Bax looking at her strangely.  She hesitated, biting her lip.  "Still, it seems more than coincidence with that vine sneaking up on Juls yesterday."At least Bax did not laugh as she had feared.  "No, but coincidences do happen," he said.
+"Um, I do have a favor to ask, though," Lani avoided looking directly at Bax.  "Could you get me a sample from the plant that got Juls?"
+"What?  We already sampled that plant.  It was one of the first we did.  Why wouldoh, just like Chen you suspect them of evil plotting, don't you?" his tone was teasing.
+"Please?" Lani finally met his sparkling blue eyes.  She quickly realized that was a mistake as a grin spread across his face.
+He stood up, practically touching her.  Then he did touch her, leaning over and planting a kiss on her forehead.  "Sure, Lani, anything for my favorite biochemist."  He started down the corridor.
+"Be careful," she called out to his muscular back, her face feeling flushed.  Oh Goddard, she thought as he acknowledged her comment with a wave, did that sound pathetic or what?
+
+Bax managed to cajole Candece and Karl into helping him before they headed out on their own shift.  He presented Lani with the requested sample a short time later.  "Marx, if I wasn't glad to have them with me, too.  It was almost like the redvines knew I was coming for a sample.  Once I got close, the tendrils twitched away, and I followed them, nearly getting clobbered by a clump of spike snares lying in wait."  He gestured dramatically.
+Lani's eyes widened.  The spike snare was one of the nastier denizens of the local flora.  The plant's shoots lay on the ground until disturbed by footsteps or heat, they were not sure, when they whipped up and impaled whatever had disturbed them.  Bax continued, "Fortunately, Candece seems to have the reaction speed of a Jilin mongoose and her machete caught the vine in midstrike."
+"But you're"
+"Yeah, I'm fine."
+"Maybe I should have had you get a sample of the spike snares too," Lani made a wry face.
+"Somehow I knew you were going to ask that," Bax grinned, producing a second sample bag from behind his back.  "Courtesy of Candece."
+"You're wonderful," Lani impulsively gave him a quick hug.
+"I know," he said from over her shoulder.
+
+"I compared the chemical makeup of the redvines now to a sample we took when we first landed," Lani explained to Professor Jonze in the communications center, the closest space they had to an office.  The Professor had ousted Zach, their IT/comm specialist, or according to ancient tradition, the "Geek," from his lair.  Jonze now sat in the cushioned chair in front of the comm console, her fingers steepled before her, with a look of intense concentration upon her mahogany features.  Lani, who had requested this meeting, sat in one of the two small plastic folding chairs in the room.  All around them, cables were strung between sections of Hoover; the quantum AI humming with thoughts too deep for mortals like Lani.  The professor sat silently, waiting on the most junior member of her prospecting team.
+Lani swallowed and started babbling.  "Several chemicals have changed in frequency, mostly those related to composition of the plant's cellular walls, you know, increasing the thickness of the tendrils through enhanced polymerization of some of the esters.  In addition, the proportion of fast-twitch twining chemicalsat least that's what I call them though they're really, anywaytheir proportion has increased, along with certain compounds that seem related to aggressiveness."  She paused.
+"Let me get this straight," the professor leaned forward, a twinkle in her eye.  "You're telling me that the redvines are becoming nastier, with faster, groping tendrils, and now they are wearing polyester?"
+Any irony was lost on Lani.  She nodded her head vigorously.  "The spike snares have even higher concentrations of similar molecules, not to mention that there weren't any spike snares here when we landed.  It wouldn't have made any sense ecologically.  As far as we know, there are no large animals on Gondwana.  The snares showed up suddenly two weeks after we landed.  It makes me wonder if there used to be large animals here on this planet.  Anyway, Bax said they've gotten even more aggressive.  He nearly got impaled by one, getting these samples for me, but Candece nailed it."
+Professor Jonze's eyes flashed.  "He what?!"
+Lani had a sudden, sinking feeling.  She frantically racked her brain for the least threatening terms as she explained.  As she finished under Jonze's stony expression, she added, "I asked him to collect the samples for me, so it's my fault if he did something wrong."
+If the professor's expression softened slightly, Lani was too nervous to notice.  "Next time you come to me before you start sending my field techs out on unplanned sampling trips.  It would not be good for your career if something had happened, understand?"
+Lani nodded miserably.
+"It is not unusual that plants respond to our pharma prospecting.  Anyone who has been in the field any length of time can tell you that.  Science has long known that plants are able to communicate after a fashion, but they do not actively plot against us.  I am afraid Chen, Juls, Bax, and the others have a tendency to personify what they observe in the plants.  I understand that this is your first pharma prospecting trip, but take what they say with a grain of salt.  I have been on dozens and dozens of these expeditions.  Stick to the facts and everybody will be better off."
+Here she was trying to make a good impression on her first trip and the Professor thought she was a recessive, a double set of genes for incompetence, or worse.  Lani fervently wished the ground would open up and swallow her, but the composite floor and three-meter thick fused foundation made that unlikely.  Professor Jonze sighed.  "Look, Lani, there was no permanent harm done.  I am not telling you to stop pursuing your hunches.  After all, we hired you because you have a very good brain.  I want you to be careful about how you use it, though."  She then surprised Lani with a smile.  "I never told you about my first prospecting trip, did I?  It was a disaster..."
+
+"Heard the Professor really laid into you," Candece sympathized.  
+"Oh you did, did you?" Lani asked.  Mumson and Bax, seated next to them at the dining table, nodded.  Lani closed her mouth as she noticed the sudden silence from what had been a lively argument over sports at the other end of the table between Soren, Chen, and Kiet.  She fussed with her meatloaf, mashed potatoes, and mixed vegetables, not her favorite combination, until the volume on the sports argument ratcheted up again.  
+Taking her prolonged silence for assent, Bax chivalrously leaped into the breach.  "Well, I thought it was a good idea."
+Mumson leaned in close.  "And Alice's turbines really did get dinged up pretty good."
+Lani smiled, pitching her voice low.  "Thanks, but the Professor honestly was pretty nice about it.  Although she did say something about certain people's overactive imaginations."
+Candece rolled her eyes, "Who us?  Naw."
+ CHAPTER 3
+
+The next few days went by quickly.  Candece and Karl had run across several related species of plants along an upland bluff.  The large number of samples had forced Lani to work closely with Kiet and Emma, the other two biochemists.  Lani found herself warming to Kiet and at least tolerating Emma.  So far, they had discovered three new molecules that might enhance the rejuvenation drugs that immensely increased lifespans throughout the Empire.  The discoveries had the potential for huge profits for Alchemistica and large bonuses for the expedition.  Mumson had tinkered with the electrical grid surrounding the pad around the lab.  That stymied the aggressive plants for the time being.  An increasing number of flutterbys, one of Gondwana's few large insect species, were spotted in vegetation surrounding the base.  Their bright colors were a welcome relief from the washed-out greens and yellows of most of the vegetation on the planet.  Juls had responded well to the QuikHeal, which meant he was back out in the field with Bax.  Lani had to admit she missed having Bax's dark wavy hair, twinkling eyes, and perpetual grin drop in on her throughout the day.
+
+A few mornings later, Professor Jonze called everyone's attention to the huge mass of flutterbys that now covered the lab's flat roof, hiding the corporate logo painted there, a large stylized "A" surrounded by a circle of double helix.  The flutterbys they had seen earlier must have called in all their friends.  The flutterbys were about the size of a human hand and their gorgeous red, blue, violet, and orange hues reminded Lani of glowing jewels.  All of them watched the pulsing wings on monitor screens as the camera on the communications mast slowly swiveled back and forth.  Even Zach, the IT geek seemed enthralled.  "Look, all those fluttering wings are even raising the temperature slightly," he pointed to the readout from their weather sensors, also mounted on the communications mast.  
+"It must be some sort of migration," speculated Karl.  
+"I saw something like this on Coccaburra once.  Only it was a kind of flying slug," Chen said, passing around a bag of hoarded candy, his lips already stained black by the licorice.  
+Lani passed with a shudder.  Chen had insisted she try some a couple of days into their voyage here.  Unsuspecting, she took a piece and barely avoided spitting it right back out.  Chen had smiled and nodded, somehow misreading her expression.  She nodded back and to avoid hurting his feelings did the only thing she could think of, she swallowed it whole.  As Chen turned to offer the licorice to someone else, she started gagging.  Fortunately, Candece was right there with a big bottle of water and some advice.  "Live, learn, and don't accept candy from strange men," she said with a wink.
+
+For a change, Alice was not being used for a sampling run.  Mumson took advantage of her inactivity to finish repairing the last of the damage that she had suffered from the seed pod incident.  He was outside working in the shadows of the flitter's tail fins, avoiding the fierce blue-tinged sunlight but enjoying a slight breeze, when they spotted the first signs that something was wrong.
+"What do you think you're doing, Mumson?  Mumson!"  The voice of Zach broke over the general comm channel.  The Geek sounded upset.  Since he was paging Mumson over general, he must not have been able to raise him over Mumson's personal channel.  
+Lani grinned at her workstation; it was just like Mumson to annoy the Geek.  She told her monitor to display the feed from the camera mounted where Alice was parked.  The flitter showed in stark relief in Draco's harsh glare.  Lani squinted, but could see no sign of Mumson.  She had the monitor switch to the overhead camera and spotted a figure running, no, dancing, in what looked like figure eights.  It looked like he was pretending to be a flitter, swooping dangerously close to the edge of the slab.  He wouldn't be harmed by the electrical grid, since Hoover, the AI, would monitor Mumson's implanted transponder, like any of theirs, and turn off the current under his dancing feet.  However, that meant the grid would not have any juice to discourage the plants that lurked along the edges of the base.  The redvines already seemed to be leaning in closer, undulating, following the manic movements.
+"What in Darwin's name is" Lani thought, then shut her hanging jaw with a snap and bolted into the corridor.  She barely beat Bax to the hatch, but at least he had thought to grab a flamethrower.
+"What is he doing?"
+"Don't know and don't care," Bax blurted out as he advanced across the glassy surface towards the figure at the edge of the slab, Lani close behind.  Soren and Chen, also armed, had emerged from the building's hatch nearest to Alice.  They were followed by Professor Jonze.  Only now did it register with Lani that Zach's amplified voice, alternating stern commands with pleading, was still sounding from the speakers mounted at the corners of the building.
+Mumson abruptly collapsed into a sitting position, staring raptly at the redvines snaking towards him.
+"No!"  Bax yelled and sprinted towards him, along with Soren and Chen, flames erupting from the throwers.  Lani, unthinking, followed Bax.  As the vines retreated from the flames she came close enough to grab Mumson and try to pull him back.  She struggled, not because Mumson resisted, but rather, because he went limp.  Jonze joined her seconds later.  Between the two of them they dragged him back to where several others, just emerged, helped carry him inside.
+"Mumson!  What's wrong?  Talk to me!  Mumson?" Lani kept shouting at him, while Jonze vented a steady stream of curses, including some pungent comments about wanting five minutes and a squad of Imperial marines alone with Alchemistica's pasty-assed accountants.  After they had him inside, Jonze slumped against the wall, her wiry gray hair plastered to her scalp.  "I'm getting too old for this," she muttered as she directed Zach to contact Karl and Candece who were at least an hour away, even at Bobbie's top speed.
+
+Candece, the self-professed tough bitch, was crying as she held Mumson, which made Lani feel even worse.  Mumson was strapped down as he had started twitching and jerking uncontrollably shortly after they brought him into the common area.  Now he was alternately mumbling, cursing, and screaming in pain, sometimes in different voices as though he was developing multiple personalities.  The autodoc had not been able to pinpoint any one problem, although it had administered a blood thinner to combat what it had diagnosed as incipient ischemia.  A sedative also had been administered, to limited effect.
+Kiet, the senior biochemist, had the most medical training.  He was ordering the autodoc to perform additional tests, most of which Lani was convinced would prove useless.  Professor Jonze had cleared out the rest of the team and now guarded the door.  Lani thought she had been permitted to stay as Candece's friend to lend moral support to the distraught woman.  Jonze was apparently more aware of her team's relationships than Lani had thought.
+Dammit!  Uncomfortable with Candece's raw emotions, Lani wanted to be more than moral support.  She cudgeled her brain cells, which seemed to have congealed into useless pudding.  It appeared clear that the symptoms all were related to the nervous system, that she and the autodoc agreed on, but the autodoc had not spotted anything wrong with Mumson's blood sample.  The autodoc was capable, much more capable than the minidoc common to most small spaceships.  It had to be with all the unknowns on an alien planet, a much more hostile environment than shipboard, in some ways, and Gondwana seemed more hostile than most, with unknown plants and unknown chemicals, as Lani was well aware of from
+"Autodoc?  Can you reanalyze the results of the last blood sample?" Lani asked.
+"Why?"  Kiet snapped.  "It didn't spot any known toxinsexcept for stress chemicals.  Just like the previous two blood draws.  I don't know what you think you're doing."
+"I-I just was thinking that maybe"
+"Let her run with it, Kiet!" Jonze ordered sharply from the door.
+Aware of Kiet's frustrated glare, Lani hesitated.
+"Lani, now would be good," Jonze prodded.
+"Autodoc, reanalyze for presence of all chemicals or compounds not normally found in the human body or those in unexpected concentration.  Rank results based on greatest deviance from expected," Lani's voice quavered, her heart agonizingly thumping in her chest.  Jonze had moved away from the door to stand next to them.  Candece looked up and met Lani's eyes, fearing to hope.  Oh, Spirit, let me be right, Lani swallowed.
+The autodoc's speaker buzzed:
+"Rank number 1:  cortisol, approximately 2.3 times expected concentration.  Rank number 2: epinephrine, approxi"
+Damn, she had worded that poorly.  "Exclude stress hormones," she interrupted.
+"Excluding stress hormones.  Rank number 1: unknown ester.  Rank number 2"
+"What known ester is number 1 similar to?"
+"Ester is unknown.  Please rephrase"
+Marx it!  She needed more computing power on this.  "Autodoc, send molecular configuration to Hoover, uh, the Hrvia H2700.  Hoover?"
+"Yes, Lani?"
+"Compare unknown ester configuration to those known in human body."
+Lani's fists were so tightly clenched, her fingernails were drawing blood.  The autodoc was so narrowly programmed
+"Unknown ester is a close match to glutamate.  Glutamate is a neurotransmitter, featuring prominently in central nervous system," the AI helpfully added.
+"Symptoms of glutamate imbalance?" Lani asked.
+"A wide variety of nervous system effects such as seizures, tremors, and hyperalgesia," intoned Hoover, "Including those characteristic of ischemia, addiction, autism, Parkinson's disease, Huntingdon's disease, and schizophrenia."
+Kiet took it from there, barking orders.  "Hoover, instruct autodoc on counteragent for this glutamate-like ester.  Autodoc, monitor levels of the same ester, in fact, reanalyze previous blood samples for concentrations of the ester and draw new blood samples every 15 minutes for analysis as well.  Administer counteragent based on observed concentrations.  Continue monitoring patient for signs of ischemia."
+Lani slumped, only Jonze's grip keeping her from collapsing onto the floor.  Those blagging single-minded programsher head spun.  At least Kiet knew what he was doing.  She would not have thought of analyzing the ester levels in previous samples.
+"Reanalysis indicate that ester levels have remained stable since the second blood draw," Hoover informed them.
+Kiet breathed a sigh of relief and turned towards them.  "Good.  It's the ischemia I'm most worried about now.  If the concentrations are stable, then we should be able to come up with a counteragent before he has permanent brain damage."
+
+"Those dumb machines," Bax snarled, "Thank goodness you thought of the glute stuff.  How'd you know to look for chemicals like that?"  He poured more rum for them.  Jonze had ordered their limited store of alcohol breached to help calm nerves.  Most of the team took advantage of that.  Lani did not normally drink, however, so Bax had suggested rum.
+Lani's hand shook as she reached for the glass he handed her.  "I'm a biochemist, right?  Neurotransmitters are a personal interest of minewere an interest.  I didn't know what the hell I was doing, though.  He almost died.  Mumson almost died."
+"But he didn't," Bax pointed out.
+"No, he didn't.  That's the important part," Soren pointed out.
+"Isn't that the blaggin' truth," Juls raised his whiskey in salute.
+After they had all taken a drink, Kiet leaned close.  "You've never had medical training, have you?"
+Her eyes still watering from the slug of rum, Lani shook her head.
+"Damn fine diagnosing," Kiet said.  "Damn fine.  What made you think of neurotransmitters in particular?"
+Lani hiccuped.  "Well, the plants, the redvines especially, have gotten a lot higher levels of certain chemicals, that's what Bax got in trouble for getting me a sample to analyze.  The ester-like compounds were sky-high, so I looked it up and the plants use it for a lot of things, including communication, you know, airborne chemicals, volatiles.  So I was thinking that if there really were a lot of those being broadcast and Mumson was out there for quite a while, it was windy you know, that he might have been exposed and what esters did do in the body human, human body, I mean.  That's really all I did the rest, Hoover did all the rest."
+Lani tilted her head.  That had not come out quite like she intended.
+"Ah, but you at least knew the right questions to ask," Kiet smiled, the corners of his eyes crinkling.  He really was old, probably well past his first century.  He must really like being out in the field.  Lani missed the first part of his question.  "were thinking about"
+"Oh shut up already.  Enough business," Chen scolded Kiet.  "Another toast to Lani, our red-headed hero of the moment."
+They all downed another shot.  "Look, she's turning even redder," Juls teased her.
+Lani's face did feel warm, but so did the rest of her.
+"Stop it, Juls," Bax scolded, putting his arm around her.  That felt nice.  Lani leaned into him.
+"Anybody up for some cubes?" Soren, never far from his favorite six-sided vice, pulled a pair out of his pocket. 
+"Not me.  You cleaned me out of my previous month's wages last week," Juls protested.  He noticed Lani's empty glass.  "More rum, my hero?"
+Lani blinked.  "No, no thanks.  I'd better think I quit.  I mean I"
+The others chuckled, making her face flush even more.
+Bax stood and offered her his arm.  "Come on, I'll walk you back to your hutch."
+A few friendly catcalls followed them as they left the common room.  Lani wondered if it was the rum that made Bax's hand feel so warm on her arm.  They ducked a little awkwardly through the hatch to the corridor running between the hutches.  Bax stopped in front of her door.  No one else was in sight.
+"Well, I'll say g"
+She impulsively pulled his head down for a kiss.  His lips felt much softer than she thought they would.  She pressed her mouth against his as long as she dared, hoping she was not kissing like a drowning fish, like a previous, miserable excuse of a boyfriend had told her.
+Bax broke off the kiss.  Oh Spirit, she did kiss like "Lani, we don't have to do this, you know."
+"But I want to," she opened her door and dragged him after her before she stopped to think.
+"You're sure?"
+She swept a few items of clothing off her rumpled bed and went after his lips again.  Funny, both the mess and the man would have bothered her before they arrived on Gondwana, but not anymore.  Thank Goddard, Bax had the sense to close the door behind them as suddenly they could not get rid of their clothes fast enough.
+CHAPTER 4
+
+Bax poked his head around the corner to her lab bench.  "Mumson isn't quite back to normal, but he's improving.  I guess it takes a while to clear all those esters out of the synapses, or so Kiet told me.  Between Kiet and Candece mothering him, I think Mumson isn't going to have any choice about getting back on his feet within another day."  
+He cocked his head.  "How are you feeling?"
+"Two zutsuu tablets and a lot of water and my head still feels like it is about to explode.  Fortunately I'm a biochemist and know about things like that.  I'm just glad you kept me awake long enough to burn off as much rum as you did," Lani smiled shyly.  
+"Yes, about that," Bax's tone flattened.
+Lani's smile instantly faded.  Oh, hell, here it came.  The old "it was a mistake speech."  She turned away, Alfie's dials swimming before her eyes.  Why was she so stupid?  She
+She felt Bax's hand gently turn her head.  She reluctantly raised her eyes to meet his blue ones, his sparkling blue ones.  "I thought it was wonderful.  We need to have seconds again, soon," he grinned.
+"What?  Why you, you" his kiss ended whatever protest she had in mind.
+
+Lani was thinking out loud at lunch when she mentioned to Professor Jonze about mounting some samplers for volatile airborne chemicals outside the building, so she was surprised a short while later when Bax and Juls went by carrying a ladder and some equipment.  Bax caught her look.  "Hey, you were the one who suggested this," he told her.  She watched them go out the hatch, feeling unsettled by her new-found status.
+
+She was not at all embarrassed when she was alone with Bax in his hutch that night.  True to his word, he had lost no time in coming back for seconds or thirds.  "Why me?" she asked as they lay on his bed.  He hesitated, tracing his finger down across the curve of her hips.  "And don't try and distract me, at least not yet," she growled.
+"Well, you're great to talk with, really funny, and incredibly smart," he began.
+"Bax, that's what you tell a girl when you don't want to sleep with her," she pouted. 
+"Then I realized that brain was wrapped up in this incredibly sexy package," he smiled at her, his wandering hand beginning to turn her thoughts to mush.
+"But I'm pale as a ghost, have these stupid freckles everywhere"
+"I noticed," he interrupted, closely inspecting a few of them.
+"Stop it," she said halfheartedly.  "My hair is a frizzy mess, I'm short, and I'm too curvy."
+"Not for me," he objected, staring into her eyes.  His eyes glowed with the truth, but she frowned.
+"Prove it," she challenged.
+
+Lani flipped over and picked up Bax's zuno from the floor.  The handheld zuno served as a personal digital assistant, including communications.  It also stored a large amount of data, often related to its owner's profession or for entertainment.  In Bax's case, the screen on the handheld computer flashed to the book he was currently reading.  "Illinois Smith versus the Maneaters of Gathol," she read.
+Embarrassed, he grabbed it back from her, muttering, "I was really, really bored."
+"Isn't this the one where Illinois loses his neutronic whip, but escapes by stealing the chastity girdle of the Maneaters' high priestess and using it to slide on the cable across the Chasm of Doom?"
+Bax goggled.  "You've read The Maneaters of Gathol?"
+Lani smirked.  "Read it?  I must have read at least half of the series, over and over again.  I couldn't wait for each new one to come out.  Illinois is the reason I wanted to get into space in the first place.  I begged my parents to get me a neutronic whip and a hat like Illinois' for my fourteenth birthday."
+Bax gazed admiringly at her.  "Lani, you are such a guy!"
+"I never did get the whip, but I did wear the hat the rest of the school year," she mused.  "Probably one of the reasons I was such a social outcast."
+
+Somehow between the two of them, they came up with a good enough argument to convince Jonze to let Lani join Bax and Juls on their next sampling tripor maybe their persistence wore her down.  She was looking more her century of years every day.  After giving them a long look, she finally agreed.
+"Do you think she's upset about us having sex?" Lani asked as they started to pack for their little trip.
+Bax shrugged.  "Who can tell?  Of course, old Jonze used to be in the Imperial Marines, and you know what they say about those leathernecks."
+"No what?"
+"They'd rather sleep with their karbine than another human," Bax waggled his eyebrows at her.
+"That is not what they say," Lani giggled.
+
+Bobbie normally had space enough for eight passengers, but most of the extra space in the flitter was presently filled by sampling equipment.  This was the first time Lani had been airborne since they landed six weeks ago, so Bax let her sit up front as Juls flew them to a cloud forest halfway up the slopes of a mountain they had nicknamed Misty Mountain.
+The turbines gave a reassuring, if noisy, drone.  "Too bad we can't convert to thrusters and really take you for a ride, but Jonze would kill us because of the extra fuel," Juls apologized.
+"Not unless we want to achieve orbit," Bax's voice came over Lani's headphones from his seat in the back.
+"Don't I wish," Juls lamented.
+"That's okay, this way I have a better chance to see everything," Lani grinned.  She avidly surveyed the pale shades of green and yellow rolling past underneath them, "It's amazing how sickly everything looks for a supposed jungle.  I guess it is because the sunlight is so strong, but I keep expecting big trees with huge, broad leaves.  You know, everything lush green with vines and monkeys everywhere."
+"No monkeys on Gondwana, except for us," Bax chipped in.
+"Plenty of blagging vines though," Juls said, "Way too many vines."
+
+"What's that?" Lani pointed towards a clearing in otherwise nearly impenetrable vegetation.  "Can we get closer to take a look?"
+"No!" Juls and Bax both retorted.
+"A bunch of Chen's trees with the machine-gun seeds are surrounding it," Bax explained.
+"Yeah, we learned that the hard way the first time we came out here.  Near as we can tell, it looks like some type of volcanic rock formation, maybe similar to obsidian.  It would explain the lack of plants," Juls tipped the flitter so Lani could see the brown, glassy outcropping better.  "Anyway, it's not worth the risk to get closer.  Besides, we're supposed to be looking for vegetation to sample, right?"
+
+Less than an hour into their flight, Juls pointed ahead of them towards a peak.  "Misty Mountain," he announced.  It was the tallest peak in a ridge line.  Clouds completely shrouded most of the other peaks, but Misty Mountain proudly thrust up through the mists.
+"One of the few places we've found that has an abundance of surface water on this planet," Bax explained.  "That blue-white star of a sun bakes most everything else, but we're close to the coast now.  You should even get to see something more like a typical rainforest, maybe swing on a vine."
+Lani laughed.  "Right, can't you see me on a vine?   I'd go splat into the nearest tree.  Jonze would never let me out of the lab again."
+
+They landed at the upper edge of the clouds, in a field dotted by stunted trees.  Lani diligently applied sunscreen, with a willing helper in Bax.  Although Draco was merely a dim globe through the clouds she would still get burned if she was not careful.  She followed the two men out of the flitter's hatch.  It was about a twenty-minute hike down to where they would start prospecting.  While Bax and Juls carried shovels, laser-bladed machetes, sampling containers, and of course, laser karbines, she carried the fourth, semi-intelligent, occupant of the flitter.  His weight felt heavier than his listed twenty kilos, and she had to set him down regularly, but she was damned if she was going to leave Alfie behind.  He was listed as a portable unit, after all, but she planned to have a word with the geniuses who had designed the dysfunctional carrying straps.  She also quickly found that the wide-brimmed hat she had brought for sun protection was more useful for keeping all the dripping moisture from running down the collar of her shirt.
+When they finally reached a likely spot, she extended Alfie's legs and pointed his solar panel in the general direction of the sun.  He beeped when she got the panel correctly oriented.  She started him on his self-diagnostics, while she watched the other two establish a sampling grid.  She jumped slightly as a wet tree branch brushed against her arm and heard a chuckle.  Bax must have been watching her more closely than she realized.  "Don't worry," he said.  "It takes the plants a while to react to our presence.  We should be able to collect all the samples we need and be on our way before we trigger a hostile reaction."
+"But just in case," Juls patted his karbine.
+The two of them quickly fell into an obviously familiar pattern, recording various sampling grids, thoroughly scouring the vegetation for potential samples, and cutting off or digging up the most likely candidates.  On a more settled world, they would be talking to the local residents to identify plants they used for medicinal or agricultural purposes.  Here, they had to look for signs in the environment itself, such as plants with a cleared space around themevidence of possible allelopathic chemicals that had killed off their competitors.
+Lani had Alfie draw in a few deep breaths to analyze the general volatiles of the site, then brought him over, shortened his legs, and set him next to a plant that Juls was ready to dig up.  After Alfie indicated he had a baseline count of the volatiles, Juls went ahead and harvested his victim.  Lani couldn't detect any obvious changes in chemistry, her previous wintergreen experience notwithstanding, but Alfie's nose was a million times more sensitive than hers.  She left Alfie there for a few minutes before hauling him over to where Bax was standing waiting with a machete next to a branch of large, fringed leaves.  "See?  I told you you'd get to see your rain forest."
+After a couple of hours of lugging Alfie back and forth, she realized that this was a bit more work than she had thought.  She stuck Alfie back in his preliminary spot for another baseline sample while she watched the two men workwell, mainly watched Bax work.  Unfortunately, she found watching his strong arms and the muscles playing across his chest more than a little distracting.
+While monitoring Juls as he dug up a small bunchgrass with purple flowers, she noticed the tearing sound it made coming out of the soil.  She had noticed bits of the tiny hair-like structures in soil stuck to some of the samples that she had analyzed in the lab, but had been unaware of how extensive they wereor even if they served the same function as rhizomes did on Earth.  "Can you pull on that?  So I can see how extensive the system is?" she asked Juls, bending over him.
+"Sure," he said, working his hand around a bunch of the exposed filaments and starting to pull.  "Ouch!" he jerked his hand back, knocking Lani off her feet.  "Damned roots shocked me," he flexed his hand as Bax hurried over.
+"Interesting," Lani said, taking Bax's hand to pull herself up.
+"What?" Bax and Juls asked.
+"Well, when most people think of plant communication"
+"If they do at all," Bax interrupted.  "Do you?" He asked Juls.
+"Are you kidding?  I figure all the rustling leaves are just signs they are out to get me," Juls responded.
+"Okay, if you two clowns are done?  Most people think of plants communicating by releasing volatiles, chemicals to be spread by air.  But if you consider it, that's a really inefficient way to do it.  The wind might blow the chemical the wrong direction or even worse, a hostile species might be listening or should I say, smelling?  Chemical signaling would seem to be best if you're trying to attract the attention of an unrelated species, say a wasp to attack the caterpillar eating your leaves, but we haven't seen many insects on the planet at all.  I think the additional energy in the sunlight means the plants can outcompete most animals."
+"What about the flutterbys?" Bax asked.  "Seem to be plenty of those."
+"But we didn't even see many of those at first.  I wonder if some of our activities caused the plants to call them in," Lani shook her head.  "Anyway, electrical signals would be a much more efficient way for plants to communicate.  I think that's what zapped you."
+"Or it could be a defense mechanism by a single plant," Juls volunteered.
+"It could be," Lani agreed.  "Do we happen to have any multimeters with us?"
+"I knew I shouldn't have said anything," Juls muttered.
+
+Professor Jonze looked up, pursed her lips, and shook her head.  "Before you even ask, the answer is 'no.'"
+"But I haven't even asked," Lani protested from the comm center hatch.  It was only a few steps back down the hall to her lab section, but now it seemed like a long march to imprisonment.
+"No, but every single lab scientist I have ever worked with has the same reaction to a sampling trip," the Professor's lips quirked.  "Except for Mendoza.  But as I recall, there was a monsoon and an angry water bison involved.  The lab monkey gets one taste of freedom and immediately decides it needs to get out in the field more often.  You might be right that there is a chance to discover something in the field, like those rhizomatic electrical currents.  The problem, Lani, is that I need you in the lab even more, doing what you do better than anyone else.  We are way behind corporate projections with how many potential pharma prospects we have found, and the Alchemistica bean counters made it very clear what they were expecting from this expedition."
+"But they can't blame you for Mumson getting drugged or Juls and the spike snares or not having the Quaddie in orbit helping us survey," Lani protested.
+"Oh, but they can," Jonze smiled wistfully, silhouetted by the blinking lights of Hoover behind her.  "This is your first trip, and things have been a little more difficult than you expected, no?  But I trust your eyes are beginning to open?"
+Lani nodded hesitantly.
+"Imagine you are a corporate bean counter.  Alchemistica is a small corporation, without the deep pockets of the true kartels.  The bean counters have never traveled further than from their desk to a budget planning session.  They have no idea what we face out here, but it can't possibly be as important as their triplicate forms.  Their only purpose in life is to find ways to cut costshopefully without killing an employee, but if enough money is at stake?  So, we wind up marooned on Gondwana, without any way to yell for help."
+Jonze rubbed her temples.  "Sorry, I suddenly feel like a tired, old woman who is selling vacuum to a spacerat.  Go on back to your lab bench and find the next blockbuster drug for me, okay?  Who knows?  Maybe some of the data you collected yesterday will indeed pay off."
+Lani forced down her carefully rehearsed rebuttal and reluctantly returned to the laboratory.  Yes, she did want another field trip and was disappointed about that, but worse was that the Professor knew what she was going to ask and even anticipated what arguments she was going to make.  Lani felt like she was back in public school all over again.  She smiled.  Maybe that was fitting; she probably had the same level of hormones now as when she had first become aware of boys, right after the socialization treatmentsno, she was definitely not going there.  Besides, what had the Professor said? Some of the data from yesterday might pay off.  If she didn't know better, it sounded like the old, gray-headed principal had given her permission to forget about her assigned homework for a while.
+
+Lani rubbed her eyes.  She had been staring at graph after graph of chemical compound abundances.  There were at least a dozen volatiles used by different plant species that indicated that they were being harmed.  The same plant even released different compounds depending on whether its roots were being disturbed by Juls digging it up or stems being broken by Bax snipping samples or even leaves being cut by Lani, imitating a hungry insect.  She wondered if her theory about the higher insolation giving plants the advantage was true.  There were a number of insect-like creatures they had discovered, but not nearly as many as expected.
+The volatiles did seem to affect neighboring plants.  On their field trip, one small shrub had tightly furled its leaves in response to the leaf cutting.  Surprisingly, a neighboring plant of a different species responded to the same stimulus by exuding a sticky sap.  Her background monitoring had shown that by the end of their sampling, there were well over a hundred volatile compounds that had changed in concentration.  She was intrigued by volatile that had been present in high concentrations when they started, vanished during their collection efforts, then started to rise as, finished with their sampling, they ate a snack, delaying their return.  She watched the video again, watched the leaves unfurl after the chemical reappeared.  She was willing to bet that particular volatile served as a general "All-Clear" signal.
+She had also taken a look at volatiles detected by her sensors outside of the laboratory building.  The glutamate analog had died down to near non-detectable concentrations; maybe it was a seasonal thing.  However, there were a number of compounds similar to those found as 'alarm' signals in their sampled plants from Misty Mountain.  Although Hoover did the preliminary structural analysis on the molecules for her, she did the final visualizations.  Computer programs were not as good as humans at spotting congruities.  It was like a three-dimensional computer game.  In fact, it was a near record score on a three-dimensional holographic game that had landed Lani a corporate scholarship to the University and brought her to the attention of Alchemistica.
+She noted that the concentrations of the alarm analogs that the plants were emitting around the base were on average ten times higher than at their Misty Mountain sampling location.  The plants were definitely broadcasting their distress.  The big question was "Who or what was going to respond?"
+The rhizomes and the electrical signals were another puzzle.   It could have been a defense mechanism, but the series of pulses recorded on the multimeters seemed to be overkill for simple defense.  Hoover had fewer theories about the electrical signals, claiming that he needed more data.  A sudden idea popped into her head.  Why not modify their multimeters and stick them outside to broadcast what they recorded?  They would likely be smothered by plants, degrading the signal, but that was okay, she did not need them to broadcast from much further away then the edge of the slab.  What she did need was help in assembling them.
+She found Mumson in his hutch, slouched against the wall, his eyes closed.  He woke up when she entered.  He listened carefully to her idea before breaking into a big smile.  "Sounds like a great idea.  I'd love to help you.  How many of these units were you thinking you needed?"
+"Three to five," she noticed he still had slight tremors in his hands.  How much of his enthusiasm was because he thought it was a good idea and how much was because he was bored out of his mind, feeling useless, while he was trying to recover?  He asked a few more questions.  The more he talked, the more she noticed the slight slurring of his words.  She tried to keep her worry off her face.  Maybe this little project of hers would do him good.  Anyway, this was one puzzle she was leaving completely up to him.  She was starving for supper and, she thought with a smile, dessert.
+
+"I noticed you stopped and talked to old Jonze for a few minutes at supper.  You even made her smile.  I didn't know that you knew her that well," Bax said, leaning towards her on his bed.  "What did you say?  Were you whispering sweet nothings into her ear like this?" he asked, demonstrating.
+"No, I just told her she was right, was it all I told her?" Lani was finding it hard to string a sentence together, which was certainly Bax's intention.
+"So it was sweet nothings," Bax started working on her ear lobe and she surrendered all hope of coherent thought. 
+CHAPTER 5
+
+The last two days had passed more smoothly than stock options into an executive's portfolio, as Juls put it.  Candece stopped by Lani's workspace to thank her for cheering Mumson up with the multimeter project.  Bax successfully placed the five results of that project around the perimeter of the slab without serious injury to humans or plants.  Back in the lab, the biochemists identified over a dozen new compounds with potential, including one that turned glassware to liquid.  That caused a few problems until Emma corralled her discovery into an unaffected container made, oddly enough, of plastic.  Even Professor Jonze was smiling at supper.
+
+Lani woke to the sound of rain pounding on the roof.  Its intensity was a soothing sound to a girl born on Nemos.  The planet's largest land mass, a southern continent, experienced intense squalls and thunderstorms for ten months out of its fourteen-month year.  She snuggled closer to Bax's warm body and was drifting back to sleep when the intrusion alarm shrieked from the speakers.
+"Oh, bloody hell," Bax groaned as he lurched out of bed only to have Lani's elbow slam into his jaw as she pulled her coverall up.  The hutches were not intended for two full-grown adults dressing in a hurry.  She planted a quick kiss on his lips by way of apology and ducked out into the corridor, half-dressed, and was nearly run over by Kiet strapping on a flame thrower as he headed for the hatch.
+
+Within a few minutes only Lani and Mumson were left in the corridor.  "Marx, but I wish they would let me use a flamethrower," Lani said, "I feel completely useless."
+"You feel useless," Mumson said.  "What about me?  I know how to use a flamer, but Old Jonze won't let me go out while she leads the charge.  Neither will Candece for that matter."
+"But Kiet?  Isn't he worried about anything happening?  He's got to be well over a hundred and he's still going out."
+"That's what happens when your entire family is killed in a megatyphoon on Atlantis.  That's his home planet you know.  Well, it was, anyway.  I don't think he really has a home planet anymore."
+"I didn't know that.  How many years ago did it happen?"
+"I'm not sure, maybe seventy?" Mumson shrugged.  "Anyway, it's probably better to have Kiet out there now than me.  I'm liable to go catatonic at the worst possible moments and I still have trouble communicating when under stress."
+"I'm sorry.  I know how that feels," Lani said.  "If I'd thought of it sooner"
+"If you had not thought of it when you did, I'd be dead," Mumson tried to smile encouragingly.  "C'mon, let's go watch the action with the Geek on the big monitors."
+
+"A false alarm, kind of," Jonze's expression was tight.  "The rain allowed some type of slime mold to cover the outer several meters of the electrical grid overnight.  It completely negated the detection components and, of course, the zapper.  Fortunately only a few vines had snuck in before we deployed the flame throwers.  Unfortunately, one of them managed to reach Bobbie's landing strut and half-dissolve the metal before we fried it.  Also, Soren caught a few darts launched from some new sort of plant."
+"Lucky us," Juls grumbled.
+"We will start mounting a watch whenever we expect any significant rain. Zach will draw up a rotating schedule to start in the morning."  She tiredly waved away the groans.  "Shut it!  This is not my idea of fun either.  If the Quaddie was still in orbit, or if they had given me the auto laser cannon like I wanted for the roofwell, let's just say I wish it was the bean counters with their fat asses on the line out here instead of us."
+A resounding silence met her unexpected outburst.  "Sorry," she apologized.  "Four and a half weeks before the Quadratic Equation is due back.  If we are careful, we should be able to make it until then, and I would rather not lose any of you.  You would not believe how much paperwork I have to fill out if someone diesespecially if all that is left is little, bitty pieces."
+Only a few nervous chuckles greeted her attempt at humor.
+
+Lani was a fish, a small fish with arms trailing behind, being chased by a large fish with a mouthful of sharp teeth.  She frantically twisted this way and that, barely evading those teeth before suddenly releasing a cloud of ink to make her getaway.  She woke in her own bed, the covers wound around her.
+Within the hour, she was in her lab fortified by a generous mug of caffeine, which was euphemistically called coffee by the dispenser in the galley.  The ink cloud had started her thinking.  She called up the analyses from her field trip again.
+
+"Just take it with you," she pleaded with Bax a few hours later.
+"This is supposed to be better than a flame thrower?"  He eyed the small, pressurized canister rather skeptically.  "Okay, Lani, I'll do it for you, but if the other kids laugh, you'll have to make it up to me."
+She met his lecherous grin with one of her own.  "I think I can manage that."
+
+Karl and Candece stood in front of an aerial holograph of their most recent prospecting site.  Candece rapidly shifted the view back and forth.  "Do you see it?  Right here, there's a straight line, less vegetation, a small square, about 50 meters on a side, inside a larger square?"  The view shifted left, overhead, right.  Karl firmly removed the projector control from Candece's hand, eliciting several sighs of relief.
+"Sorry," Candece flushed.  "But did you recognize it?"
+Juls squinted, "Looks like another prospecting base?"
+"Exactly.  So we decided to investigate," Candece gestured as Karl switched the view to a dimly lit video.  Up close, the scene looked like a cave, surrounded by large trees, with shrubs and clumps of grass covering the roof and vines nearly obscuring its entrance.
+"Is that the hatch door?" Lani pointed to something lying off to the side.  "It looks kind of twisted."
+Karl nodded, "It was and it is.  It looks like something ripped it right off its hinges."  The video zoomed in on a nameplate beside the hatch.  A blue circle with PfiBayer written vertically and horizontally, crossing at the common "B", was still visible.
+"Damn, the competition got here first," the Geek made a disgusted sound.  "Looks like two or three decades ago."
+"Kind of reminds me of the Church Universal's quartered cross," Soren remarked.  "Suppose that's a coincidence?" he asked to several nervous chuckles.
+The camera operator ducked to enter the dim recesses of PfiBayer's former base.  Panels hung down from the corridor ceiling, draped with something that looked like Spanish moss.  The camera rotated to peer through a doorway to show the remains of the lab, at least some of the lumps enshrouded by vegetation had the same shape as expensive laboratory equipment.
+"We checked after we got back," Candece's voice sounded hoarse as the tour continued on the wall behind her.  "Hoover has some limited records of previous expeditions to the planet that the Geek managed to decrypt for us.  As best we can tell, PfiBayer abandoned this base about three years ago."
+"Three years?" Emma was incredulous.  "That degree of decomposition has to have taken twenty years, fifteen minimum.  I've studied decomp you know."  Lani didn't think Emma meant to insult Candece, but Emma's people skills were so bad that there was a persistent rumor about her being one of those androids that the kartels supposedly had illegally developed to be their perfect employees; the employees who had no personal life and didn't want one.  Lani did not think that was the case, she felt she would have been able to tell, but sometimes she wondered.  And how did one bring up the subject?  "Hey, Emma, let's talk, I kind of know what you're going through."
+The video was showing the outside of the fusion reactor.  "The shielding there is supposed to withstand a high energy explosive, but all that is left is shreds," Soren noted.
+"Maybe the shielding had some sort of mineral the plants wanted," Lani said.
+"I don't care," Emma said as the scenes of decay unrolled before them, "I think we should leave before something happens."
+"Right, with what blagging ship do we do that?  I agree with the Professor.  I'd love to drop a few of our corporation bean counters out here without any support and see how they'd do," Candece snarled.  Mumson unsteadily reached for her hand, but she turned away.  His face fell, but Lani saw Candece furiously blinking away the threatened tears.
+"Turn that off," the Professor commanded and Karl quickly complied.  "Look, take it as a cautionary tale.  We are in a nasty spot, I agree, but we have not had anyone killed yet, and I want to keep it that way.  So, we go about our business, but if you get in a bad situation, do not risk it.  As of now, I don't care about the blagging quotas.  If the bean counters object, I'll take the heat.  Just take care of yourselves, okay?"
+
+CHAPTER 6
+
+Lani tried to focus on a lichen-like plant brought in by Bax and Juls.  They had found it growing amidst a bunch of much larger and more vigorous plants.  Somehow it had enjoyed a clear space almost a meter in diameter.  The prospectors suspected a potent chemical arsenal keeping it unscathed and brought it in for testing.  After a few false leads, Lani thought she had the lichen's major weapon pinned down, a toxic enzyme sporting high concentrations of copper.
+Her hand hesitated over Alfie's endlessly gaping mouth as she looked over to what she thought of as her environmental monitor.  On one side, the screen displayed a running tally of the volatiles present in the air around the lab building.  Most of them seemed to be those that she and Hoover had identified as background chemicals with only a few sporadic alarm chemicals.  There were a few others that she suspected were related to reproduction, such as the flowers that seemed to attract the flutterbys.  The other half of the screen displayed the electrical signals relayed from the four working multiprobes.  The fifth had been split open within a day by a vine which secreted hydrofluoric acid and then crushed what was left of the hardened titanium case.  What that vine would do to humansshe shuddered.  Unfortunately, the electrical signals picked up by the probes seemed minor ones controlling how the individual plant responded to environmental stimuli, such as turning to track the sun.  The vine that had crushed the fifth multiprobe, however, showed several big peaks in electrical activity before the crushing; hard to say whether it was cause or effect.
+The base was quiet at the moment.  Lani, Emma, and Kiet, were working hard to catch up on their sampling analysis.  Having swamped the biochemists, the collection crews were taking a break, puttering around the facility.  Bax had dropped by the lab twice with flimsy excuses to see Lani.
+Lani had Hoover pipe the view from the outside camera to one of her other monitors.  For once, both of the flitters were parked together during the day, their white surfaces tinged blue in the reflected glare from Draco.  A considerably improved Mumson had taken advantage of the flitters inactivity and was outside trying to fix the dents in the leading edge of Bobbie's fuselage caused by another run-in with seed dispersal.  Mumson slowly, lovingly, ran a powertool over the pitted surface.  He must be roasting, even with the increasing breeze, but seemed to enjoy being back outside.  Soren's lanky form leaned against the wall.  He was acting as Mumson's assistant and, Lani suspected, keeping an eye on him.  Lani sighed.  Her analyses could not wait, especially since tonight was poker night and she did not want to be late to the game.  She had a long ways to go to earn back the money she had lost.  Damn her pale skin and her teammates who could spot the slightest sign of a flush.
+She was waiting for Alfie to finish spitting out the analysis of the copper molecule when she noticed a flash from the corner of her eye.  Her head jerked around to the monitor showing the scene outside the building.  
+"Oh, no," she circled a finger on the screen to zoom in on several redvines probing inquisitively towards Bobbie and the figures outside.  It looked like a few other types of plants were joining in, among them the wicked spike snares.  "Mumson, c'mon," she pleaded though he couldn't hear her.  Their engineer stood frozen, the tool still gripped in his hand.  Flames shot from Soren's flamethrower, but there was no way he could hold off that many vines at once.
+Feet pounded in the corridor outside her lab, Chen and Candece racing past.  On the monitor she could see other figures spilling from the other hatch.  They had grabbed the flamethrowers that they now kept ready near the hatches on the outside of the building.  There was a distant booming she finally recognized as the loudspeaker outside.  She flipped on the monitor's sound and flinched as Professor Jonze's bellow filled the room, trying to shake Mumson out of his paralysis.  Lani cringed.  As she flicked her thumb to slide the volume bar down on the screen, her eyes caught sight of the other monitor displaying chemical and electrical levels.  Nothing much on the electrical, but the chemicals?  "Blag, blag, blag!" she cursed, watching the alarm volatiles skyrocketing.  
+The other humans had reached the melee outside and flames were everywhere, twisting as the wind kicked up.  If they weren't careful, somebody was going to get burned.  Lani glanced back at the monitor.  The electrical signals had started to increase on the four individual plants that bore the meters.  Maybe it was a reaction to all the chemicals being pumped out?  She saw the humans had beaten off the plants and were turning to wrestle Mumson back towards the other hatch.  Good, everyone was safe.  She couldwait!  She watched a slender figure pursue the retreating vines back across the edge of the slab.  Candece wielded her flamethrower continuously.  She was going to overheat it.  Jonze's voice boomed again, seeing the same thing.  The other figures turned back and, after a moment's hesitation, led by Bax, they ran after Candece who continued wading into the mass of vines that had dared to threaten her lover, despite shouted orders from Jonze.
+"Bax, no!" Lani screamed at the screen.  There were too many vines, their flamethrowers could never get them all, the alarm volatiles were continuing to climb, and there was not even a trace of any of the calming chemicals.  They had completely disappeared and
+Lani raced down the corridor, palmed the door to the control center, and slammed it open as soon as the lock clicked.  Inside, Jonze, clutching the microphone, was now trying to talk sense into Candece over the loudspeaker, while the Geek watched, helplessly zooming the camera to follow the furious but foolish charge of the humans.
+"Give me that!" Lani commanded and held her hand out for the microphone.  Surprisingly, Jonze gave it to her.  Lani could see the knot of humans, well away from the edge of the slab, now halted and surrounded by weaving vines.
+"Bax!  Bax!"  Lani saw his head whip around in surprise at her voice.  "Use the spray bottle.  Stop flaming and use the spray I gave you!"  She could see him hesitate.  "Do it now!" she willed all the confidence and command she could into her voice.
+She was not sure if it was her voice or that the flamethrowers were overheating and running out of fuel, but she saw Bax grab for the bottle hanging on his belt.  "Spray yourself first.  Then spray a path back to the slab."  She bit her lip, hoping the pressurized canister had enough juice in it.  It was considerably smaller than the backpacks for the flamethrowers.  The fact that her mix of chemicals might not work never crossed her mind.
+Bax managed to coat himself and Lani prayed she was not just imagining the small circle of space forming around him.  He aimed the canister towards the edge of the slab, but a gust of wind caught the aerosol and carried it away.  The plants went around Bax and snaked towards the others.  Bax timed his next burst between gusts and now Lani could see it was working.  The tendrils, vines, shoots were slowing, lying quietly where he sprayed.  He started back towards the slab, still working the canister, the others slowly backing after him, their flamethrowers running dry.  They were almost back to safety when a blast of wind swirled around them, dispersing the chemicals.  A blur struck Kiet, a snare, its spikes sinking deep into his thigh.  Bax whirled and sprayed around Kiet's writhing form.  The plants withdrew, allowing the others to grab Kiet and drag him up onto the slab after them.  Bax played rear guard, spraying any plants that ventured close.  The others started across the slab, Candece and Karl dragging Kiet after them.  Lani's eyes widened at the dark smear behind Kiet.  "Damn spike must have hit the femoral," Jonze voice sounded hoarse and ragged.
+
+None of them were willing to bury Kiet out among the plants.  Due to the expense, only in rare cases was a body shipped back to a home planet.  So, after a few platitudes and the push of the fusion reactor's button, all that remained was a pile of ashes and some shaken teammates.
+"It was only 'cause they went after Renny again," Candece tearfully explained.  "If they hadn't gone after him, I mean, look, haven't they done enough already?  He can barely take care of himself and they go after him and he wasn't doing nothin' to them.  Now Kiet's dead and it's all, it's all"
+Lani cringed.  If she hadn't given them a false sense of security Kiet might still be alive.  She should have realized the problem with the wind.  Making matters worse, Candece was roaring drunk and talking about MumsonRennylike that when he was right next to her.  But he didn't seem to take offense.  He put his arm around the miserable Candece.  "It's not your fault, Candy.  If I hadn't frozen like a rabbit out there, this wouldn't have happened."
+"It's too my fault an' don' you dare keep me from gettin' shit-faced drunk, Renny Mumson.  After twenty years you should know better," Candece chugged the rest of her glass.
+"I wonder how long it will be before Kiet's partner finds out back on Little Chicago.  He's beenhad been together with her for over fifty years" Soren shook his head.
+"I hate this blaggin' planet," Emma complained, running her hand through her short-cropped blonde hair.  "It isn't worth my risking life and limb for what Alchemistica is paying me."
+Bax looked at Lani and rolled his eyeballs.  Emma Wales rarely ventured outside her lab or her hutch.  This was one of the few times the older biochemist had even socialized with the others, if you could call this wake a social event.  Kiet's death must have really shaken her.
+Candece glared at Emma.  "Oh shut up, you blagger.  You haven't been out since we got here.  Fat chance of you ever risking anything!"
+"No?  Well, somebody has to be smart enough to make sense of those pitiful specimens you bring back in between drinking and screwing your brains out."
+After a few seconds, Lani surprised herself by ending the tense silence.  "No, I thought that was Bax's and my job," she said batting her eyes at him.  He leaned over and kissed her loudly on the lips.
+"You must be talkin' about Lani with the smarts 'cause it sure isn't you who saved our butts out there," Candece rose to her feet in spite of Mumson's restraining hand.  Lani winced.  This was not going at all well.
+The Professor's tired voice came from the doorway.  "Clam up, you two.  Go sleep it off, blag a friend, find a punching bag, or blag a punching bag, I don't care.  You're not helping anything right now."
+Emma glared around the room, radiating a cold rage before stalking off.  No, she was going to be even harder to work with from now on, Lani sighed.  That holographic computer game that had won her this position did not demonstrate how to deal with people like Emma, other than blow them away with a large gun.  Somehow Lani did not think that would be acceptable here.  Professor Jonze shook her head, "The bar is now closed," she announced to a chorus of groans.  "Before anyone else says anything stupid," she added in warning.
+
+Bax had fallen asleep immediately back at his hutch, his boozy breath ruffling Lani's hair.  She lay there, hoping for sleep, but she had not drunk nearly enough to get the visions of Kiet's bloodtrail out of her head.  Candece's words stuck in her head.  Why had the redvines gone after him?  He was not doing anything to harm them.  Sure, the alarm volatiles had gone through the roof, but it still should have taken the plants some time to respond, especially if the wind was blowing away from them.
+She slipped out from under Bax's arm, goosebumps on her bare skin.  After throwing on some more clothes in her own hutch she padded over to her lab.  Alfie opened his mouth as she sat down, infinitely patient.  "Nothing for you right now, baby," she patted his head and punched up Hoover on her monitor.
+
+CHAPTER 7
+
+"There have got to be more comfortable places to sleep," the dry voice penetrated and Lani jerked upright, immediately wincing at her stiff neck.
+"Uh, yeah, Professor, there probably are," Lani acknowledged, smiling ruefully at the lanky woman standing there.  She rubbed her nose which felt like it was squashed flat from the face plant she must have done at some point.
+"You know, sometimes being so focused helps, but so does a little perspectiveor even a decent night's rest.  We need you to be in top form, Lani.  Candece was being honest last night when she said you were the brains of our operation."
+Lani, embarrassed, pushed her unruly red hair behind her ears.  "No I'm not.  You're our leader and you've got plenty of smarts and you're good with people.  Not all of us are.  There's a reason you're a professor.  The field techs have to be pretty quick on the uptake, too, or they wouldn't survive.  Kiet was a good biochemist and even Emma, well, she's, she's competent."
+"Yes, but that is probably the most you can say for her," Jonze parked herself on the edge of the countertop.  "An advanced degree does not always mean you are smarter than anyone else.  Sometimes it just means you had not yet figured out what to do with yourself or your parents had too much money or both."
+She traced a dark finger in circles on the countertop.  "How did you figure out that trick with the chemicals?"
+"I thought" Lani's voice squeaked.  She cleared her suddenly dry throat and started again.  "Well, it was because of my little field tripletting biochemists out of the lab occasionally can pay off, you know."
+"Sometimes," Jonze conceded the point.
+Lani nodded.  "Anyway, I noticed the plants seemed to release one suite of volatiles, signaling the alarm, when they're disturbed.   On the other hand, when nothing is happening to them, they emit what I call the 'All-Clear' signal.  I had Hoover help identify the main components of the All-Clear compound.  Alfie here synthesized them for me.  I wish I had made enough for everybody, but I wasn't positive they'd work.  I mean, they should have, but I couldn't really test them.  I'm lucky that Bax trusted me enough to use the spray."
+"I do not believe luck had anything to do with it," Jonze disagreed.  "I want you to synthesize a lot of those chemicals.  I plan to mount canisters around the compound that Hoover can activate when he detects a problem.  Maybe even periodically mist the place with them to keep things under control."
+"That's going to use up most of our chemical feedstocks," Lani pointed out.  "The mix has a few elements that are in limited supply."
+Jonze shrugged.  "If we have to do it, we have to do it.  I do not want to lose anyone else on my watch.  We can refine some of the chemicals from raw materials here on the planet if necessary."
+"Not easily, especially since someone would have to harvest them, besides"
+"We will cross that bridge when we have to," the Professor said firmly, causing Lani to cringe.  Unfortunately, the older woman noticed.  "You were going to add something?" she asked more gently.
+Lani worried at her lip.  "I am worried that if we use too much All-Clear, the plants will get used to it, and it will stop having an effect."
+The Professor nodded.  "Consider it noted.  If the plants routinely use it, they must have some way to prevent overdoses.  However, at the moment, we do not have any better options."  She mused.  "But I am guessing that is not why you were here in the lab in the middle of the night.  What else is on your mind?"
+Lani hesitated.  Her hunch did not seem as crystal-clear in daylight.  "Something Candece said last night stuck in my head.  What did Mumson do to attract the attention of the plants?  I went back and looked at the video.  They weren't attacking, at least, at first.  The only thing I could tell that he was doing differently was running some power tools.  So I asked myself, why did all those different species of plants respond so quickly?"
+"The aggressor volatiles?" Jonze's question indicated that she was taking Lani seriously, which gave Lani enough courage to continue with her odd theory.
+"No, those spiked, true," Lani indicated her monitor showing the volatile concentrations outside.
+Jonze squinted.  "You are monitoring those real-time?"
+"Yes, well, really Hoover is monitoring them for me.  I just taught him what to look for.  Anyway, the volatiles peaked, but they couldn't be the reason the plants reacted that quickly, at least not all of them.  You see, the wind was blowing the wrong direction."
+Jonze nodded with understanding.  "The electrical signals."
+"Yes, the electrical signals," Lani said.
+
+Bax held up the small black box.  "So, all I have to do is switch it on and it will repel plants, even if it is windy?"
+Lani nodded.  "The wind shouldn't affect itunlike the spray.  I've tested it on the plants we've got growing in the greenhouse."  She waved towards one of those plants, a small ivy-like species still sitting on her lab bench.  "Mind you, most, like this one, are some of the tamer varieties we've found.  Plus the electrical field doesn't extend much beyond your body and" 
+Bax kissed her forehead.  "I'm sure it will work fine."  He thumbed the switch on the side of the box.  "It's buzzing.  I can feel a slight tingling or something.  Is that what it's supposed to do?"
+Lani nodded and Bax held the box over the ivy.  The ivy's vinelike leaves curled and moved away.  He grinned and kissed her again, this time on the lips.  "Lani's Patented Plant Repeller, I like it!"
+"I can't patent anything, it says so in our contract, 'All discoveries are property of Alchem'" she stopped at his raised eyebrow.  "I, I sometimes still have trouble withnever mind," she flushed.  "I'm hoping this works better than the spray."
+Bax sighed.  "I wish you would stop beating yourself up over that.  The spray worked fine.  It was the blagging wind andwell, I'm sure this will keep me safe and sound."
+Lani held out a second box for Juls.  "Still, be careful."  She knew he had heard the catch in her voice because he gave her a quick hug before hurrying out to the flitter.
+
+Lani fiddled idly with her lab equipment.  Admit it, she thought, you can't concentrate with him out there. Bax and Juls were visiting "Eden," their nickname for a small valley not far from Misty Mountain.  Eden had the most diverse bunch of plants they had found yet on Gondwana, an incredibly entangled mass of vegetation.  Which was one of the reasons she had pressed Mumford into finishing two of the repellent boxes by early afternoon, quickly enough for Bax and Juls to take with them.  
+They should be fine.  Juls had checked in after they reached Eden about 35 minutes and 17 seconds ago, but who was counting?  Lani forced herself to turn off the digital timer in the corner of her monitor screen.  
+She should clear off her lab bench and get started on analyzing the batch of samples from yesterday, but she was too tired to think straight.  She yawned as she picked up the prototype for their plant repeller and idly turned it on, waving it over the small ivy sitting next to it.  After a moment the tendrils started to wave and reach towards the repeller.   Suddenly alert, Lani frowned and moved the repeller away.  The tendrils relaxed.  She moved it back.  The tendrils reached for it again.  She could feel it humming in her hand so it must be working.  She turned off the power.  The humming stopped.  On again and another wave over the plant.  The plant reached towards it again.  "No, no, no."
+She turned the lab lights up brighter and, her hand shaking, looked closely at the repeller.  It looked like the rheostatat least that's what she thought Mumson had called ithad been turned slightly.  But it was still working.  She could hear it.  Although, come to think of it, she hadn't heard it earlier, had she?  What if it wasn't the electrical field that the plants reacted to after all?  The repeller dropped as she punched the comm.
+"Zach?  Have we heard back from Bax and Juls?"
+"This is Jonze.  No, Lani, we have not heard from them in at least fifteen minutes," the Professor said, amusement evident in her voice.  "I am sure they will"
+"No, you don't understand.  I messed up.  The repeller doesn't work, it wasn't the electrical field after all, I blew it, it attracts plants, I blagged up, if I had just, you've got to call them, call Bax, tell him not to use"
+"Zach, you heard?  Can you patch Lani through to"
+"Doing it now," the Geek interrupted.
+Her fingers clutching the edge of the lab bench, Lani heard a hiss and crackle before Juls voice.  "Team 2, Juls here."
+"Juls, don't use the repeller,  I blew it.  Tell Bax not to use the repeller, it doesn't work, it"
+"He went into the thickest part of the vegetation almost ten minutes ago, Lani.  Let me tryBax?  Bax!  Can you hear me, Bax?  Sorry, Lani.  The plants are so thick that they seem to be interfering with the signal.  Hang on!"  They could hear Juls yell again.
+"No answer, but I know which way hewhat the hell are those plants doing?  They seem to be goingBAX!  Blag it!  Get out of there!  I'm going in," Juls announced before his comm cut off.
+CHAPTER 8
+
+"Lani?  Lani?  There you are.  You need to come out from under there.  Please stop rocking, honey."
+Lani opened her eyes to see a weathered brown face.  The Professor was peering under the lab bench at Lani, concern in her brown eyes.  The Professor started to reach toward Lani, but her hand hesitated halfway.
+Lani had no memory of crawling under her workstation.  Her chest constricted and she felt panic creeping over her again.  Get a grip, you aren't ten anymore, a voice in her head said.  The voice sounded remarkably like her mother.  Lani finally managed to stop rocking.  "I was, I was just, I mean," she stammered.
+The Professor smiled encouragingly.  "Bax and Juls are on their way back.  They are okay.  Bax is a little scratched up, but they got out okay."
+Lani looked up into the Professor's face.  Was she telling the truth?  Bax was okay, she hadn't killed him?  Lani's hand trembled as she reached out to take the Professor's hand, still outstretched.  There was a strength in those slim, aged fingers as the Professor slowly drew her out.
+"S-sorry," the language skills always took a little while to come back, but at least her mind was working again.  "Sorry," she repeated more confidently this time.  She saw Chen and Soren looming behind the professor and Emma joined them.  She must have heard something from her lab next door.  Their faces wore various expressions from pity to disgust, if she was reading them right.  Lani fought back tears.  No doubt everyone thought she was a complete recessive, a genetic basket case.  Now she was going to have to start all over again.  It would be years before the whispers of "mutie" would stop, if they ever did.
+Professor Jonze turned around.  "Don't you all have things to do?" she asked pointedly.  They quickly scattered.  The Professor gave Lani a few minutes to sit on the stool in front of the lab bench to compose herself.  Lani realized she was still clutching the older woman's hand in a death grip and, embarrassed, let go.
+"So, what happened?" the Professor asked.
+"I made a mistake," Lani confessed.
+The Professor's lips twitched upward.  "I heard that the first time."
+"Sorry," Lani started.
+"I heard that too.  You're going to have to stop apologizing, or we will be here all day."
+"Sorum, okay," Lani made an effort to corral her thoughts.  "Sometimes when I get really stressed, I, everything, I have trouble," she ended lamely.  She forced herself to take a deep breath.  She could do this.  "It wasn't the electrical fields.  It wasn't the fields after all, Professor."
+"No?"
+"No, I was an idiot, stupid for even thinking that.  I got cocky when some of my earlier hypoth, hyguesses turned out to be right.  This time I wasn't so lucky.  You see, I, uh, measured a lot of electrical activity when I was out in the field with Bax and Juls, but I drew the wrong, uh, conclusion."
+"And, occasionally, letting biochemists out of the lab can be dangerous," the Professor gently teasing her.
+Lani's lips quirked in response.  At least the Professor was not treating her like the freak she was.  "That's true.  It didn't help matters that the four monitors, the ones that are still working, that Bax installed around the base; those monitors showed the plant potentials picked up during that last incident with Mumson."  She took a deep breath.  "What didn't penetrate my thick skull was that those monitors are observing individual plants.  The electrical potentials are present as ions in the plant fluids, like the, whatyoucallitphloem.  I should have realized plants don't routinely swap sap," Lani shook her head.
+"So, if not the electrical fields, then it must be something else," Jonze mused, drummed her fingers, then nodded.  "The plants are communicating with sound, aren't they?"
+Lani returned the nod. "It makes sense.  Sound isn't dependent on wind, messages can be transferred from plant to plant, and, best of all, the lower range of acoustics from Mumson's grinder is within the range used by plants for communication.  Don't you see?  The redvines weren't attacking Mumson, they were curious, attracted by the sounds his tools were making."
+The Professor's look spoke volumes.  "You're saying the plants are talking with each other?  Like we are now?"
+"Of course not,  I mean" Lani suddenly felt exhausted.  "My brain feels like sludge.  I don't have the slightest idea of their language, their vocabulary, nothing like that.  That's why we need to put up a bunch of microphones around the slab's perimeter and have Hoover monitor them.  Maybe have someone go outside and do a few things to the plants.  Hoover can look for patterns in their responses."
+"Absolutely not!"  Jonze slapped the countertop hard, causing Lani's head to jerk up.  She smiled at Lani's startled expression.  "You are more tired than you realize, Miz Callis.  You may have the right idea, but you certainly have the wrong place.  You explained before that the aggressor volatiles are an order of magnitude higher around the base than elsewhere.  I gather that one of the reasons Team 2, Bax and Juls, are still around is that the plants in their sampling spot, in Eden, had not been sensitized to us, yet.  I am willing to have the techs set out microphones and provoke the plants, but I want them to do it somewhere with virgin plants."
+"That is a better idea," Lani admitted, yawning.
+"Of course it is," Jonze grinned.  "That is why I am the boss.  Now, as the boss, I am ordering you to get away from your lab for a change.  Especially try and stay out from under the lab bench.  That would not help morale one bit for the rest of our team to see our brilliant biochemist hiding under there again."
+The Professor's expression softened.  "Remember what I told you about being too focused."  She paused, listening.  "Sounds like the flitter has returned.  Go say hello to Bax, but then get some rest and something to eat, whichever order you choose.  And to make sure you actually sleep, I am sending that horny boyfriend of yours off first thing to someplace safe to start talking to the plants."
+
+All of the field techs who went out for their "plant torture" sessions, as Juls put it, were armed with a canister of Lani's proven All-Clear compound, but no electronic plant repellers.  Each team visited several different locations, where they cut, dug up, burned, froze, and otherwise molested the plants while recording any sounds the plants made in protest.
+
+"Are you okay?" Bax asked later, trying not to look too concerned.
+"Ah, you heard about me under the lab bench, then."  Lani sighed.  "Does everybody know I'm double recessive crazy?"
+Bax hesitated, then told her the truth.  "It's a small group here," he shrugged.
+"Great, just great," her eyes were clouding up again, with showers on the horizon.
+Bax reached out and tilted her chin up.  "For what it's worth, I already knew you were crazy."
+"W-what?"
+"Who else would have been nuts enough to pull me into her hutch and assault me?  Me?"
+Lani felt her lips curl up in spite of the tear rolling down her cheek.  "You're a good man, Bax."
+"You better believe it," he grinned and wiped her cheek.  "Now on to the less-important things that keep interrupting, like the plant torture sessions.  It was creepy.  After a while I felt the plants were whispering, plotting against us."
+Lani pursed her lips in mock sympathy, "Poor boy, but I'm glad you toughed it out, because I think it might be important, Jonze even assigned Zach to help me," Lani added, trying to insert some normality into her voice.
+"Who?"
+"Zach.  You know, the Geek?"
+Bax nodded.  "Right.  I'm kind of surprised, though."
+"Why?  He's really good."
+"No, I meant that you'd need help."
+"What?  Zach can program circles around me."
+"But you're so smart."
+"I'm not that smart, not with everything.  How can you even say that after I nearly killed you and Juls with that dumb plant repeller idea and then run away and hide?"
+"Who else would have even had an idea to begin with?  I wish I were as smart as you."
+Lani pulled back in surprise.  "Why?  You're handsome, outgoing, funny, athletic, everything I'm not."
+Bax snorted.  "Most of the human race is good looking, in a generic sort of way.  We select for appearance.  But you're smart, you're just born with that.  What?  What's wrong?"  
+Lani hands were folded over her mouth, shaking her head. 
+"Lani?"
+"Epigenetics," she blurted out.  "I wasn't kidding about the recessives.  I wasn't just born with anything.  My parents might not have been wealthy, but they scrimped and saved what little they had to spend on their future child to give me a better life.  You're right, you can't do full-scale genetic engineering for intelligence, the Church Universal won't allow it among other things, but you can tweak the epigenetic materialthe stuff that turns the genes on and off.  That way you can still pass the genetic purity tests.  But my parents couldn't afford the name brand labs, the Zyzvals or even Operon United.  They used an unknown firm, then later spent the last of their money to have me undergo the Church testing for Citizenship.  I failed, Bax.  I'm a mutant.  That's one of the reasons I have trouble with stressful situations."
+"You're a what?"
+He was upset.  The look on his face said it all.  It might have been better if she had not even undergone the tests.  You could get by without knowing, but her parents had believed the blackhole genetics firm.  They had wanted her to be able to have everything they couldn't, the things that came with citizenship.
+"I'm a mutant," her lower lip quivered.  Oh, Spirit, at least let his rejection be quick.  People, especially from the outworlds of the Empire, still followed Church teachings closely.  Unless a man speaks his father's tongues...and under stress she had trouble speaking at all.
+"You're not a mutant," Bax said.
+"Bax, I saw the tests myself, my parents"
+"Lani, you're not a mutant.  So a few genes don't completely match up to some test hundreds of years old.  I don't care.  I wish my parents had been able to do for me what yours did, but I was the fifth of seven kids.  No way my parents could have ever afforded the genetic tweaking.  You're the smartest person I've ever met, that part sure worked.  Nothing wrong with that."
+Lani sniffled.  "I wish I had gotten better looks.  I'm pudgy, I'm"
+"You're beautiful," Bax interrupted, staring into her eyes.  He leaned forward to kiss her, but the moment was spoiled when she had to wipe her runny nose.
+
+
+CHAPTER 9
+
+Another rainstorm moved in that night.  Lani did not find it nearly as relaxing as the previous one.  Soren had the first watch, followed by Candece, then Karl, but they were all on edge, fearing another plant invasion.  They could not see anything through the sheets of rain, it knocked the volatiles down to nondetect limits, and its drumming meant the acoustic sensors were useless.  Nothing seemed to happen overnight, however, and no alarms went off.    
+The rain let up the next morning around dawn.  Lani had joined the Geek to go over the programming for the acoustic trials.  He was carefully choosing his words, obviously worried about setting her off again, just like the others she had run into in the corridor and galley that morning.  The Geek's overly cautious approach was driving her crazy.  She finally exploded, making a few, very unladylike comments on what he could do with his sympathy.  After that, things improved considerably from Lani's viewpoint.
+Zach was the first to notice the change outside.  He had the cameras zoom in on what looked like four white stumps, one along each side of the slab.  "Those weren't there before, were they?" he asked.
+He and Lani went back and reviewed the video from before the rainstorm.  There was no sign of the stumps.  "Look at all of those roots," Zach pointed out unnecessarily.  Each stump was a little over a meter tall, but had a dozen or so thick roots that emerged in all directions before diving into the soil.
+"They're called adventitious roots," Lani said, feeling the beginnings of a headache.  She called up her volatile tracking program on the monitors in the control room.  The alarm chemicals were still down, perhaps washed out of the air by the rain, but Lani had her doubts.  A number of new, more complex molecules had appeared.  Wouldn't they have been washed out first since they were heavier?
+The level of low-frequency sound outside also seemed to have picked up.  She spotted Candece going past with a mug of that awful coffee and, on a hunch, Lani convinced her to go outside and help her re-orient the microphones to point at the stumps.
+When Lani and Candece came back in, Lani headed towards her lab.  She was only slightly surprised to see Professor Jonze in her laboratory.  Lani braced herself for a scolding about going outside without permission, but Jonze pointed to the traces on the screen that showed the stumps were the source of most of the increase in sound.  "How did you know?"
+She listened to Lani explain that producing all those volatiles was expensive metabolically speaking, that the plants surrounding the base had to be calling someone or something important, that the sentinels, the stumps, were the most logical suspects.
+"I wish you would not use that term," the Professor slowly tapped her finger on the countertop.  "It makes the plants sound like they have intelligence."
+"Don't you think they do?" Lani blurted out.
+The Professor smiled grimly.  "Let's say I do.  Let's say I put that in my official report to Alchemistica, that there is intelligent plant life, intelligent alien plant life, on Gondwana.  What do you think will happen?"
+Taken aback, Lani thought.  "I suppose it would fall under the Morrison Protocols, wouldn't it?  The planet would have to be preserved for study."
+"Is that honestly what you think would happen?"  Jonze's eyes bored into Lani, like a teacher with a particularly slow student.
+"That is what the law requires.  There would be scientists coming to Gondwana to study the aliens," Lani smiled, playing along.  "Lots of scientists.  The chance of a lifetime.  Of course Alchemistica would have to stop the pharma prospecting.  All the kartels would.  Anything new discovered would be owned by the Emperor."  Her smile faded.  "He might even Imperialize all the stuff we've found so far.  Alchemistica could even be prosecuted if it was shown to know about the intelligent life beforehand.  Or we could be held personally liable," she swallowed.
+The Professor gently prodded.  "Not to mention that other kartels have also been here, prospecting.  It makes you wonder what they know.  And don't forget the Church Universal.  They're not exactly fans of the idea of alien intelligence.  So now, what do you think would happen?"
+Lani thought of sitting through sermons in the Church Universal cathedral her parents attended and her head started to throb again.  Sermons about the uniqueness of human intelligence giving humanity the right, no, the duty, to exploit the universe for profit.  Not that the Church phrased it exactly that way.  She rubbed at her temples.  "Alchemistica would come in and quietly exterminate whatever looked like it was intelligent, maybe with the help of the other kartels, in order to operate without restriction.  The more useful compounds we discover, the more likely extermination would be because of profit.  The Church would also do everything it could to keep it under wraps."  She drew a rasping breath.  "Oh, Goddard, being out in the real universe is hell."
+The Professor laid her hand on Lani's shoulder and gently squeezed.  "No, not the universe, Lani.  People.  People are hell.  Some people, anyway."
+
+The Geek tried to work his magic, enhancing the sensor files from the night before.  But the storm had turned visual, sound, even chemical readings into so much hash.  The stumps could have sprouted overnight or even high-stepped into position, he and Lani had no way of knowing.  The Geek had given up and shifted gears to programming an acoustic decryption program when Lani came back from breakfast.
+
+Lani and the Geek entered the common room at lunch time.  Conversations ceased as seven heads swung around to look at them.  Only Candece and Karl, who were away on a sampling trip weren't present.  Lani shook her head and went to sit down with Bax and Juls.
+Emma at the next table over snorted.  "It figures the fat girl wouldn't find anything.  Too busy hiding from the plant boogeymen," she told Chen, who tried to shush her.  Bax tensed, but Emma flounced out of the room before anybody, including Professor Jonze, could say anything.
+Lani turned to Bax.  "What did I ever do to her?"
+Bax squeezed her hand.  "You're smarter than her, way smarter.  Her family is kuan, they have the money and connections, the wasta.  She went to the best schools, and yet you can think circles around her and she knows it."
+"I don't envy you, Lani.  That woman is a massive pain to work with," Juls whispered.  Lani nodded.  She was afraid it was only going to get worse, since the Professor had just informed her that Emma would be doing all the pharmaceutical testing so Lani and Zach could concentrate on plant communication.  Lani pushed her food around and quickly left when Bax started pestering her about actually eating something.  Her gut always gave her grief when she was stressed out.  Better to not tempt fate.
+
+Mid-afternoon and they were no closer to knowing what the increase in sound around the stumps meant.  Lani's head pounded and she was convinced the Geek was simply changing variables at random, hoping for some sort of pattern to emerge.  "We just don't have enough of a sample yet," he told her.  "It's not random noise.  There's definitely a pattern, but what kind of words do plants use?  Do they have sentences?  Grammar?  Something like machine language?" he asked hopefully.
+Lani sagged onto a stool next to one of Hoover's memory banks.  "Look, maybe we should give up.  We're not getting anywhere.  I probably screwed up again.  I don't know.  Why don't you just focus on correlations with the sounds our field crews recorded yesterday?"
+"I can't.  Nobody is out there torturing the plants next to the base," the Geek's tone dripped with sarcasm.  "Maybe if you send your boyfriend out with a flamethrower we'd see something."
+"Maybe her boyfriend would rather keep his skin intact," Bax interrupted them.
+"How long" Lani spun around and immediately wished she hadn't the way her head was throbbing.
+"Long enough," Bax said, grabbing her before she could topple off the stool.  "You two are making this too hard on yourselves."
+The Geek's hackles rose "Oh, really?  I suppose you're an expert on Fourier transformation and Poisson summations?"
+Bax walked over to them.  "Not at all; you need a little different approach is all."
+Lani waved off the Geek's incipient protest.  "What's your idea, Bax?"
+He grinned at her.  "It's like a bad first date."
+Lani and the Geek both had puzzled expressions.  Bax sighed.  "C'mon.  Think like a plant, my redheaded goddess.  Outside of someone torturing it, what is a plant going to talk about?  The weather.  Just like a"
+"bad first date.  Brilliant!  I love you, Bax," Lani blurted out and blushed.
+"Well, I don't," the Geek groused.  "What the hell is he talking about?"
+"Forget correlating with the distress signals from the other sites," Lani gestured.  "Start by correlating the audio signals with the weather, temperature, humidity, soil moisture, evapotranspiration, insolation, or whatever the hell else you can think of."
+
+By suppertime, Hoover and the Geek had built up a good-sized plant vocabulary.  It appeared the plants had plenty of experience with bad dates.  By varying frequency and duration, the plants could describe typical environmental conditions that they encountered.  The Geek even had Soren go out and spray some plants with water to record their signals.  Lani figured that would probably be non-threatening enough to keep him from being attacked, but Bax stood by, just in case.
+Hoover was currently analyzing multi-tonal sequences that appeared to express more complex messages, sequences that the field crews had recorded the previous day.  In the common room, the Geek was waving his arms as he explained that these sound sequences appeared to be built on the simpler environmental ones.  A storm with high winds that tore off leaves or branches might be phrased as high winds, excessive evapotranspiration, and loss of fluid, for instance.
+"I think somebody is going to cream themselves pretty soon," Bax leaned over and whispered in Lani's ear.  She started laughing, which didn't work well since she was in the middle of drinking.  
+She glared at Bax as she mopped up the remains of her drink.  "You're going to pay for this, you know."
+"Promises, promises," Bax intoned solemnly.
+
+After supper, Lani was on her way to Bax's hutch when Emma passed her.  Worried about saying the wrong thing, Lani simply gave a brief nod.  "You think you're too good for the rest of us now?  You think this is just a game, stepping all over everyone to get ahead?"  Emma said from behind her.
+"What?" Lani sputtered and turned around.
+Emma's look would have iced a solar flare.  "You heard me.  You think you're so smart, but you're just going off to hump like rabbits.  No wonder you call them hutches."
+Surprised by the sneak attack, Lani was speechless.
+"If you're so bright, ever wonder what that 'boyfriend' of yours did on previous expeditions?  No, of course not.  He always blagged the young ones, the dumb ones, a new one every trip.  Let me ask you, does he ever say anything about plans for after this expedition is over?  No, don't bother to answer, I can see it in your face.  Yeah, you're just so blaggin' brilliant."
+
+"What's the matter?" Bax asked.  He reached to turn Lani's face to him, but she jerked her chin away.
+"Why don't you ever talk about what's going to happen after the expedition is over?" she asked tonelessly.
+"What's going to happen?"
+Lani turned to face him.  "Yeah, what's going to happen with us?"
+"Oh, I didn't think anything was going to happen."  There was no twinkle in his eyes now.
+Lani shook her head.  "Emma is right.  I'm just an idiot, a stupid idiot."
+"Whoa, what's this all about?  Emma?"
+"Yes.  I ran into her in the corridor just now.  She said you always, you chose a young, dumb one, each expedition.  I guess I'm the only one that fits the bill this trip, huh?  She asked if you ever talked about plans for us, afterafter this blagging trip."
+Bax looked her straight in the eye.  "No I haven't and you know why?  I was scared to."
+Lani scoffed.  "You?  Scared?"
+"Yes.  I didn't think you were that interested in me or wouldn't be once we got back to civilization."
+"What, why?  You're lying.  Scared?"
+"Yeah, scared.  Like I told you before, you're incredibly smart.  I was afraid you'd think I was too stupid."
+"What?  I would never"
+"Lani, listen.  You're a genius.  You think of things that nobody else would even dream of.  You're going to go places.  There's no way you'd want somebody like me tagging along, even if we both happen to be Illinois Smith fanatics.  That's why I haven't said anything.  I assumed this was just one of those flings for you.  You know, your first expedition.  I wanted to enjoy it, to enjoy you, while I could."
+Lani opened her arms and Bax enfolded her in a hug.  "I'm sorry," she said, her voice muffled against his chest.
+"I am too," he said, "for assuming that you were like everyone else, that you were that shallow."
+She lifted her face to his, "You should know by now to watch out for my riptides."
+He laughed.  "You sure got that right."
+"Remember that scene in Illinois Smith and the Ocotlan Ruby?  Where, in the end, Illinois rescues the princess at the oasis?  Remember what they do then?"
+"Yes," Bax breathed.
+Lani kissed him.  "Think we can try that?" 
+CHAPTER 10
+
+Lani wanted a closer look at the white stumps.  "Are you sure you're up to this?" Professor Jonze asked.  Lani frowned, crossing her arms.  
+"Okay, calm down," Jonze motioned with her hands.  "I'm sorry I asked."
+They discussed strategy.  The Professor tried to insist on a handful of flamethrower-wielding bodyguards, but Lani had objected that the sentinels might recognize them.
+"Sentinels still?" the Professor asked with raised eyebrows.
+"I can't help it."  Lani waved a hand.  "Look at where they have positioned themselves and the incredible amount of signal traffic revolving around them.  They seem to be hubs of communication, kind of like nerve networks.  And if you look at where they're positioned, almost halfway along each side of the slab, that can't be accidental."
+"Remember our little chat, I still think you're anthropomorphizing them a bit too much," the Professor protested, "but I still don't want you going out unarmed."
+"We've been misting the area with the All-Clear chemical for more than two days now," Lani protested.
+"Weren't you the one who told me that you expected the effect to wear off?"
+They eventually compromised, with Lani liberally festooned with what she hoped was non-threatening monitoring equipment; Bax and Juls armed with canisters of a new, improved formulation of the All-Clear chemical; and Soren, Chen and Jonze positioned up next to Alice in the flitter bay with flamethrowers at the ready.  Candece had volunteered, but Jonze decided that it would be safer to deploy her away on a sampling trip with Karl.  Mumson and the Geek were in the control room, monitoring things.  And Emma?  
+As Lani walked with Bax and Juls past Emma Wale's workstation, she purposely linked her arm through Bax's and pulled him down to whisper in his ear.  Emma's glare warmed her heart.  With Kiet dead and Lani working on the plant communication problem, Emma finally had to work a full shift and more at the insistence of Professor Jonze.  The fact that nobody else seemed to be sympathizing with her incredibly increased workload had not done a thing to improve Emma's mood.
+
+As they approached the stump on the west side, Lani felt a chill run down her spine.  The stump appeared chalky white.  With its truncated form and all of the adventitious roots running out from the trunk to plunge underground, it reminded Lani of severed vertebrae with the bottom half of the skeleton buried.  She shuddered.
+"Aha, I saw that," Bax said from behind her.
+"Saw what?" Lani asked chirpily.
+"You're not fooling me, you feel it too.  It's like when Juls and I did our sound sampling up in the hills, only worse."
+Her unease grew the closer she got and the vertebrstump hadn't even done anything yet, but sit there and silently communicate with its neighbors.
+"Infrasound," Lani realized.  
+"What sound?" Bax asked.
+"Infrasound, very low frequency sound waves.  Most of the plant communication is at frequencies at the bottom end of human hearing or less.  Your ears can't hear it, but your body can sense it.  That's probably what did poor Mumson in.  The sentinels use infrasound to help make you scared like the directors do in some of those horror holos that you like so well."
+"Ah, now you've spoiled the mystery for me."
+Juls snorted.  "I've seen your collection of horror holos, Bax, there's no way she can spoil anything."
+Lani grabbed the acoustic meter slung around her neck and turned it on.  She watched the dial for a minute or two.  "There, did you feel that?"
+"Yeah," Bax said.
+"Me too," echoed Juls.  "Was that infrasound?"
+"Yep, a nice big spike in activity."
+"Hey, look at the top of the stump," Bax pointed.  "It's breathing."
+What looked like gillslits were slowly opening and closing.  Lani quickly brought another meter to bear.  "No, it's communicating.  Those 'gills' are pumping out volatiles.  Like I suspected, the sentinels are the source of those new, more complex molecules Hoover has been detecting."
+"I wish you would stop calling them that," the Professor's tinny voice came through Lani's zuno hanging next to the electrical multimeter.  Lani had forgotten the others were tied in via the computer/comm devices.  "Maybe you'd better back up a few steps. You seem to have attracted their interest," Jonze added in a dry tone.
+"Yeah, I see it," said Juls.  He and Bax moved to put themselves between Lani and a large number of questing vines.
+"Oh, relax, they aren't going to attack," Lani said holding up the air sniffer.  "The aggressor volatiles are still well down in the normal range.  The acoustic density is increasing quite a bit, though."  She tapped the appropriate meter.  "Zach?  You and Hoover getting this?"
+"Roger that, Lani.  Hoover should have lots of new sounds to add to his vocabulary after this.  So far he hasn't flagged anything that seems to be related to the alarm signals."
+"That's good," Lani let out her breath.  She thought she was right about the plants, at least this time.  But if she wasn't....Hold it, roger that?  It must be some secret geek language.  She'd have to ask Zach later because she did not have time to worry about it now.  Part of her deal with Jonze was a half-hour time limit.  Her meters recording, Lani walked completely around the sentinel, careful to avoid its roots or whatever they were.  She then stepped closer, held the volatile sensor through the next puff from the gills, then stepped back, repeating the motion several times.
+The dials showed slight increases in both sound and volatiles when she got closer, but not a big difference.  She looked around.  They were surrounded by a thicket of vines, weaving an intricate dance about waist height.  "Juls?  Give that bunch near you a quick spritz from your canister."  She waved at a particularly active clump of vines to his right.
+"Are you sure" began Professor Jonze's voice, but Juls had already done it.  The vines quieted.
+The Geek's voice broke in.  "Interesting, the acoustics not only decreased in strength, but it's a simpler pattern."
+"Good," Lani thoughtfully regarded a clump of redvines almost within reach.  She held out her right arm to Bax.  "Here, give me a shot of that."
+"What?"
+"Give me a quick spray."  Before I chicken out, she thought.  "Right here," Lani swept her left hand along her right arm, from elbow to hand.
+"You're not planning on doing what I think," Bax said, hesitating.
+"What is she planning on doing?" Jonze asked over the zuno.
+Lani nodded.  "Just do it."
+Bax shrugged and gave a little squirt.
+"Oh come on, you need to soak it," Lani held her arm up further.
+"Soak what?  Why is she holding her arm up?  Would you please tell me what you are up to?" Jonze was sounding more than a little perturbed.
+Bax grinned and saturated her arm.  Satisfied, Lani took a step forward and reached towards the vines.
+Professor Jonze had finally seen what Lani was doing, judging by the incoherant spluttering coming over the comm.
+The vines stopped writhing and slowly drifted back and forth, as if caught in a gentle breeze.  Lani held her breath as she lightly touched the nearest.  It froze, rigid for a moment, before darting around her wrist.
+"Lani!" Bax screamed, lunging for the vine.  The group with the flamethrowers started across the slab.
+"Back!" she commanded.  "Everybody back!  I'm okay.  Don't touch it."
+"But," Bax watched helplessly as several more vines joined the first in looping around her wrist and slowly crept up her forearm.  It reminded Lani of sitting still for hours until the snake came out of its hole and slithered across her legs until her mother spotted her and run screaming out of the house to save her mute toddler.
+"They're tasting me," Lani said in wonder.  "See how each of the vines is different?  A different color, different texture, different size?  I can feel tickling, like a lot of really fine hairs."
+Her arm bound, she couldn't check her meters, but Hoover was hooked into them remotely.  "What are the sensors reading, Zach?"
+"Wow.  I mean, wow," came the Geek's voice.
+"Zach!  Wow doesn't exactly do it for me," Lani said, her arm almost completely covered by vines.
+"Wow.  It's the most complex signals yet, both volatiles and acoustic.  In fact, the acoustic volume has also shot up.  I'm surprised your head isn't exploding from the bass."
+"A rather unfortunate word choice, Mister Rakowski," the Professor observed in very dry tones.
+"But you should see this Professor.  There's a sequence that's repeated several times, getting louder each time, Hoover thinks the sentinel is either giving a command or asking a question."
+"If you and that AI would try not to let your imag"
+Lani tuned them out.  She could indeed feel a distinct buzzing.  It was rather jarring, like an old-fashioned mechanical drill.  No wonder the plants had been attracted to Mumson and his power tools.  They
+"Lani?  Lani?!  Let's get you out of there before you're completely tangled.  Lani?"  Bax sounded worried.  Odd.  What was there to worry about?  Oh, well, if he insisted.
+"Try dousing my arm with the canister, it may loosen the vines up enough for them to let go."
+Bax vigorouly began spraying her arm and the rest of her for good measure.  She spluttered and sneezed.  Damn, but that smell was overpowering.  At least the vines did loosen and drop limply to the ground.  Bax grabbed her and started hustling her back towards the slab.  The vines were parting in front of them, probably because of the stink.
+Something off to the side caught Lani's attention, and she started towards it.  Bax tried to yank her back but lost his grip on her slick arm.  "This looks new," she crouched over several big leaves.  They were unusual not only because of their large size, over a meter in length and half as broad, but also because of their dark color.  Almost all of the vegetation on Gondwana had small, pale leaves because of the incredible bright light from the blue-white Draco overhead.  The bases of the large leaves converged into a single branch, leading back to the sentinel, and, remarkably, the whole branch was clear of vines or other plants that might have shaded it.
+"The sentinel has its own power source," Lani breathed.  She turned to Bax, "It needs more power to run its network, so it put out its own solar array.  Look, it even has its own plant repellent."  She turned back to the array and extended one of her meters towards it.
+"That's great, Lani.  Let's get you back in one piece, okay?" Bax grabbed her and firmly herded her towards the safety of the slab, this time holding on to her equipment harness.
+
+"Just what kind of chittaka-brained stunt was that?"   The Professor did not even wait until they were back inside the building before starting in on the lecture.
+"Chittaka?" Lani was puzzled.
+Jonze propelled her into the control center.  "Out!" she told the Geek.
+"But we're right on the verge of a breakthrough with all the new data that Lani collected.  Hoover is running a fractal analysis of the"   
+"Out!" she repeated firmly.  The Geek scrambled out the door.
+"Sit!" she pushed Lani into one chair and took another.
+The Professor ran her hand through the close-cropped gray kinks that served for her hair.  "What is a chittaka?  I was on an expedition to Demeter once, looking for more rejuv drug analogs.  A chittaka is a lizard about the size and taste of a chicken.  Not any more brains than that either.  At least with a squad of leathernecks they pretend to obey orders."  She sighed.  
+"So it's true?  You really were in the Imperial Marines?" Lani ventured.
+"It sounds like somebody's been repeating old stories.  Yes, I wore the old blue and green what must have been a lifetime ago."
+"So you've never had another expedition with this much trouble?" Lani asked.
+Jonze shook her head.  "Not even close.  Not with the leathernecks, not even on Demeter with all those dinosaurs, those chaeneths, drizliths, and skrell.  We always had a ship standing by, one that could pick us up, let us use the sickbay.  Now, the idiots upstairs had to go and
+"Anyway, what you did out there was absolutely the dumbest blagging thing I have ever seen, and I've seen some real contenders for the Darwin Award over the years."
+Lani opened her mouth, "But"
+"What the hell would you have done if the sentinelstump, whateverhadn't released your arm?  We couldn't very well have flamed it off, now could we?"
+"But"
+"Listen to me, Miz Callis.  I'm a firm believer in karma.  What goes around, comes around.  When I go to meet my maker, whether it be tomorrow or decades from now and she looks me in the eye and asks if my conscience is clear, I want to be able to say, 'Hell, yes, Sir.'  So, I don't want any more heroes dying on my watch, got that?"
+"Hell, yes, Sir," Lani studied the toe of her boot.
+The Professor raised an eyebrow, but let the silence drag out, the only sound that of Lani's boot scuffing across the floor.
+"Good.  Now that I've put the fear of, well, something in you, where do you recommend we go from here, Miz Callis?"
+Lani looked up, "What?"
+"You heard me, what's our next step?  You've had better ideas than anybody else in this Spirit-forsaken expedition so far, especially me, so any suggestions?"
+"Uh"
+The Professor held up a hand.  "Let me clarify, any suggestions that do not involve you going on any more field trips?"
+
+Professor Jonze escorted Lani to the door.  "Now remember, look properly chastened.  After all, I have a reputation to maintain."
+"Yes, sir," Lani put on her best brow-beaten expression.
+"Better," Jonze grinned and then surprised her by giving her a quick hug.  "Take care, Lani."
+
+"Really read you the riot act, huh?" asked Bax as Lani joined them at their table.
+"Let's just say I won't be going on any more field trips any time soon," replied Lani glumly.
+"Oh, that's nothing then," said Juls.  "Did I ever tell you about the time after our first prospecting trip that Bax and I got busted for taking the University President's teenage niece off to this nude beach.  We used a school flitter that we'd borrowed from her school.  Trouble is we forgot to take the logo off.  Saint Agnatha's Preparatory School for Girls."
+"You promised you'd never bring that up," Bax protested.  "You said you'd take that story with you to the grave."
+Juls looked around and shrugged.  "Gondwana, grave, close enough.  You see what we also didn't realize is that a travel channel was filming"
+Lani couldn't help the grin spreading across her face.  Juls and Bax were doing their best to cheer up an obviously whipped Lani.  She couldn't ask for better friends than that.
+
+CHAPTER 11
+
+The next day Lani did indeed spend it confined in her lab.  She found it was not as hard as she thought it would be.  First of all, a cold front had moved in and it steadily rained most of the day, unusual for this time of year on Gondwana.  They kept a close watch, but nothing seemed to be happening with the plants.  Second, the Geek wasn't exaggerating when he said that Hoover was close to a breakthrough.  The up-close data from all of Lani's various recorders had filled in some key areas in Hoover's attempts at formulating a plant language syntax.  The Geek was excited, Lani was excited.  Even Hoover the AI sounded excited.  Lani was feeling good enough that when Emma stopped by supposedly to sympathize, but really to gloat, over Lani's apparent grounding, Lani played along, hanging her head and mumbling.  Lani could hear Emma happily humming all the way back to her own lab space.
+Lani went back to reviewing Hoover's analysis on her lab monitor.  She and the Geek were busy arguing over whether there appeared to be any concept of time in the Gondwana syntax, as they called it, when the noise finally penetrated.  It sounded like dripping water.  She checked the two sinks in the lab.  They were completely turned off.  She finally located the source of the sound, in the far corner of the lab ceiling.  That was odd, she thought these self-assembling modules were supposed to be defect-free.  Obviously they were mistaken.  She put a bucket under the drip and went to mention it to Mumson.
+Even before she spotted Mumson, she spotted the trail of buckets.  So it wasn't an isolated incident.  Shoot, if water was leaking into the command center they didn't stand a chance, not with Hoover and all their communications equipment.  She ran down the corridor and into the command centernearly clobbering the Professor with the door.
+The Professor shook her head before Lani could apologize for the close call.  "No leaks in here, so far, thank the Spirit, but almost everywhere else.  Your lab, Miz Callis?"
+"Only in the corner, that I saw.  What happened?"
+"We are trying to figure that out.  From the cameras, we can't see any obvious growth on the roof, so we're wondering if some of your plants have managed to sneak some tendrils up through the slab along the walls."
+
+They had their answer when Soren came back inside, drenched from his trip up onto the roof.  He held a vial with several wriggling worms in it.
+"What are they?" Mumson asked.
+Soren stood in a spreading puddle of water in the corridor.  "Remember that flock of beautiful flutterbys that were roosting on the roof a while back?  My guess is this is the larval form.  They seem to like the taste of the polymer that makes up most of the roof and walls.  There are burrows all over the roof.  Only place they aren't chowing down is on the metal parts."
+"So the command center and fusion plant is safe then," Jonze was relieved.
+"For the moment, but there are a lot of non-metal conduits, like the fiber optic network that is connected to Hoover and our antenna on the roof," Mumson said.
+"And the cameras and microphones and all of our other sensors out there," Soren pointed out.
+Jonze took the sample vial from Soren and handed it to Lani.  "See if you can't figure out what will kill them.  We've got some broad spectrum insecticide, but it might be hard to apply if they are inside the walls or if it is raining out."  She turned back to the others.  "Soren, take a couple more of our field techs topside and collect some more worms for Lani and Emma to test.  Mumson, assuming we can figure out how to kill them, what do we have that can fill in those holes or at least cover the roof to keep the rain out?  Zach, come up with some sort of plan to protect Hoover and his data if they do manage to break through the metal around the command center.  The rest of us are on bucket brigade.  You also might want to check your hutches, folks."
+
+Emma and Lani split up the work.  Emma quickly confirmed that the insecticide was partially effective against the flutterby larvae, killing over ninety percent of them within an hour, assuming there was direct contact with the larvae.  Mumson came up with a flexible applicator that could be inserted down each hole.  He also had a few tubes of a polymer to plug the holes.  They could quickly synthesize more since they had plenty of the raw chemicals that went into the polymer, unlike a few critical ingredients that they needed to replenish their diminishing fuel for the flame throwers and the All-Clear volatiles.  The trouble was they could not install the plugs until they were sure the larvae were dead, otherwise the surviving larvae would keep eating and even ten percent could cause a lot of damage.  Lani had Hoover running through their library of molecular compounds that they had identified on the planet so far, looking for similarities with the insecticide or anything that looked remotely like it might be lethal.  Hours later she still had not had any successful tests and she and Hoover were back at square zero.
+She was about ready to give up when she had a sudden realization.  She looked again at a couple of her test chambers.  "No, no, no, you idiot!" she pounded her forehead in frustration.
+Bax poked his head around her door bearing the gift of caffeine.  "Hey, easy there.  You might want to use that brain again sometime in the future."
+She turned to him.  "How could I be so stupid?" she demanded.
+"Um, is this a trick question?"
+"No.  Yes.  I mean, here I was so focused on trying to kill the little buggers that I never thought to just cripple their gut.  The answer was right in front of me, sample 84J.  It interferes with their digestive enzymes.  It doesn't kill them outright; oh, they'll eventually starve, but it keeps them from eating our walls.  Good enough, right?"  She didn't wait for an answer, but went running down the corridor to let Jonze know.
+
+As it turned out, Bax's hutch was one of those that had leaked.  That was the bad news.  The worse news was that Lani's hutch remained water tight, so they had to move in there, which meant Lani had to clean up her room first.  Bax stood in the doorway and looked over her shoulder.  "Maybe we should camp out in the common room instead," he suggested.
+"Oh, shut up.  Do you want to shovel or haul?"
+
+CHAPTER 12
+
+A few days later things were back to their normal furious pace.  The insecticide and Lani's inhibitor had worked, the patches in the roof were holding, and most of the rooms had dried out.  The field crews were running the flitters ragged, trying to bring in as many samples as possible.  Mumson was outside working on Bobbie, trying to repair a rough running-turbine before Bax and Juls took her out again.  Lani and Emma were frantically processing samples, trying to keep up.
+Professor Jonze also helped in the benches (a pun, Lani eventually realized to her dismay), using Kiet's lab facility.  Biochemistry was not Jonze's specialty (population genetics was), but, as the Professor put it, the two were within spitting distance.  Seeing their leader working alongside them seemed to light a fire under Emma, so that helped.  Hoover still monitored the scents and sounds from outside, trying to improve the language algorithms, but the AI did not have much new material to decipher.  Everything had been calm since Lani's visit to the sentinel.  Everybody kept one eye on the countdown timer in the bottom right corner of their monitor screens.  It showed the Quaddie's approximate ETA, currently 17 days and 4 hours away.
+It was like having her own ravenous demon from hell, Lani thought as she bent over to feed another sample into Alfie's ever hungry mouth.  "Uh, Professor?  Where are you?" the Geek's voice came over the general loudspeaker.  "We have a problem."
+There was a squawk and Candece's voice sounded from the loudspeaker.  The Geek must have connected her.  "Team 1 to Base, we're about ten klicks out.  Alice's left turbine is smoking.  It might be a bad bearing; we've been riding her pretty hard."
+"Team 1, this is Base," the Geek acknowledged.  Lani could hear the footsteps leave the lab next to hers, Kiet's old lab.  "Can you make it back to base okay?" the Geek asked as the Professor ran down the hallway to the command center.  
+Candece sounded calm.  "Sure thing, kid.  We will take it low and slow.  Looks like Renny will have his work cut out for him, though.  See you in a few, Team 1 out."
+Chen's voice broke into the general circuit.  "Wait, which direction is Team 1 coming from?  Please confirm, which direction is Team 1 coming from?"
+"Team 1's sample location was due east," the Geek responded.
+Several voices spoke at once. "Chen, what's the problem?" Jonze sounded out of breath, having reached the comm center.
+"Oh, Goddard, Chen's Last Stand," said Soren.
+"There's a grove of those trees, you know, that shoot the seedsyeah, Chen's Last Stand, it's marked on the map," Chen continued.
+"Call Team 1.  They have to go around.  Tell them to go" Soren blurted.
+"Team 1, do you copy?  There's a" Jonze started.
+"What was that, Karl?" Candece was talking to her partner in the flitter.  It sounded like she was in a hailstorm.  "We are under fire, base.  Repeat we are under fire.  Karl, see if you canno time.  I've got no thrust, no control, I'm trying to turn away from base.  We're going down.  We're"
+The sound of the explosion outside echoed from the speakers or was it the other way around.  Lani looked down curiously at the blood dripping from her thumb, she must have bitten through the skin at the base.  She didn't remember
+Racing feet down the corridor.  Two people flew by, Bax and Juls.  Lani glanced up at her monitor.  Zach had swiveled the overhead camera to face northeast.  The flitter had plowed a furrow through the surrounding vegetation for at least half a kilometer, narrowly missing the slab.  Candece had somehow managed to turn it enough to avoid the base.
+Lani could see Bax and Juls running toward the edge of the slab, followed by everyone else.  But before they could reach the mangled wreckage the compressed hydrogen fuel tank gave way in a tremendous explosion.
+Almost everyone else.  Emma appeared, wide-eyed in the doorway.  "What are we going to do?  We're all going to die, one by one, we're"  
+"Just calm down," Lani said, her face white watching on the monitor.  There was a stirring among the plants closest to the flames.
+Emma noticed.  "Go ahead and hide then, you freak!  I'm not going to just sit here while they try to kill us!  They hate us, the plants hate us, they're plotting against us, can't you see it?  Don't you understand?  They're going to kill us!"  Lani watched as Emma ran down the corridor towards her hutch, still screaming.
+Lani swung her gaze back to the monitor.  What about Bax and Juls, had the fireball gottenNo, thank Goddard.  They were picking themselves up from where they had been blown off their feet.  The wreckage burned fiercely.  There would be no survivors.  A figure tried to run towards the wreckage anyway.  Mumson.  Juls tackled him.
+A sound suddenly registered, growing in volume.  She had never bothered to disconnect the alarms for the high levels of the aggressor volatiles.  She glanced towards her monitor.  The volatiles had exploded off the top of the graph, too high to plot.  Hoover automatically adjusted to a logarithmic scale in order to track them.  She wished the AI had not done that, the concentrations were still shooting up almost vertically.  The acoustic sensors were going crazy too.  She looked back at the video.  No wonder, a large chunk of debris from the flitter, one of the turbines it looked like, had pinwheeled away from the wreckage and taken out the sentinel on that side.
+Lani punched in to the general circuit.  "Bax!  Professor!  Everyone!  Get the hell out of there!  The plants, the signals, they're going crazy!  Hurry!"
+Even as she watched, she could see vines reaching across the slab.  It was going to be a race between the humans and the plants.  The protective electrical grid kept arcing, but more and more vines kept coming until they overwhelmed it.  It looked like the other flitter, Bobbie, was a prime target.  Of course, Mumson had the turbines idling while trying to fix them.  The plants were sensitive to sound.  They must associate that frequency with a threat after Alice had exploded.  At least if the plants went after the flitter they wouldn'thold it!  The cameras showed two figures running out of the building's other hatch towards the flitter, Emma and the Geek.  It looked like the Geek was trying to tackle her.  They both went down, but Emma kicked him in the face and bolted for the flitter's hatch.  Marx, no!  But now it looked like Bax and the others had spotted her.  They were running over.
+Emma had jumped into the pilot's seat.   Only then did Lani notice the thick vines that had crept in from the other side of the flitter and into the turbines, attracted by the sound of the idling engines.  Lani could see Emma frantically working the throttles. Why hadn't the engines started?  Oh, the flitter's sensors must have detected the blockage.  The others were almost at the flitter.  She saw Bax reaching for the handle as Emma punched the emergency start button.  The miniature charges forced the turbines to spin.  The flitter lurched forward as the turbines shattered.  Shrapnel flew in all directions, impaling Bax and puncturing the fuel tank.  Lani screamed as the hydrogen tank exploded.
+
+Her ears ringing, Lani climbed back to her feet.  Smoke filled the corridors, rushing inward from the explosion along the side of the building.  She coughed, her eyes watering.  What was happening?  There must have been a surge in the circuits.  Her monitor was blank except for the stopwatch in the center showing that the system was rebooting.  Long seconds later a badly pixellated picture showed three figures still moving outside near the hatch.  The Professor, Mumson, and Chen.  Thankwait, they were moving away from the hatch, they had grabbed the flamethrowers from this end of the building and were heading towards what was left of the flitter.  Vines were writhing everywhere, with more coming in.  No!  They must have thought the plants had attacked.  They had not seen it like she had.  The plants had only gone after the flitter.  If Emma hadn't started upLani had to warn them.  She toggled the switch for the loudspeaker, but nothing happened.  The explosion must have taken the speakers out along with two of the cameras.  She ran down the corridor to the hatch, but it was jammed.  Something wasn't working.  She started tugging on the manual release.  Why wasn't it working?  A flash through the porthole caught her attention.  She looked out.  She could see the three figures wielding gouts of flame from the flamethrowers, but within seconds they were swarmed under by redvines, spiked snares, andand everything else.
+She stopped wrestling with the manual release and slowly edged back down the corridor to her lab.  The monitors were fully functional again, although the coverage was spotty with several cameras destroyed or not able to track.  Still, it was enough.  She could see a river of plants flowing across the slab towards the building.  The far end of the building had been blown open; there was nothing to keep plants from coming in from that direction after the flames from the flitter bay died down.  Tendrils were already at the near hatch, the one outside her lab.  They were searching, prying along the edges.  Oh Goddard, they were going to kill her.  They were going to find her and kill her.  Lani looked at the readout on the monitor, Hoover was still pumping the All-Clear mixture out, but the plants must have gotten used to it or maybe the updraft from the fires orShe caught herself rocking back and forth.  Stop it, Lani.  Think.
+Bax!  Oh, Goddard, Bax!  You didn't deserve to die.  None of you deserved to die.  Why didn't I die?  I need a minute.  Was it her imagination or could she hear the vines slithering around the hatch, down the corridors?    Just breathe Lani, breathe.  She looked up at her monitors.  Hard to see from here.  Wait, Hoover was still on line.  Maybe the All-Clear volatiles no longer worked, but what about the volatile that had kept the vines off the sentinel's solar array.  Had Hoover had time to analyze that?  If she could have him download it to Alfie, synthesize itand what about the acoustics?  Correct syntax be damned, if she could just scream loud enough in the infrasound range, maybe, just maybe the plants would recognize her as intelligent life.
+
+Epilogue
+
+"Well that was a total bust," Qasim Khouri, Alchemistica's Chief Financial Officer shook his head.
+"No, not a total bust," corrected the Director of Research, Willemijn de Graaf, tracing her manicured nail through the condensation left by her single-malt scotch.
+The two were in the lounge on the Quadratic Equation bound for Memphis.  A very nice lounge with the sinuous beauty of a hrssa wood panelling and table overhung by a large Zygocactus.  The plant's segmented green stems hanging down bore a resemblance to an Earth crustacean, hence it's common name of crab cactus.  The plant was a hardy one and helped cleanse the airof some things better than others.
+"How was Gondwana not a total bust, Willie?  We confirmed in the worst way possible what two previous prospecting expeditions found out.  The place is deadly."
+"Maybe if we had left the Quaddie in orbit for them..."
+"Oh, come on, Willie.  We didn't have a choice since Stromboli Lines cancelled our charter.   We would have had to take a regular commercial liner out, and they stop in every blaggin' system.  It would have added weeks to myour schedule," Khouri took an appreciative swallow of Gandolyn brandy.  It was the best.  It had better be for the price Alchemistica LLC paid to keep it in stock for him.  "No, I think we better accept that Gondwana is not worth the cost.  There are way too many nasty, expensive surprises."
+"Which is why the planet is loaded with potential pharma compounds, Qasim."
+"Compounds which we still don't know shit about.  I saw the photos.  The AI's core memory was overrun by plant roots, leaching acid.  Whatever the expedition discovered is lost forever along with our investment."  
+De Graaf licked her lips, a habit she had when being careful about phrasing.  "Not entirely lost.  We did pick up Miz Callis."
+"Yeah, like that's going to help us.  The recovery team found her comatose, covered head to toe with some type of branches."
+"Vines."  
+"Whatever!  If it hadn't been for her implanted transponder letting us know someone was alive, we would have slagged the place from orbit," Khouri shuddered, his mind replaying the video showing the facility overrun with vegetation, including a lump in the lab section, the vines parting, slithering away when the recovery team approached, only to reveal the gaunt form of the junior biochemist.  Worse, seated across from her was what looked like a parody of a human male, made entirely out of plant material.  "She was like a blagging vegetable!"
+De Graaf winced, remembering the same video.  "Not a vegetable," she corrected.  "She is lucid."
+Khouri snorted.  "Right!  Babbling on about talking to trees and shrubs with different smells.  Then that bit about sentinels, some type of plant men.  She obviously went psychoticnot that I blame herbut if word got out to any of the tabloids about intelligent 'plant men,' it would be a PR nightmare.  Our pharma prospecting would be put under an Imperial microscope."
+"I don't think we have to worry about that anymore," de Graaf observed, her generous lips quirking.  "She has clammed up about the 'sentinels' after that the first day.  Besides, did you read the draft report from our recovery team?"
+Khouri shrugged and refilled his glass.
+"Well, I did.  I found it interesting that the plants breached the control room only through the hatch."
+"How is that surprising?  We build those things like bank vaults."
+"True, but how did the plants get the hatch open?  The hatches are designed to close automatically in an emergency, to act as a safe room and seal the lab's AI brain."
+"Fat lot of good it did here."
+De Graaf ignored the interruption.  "It was almost like someone opened the hatch for them.  And remember that signal we got from the AI when the Quaddie entered orbit?"
+"So?  An automated emergency broadcast, nothing more."
+"Actually there was more.  We've found there was a qmail attached, designed to route through Miz Callis' personal account."
+"We intercepted it, I hope."
+"Not before it was sent out over the UniWeb."  It was de Graaf's turn to shrug.  "We had no reason to stop it.  Employees are allowed to access the web through shipboard computers.  Besides, we weren't expecting it."
+"If your little biochemist sent out trade secrets..." Khouri impatiently brushed away part of the crab cactus that was hanging down next to his face, annoying him.
+"No, the ship's AI automatically scans and deletes anything proprietary.  Miz Callis' message was merely an announcement to a few family and friends that she had survived.  Nothing against company rules.  It is curious, though.  Why did that part of the AI, the communications module, survive down there when its memory cores were completely obliterated?  How LaniMiz Callis was so positive she would survive and then why she set it up so her message was sent out so quickly.  It was almost like she was afraid she couldn't get word out later after we had picked her up."
+"Why would she think that?" Khouri asked, curious in spite of himself.
+"I think she regarded it as insurance.  After all, she doesn't have a very high opinion of Alchemistica right now and I can't blame her.  She feels that the company is to blame for the deaths of the rest of her team, who I gather she felt very close to.  
+"But I told you that the expedition wasn't a complete bust.  In fact, I think we'll be able to reconstruct the majority of the most promising chemical compounds the expedition discovered, maybe as many as a hundred."
+Khouri's jaw dropped.  "What?  How?  I saw the AI's memory cores.  Marx, you said yourself they were completely obliterated."
+"But Miz Callis' brain is not.  She apparently can remember almost all of their discoveries.  We did hire her because of her advanced spatial skills, but I never expected this," de Graaf's voice was tinged with what sounded like admiration.  She produced a small vial, filled with a green-tinged liquid and set it on the table.  "This is just an example.  I'm not sure what this particular chemical does yet, but yesterday, she provided us with a couple of formulas, one of which appears to dramatically decrease the formation of amyloid plaques in human neurons.  Even you might need that one day if you don't want to go senile in your second century."
+Khouri grinned wolfishly.  "This is great news.  Pump her for all of the formulas she remembers, and you and I should come out smelling like roses!"
+"What about Miz Callis?" de Graaf asked, her tongue playing across her lips.
+"Oh, who cares?  Give her a pat on the back and a small cash bonus like we usually do.  You said she was autistic.  She won't care."
+"I said she was borderline, but you know autism covers a whole spectrum and the genetics and our screening tests can only go so far.  In this case, something seems to have changed.  I'm afraid it's not going to be so easy to buy her off, Qasim.  She's demanding hazardous duty death payments to the families of her deceased team members, a promotion, a pay hike, and one percent of the company stock."
+"Impossible!  The little bitch!  There's no way.  Why I'll space her out an airlock myself first!" he pounded a fist on the table, knocking over the vial.
+De Graaf grabbed it before it could roll off the table and set it back upright.  "How, pray tell would you do that?  The Quaddie's crew knows we rescued her.  She sent that qmail saying she survived, including to the parents of one of her team members, Juls Baor.  Naturally, they want to meet with her, to hear how their darling son died.  Do I need to remind you that the Baors are both high up in our marketing department?  She only has to open her mouth about the intelligent plant men on Gondwana for all hell to break loose with the Church.  Besides, those all-important formulas are locked up in her head.  She's got us over a barrel, Qasim."
+Khouri grabbed the vial and flung it against the wall where it smashed.  "Blag it!  Who is she to make demands?"
+"A very smart little scientist," de Graaf said.
+"You sound like you actually admire her!" snarled Khouri.
+De Graaf shrugged.  "I think she has potential and not only in chemistry."  She cocked her head.  "Did you ever try that holographic game that we use for aptitude testing? "
+"Why in Darwins name would I do that?" Khouri frowned.  
+"Everyone assumes it is just about fast twitch response, fitting three-dimensional shapes into each other as they fall down the screen faster and faster, but it takes a lot of detailed planning to get very far in it.  I only made it a dozen levels or so.  Lani made it through all ninety-nine," de Graaf mused.  "Not everyone can go through what she did and emerge stronger and with a plan on the other side.  Whether I admire her or not, I don't see that we have a choice."  The smashed vial was emitting a pungent odor that made her eyes water.  She got up to leave.
+Khouri followed her to the door.  "Maybe, but I sure as hell don't have to like itor her!" he said.  
+De Graaf glanced back as the hatch slid open.  "Look!" she pointed.
+The volatiles from the smashed vial had drifted up far enough to reach the crab cactus along the wall above their table.  Its dangling stems began to writhe in response to the alarm volatiles.  
+Khouri's face drained of color.  "Blag me!  The little bitch did that on purpose!"
+"Maybe," De Graaf agreed.  "If it helps, think of it as a reminder, a last message from Gondwana."
+
+###
+
+Thank you for reading my book.  If you enjoyed it, please take a few moments to leave a review at your favorite retailer.  Plus, look for my other stories set in the same Eichi Testaments Universe.
+
+ Thanks!
+
+David Wiley
+
+
+Excerpt from Make No Martyrs, the first book in the Eichi Testaments series:
+
+<<"Imperial troops?  Under what pretext can we justify using Imperial troops?  You know what kind of reputation Amatos has?" asked the sector governor.  He was proving more difficult to cow than the archbishop, the Prelate thought.
+"Pretext?  We're simply here at the request of the government to restore order.  Things are always so much better for citizens when the Empire is firmly in charge."
+"But they haven't requested anything yet."
+"No, but they will.">>
+
+Rhiia took one look at Paul and Djuka as they joined the others the next morning.  "What happened?"
+Djuka and Paul spoke at the same time.  "Not much."  "What didn't?"
+After Paul explained, Rhiia sighed.  "I can only imagine the reception we'll get at our meeting today.  Even the Minister of Trade will be ready to lynch us.  A number of his constituents killed by offworlders and a business burned down."
+"It wasn't much of a business," Paul pointed out.  "Besides, if it hadn't been for that slime, Erol, none of this would have happened."
+"He was our contact."
+"He was slime."
+Rhiia jabbed her finger at Paul's chest.  "Listen, Mister Missionary, just how many model citizens do you suppose we talk into selling out their friends and relations?"  She scowled at him for several seconds then turned away.  "Okay.  Now we need some damage control.  I would like to blast off this jerkwater planet and screw the mission, but it's too soon after the incident.  We'd look guilty as hell.  So we stay and try to avoid attracting any more attention to ourselves."
+She scrutinized them closely.  "Paul, you came out of it fine, but not you, Djuka.  The ship's minidoc can work wonders, but even tissue patches need a day or two.  Besides, with those vat-grown muscles we can't claim mistaken identity.  So keep out of sight for the time being.
+"Paul?  A little makeup and stay out of strong lights.  I need you with me today.  Unfortunately, you're the only one we've got who can snow them under with that technojargon crap.  Too bad the University didn't pound some common sense into your skull along with the science courses."
+Djuka grimaced.  "You're treating this like a total disaster.  Erol would have talked anyway.  At least Paul and I made it out of the False Harpy alive."
+"With the help of that mysterious girl," Greves pointed out.  "A woman, saving your asses," she gloated.
+"Enough, Greves," Rhiia snapped.  "We'll have to brazen it out."  She turned toward the window.  "That girl bothers me, though.  Who was she?"
+"Who cares?" asked Djuka.  "She helped us, right?"
+Rhiia turned back, a sly smile on her face.  "So?  Maybe she can help us even more.  Maybe we can blame the whole thing on her."
+

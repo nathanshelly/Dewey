@@ -14,7 +14,7 @@ def drive_cross_validate():
     genre_string = ""
     for genre in genres:
         genre_string += genre + '_'
-    f = open('results/' + genre_string + str(folds) + "_fold_" + str(sf) + "smooth", 'w')
+    f = open('results/' + genre_string + str(folds) + "_fold_" + str(sf) + "_smooth", 'w')
 
     results, accuracies = cross_validate(genres, folds, books_path, float(sf))
 

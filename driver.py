@@ -28,9 +28,11 @@ def drive_cross_validate():
 
 def drive_cross_validate_multiple():
     folds = 4
-    books_path = 'books_opened/'
+    # books_path = 'books_opened/'
+    books_path = 'test/'
     smoothing_factor = 0.1
-    genres = ['Adventure', 'Fantasy', 'Historical', 'Horror', 'Humor', 'Literature', 'Mystery', 'New_Adult', 'Other', 'Romance', 'Science_fiction', 'Teen', 'Themes', 'Thriller', 'Vampires', 'Young_Adult']
+    # genres = ['Adventure', 'Fantasy', 'Historical', 'Horror', 'Humor', 'Literature', 'Mystery', 'New_Adult', 'Other', 'Romance', 'Science_fiction', 'Teen', 'Themes', 'Thriller', 'Vampires', 'Young_Adult']
+    genres = ['Adventure', 'Mystery']
 
     macroaverages, metrics = cross_validate_multiple_genres(folds, books_path, smoothing_factor, genres)
 

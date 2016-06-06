@@ -1,5 +1,5 @@
 from bayes import *
-import copy
+import copy, sys
 ########################### Driver functions
 
 def drive_cross_validate():
@@ -8,16 +8,21 @@ def drive_cross_validate():
     books_path = 'single_genre/'
     genres = [f for f in os.listdir(books_path) if f != '.DS_Store']
     # smoothing_factors = [.00005, .00003, .00001, .000005, .000003, .000001]
-    smoothing_factors = [1.0, 0.5, 0.25, 0.1, 0.01, 0.001, 0.0001]
+    # smoothing_factors = [1.0, 0.5, 0.25, 0.1, 0.01, 0.001, 0.0001]
+    sf = sys.argv[1]
 
     genre_string = ""
     for genre in genres:
         genre_string += genre + '_'
-    f = open('results/' + genre_string + str(folds) + "_fold_multiplesmoothingnormal", 'w')
+    f = open('results/' + genre_string + str(folds) + "_fold_" + str(sf) + "smooth", 'w')
 
-    for sf in smoothing_factors:
-        results, accuracies = cross_validate(genres, folds, books_path, sf)
-        f.write("Averages for smoothing factor of " + str(sf) + ": " + str(results) + '\n')
+    results, accuracies = cross_validate(genres, folds, books_path, float(sf))
+
+    f.write("Averages for smoothing factor of " + str(sf) + ": " + str(results) + '\n')
+
+    # for sf in smoothing_factors:
+    #     results, accuracies = cross_validate(genres, folds, books_path, sf)
+    #     f.write("Averages for smoothing factor of " + str(sf) + ": " + str(results) + '\n')
 
     f.close()
 

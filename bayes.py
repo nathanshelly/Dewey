@@ -280,11 +280,11 @@ def cross_validate_multiple(folds, books_path, smoothing_factor):
         metrics.append(twm)
         print "metrics for this fold:", twm
 
-    for genres in accuracies[0].keys():
+    for genres in metrics[0].keys():
         macroaverages[genre] = {
-            'precision': math.fsum([acc[genre]['precision'] for acc in accuracies]),
-            'recall': math.fsum([acc[genre]['recall'] for acc in accuracies]),
-            'F-measure': math.fsum([acc[genre]['F-measure'] for acc in accuracies])
+            'precision': math.fsum([acc[genre]['precision'] for acc in metrics]),
+            'recall': math.fsum([acc[genre]['recall'] for acc in metrics]),
+            'F-measure': math.fsum([acc[genre]['F-measure'] for acc in metrics])
             }
     return macroaverages, metrics
 

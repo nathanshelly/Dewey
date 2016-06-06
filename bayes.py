@@ -60,7 +60,6 @@ def generate_numeric_catalog_multiple(folder_path, file_name_list = []):
 
     return catalogs
 
-
 def count_occurrence_of_grams(file_path, catalog):
     '''Count the number of occurences of a word.'''
     # Catalog must have total_words and num_files keys

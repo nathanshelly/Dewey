@@ -70,6 +70,8 @@ def generate_numeric_catalog_multiple_genres(folder_path, file_name_list = [], d
 
     for file_name in file_name_list:
         genres = [genre for genre in books_genres[file_name] if genre in des_genres]
+        if not genres:
+            continue
         for genre in genres:
             if genre not in catalogs:
                 catalogs[genre] = defaultdict(int)

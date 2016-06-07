@@ -1,0 +1,5 @@
+Averages for smoothing factor of 5e-05: {'Teen': 0.6546248934356351, 'Fantasy': 0.5823863636363636, 'Romance': 0.859071906354515, 'Science_fiction': 0.589294631710362, 'Thriller': 0.6740912041544953}
+Averages for smoothing factor of 3e-05: {'Teen': 0.6580882352941176, 'Fantasy': 0.5909090909090909, 'Romance': 0.8590523968784838, 'Science_fiction': 0.5642009987515606, 'Thriller': 0.6613112625770854}
+Averages for smoothing factor of 1e-05: {'Teen': 0.6364023870417732, 'Fantasy': 0.5625, 'Romance': 0.864896878483835, 'Science_fiction': 0.5643882646691636, 'Thriller': 0.67092664719247}
+Averages for smoothing factor of 5e-06: {'Teen': 0.6254262574595055, 'Fantasy': 0.5653409090909091, 'Romance': 0.8623773690078038, 'Science_fiction': 0.5867665418227216, 'Thriller': 0.6613112625770854}
+Averages for smoothing factor of 3e-06: {'Teen': 0.6289961636828645, 'Fantasy': 0.5823863636363636, 'Romance': 0.8707274247491639, 'Science_fiction': 0.5833957553058677, 'Thriller': 0.6930785459266472}

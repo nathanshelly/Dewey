@@ -7,11 +7,14 @@ keys_to_ignore = ['total_words', 'num_files', 'mean_book_length', 'std_book_lent
 
 ##################################### Training
 
-def generate_numeric_catalog_multiple_genres(folder_path, file_name_list, des_genres):
+def generate_numeric_catalog(folder_path, file_name_list, des_genres):
     """ Generate dictionaries with frequency for each word in our training set. """
     # NOTE: relies on books_genres.p
     catalogs = {}
     books_genres = load("books_genres.p")
+
+    if not file_name_list:
+        file_name_list = os.listdir(folder_path)
 
     for file_name in file_name_list:
         genres = [genre for genre in books_genres[file_name] if genre in des_genres]
@@ -134,7 +137,7 @@ def cross_validate(folds, books_path, smoothing_factor, genres):
         books_train = list(set(books) - set(books_test))
 
         # TRAIN
-        train_catalogs = generate_numeric_catalog_multiple_genres(books_path, books_train, genres)
+        train_catalogs = generate_numeric_catalog(books_path, books_train, genres)
         train_catalogs = smooth(train_catalogs, word_list(train_catalogs), smoothing_factor)
         train_catalogs = {genre:generate_percentile_catalog(catalog) for genre, catalog in train_catalogs.iteritems()}
 

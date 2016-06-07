@@ -1,0 +1,1316 @@
+A massive solar storm wipes out the technological infrastructure, and as the few survivors struggle to adapt, they discover some among them havechanged.
+
+
+AFTER: FIRST LIGHT
+
+By Scott Nicholson
+
+Prequel to the AFTER series
+Look for After: The Shock, After: The Echo, and After: Milepost 291
+
+Copyright 2013 Scott Nicholson
+Haunted Computer Books
+Scotts newsletter for giveaways and free books: http://eepurl.com/tOE89
+Smashwords Edition
+
+
+CHAPTER ONE
+
+The sun looked like a cheese pizza that had been broiled in hells hottest oven.
+Dr. Daniel Chien frowned at the monitor, concerned less with the rippling cheese than the rising bubbles of red sauce. Each bubble erupted with a force equaling 100 billion megatons of TNT, spewing electromagnetic radiation across the solar system. Chien was intellectually aware that the pizza was really a massive star around which Earth and other planets revolved, but technology had reduced it to little more than a commercial-free reality-TV show.
+Sir Isaac Newton nearly blinded himself staring at the sun, and I can do it from the comfort of my air-conditioned cubicle.
+The images recorded by the Solar Dynamics Observatory were a marvel of modern technology. Not only was the space-based observatory performing a continuous, real-time monitoring of solar activity, it used an array of solar panels as its energy source. In turn, the data allowed Chien and other researchers to study the suns electromagnetic fluctuations, solar wind, sunspot activity, and particle radiation.
+The sublime beauty of the system had lured Chien from a faculty position at Johns Hopkins. Even as a boy in Vietnam, hed been fascinated by the sun as the giver of life. The Earths precarious position at just the right orbital distance counted as something miraculous, although Chien was careful to avoid debates over science and faith. To him, wonder was wonder and did not require further complications. Let the glory hounds like Newton clog the pages of scientific history while Chien and his fellow grunt workers added to the pool of knowledge bit by bit.
+But his role as a researcher didnt diminish his appreciation of solar myth. After all, there was hardly a more apt metaphor for human hubris than Icarus flying too close to the sun and having his wings melt.
+The sun, as Chien liked to tell his friends, was cool.
+He still took childlike delight in the real-time images of the sun captured in a variety of spectra, available to the public via the NASA website. The array of sophisticated instruments measured multiple wavelengths and offered two dozen ways to observe and measure solar phenomena. The main image was the one now commanding his attention, and although he was fully aware of the suns petulant temperament, he didnt like the erratic pulsations appearing on its surface.
+Somebodys burning the pizza.
+Katherine? he said, calling to the other on-duty researcher at the SDOs offices in the Goddard Space Flight Center. Dr. Katherine Swain was several years his senior, a 20-year veteran of NASA, and a woman who held no romantic notions of the sun at all.
+Yes? she said, in an annoyed tone, looking up from her laptop. Shed confided to Daniel that she was having family problems, and Daniel had projected a polite pretense of concern without pressing for details. Which meant avoiding her unless something important was happening.
+It looks like some irregular plasma activity.
+Were in an irregular phase, she said, not clicking away from whatever she was working on. The moons having its period.
+Much like a woman, or the moon, or any other natural object, the sun went through nearly predictable cycles of behavior. Solar cycles lasted about 11 years, and the study of radionuclides in Arctic ice had allowed researchers to map an accurate history of the sun across geological epochs. Although the cycles followed identifiable patterns, the general agreement was that the current cycle was among the most active on record.
+Its not just regularly irregular, he said. Its crazy.
+Ah, here comes the big one? Katherine teased. Guess they should have listened to you, huh?
+As a member of a commission asked to assess the nations vulnerability to electromagnetic pulse attack, Chien had testified before an Armed Services subcommittee. Hed warned of the impact of massive solar flares, but his cataclysmic scenarios were pushed aside for what were considered the more-relevant dangers of low-flying nuclear missiles. The military couldnt fight the sun, and neither could it procure billions of tax dollars by provoking the administrations fear of the sun. Besides, terrorist threats were far sexier than probability modeling.
+Last year, Chien had co-authored a report that painted a grim picture of infrastructure failure on the heels of a massive solar storm, calling it the greatest environmental disaster in human history. Since then, Katherine and the other SDO researchers had wryly called Chien Dr. Doom.
+Chien had stood firm in his quiet way. Besides, it really wasnt a matter of if. It was a matter of when.
+But even Chien didnt really expect when to be now.
+Look at AR1654, Chien said.
+Katherines keys clacked as she brought up an image on her laptop screen. Its only an M-1, she said. At worst, we could get a few radio blackouts in the polar regions. No biggie.
+But AR1654 is aligning with the Earth. That means we will be right in the path of the plasma stream if a flare erupts.
+And it will pass right over us. Thats why we have an atmosphere, so were not exposed to constant radiation. Otherwise, we wouldnt be around to have this conversation.
+Katherine, apparently satisfied with her prognosis, resumed typing. Chien watched the image on the screen for another minute, as sauce leaked from the edge of the pizzas crust and bulged out into space in huge, curling ribbons.
+Maybe Im no different than Newton, a sensationalistic glory hound. But he died a virgin, so Ive got him beat there.
+Chien went through the rote recording of data that occupied much of his duties, but his mind wandered to Summer Hanratty, the woman hed been dating for the last six months. He couldnt escape the irony of her first name, and its connotation with sunny weather had fueled their initial conversation at a colleagues party. Maybe they were getting serious.
+Heating up, huh? Well, even Dr. Doom needs a little comfort in the night.
+Katherines clipped voice interrupted his reverie. Did you see that?
+See what? Chien had flipped away from the satellite imagery to tables of temperature, X-rays, and magnetic energy.
+Check the Magnetogram, she said, referring to the telescopic image that mapped the magnetic energy along the suns surface.
+Chien summoned the proper screen, which now showed the solar pizza as a mossy tennis ball pocked with violent orange and cobalt-blue acne. The area near AR1654 showed a brilliant plume erupting from the surface.
+It will loop, Chien said, referring to the suns habit of bending much of its escaped energy back into the thermonuclear maw. As turbulent as the imagery made the sun appear, most of the activity took place deep inside, where hydrogen and helium burned away at astonishing temperatures. It took light 200,000 years to emerge from the center of the sun to the surface, and from there a mere eight minutes to reach the Earth.
+Chien thought he would share that little factoid with Summer when he dropped by her apartment tonight. It was the kind of romantic bon mot that would wash down well with a glass of Chablis.
+Even with a loop, it will likely shoot some electrons our way, Katherine said.
+Should we log a report?
+One of the centers responsibilities was to warn of potential interference with satellites and telecommunications equipment, which helped justify the $18 billion NASA budget. A caricature of a notoriously penurious Republican senator was pinned to the bulletin board near the restrooms, bearing a handwritten admonition: A phone call a day keeps the hatchets away. Providing a practical public benefit was essential to the long-term survival of the center.
+The usual, Katherine said. Possible disruption of regular signal transmission but no need for extraordinary measures.
+A little static on the cell phone, Chien said. A little snow for the TV viewers with a dish. No Doomsday on the radar.
+Dont sound so disappointed.
+Im thrilled. An apocalypse would be terribly inconvenient. Ive got a hot date tonight.
+Katherine managed a rueful smile. Wish I could say the same. Take my advice and never get married.
+Chien didnt want to tiptoe through those conversational landmines, so he shifted back to business. The bulging projectile of the solar flare clung to the suns surface like a drop of water on the lip of a leaky faucet. Usually, the flare would collapse again, the charged particles of helium and hydrogen reeled back by the intense gravity. But this one kept swelling, a ragged dragons breath of plasma leaping into space.
+Chien flipped through the suite of instruments, observing the flare at different wavelengths. Are you seeing this, Katherine?
+Let me get this bulletin out first.
+Id hold off on it for a moment. We might be upgrading.
+We cant upgrade. This is M-1 already.
+Chiens mouth went dry and his heart hammered. The solar flares footprint grew both on the surface and in its bulge in the heliosphere. Looking like an X.
+Daniel, thats serious. It means rerouting high-altitude aircraft and damage to satellites. If we send out a red alert, wed better be right.
+The sun doesnt care whos right or wrong, he said, watching the ragged hole on the suns surface widen further and the plume take an immense leap.
+X-class solar flares dispensed radiation that could threaten airline passengers with exposure if they were not adequately shielded by the Earths atmosphere. Such flares were rarely recorded, but Chien was well aware that human measurement of such phenomena was but the blink of an eye against the ancient history of the sun. No doubt thousandsperhaps millionsof massive flares had swept across the Earth in ages past, scouring the planet with radiation and scrambling its geomagnetic fields. Chien was alternately excited and frightened that he might be witness to one of them.
+But Katherine was right. Issuing an X-class bulletin would set a whole range of actions in motion, affecting the telecommunications industry, defense, and air transportation. Rerouting flights alone would cost millions of dollars, not to mention throwing off flight schedules that could disrupt international travel for weeks. Any shutdown of telecommunications and satellite service could quickly run costs into the billions as well. This was a panic button that, once pressed, could not be easily dismissed.
+You know what happens if we cry wolf, Katherine said.
+As project director, Katherine would be the scapegoat for any political fallout, but Chien would likely be drummed out as well. Sure, he could always return to university life, where notoriety was little more than a mildly eccentric selling point on the tenure track. But hed likely be done in the field of government-funded research, and there wasnt a whole lot of private-industry opportunity.
+But facts were facts, and the numbers were screaming X all the way. We cant close our eyes to this, he said.
+Okay, I will give a warning of possible disruption, monitoring closely, Katherine said. That should keep us covered until we can crunch all the corn flakes.
+She issued the alert to the National Oceanic and Atmospheric Administration, the Federal Aviation Administration, the Federal Communications Commission, and the departments of Defense and Homeland Security. Katherine rated the threat a G3, a strong geomagnetic storm as measured on a scale of one to five. She logged the data and noted the time, saying to Chien, Your shift is up. You better go play Romeo.
+No way, he said. The solar cycle doesnt peak again for 11 years, and Im not getting any younger.
+Your call. But take my word for it. When you get to be my age, you wish youd had more dates with people and fewer dates with computers.
+The solar plume on the screen had grown to epic proportions, so much so that Chien had to zoom out on the imagery just to fit it on the screen. Even for a trained scientist, it was difficult to equate what looked like a bit of Hollywood illusion with billions of tons of solar material hurtling toward the Earth at two million miles an hour. Even if the plume proved truly dangerous, the solar wind and its charged particles wouldnt reach Earth for at least a day, maybe two.
+Somethings got me worried, Chien said. The SDO has only been operating for four years, and in that time weve had no major solar storms.
+So? Katherine had apparently already swallowed her own downplaying of the threat and accepted mild space disturbance as fait accompli.
+The SDO is itself a satellite. With a vicious enough solar wind, wed lose uplinks and downlinks, as well as orientation. Worst-case scenario, we wont be able to track the effect.
+Well, lets just pray its not a worst case, then, Katherine said, with a wry smile. Religious references were rare in the space center.
+Chien, a Taoist, was not amused, nor was he comforted.
+
+
+CHAPTER TWO
+
+Its a bird, the girl, Madison, said.
+I see that, Rachel Wheeler said. Its pretty. Why dont we put it in the sky?
+Madison had snipped the misshapen bird from a sheet of black construction paper. It was part of a collage, a series of different shapes held in place with paste. The bottom was a strip of green paper and the sky was a strip of blue paper. There was a square for the house, and a block with wheels that represented Daddys truck. The forked brown tree was topped with a clump of green for leaves, and three scallop-edged dots of white were drifting clouds. The biggest object in the collage was a wobbly orange oval, a sun that projected brightness and cheer.
+But Rachels main interest was the hidden interior of the house.
+Right here? Madison said, setting the bird in the tree.
+Tree. Perhaps she sees security there, maybe a nest.
+Wherever you want, Rachel said.
+There, Madison insisted.
+Okay, lets put the paste on the back so it will stick. Paste had not changed much from Rachels own grade-school days, and she helped Madison dab it on with big, greasy strokes using a wooden Popsicle stick.
+Madison stamped the bird into place and frowned. Maybe it should fly away.
+How come?
+So it wont hear whats happening in the house.
+Would the bird be afraid? Rachel kept her voice level, suppressing any eagerness. She was painfully aware of Do-Gooder Syndrome and those who wanted to help no matter the cost.
+Madison shook her head, swishing fine blonde hair across her thin shoulders. No, because the bird can fly away.
+Do you sometimes wish you could fly?
+Yeah, because Daddy wont let me ride the school bus and then I could come to school.
+Madison had repeated the second grade because shed missed twenty-seven days in the last school year. Despite the intervention of the Mecklenburg County Department of Social Services, Madisons father didnt feel compelled to follow the law. Her mother was serving three years in prison for the manufacture, sale, and delivery of methamphetamine. Because the county had little funding for child services, Madison would remain in her fathers custody unless he committed some unforgiveable atrocity on the order of molestation or murder. The welfare state was just one of the many oxymoronic catch phrases Rachel had encountered as a school counselor.
+What if we put a window on the house? Rachel said, edging a little more deeply into her inquisition.
+Daddy says windows are for nosy people. Says you better keep the curtains closed.
+But then you cant see the sunshine. Its dark all the time.
+Madison shrugged. Not if you turn on the TV.
+Hard to argue with that one. Rachel glanced at the clock. It was almost two, and Madison was her last client of the day. She hated that word client, but student wasnt exactly accurate, either, since she didnt really teach. Rachel had finished her two-year Masters program and was currently conducting an internship at Greenwood Academy. The charter school was in a renovated warehouse on Charlottes rundown east side, a politically popular nod to school choice that had the ulterior motive of moving education costs from the tax coffers to parents.
+Mrs. Federov, the dour and scrawny principal, had approved Rachels internship with the condition that no parents would be involved. Rachel was free to meet with students individually, but she wasnt allowed to probe into anything besides school and peer subjectsas if home life had no role in academic performance and character education.
+Rachel was under no illusions that she was here to save the world. She was here to save herself. Most notably from guilt over Chelsea, her little sister.
+Madison wasnt the only one who knew about loss.
+We dont have TV at school, Rachel said.
+We have a puter, Madison said.
+Yes, we do have computers. Rachel didnt have an office, instead meeting with her clients in a supply room. That was handy for paper cut-outs, but not for technology. The media center had a bank of computers, but the one in Mrs. Federovs office was the best in the school. Of course, it was Mrs. Federovs personal property.
+Which made using it even more fun, because it was off limits.
+Rachel checked the hall, closed the supply-room door, and opened the side door that led to Mrs. Federovs office. Mrs. Federov had a polished walnut desk that must have cost the nonprofit school association a thousand dollars. On it sat a MacBook, gleaming white like a futuristic relic. Madison pressed behind her, eager to enter.
+On one condition, Rachel said.
+Not to tell?
+The kid is sharp. But then, arent they all, until grown-ups grind off all their edges? I wouldnt want you to lie. If a grownup asks, always tell the truth.
+Madison nodded, her brown eyes solemn. What condition, then?
+Can you tell me whats inside the house?
+Madisons brow furrowed as if she had already forgotten the collage. House?
+The one without a window.
+Oh. Is this one of those times when I have to tell the truth?
+I wont tell anyone else. Theres a difference between a lie and a secret. And this would be our secret. Just like the computer.
+Madison looked longingly past Rachel to the computer. Okay then. Daddys asleep on the couch. Drinking beer. He has a gun.
+A lovely combination. She could picture him, his shirt unbuttoned and hairy belly bulging, a platoon of empty bottles on the floor around the couch. The gun was a disturbing addition to the scene.
+Great. Now I dont just have to worry about him showing up in the principals office, I have to worry about him gunning down fifty innocent kids.
+Does he say anything about the gun? she asked.
+Madison shook her head. Just said the gumthe gubthe guvmentis not taking his.
+Her father actually didnt sound all that much different than many other Charlotte residents. The South was a conservative stronghold, despite the liberal university communities in North Carolina. The Mecklenburg school board was having a serious debate over whether to allow teachers to carry concealed weapons. Rachel wondered how long it would be before bulletproof vests were a classroom requirement.
+Okay, Rachel said. Lets play some Dora the Explorer.
+When Rachel booted up the MacBook, it was already set to Mrs. Federovs Yahoo! page. Rachel had no interest in the womans private habits, but she did notice an orange ball of fire in the news thumbnails. The accompanying teaser said, Killer Solar Flare Heading for Earth?
+Rachel was well aware of Yahoo! and other news outlets using provocative headlines as click bait. Shed survived Y2K, collision-course asteroids, and the Mayan prophecies, accepting them all as hysteria. But she couldnt resist, not after her grandfather had drilled doomsday paranoia into her skull from an early age. She clicked on the article.
+Whats that? Madison said, pointing at the photograph that was credited to NASA.
+Never lie to kids. Scientists say the sun is giving off an awesome amount of energy that will reach the Earth by tomorrow.
+Will I get a sunburn?
+August was humid enough already, so that was a legitimate concern. No, its more like a type of invisible wave. Some people are worried that it will disrupt their phones, computers, and television.
+Does that mean we wont be able to play Dora the Explorer?
+Im sure it will be okay. People write these stories just to get our attention. If trouble was really on the way, dont you think theyd be trying to do something about it?
+That logic sounded silly even to Rachels own ears. Pollution, global warming, gun violence, disease, and starvation were real and constant threats to human survival, yet no one seemed to be doing anything about them. Yet a bizarre menace straight out of a science-fiction movie drew eyeballs. She quickly scanned the rest of the article, slowing near the end to absorb a particularly sensational paragraph:
+
+While unlikely, in extreme cases electromagnetic radiation from solar flares can damage electrical transformers, essentially shutting down the nations power grid. An intense enough solar storm could also destroy circuitry in modern technological devices, including the electronic ignitions and other systems in motor vehicles and machinery. Most scientists agree that the Earths atmosphere would shield the planets surface from much of the electromagnetic effects. However, Dr. Daniel Chien of the Goddard Space Flight Center said, We dont know the possible effects of a massive solar storm on our modern infrastructure simply because we havent had one. Chien paused before adding, Yet.
+
+The article concluded with an aide to the president downplaying the threat but assuring the public that the situation would be closely monitored.
+Is the sun going to blow up? Madison asked, as if it were just another video game.
+No, honey, it will come up tomorrow just like always.
+She booted up Dora the Explorer and let Madison start her usual fifteen minutes with the game. Then she went to the office door to keep an eye out for Mrs. Federov.
+If the school board passed the concealed-carry requirement, Rachel was sure the leathery old bat would be the first in line to get a permit.
+
+
+CHAPTER THREE
+
+Franklin Wheeler stood on a small wooden platform hed built in the crotch of a massive oak tree.
+Hed built the platform two years before, one of the first additions to the compound hed constructed on national park land in the Blue Ridge Mountains. In those days, he slept in a tent that was tucked under a rock ledge, surviving out of a backpack that contained a collapsible fishing rod, ready-to-eat military surplus meals, a few basic hand tools, a Coleman liquid fuel lantern, a first aid kit, and a water-purifying system. His Snow Leopard sleeping bag was rated to forty below zero, but the summer nights had been warm enough for him to sleep under open stars. That initial expedition led him to choose the isolated ridge as the perfect site for his compound.
+From the platform twenty feet above the ridge line, he could see miles in the distance, the great Appalachian ridges rolling away like blue-green waves into the distance before leveling off across Tennessee, Virginia, and North Carolina. Although the haze of Ohio coal-burning plants often veiled the sky, on clear, cool nights the fuzzy lights of Charlotte were visible 150 miles to the southeast. Now, though, all he saw was the late-summer foliage, pocked here and there with great windows of speckled granite, and the tiny rooftops of distant homes burrowed in the slopes. A mile beneath him wound a ribbon of asphalt known on the maps as the Blue Ridge Parkway, a national scenic route, but which Franklin considered the tyrants racetrack for overland invasion.
+Franklin scanned the road with his binoculars. The usual intermittent stream of tourist traffic passed below, Floridians and New Yorkers making their own type of invasion. But they were harmless next to the slumbering beasts in D.C., Beijing, and Moscow. But all dragons appeared to be sleeping in the days heat. The platform didnt quite afford a full panoramic view, but between his makeshift crows nest and other lookout points on the ridge, Franklin figured his compound was secure for another day.
+He climbed down the series of wooden slats nailed into the oaks trunk and checked the gate. After selecting this ridge for his compound, hed spent a year hauling materials via the old logging roads that crisscrossed the mountain. In his younger days, hed protested the U.S. Forest Services granting of timber rights to private corporations, but now he was grateful for the limited access their abandoned roads provided. The transport had been a laborious process, often using an all-terrain vehicle, but hed dragged enough chain-link fence and concrete mix up the mountain to enclose a two-thousand-square-foot perimeter among the trees.
+The fence wouldnt deter a serious military assault, and a drone could sail right over it and blast him to hell and gone, but the government had lost interest in him since hed dismantled the Freewheeler Movement. Hed gone through a few fringe groups over the decades, and his first underground newspaper had been typewritten manifestos mixed with pen-and-ink cartoons, Xeroxed for three cents a sheet and sold for a nickel.
+The Internet had granted him a cheaper and broader platform, and hed blogged prolifically as Freewheelin Franklin, a nod to the Fabulous Furry Freak Brothers. But while the Freaks were all about sex, drugs, rocknroll and Down With the Establishment, Franklin Wheeler saw the darker strains of threats and conspiracies. Politics was a wrestling match where the audiencethe voterscheered while the goons in the ringthe middle management bureaucratsbeat each other with chairs while the real thugsthe wealthy elitepicked everyones pocket from the skybox.
+The 9/11 attacks had made every libertarian and patriot a target as D.C. seized the opportunity to roll the CIA, FBI, NCS, and the military into one big standing army called Homeland Security. As righteously offended as Franklin had been at the naked power grab and the militaristic streak that extended all the way down to school janitors and ambulance drivers, he was also wise enough to heed the shifting climate. The Freewheeler Movement was never a red-alert threat, since Franklin thought populist armed resistance was idiotic. What was the point of fighting for the right to bear semi-automatics when the government owned drones, tanks, and nuclear warheads? Franklins interests had shifted from domestic problems to the larger reality that the world probably wouldnt last long enough for the Rise of Imaginary Hitler.
+The dangerous and heavily armed cranks moved to Montana, Texas, and the Pacific Northwest, drawing all the attention with their recruiting pitches in Soldier of Fortune. Franklins blog, on the other hand, became a Web destination for the discontent, bored, and derangedan amalgam of losers that could never be forged into a real social force, much less a militia. The government soon tossed his dossier in the bottom cabinet with UFO enthusiasts and Bigfoot fanatics. As Franklins visibility faded, he embraced it not as a failure but as an opportunity.
+The opportunity was this mountain compound he called Wheelerville.
+Population: one, with the mayor also serving as street sweeper, minstrel, and shoe-shine boy.
+Franklin checked the vegetables in the garden, picking some turnips to feed the goats in the adjacent pen. He often let the goats browse in the wild, but today he didnt feel like hoofing it across the slopes to retrieve them at nightfall. Despite the ongoing crush of civilization and species extinction, the Blue Ridge was still home to predators like coyotes and bobcats.
+And predators like the U.S. Army.
+Franklin had heard the rumors of a secret installation for years. But even if it existed, Franklin took it as a good sign for his own security. The army was corrupt, but it wasnt dumb. The army was smart enough to pick a safe zone for any secret bases.
+As the oldest mountain range in the world, the Appalachian terrain was stable and unlikely to suffer earthquakes. Likewise, a megatsunami caused by the Canary Island volcano shelf plopping into the sea would never reach this far inland. Hurricanes and tornados were broken up by the foothills, and the climate was relatively temperate for a deciduous rain forest. Indeed, the biggest threat was a prolonged blizzard, but Franklin had enough firewood and stored food to hold out for months if necessary.
+His one-room cabin was built with an adjoining storage shed that featured a series of solar panels on top, oriented toward the southeast. He opened the shed and checked the battery banks that stored the converted energy. The batteries were also connected to a micro turbine that Franklin operated on the windiest days, and he also had a backup generator with a paddle wheel that exploited rushing creek water to generate power. Seeing that the bank of batteries was fully charged, Franklin disconnected the solar panels and closed the shed, which was lined with thin sheets of copper and aluminum. The metal shielding acted as a Faraday cage, protecting the batteries and equipment from electromagnetic radiation caused by a thermonuclear explosion. If Al-Qaeda detonated a dirty bomb in the atmosphere over D.C., the pulse would wipe out half the countrys infrastructure but Franklin could still work his radios and computer, which were also stored in Faraday cages when not in use.
+Franklin entered his cabin, opening the windows to catch the afternoon breeze. He sat at his table and connected his shortwave radio, scanning the channels. After a burst of screeching static, he zeroed in on a familiar voice.
+Charlie One-Niner, come in, Franklin said into his desktop microphone. Its your buddy, the Unknown Soldier.
+Soldier? said the cracked and dusty-sounding male voice on the speaker. What in the hells going on down in the land of cotton?
+Franklin had adopted the radio handle to throw any federal snoopers off his scent, and on the air he pretended he was based in Alabama, where even his most paranoid ramblings would not seem out of place. Shortwave radio signals were virtually impossible to track, so Franklin used it to network with like-minded people around the world. It was also his sole social outlet if you didnt count the goats and chickens, and he tried not to count them too often.
+Probably about the same as up there in Canada, he replied. Only with worse health care and no moose to shoot.
+Were in a record heat wave, Charlie said. Bet its breaking a hundred and ten down there.
+Franklin glanced at the thermometer on his tiny weather station. Seventy-nine, with barometric pressure rising. Pretty seasonal for August in the mountains, although the humidity was thick enough to cut with a rusty knife. Close, he lied. But Ill live.
+And some of those idiots still say global warming is just a goddamned theory.
+If you backtrack on those assholes, you usually find a pipeline between their bank accounts and the oil and coal industries, Franklin said. One thing he liked about his faceless friends is that they dispensed with small talk like the weather and immediately started solving the worlds problems.
+If only we had an audience as big as Rush Limbaughs and Howard Sterns, wed save the human race whether they wanted it or not.
+Once you get your Alaskan pipeline built, maybe the U.S. will quit bombing the hell out of the Middle East.
+Yeah, but then wed have to invade you, good buddy. Got to feed those defense contractors.
+Fine with me. Just dont make me drink that watered-down American beer. Budweiser. Christ, Id rather drink moose piss.
+Ill put in a good word for you, Franklin said. So whats happening with the ice caps? Still melting?
+Im pretty high up here in Ottawa, but Ill bet Alabama goes underwater in five years, Charlie said. Maybe youll have some nice beachfront property.
+Its a liberal plot to do away with the Red States, Franklin said. Take away the Deep South and the Democrats will hold the White House for the next century.
+You never did tell me what party you support.
+Lemonade Party. I think you ought to run the government like a lemonade stand. Serve it up on the sidewalk, cold and sweet for a nickel a glass.
+Thats just the heat getting to you.
+Could be. Dont take much to bring me to a boil these days.
+Speaking of heat, did you hear about the big solar storm?
+Franklin had adopted a policy of Ignorance is bliss, focusing mostly on daily survival and maintaining a sustainable compound. While he owned a tablet computer with an ethernet card that allowed him to connect to the Web via satellite, he rarely prowled the Internet for news anymore, simply because he no longer trusted any sources. Even Charlie.
+No, he said into his microphone. Ive been too busy picking cotton and stuffing it in my ears.
+Scientists say its going to be one of the biggest on record. Supposed to shut down radio communications and TV and shit like that. Governments putting out official warnings.
+Does that mean I wont be able to hear your angelic voice for a while?
+Careful, Soldier, or Im going to sing you a lullaby and it might start the cats to howling.
+Well, from what I know of solar storms, they can blow the hell out of the electrical grid. Cant imagine what theyd do in New York if the lights went out for a week.
+Come on, Soldier. You know how fragile the whole system is. You blow out all those transformers and you cant replace them all for years. Plus, you need power to manufacture the new ones. Sort of a Catch-22.
+Dont sound so excited about it, Charlie. I might start thinking youre one of those Doomsday nut jobs.
+Well, thats worst-case scenario. But if it happens
+A pause filled Franklins cabin, a high band of white noise coming from the speaker. Franklin eventually completed the thought. Total shutdown. No gasoline pumps, no grocery stores, no air conditioning or heat, economic collapse.
+Now youre the one getting all excited. I swear, youre starting to breathe heavy, like a teenage boy with his first Penthouse.
+Hey, its not my fault everybody got dependent on a government run by foreign bankers. But Ill be ready when it hits, whether its an asteroid, a pole shift, World War III, or a Martian invasion.
+Assuming you live long enough.
+Ill be around as long as I need to be. Franklin thought of his family. His wife Bitsy had died of breast cancer, and their daughter Laurel had disowned him after his political views attracted too much notoriety. She wanted to protect her two daughters from him and his twisted views, she said.
+Well, Chelsea had been taken from them all, leaving only Rachel. And Rachel was his hope. Theyd maintained an uneasy correspondence hidden from Laurel, but Franklin felt a desperate need to leave some sort of legacy. Rachel wasnt exactly a convert, but at least she was kind enough to humor his occasional emails.
+Well, you better research the solar storm, Charlie said. Even though you can only trust half of what the mainstream media tells you.
+They feed you just enough of the truth to keep you stupid. Franklin was suddenly anxious to get off the radio. but Im on it.
+The evening seemed to have grown warmer.
+
+
+CHAPTER FOUR
+
+Maj. Arnold Alexander slid the NASA report into a manila folder. He was a fastidious man with a neatly clipped moustache, narrow-set eyes, and a heavy chin that gave him the aspect of a perpetual scowl. Which made it easier for him to disguise the scowl he was currently biting back.
+Worst-case scenario, Henry Gutierrez was saying. The major thought the curly-haired man was far too fond of the word scenario. Gutierrez had used it at least five times since the meeting had begun.
+Doesnt look like much of a scenario to me, Alexander said. He secretly chafed at the power wielded by this little pencil-pusher. As chief of Homeland Securitys Office of Infrastructure Protection, Gutierrez had risen through the ranks on departmental politics, not experience or merit. But in the terrorism era, army officers like Alexander had to defer to bureaucrats like Gutierrez. The abstract goals and elusive enemies of the last decade of U.S. warfare paled in comparison to the invisible threat the Department of Homeland Security was created to stop.
+Alexanders people fought a war of flesh and blood, but Gutierrez fought a war of emotion. And that emotion was fear, the side that always won in the end.
+Maj. Alexander was not only outranked, he was outnumbered in the compact Homeland Security boardroom. The third person at the conference table, Ellen Schlagal, was from the Office of Cyber Security and Communications. She had scarcely spoken after accepting a cup of black coffee, and she turned the cup before her in small circles, mostly staring into the drinks surface. When she did look up, her intense blue eyes swept both of the mens faces like an emergency beacon.
+We can educate the public about the problems, but of course that opens the door to opportunists, Gutierrez said.
+Its either that, or when somebodys cell phone goes out, they start blaming terrorists, and then we have a full-on panic, Alexander said.
+If we announce in advance that blackouts are coming, we might have a panic anyway. A stock market crash, ammunition stockpiling, food hoarding.
+Alexander rubbed his moustache in annoyance. Lets say that a terrorist group has a planned mission, more or less ready to roll. And they find out major cities might lose their electricity and communications. That would be the perfect time to swoop in and pull off an attack. Not only would they benefit from the chaos, the odds of getting caughtassuming they werent packing suicide beltsgo way down.
+Thats still just a theoretical risk, Gutierrez said.
+But thats what your whole department is built on, Alexander said. Something that might happen. Might.
+Schlagal finally spoke. I agree that NASAs data isnt convincing enough. Solar flares can knock out some satellite reception, but the worst weve ever experienced is short-term disruptions, usually measured in minutes and hours, not days.
+But the electrical grid is a little more fragile than the satcomm systems, Guitierrez said. Its an interlinked system of more than 200,000 miles of transmission lines. Its like a spider web. If you knock part of it out, its hard to sew back the missing threads.
+But you can just plug in parts and keep rolling, Alexander said. Fill in the gaps later.
+Not so simple, Gutierrez said. The grid likes to be balanced. Electricity isnt really stored. It is distributed and consumed as its created. Big outages can lead to cascading failures as power re-routes to other parts of the system, including back to the power plants. A series of surges blowing out everything along the way.
+Alexander wondered why he was the unlucky officer to field this problem, driving over from the Pentagon to battle the Capitols weekday traffic. He couldnt even see this as a defense issue. Homeland Security had claimed its turf and had both the psychological and political pull with Congress. Any event on American soil short of a foreign invasion was not going to involve the armed services.
+Okay, he said. Lets say you do have some blackouts. Even a lot of them. I still dont see the imminent threat.
+Schlagal cut in again. The problem is there really isnt a repository of transformers. Parts are made as needed. Wed be at least two years behind
+The power went out.
+Alexander waited for five seconds. Gutierrez was wearing a watch with an illuminated dial. Otherwise, the room was pitch black.
+Back-up generators will kick in any second now, Alexander said. But I have to admit, that was a pretty nice marketing ploy.
+The room remained dark. Now he could smell Schlagals perfume. Gutierrez breathed like a smoker. His watch dial flickered and moved across the table, rustling papers.
+Your HQ does have back-ups, right? Alexander said, brushing his moustache again.
+Yes, Gutierrez said. But back-up generators are always hard-wired into a buildings electrical system. Any surge from an electromagnetic pulse is going to short out the generators as well.
+The lights blinked once and went dark for two full seconds, then came back on. See? Alexander said. These solar flares arent going to be anything more than a temporary inconvenience.
+These are the first waves, Schlagal said. NASA said the effects are unpredictable and of unknown duration. We could have a few weeks of brownouts or we could go down in one big zap.
+Alexander wasnt an old-school officer. Hed come up with women in the ranks and had served in the Iraqi War with female officers. And Washington was changing, as well, with women seekingand often gainingtop positions and Congressional seats. He didnt figure Schlagal for a political gold digger, despite her inclination to blow this minor threat out of proportion.
+I dont have to tell you what even three days of a widespread power outage would do, Gutierrez said, rubbing his temples as if he had a headache. Just picture your own routine. The food in your fridge would spoil. You might get lucky at the grocery store, but theres more likely to be a panic. Besides, the stores fridges would be out, too.
+A surge would affect vehicles, too, Schlagal said. Now they were coming at him like two tag-team wrestlers who had trapped an opponent out of reach of a tag. Electronic ignitions and computers in cars. So youd be walking to the store. Which, of course, means no delivery trucks would be showing up with veggies and milk.
+Christ, Alexander said. Dont tell me the TSA is going to be involved, too. Those bastards dont need any more encouragement.
+He wanted to be home, watching sports highlights and drinking a beer. His daughter Junie was in twelfth grade, and hed been helping her with her physics. The subject had gotten much more complicated since hed been in school. Maybe he could get some of the NASA folks over to give her some tutoring.
+I dont think youre taking this very seriously, Schlagal said, eyes narrowing so that the mascara on her lashes nearly merged into two black lines.
+Okay, Alexander said. I could see a panic if people werent prepared. And your average person wont be prepared even if you give them advance warning. Remember Hurricane Sandy? We might need some troops on standby if the National Guard and local police cant handle it.
+Not just grocery stores. Hospitals, police stations, and fire departments will lose not only their power but their ability to communicate. Not to mention all those planes. Do you know how many thousands of flights are in the air at any given time? And almost all those planes run on computers or have electronic components. One big pulse could knock them all out of the sky.
+Youre making the problem so big that its almost pointless to plan for it, Alexander said. Like nuclear war. If it hits, youre doomed anyway.
+Sticking our heads in the sand wont help.
+Gutierrez fell silent and pressed his palms against each side of his head. He squeezed his skull so hard that his fingers were white. His lip trembled.
+You okay, Mr. Gutierrez? Alexander wondered why the administration let civilians make decisions about national security. They clearly couldnt handle pressure under fire.
+As you can understand, Major, weve been hopping all over Capitol Hill on this, Schlagal said. Its a hot potato that no one wants to catch.
+Im sure the Commander-in-Chief doesnt want it anywhere near his desk, Alexander said.
+Gutierrezs face clenched, his cheeks crinkling around his grimace. Dontmake thisabout politics.
+The major held up his hands, palms showing. Hey, we all know who gets the credit on those rare occasions when things go right. And were here when they need a fall guy. Like if this solar event becomes a real problem.
+Its not just a single event, Schlagal said. Its a phase and a cycle. NASA says the worst is yet to come.
+Well, in one way, if it gets worse, things get simple. We impose martial law in the name of national security. The fringe militia and the liberals will grumble, but everyone else will welcome it if it makes them feel safer.
+Im not so sure we can open the door for the administration to gain more power, Schlagal said. Gutierrez appeared to be having troubled breathing. Alexander wondered if the man suffered from asthma.
+Abraham Lincoln used executive powers to the extreme, Alexander said. Nationalizing the banks, suspending the Fourth Amendment, and lying as a matter of policy. History remembers him as a compromiser, but he actually was a benevolent dictator. Of course, half the country would have argued about the benevolent part.
+Half the country might be in the dark next week, Schlagal said.
+As if to punctuate her statement, the lights flickered again. Alexander frowned and glanced at his laptop computer. Even though it had a battery back-up, the screen went blank. Okay, then. Ill kick it up the chain of command.
+Gutierrez stood, shoving his chair backward so hard that it tipped over. He clenched his fists and pounded them on the tabletop in time with each word he uttered. Thereisnochain.
+The major didnt like the way the guys dark eyes glittered, as if the wiring behind them had shorted. Maybe he had snapped from the stress. Not all that surprising for a civilian, but worrisome because other lives might depend upon his actions and decisions. Alexander needed to take control of the situation immediately.
+We need an update from NASA
+Gutierrez interrupted by diving across the table, reaching for Alexander. Schlagal yipped in surprise. The major, instincts well honed by combat training, rose into a defensive stance. Gutierrez crawled across the slick maple surface, the knees of his nylon trousers struggling for traction.
+Henry? Schlagal said.
+Scenario! Gutierrez bleated.
+Alexander didnt like the look in the mans eyes. At Fort Benning, Ga., hed once been jumped by a private whod screamed Remember Pork Chop Hill! over and over. It had taken three M.P.s to drag the attacker away, but not before Alexander had thrown five or six hard punches to the mans head. The man didnt even seem to feel the blows. Later the private was booted from the Army for possession of narcotics before he could be court-martialed for assault on an officer.
+Gutierrez now appeared to have that same mindless rage boiling inside him. He slapped Alexanders laptop to the floor and jumped off the table. Alexander was a good four inches taller, but Gutierrez still charged him, hands open like the claws of a crab, going for the majors throat.
+Despite the sudden ferocity of the attack, Alexander kept his calm, ducking under the assault and slapping Gutierrez off-balance with a judo-inspired elbow. Helen Schlagal broke from her own shock and raced for the door. Gutierrez snarled like a rabid dog and jumped at Alexander again, this time actually snapping his teeth together with an audible clack.
+The lights went out again and in the darkness, the major heard the door click open and Schlagal calling down the hall for help.
+Where are those back-up generators?
+Alexander didnt have time for the next thought, because Gutierrez slammed into him with the full force of his 180 pounds. Luckily most of it was stomach, the flab of a career civil servant. Alexander spun away from the blow and drove a fist toward where he guessed the mans nose was but struck him in the temple instead. Gutierrez grunted and collapsed in a heap.
+When the lights flickered back on a minute later, Helen Schlagal returned to the room with two guards to find Alexander bent over Gutierrezs limp form, checking his jugular for a pulse. Alexander shook his head. They tried CPR until a medic arrived, but it was too late.
+No one knew it at the time, but Gutierrez was Victim One in the tsunami of solar radiation rolling across the globe.
+
+
+CHAPTER FIVE
+
+The drive home had been nerve-wracking. The six-lanes seemed packed with road ragers, even by Charlotte standards. Rachel had found herself squinting through the windshield up at the bright sky above, but the sun seemed its usual angry late-summer self.
+Finally home, Rachel made a cup of chamomile tea. She punched up some Death Cab for Cutie on her iPod and lodged an ear bud in one ear, then flopped on the couch with a paperback copy of a Stephen King thriller. The walls of her efficiency apartment were paper thin, and she could hear Fox News blasting from her neighbors television set.
+Rachel was about to plug in the second ear bud in an attempt to block out the bombast, but she heard the words solar flare and shut down her iPod. Moving to the wall, she cocked her head, feeling a little like a snoop but rationalizing her actions as scientific curiosity.
+Solar activity has been associated not only with localized power outages, but also a rise in aggressive behavior. Republican leaders in Washington have been calling on the president to address the situation, but so far the White House is mum. Lets go to Landry Wallace at the Centers for Disease Control in Atlanta for a special report on the behavioral changes. Landry?
+Wallace delivered a staccato rant that made little sense. Rachel had difficulty following it. She was too poor to afford cable, and she would never have voluntarily watched the news even if she were plugged into what her grandfather Franklin called the Idiot Grid. However, at one point during Wallaces interview with a CDC official, she heard him refer to Zapheads, the nickname given to those affected by the heightened solar activity.
+Rachel decided to browse the Internet for more developments, but a knock interrupted her. Only one person would drop by without phoning first.
+Mira, Rachel said, welcoming her friend into the apartment.
+I smell chamomile. Mira was a tall, dark-haired Filipino whom Rachel had met in the complexs laundry room. They borrowed sweaters, earrings, and belts from one another to expand their wardrobes on the cheap, although Mira sported fashion far more elegantly than Rachel did.
+Want a cup? Only cost you a buck.
+Mira pretended to dig in the pocket of her jeans and came up with an empty palm. Put it on my tab.
+Going to the little counter that comprised the kitchen, Rachel said, Did you hear this crazy stuff about the solar storm?
+Yeah. Sounds like some people are getting heat stroke or something. I saw the cops take down a skateboarder on the street outside. He was punching away while five of them wrestled him to the ground.
+What did he do wrong?
+Some lady downstairs said he busted a plate glass window and attacked a mannequin.
+Thats weird. They dont even have real mannequins anymore, except those real creepy ones in Old Navy. Most of them dont even have heads.
+Zapheads, Mira said. Thats what they are calling them. Its like some kind of psychological condition. A stress thing.
+Cool. If it keeps up, maybe the state will boost funding for counselors.
+Nah. Cops are cheaper.
+They settled onto the couch with their tea. Rachel glanced at her iPod. The screen was blank.
+Weird. I left the music running.
+She picked it up and tapped the glass screen. Nothing happened.
+What, you got a text? Mira asked. A hot date?
+Like there could be any other kind of date in this weather.
+When you get a job, you can move into a place with air conditioning. Mira motioned at the box fan perched in the rooms lone window, above Rachels bed. Or marry a guy from Alaska.
+Rachel frowned at the iPod and put it back down on the coffee table. She hoped it wasnt broken. Her mother had given it to her as a graduation present. Im not really marriage material.
+Youve just got to find the right man. Or right woman.
+You know I only believe in Biblical marriage.
+Which one is that? King Davids first, where you trade the foreskins of 200 Philistines for a bride, or his other seventeen marriages?
+Dont get literal on me.
+Mira shrugged. Im not the one worried about my eternal soul.
+Miras father had been a steward for a cruise line, diligently saving money so his family could afford to live in the United States. Having been an American for most of her twenty-four years, she had eagerly adopted the countrys lax morality, although Rachel had educated her in the more conservative ways of the Bible Belt. The playful tension over their respective spiritual beliefs had proven to be a centerpiece of their relationship.
+Well, Judgment Day may come sooner than you think, Rachel said, although she had never gleaned much sensible prophecy from the Book of Revelation. In some chapters, the sun went black, and in others, it fell into the sea. Her grandfather believed most of the Bibles prophecies were written by schizophrenics. In a complex problem, the simplest answer is usually the right one, hed once said to her.
+You know what they say about doomsayers, Mira fired back. Even if they turn out to be right, theyre still assholes.
+Youre starting to sound like my grandfather.
+Who must be a truly fascinating wacko, from what youve told me.
+Youre only insane until the majority comes to see your point of view, Rachel said. Maybe we can go visit him in the mountains. If we can find him.
+Bet its nice and cool up there right now while were baking away here in the city.
+All Rachel knew of his location was his cryptic references to Milepost 291 on the Blue Ridge Parkway. In typical Franklin Wheeler fashion, hed made her promise to commit the name to memory and never tell another soul. Given the persecution and harassment hed faced for his loudly libertarian beliefs, she understood his paranoia and his desire to slip off the grid and away from the spotlight. 
+Mira pulled her cell from her blouse pocket. Dang.
+What is it?
+Stevie was supposed to call.
+Getting stood up again?
+Were just hanging out, not dating.
+What does that mean? Sex without having to say youre sorry?
+Mira ignored the jab. No bars, she said, tapping her phone.
+Thats weird. There are towers all over the place. You have to drive half a day to find a dead spot.
+Maybe its that solar thing. Ive still got power, just no signal.
+I read that communications might be interrupted, Rachel said. Also supposed to have some static on the radio and TV.
+Well, aint nobody got time for that.
+The worst is supposed to be over by tomorrow. Something about the sun rotating away from the earth so the solar flares spew out to the far side of the solar system.
+Mira finished her tea and carried the cup to the tiny sink. Well, you just enjoy the sunset alone. Im going to track down Stevie.
+
+
+CHAPTER SIX
+
+Officer Harlan McLeod had only been on the force for nine weeks.
+As a rookie, he got the crap shift, midnight to six. That wasnt so bad, since Taylorsville was a sleepy town in the foothills of North Carolina and the worst crimes hed handled were a cemetery vandalism and a few domestic disputes. In all cases, alcohol was involved.
+The big excitement of the evening was that two of the departments cruisers wouldnt start, so both he and Stefano in Unit Seven had to switch from their usual cars. The citys maintenance staff couldnt figure out the cause, although it appeared electronic in nature. Hed hit the street thirty minutes late, but it had taken only an hour for boredom to set in.
+Now, as he cruised the four-block Main Street and the courthouse square, he wondered how long hed be able to take this gig before he applied for a big-city post. He wasnt all that romantic about police work, taking his two-year basic law-enforcement training because he didnt want to go to college or enter the military. Sure, this was the era of Unsung heroes, where everyone with a uniform commanded respect whether that respect was earned or not. But Harlan was more interested in a job than a career, and he figured as long as he veered well away from politics and registered as an independent, hed log plenty of paychecks.
+The moon was faint and fuzzy, and beyond the pale streetlights, a strange greenish glow licked at the clouds like a series of veins. The department had received a bulletin warning of possible radio interference. Something to do with the sun, Maurice from Communications had said. Harlan didnt know what to make of that. Why should the sun be causing trouble in the middle of the night?
+Harlan decided to test out the radio. He said into the handset, Unit Twelve here, Im ten-twenty on Main Street. Routine patrol.
+A little static cut in before the response. Ten-four.
+Routine.
+Harlan debated pulling into the service dock behind the courthouse and catching some shut-eye. Hed squeezed off a few catnaps on previous shifts and had mastered the art of sleeping lightly. Hed even learned how to prop his laptop on his steering wheel so that it would look like he was working. But he was too bored to sleep.
+His luck was in. A hunched-over figure scurried down a side street. Nothing good ever came from being out at 3 a.m., and Harlan couldnt resist tailing the guy for a block or so. If the guy fled upon realizing he was being followed by a cop car, well, that counted as probable cause.
+The cruisers lights swept over the figure, pinning his silhouette against the whitewashed brick of a furniture store. Harlan wondered if he should call in the pursuit, realizing hed mentally elevated the person to a suspect. But he didnt want to be ribbed if the suspect was just some guy whose car broke down after his wife booted him out of the house. The chief wasnt a ball-breaker, but he definitely believed in rank and pecking order. Harlan hadnt been around long enough to be making his own interpretations of the law.
+He gunned his engine a little, causing the headlights to brighten. The figure neither accelerated nor turned, just lurched on ahead with an unsteady gait.
+Looks like public drunkenness at a minimum. Might be carrying, too. A drug bust would get me in good with the chief.
+Of course, the suspect could be packing a concealed weapon as well. This was America, after all.
+Harlan punched the accelerator and closed the fifty yards in seconds, the engines roar reverberating off the concrete, glass, and asphalt of the downtown. That got no rise out of the lurching man, and Harlan screeched to a halt and threw the gear lever into PARK. He got out, leaving the car running.
+The man maintained his unsteady pace. He wore a red hoodie, the sleeves cut unevenly just below the biceps. His jeans were halfway off his ass, showing gray underwear with a black waistband. Something flashed at the mans side, and Harlan realized it was a watch. Suspect was white. Like they all were in Taylorsville.
+Police, Harlan called, in the firm, commanding tone theyd taught him in Basic.
+The suspect might have cocked an earmaybebut kept on down the block. Soon hed be in the shadows at the back of the furniture store. Harlan debated hopping back in the cruiser for pursuit, but now it was getting personal.
+Halt! Harlan said, his voice cracking just a little. Very unprofessional. This guy was getting to him in a big way.
+Damn it, Im the authority here. Im in control of the situation.
+He unbuttoned the strap on his hip holster, although he didnt touch the butt of his .38 Smith & Wesson. In Basic, hed had one rule hammered into his crewcut skull: Dont pull it unless you mean it.
+He wasnt sure if he meant it yet. He was annoyed, nervous, and frustrated. Not a good position for making snap decisions.
+He should call it in now. Stefano, a good old Jersey Italian, was manning Unit Seven somewhere in the industrial park. The chief encouraged back-up on all but the most routine duties. Cover your ass, or the gravedigger will cover it for you, the chief liked to say.
+One of the suspects legs buckled and he nearly fell. Definitely four sheets to the wind. Fortified wine, if Harlan had to guessMad Dog or Thunderbird. Harlan used the stumble to close on the suspect, feeling braver with the headlights making a big, bright stage of the street. He was close enough to smell the manold sweat, piss, and a strange, metallic stench like ozone during a thunderstorm.
+Stop where you are, Harlan ordered.
+The man finally turned. He was Caucasian, all right, sporting a 70s porn-star moustache with a toothpick jammed between his teeth. The toothpick wiggled, and Harlan realized the wooden sliver wasnt between the mans lips; it was protruding from the lower one, a greasy smear of blood marking the point of penetration.
+Keep your hands where I can see them, Harlan ordered, although the man didnt seem to hear. The suspect stuck one pinkie beneath the hoodie to dig at his ear, and stuck the other in his jeans pocket. No way he had a gun in there, Harlan could tell that much, but he didnt like being ignored.
+He drew his Smith & Wesson. Freeze.
+Saying Freeze was awkward, the first time hed ever felt like a cop on a television show. Ill be eating donuts if this keeps up.
+But Hoodie didnt seem to care whether Harlan was playing tough. He glared at the officerand something about his eyes was wrong. They had the wetness of a drunks, and that puffiness around the lids, but instead of red spangles splotching the whites, familiar greenish veins streaked through them.
+Like the sky. His eyes are like that weird stuff in  the sky.
+That sounded too much like hallucinogenic hippie hullaballoo. Harlan needed to nail down this situation fast, before it got any weirder. Or worse, before some helpful do-gooder citizen came along and witnessed whatever might happen next.
+What happened next was the last thing that ever happened for Officer Harlan McLeod.
+Hoodie clucked his tongue, making a chuckling, popping noise, and then charged Harlan. The assault was so sudden that Harlan instantly went for his holster. Hed forgotten he already had his revolver in his hand, and the confusion cost him a precious split-second. Before he could raise the weapon again, Hoodie was on him, clawing and snarling, his teeth clacking together near Harlans face.
+So much for all that training. The chief is going to be pissed.
+Harlan stepped back but lost his balance, and that abetted Hoodies momentum. They slapped against the asphalt, with the policeman bearing most of the weight. Something crunched in his lower back and his legs went numb. Harlan tried to raise the Smith & Wesson, but it suddenly seemed to weigh thirty pounds. Then Hoodies teeth found his cheek and cleaved a wet strip of meat from his skull.
+Harlan bleated an unprofessional squeal as Hoodie hammered and scratched at his body. The pain was bad, but the worst part was those eyeslike rarified lightning, glittering with profane fire.
+On his back, he rolled his gaze up toward his forehead, looking at the twin headlights of his cruiser. Ghostly rims of haze circled the orbs, droplets of late-summer mist. Somehow it cast a calming presence over the horrible tableau. Like this was only a show.
+Then something went for his throatthe impact simultaneously blunt and piercingand the light washed over Harlan and vacuumed him into its endless blank brilliance.
+
+
+CHAPTER SEVEN
+
+Shits and Giggles.
+Those were the nicknames Franklin had given to the idiots on the AM radio talk show. They were what the blabber set called rising stars, loudmouths who sought to become even more provocative than Rush Limbaugh, Bill OReilly, and Alex Jones and his circus-like Infowars network.
+Shits was a hawkish Republican from the Midwest who fought for small government, the Holy Bible, and his personal interpretation of the Constitution upon which America was stolen from the natives and bequeathed to rich white men. Giggles was a small-L libertarian who thought John Locke was a liberal and that any public service, including federal disaster aid and orphanages, amounted to totalitarianism disguised as socialism.
+In general, Franklin could relate to any debate which started on the fringe right of the spectrum and went off the cliff from there. But he was particularly intrigued todayand neglecting his gardenbecause Shits and Giggles were talking about the solar flares and their potential impacts. It was difficult to tell whether they were wildly misinformed or just issuing whatever propaganda the Establishment had pushed their way. For all the brazen defiance of the Establishment, talking heads always understood that advertisers were still their corporate overlords.
+It wont hurt anything, Shits was saying. All this speculation is designed to stir fear on Wall Street and send stocks into a tailspin.
+And thats a good thing for the wealthy elite who own this country, Giggles replied, right on the end of the statement as if their schtick had been rehearsed. Because they already cashed out during the last government-subsidized bubble and are waiting for another crash to buy low.
+Franklin sneered at people who simplified the shell game to a matter of dollars and cents. Just like political noise, the financial markets were diversionary tactics to hide the true consolidation of power. The New World Order was just waiting for the right opportunity, and a worldwide natural disaster would fit the bill nicely.
+Lets look at infrastructure, Shits said. The U.S. has conducted tests that say satellite communications are the weakest link and most vulnerable to solar radiation.
+Who cares if you lose your cell signal for an hour? The real problem will be when people cant start their cars.
+Shits was on that one, jumping from subject to subject with an unrestrained glee. The topic didnt matterhe was an expert on them all. Only the most recent cars will be affected. Government tests
+Did you look at that test? They borrowed cars and had to bring them back undamaged, so they limited the electromagnetic pulse exposure. Talk about foregone conclusions. Now, the Russians back in 1962 had vehicles totally shut down during their tests, and that was before the advent of all this technology.
+Count on the Rooskies to go balls to the wall. They probably had human guinea pigs sitting behind the wheel, too.
+Some folks say the older vehicles will still work, but what happens when you run out of gas? What happens if the pumps dont work and the refineries shut down? Not to mention the gridlock on the highways.
+Franklin had read all sorts of research on the pulse effect, and some scientists suggested a car in a concrete garage would be unaffected. But unless the entire vehicle was in a huge Faraday cage, isolated from any conductivity, then it was a goner. He suspected only the military would plan for such extremes.
+But try telling that to a scientist. They looked at facts instead of the truth.
+Giggles was on a roll now. These media reports were gettingpeople going crazy and attacking other people in some sort of mindless rageI think its all part of the program. First they scare you, and then you willingly give up a bunch of rights. Then when youve given up enough rights, its easy to take away the rest.
+We lost a police officer in North Carolina, two sailors on leave in Norfolk, a pediatric nurse in Texas, and there are rumors of other unconfirmed deaths. God bless their souls.
+Mindless rage. Antisocial behavior. Total chaos. Are we talking about Zapheads or are we talking about Congress? Giggles snickered at his weak joke.
+The Administration is invisible on this issue. Thats what happens when you vote liberals into office. Right now we need some strong leadership
+Right now we need folks to take care of themselves and not sit around waiting for government to solve their problems, Giggles interrupted.
+Sounds good to me. Franklin reached for his battery-powered radio but the signal went dead before he touched the dial. He thought the batteries might have drained, but the steady hiss of unfilled bandwidth poured from the speaker.
+Maybe the Prophecy According to Shits and Giggles was correct and the End Times were finally here. Franklin rose from his chair, crossed the little cabins dark interior, and gazed out the doorway onto his little compound. The sunset was a purple scar along the crown of the mountains, and Franklin wondered if the sun was busy dealing its silent destruction as a new part of the world turned to face the heat.
+Rachel, if youre out there, remember what I told you, he whispered to the forest. Youre the only one with sense enough to listen.
+He descended the rough wooden steps into his compound and headed to the chicken coop. Predators were always afoot here in the wilderness, and Franklin maintained a defensive mindset.
+We can make it through the night, but what happens when the new day arrives?
+
+
+CHAPTER EIGHT
+
+Daniel Chien arrived early for work.
+So early that it might as well have been considered working late.
+Hed been tempted to just sleep on the couch in the Space Center lobby, since hed only left the observatory three hours earlier and had barely slept a wink. Summer Hanratty had found him much too obsessed for human company, especially the kind of company she wanted, so she told him to give her a call when he returned to Planet Earth.
+Once problems began popping up, the Administration had asked for on-the-hour reports, and Katherine Swain had ridden the console whenever Chien took a brief reprieve. Katherine had become just as hollow-eyed as Chien, because they both knew this level of solar activity had never been recorded.
+Or even theorized.
+Things were heating up. The magnetic field lines from the solar flares had behaved in unexpected ways, splitting and reconnecting in random patterns while the intensity of the coronal mass ejections increased. The center had lost contact with the SDO, as Chien had predicted, and they were essentially working in the dark, relying on ground-level measurements of the solar activity instead of direct readings from outer space. Despite linking an emergency network of radiotelescopes around the world, the data had become spotty. Not only was communication on the blink, but some countries were already experiencing widespread power outages.
+The popular press had begun digging into the story, gaining gleeful interest when the concept of Zapheads arose. Chien wasnt sure if solar radiation and gamma rays could affect the electromagnetic impulses of the human brain, but the storm had long entered uncharted territory. If the wiring melted or the signals got crossed, no scientist on earth could predict the effects. Prophets had just as much legitimacy in such realms.
+Katherine had reluctantly raised the threat level to Class X. The Administration was sending some FEMA and Homeland Security officials down later today, and Chien had a feeling science would quickly fall slave to politics, just as it had done throughout the course of human history. 
+As Chien punched his access code into the security keypad, he glanced around the dark parking lot. Half a dozen vehicles were in the lot at 5 a.m., twice the usual number. And yet the August surroundings looked much the same, the maples a brilliant green under the security lights, frogs and crickets wailing around the decorative pond in the landscaped entryway. But Chien could feel something in the air, a charging of the atmosphere, subtle like the coming of a storm.
+Dr. Doom was right, huh, Katherine?
+He entered the lobby, which was much dimmer than usual, and Chien realized the emergency lighting was on. Not a good sign.
+An even worse sign was slumped over the reception desk. Even in the poor light, Chien recognized Tamberlyn, the night security guard. His cap had fallen to the floor and one hand hung limply over the edge of the desk. Chien called his name, getting no response, and hurried across the tiles, his footfalls sounding much too loud in the glass-enclosed lobby. Tamberlyns face was pressed into a magazine, the pages splotched with his drool. Chien touched the mans wrist to feel for a pulse, but the skin was already cool.
+Chien picked up the desk phone, but it was dead. He glanced over Tamberlyns body, seeing no sign of a struggle. It was unlikely that someone would rob the SDO lab, because the equipment was of such a specialized nature that it would be difficult to pawn, and astronomy wasnt exactly a cash business. Even the data had little commercial value, because most of it was publicly available.
+Katherine!
+Chien hurried down the hallway, bypassing the elevators. He hit the stairwell, which was pitch dark except for the ambient glow of a few emergency lights. He stumbled going up, cursing as his kneecap knocked against concrete. Then he was on the second floor and approaching the SDO lab.
+The door was open. The lab was usually brightly lit, with lots of monitors, blinking lights, various digital meters, and personal computers. But only a few specks of light were visible, like fireflies against a midnight forest.
+Katherine? he whispered.
+Something moved to his left, followed by the squeak of chair rollers. He turned, and a sudden blur hit him in the chest, knocking the wind from his lungs and his glasses from his nose. He smelled Katherines perfumea sensible discount brand with a French name he couldnt recalland beneath it an electric sweaty odor, like a June bug caught in a zapper.
+He shouted her name, then called her Dr. Swain, hoping to induce some glimmer of professional memory. He pushed at her, and then began punching, as her talon-like hands raked over his face. Her nails cut a searing line of agony across his forehead.
+Shes going for my eyes!
+He landed a fist against the side of her body, incongruously aware of the bulge of her breasts against him as she forced him to the floor. Katherine Swain wasnt a large woman, but somehow she seemed to have embodied all the power of gravity. A suppressed chortle vibrated behind her ribs like some kind of wind-up toy. She reared up, giving him a chance to buck her off, but her face froze him into immobility.
+The firefly glints he had seen were not the remnants of the mechanical world he so loved. They were organic, an obscene inflection in her eyes. He could only stare and exhale as she clasped both her hands together into one fat fist and drove the flesh hammer down onto his throat.
+He spat out an urk as his larynx was crushed.
+Sucking for breath, he glanced wildly about the room, looking for a way out. But this time, science wouldnt be his salvation.
+Dr. Doom was right.
+
+
+
+CHAPTER NINE
+
+Campbell Grimes thumbed the controls to reload his shotgun, descending a stalled escalator onto the subway platform.
+A zombie jumped from behind a pillar, decked out in gray coveralls like a maintenance worker. Campbell barely had time to blow the monsters head off before two more jumped from the shadows.
+He firedka-blam blameliciting two explosive gouts of animated blood, followed by a scream and an inhuman cry deep in the subterranean cavern beneath the city. Left 4 Dead was one of the most popular video games ever, and despite playing it religiously for the last three years, Campbell was nowhere close to being tired of it. He liked his cooperative protagonists in the game better than most of his friends in the real worldat least he could always count on them to have his back. Campbell had little doubt he would be sitting in an old folks home one day and fighting through the same zombie hoards that magically never seemed to age or diminish.
+But old age wasnt on the radar yet. At 25, he was still far from growing up, much less old.
+Come on, come on, he shouted at the screen. He flipped the controls to send his character onto the subway train, running between the empty benches with his shotgun leveled before him. Sensing a lull in the attack, he clacked another shell into his gun.
+A demonic howl arose from the car ahead. He raised the barrel and braced for more slaughterand the screen went black.
+The hell? He clicked the game buttons for another ten seconds before realizing the system had lost power as well as the monitor.
+Looking around the cluttered living room of his Chapel Hill apartment, he wondered if Roy had forgotten to pay the power bill again. Roy was the kind of roommate who always had twenty bucks for a couple of twelve-packs, but never seemed to have a hundred bucks for any purpose. The idea of skipping the beer for a few days in order to pay the power bill would never cross Roys mind.
+Campbell wasnt exactly Mr. Responsible himself, but he had a little pride. He worked as a delivery boy at Papa Johns Pizza to make ends meet, fooling himself that one day he would get a real career. But what was the point of honesty? Where had that ever gotten anyone?
+It wasnt just the television and Xbox that had lost power. The little orange lights on the kitchen appliances were dead, too. Enough morning sunlight leaked between the curtains to glint off the crushed beer cans on the coffee table.
+Roy? he yelled.
+They each had private bedrooms in the old house that had been carved into apartments by an aspiring slumlord. It was twenty blocks from the University of North Carolina campus, which moved it from the rent zone of rear entry with an ungreased jackhammer to the slightly more palatable full frontal assault. Which was good, since Campbell had graduated two years ago and didnt need proximity. Roy, on the other hand, was in the seventh year of his B.S. in Communications program. The problem was that Roys communication skills were even worse than Campbells, who talked more to virtual friends than the real people in his life.
+He called Roys name once more, then stood, banging his shin against the coffee table. He inched across the carpet, sliding on his socks so he wouldnt bump into any other obstacles. The static electricity caused little blue sparks to dance around his toes. If Roy had been sitting there stoned, he would have offered a Cool, dude, his catch-all observation for anything that wasnt Lame, dude. That communications degree was really going to take him places.
+Roy, you got anybody in there? he called through the door. Sometimes he slept with Marta, the Mexican girl whose age might have put Roy on the wrong side of statutory rape charges, but she dropped by only once a week. Campbell kept his nose out of such things unless Marta happened to have a friend who was down for partying. Which was every three months if Campbell was lucky. Not that he cared that much. Women were complicated; Left 4 Dead made linear sense.
+Roy! Did you pay the power bill?
+After pounding hard three times and getting no answer, Campbell tried the door. If Roy was gone from the apartment, he locked the door because he was dealing nickel bags of weed on the side. Not that Roy didnt trust Campbell. Paranoia just came with the territory.
+The handle turned, which meant Roy was snoozing through a hangover. Pete pushed the door open, bulldozing a pile of dirty clothes. The room smelled of old socks, cheap aftershave, the rusting metal of Roys weightlifting set, and a permanent booze/pot smell that blended into one tarry and potent smog.
+Campbell felt along the wallwidescreen TV, lift bench, dresser piled with bottlesuntil he reached the window. He wracked the curtains wide so that the sun streamed onto Roys bed.
+There, asshole, I hope that drives fishhooks into the backs of your eyeballs and yanks them out.
+Roy didnt move. His face was turned toward Campbell, mouth hanging open, the tongue lolling in there like a fat, pink grub. Campbell kicked the bed. Wakey wakey.
+Roy quivered but didnt awaken. This time Campbell wedged one bare foot on his roommates thigh and shoved. Roy rolled partway over, not even muttering his annoyance. Campbell leaned in and studied Roys pale face.
+Dont look so hot. Like hes been shooting heroin or something.
+Campbell leaned closer. A new kind of foul stench came from Roys mouth. But it wasnt bad breath, because Roy wasnt breathing.
+Damn damn damn. 
+He pressed a finger to Roys neck like they did in the movies. He wasnt sure what a pulse would feel like, but it didnt matter, because he felt nothing.
+Shit shit shit. Hes dead.
+Campbell retreated to the living room, eyes now adjusted to the gloom. He fished his cell from his pocket. But should he call an ambulance? What about the drugs? Would Campbell get in trouble? Sure, he could blame everything on Roy, but a police search of the place would be a big hassle.
+In the end, he decided to make the call. Except his phone didnt power up. It had been fully charged an hour ago, when his manager called to remind Campbell about his shift.
+No power, no phone. What the hell is going down?
+Campbell opened the apartment door. A man was sprawled on the sidewalk outside, huddled like a lump of clothes. A red Jeep wheeled wildly through the parking lot of the complex, shearing the bumpers of three vehicles before plowing into a Ford truck. The Jeeps driver crashed headfirst through the windshield, hanging there like a trophy deer mounted on a red plate. Screams rang out from the surrounding streets.
+All hell was breaking loose, and Campbell did the only thing he could think of under the circumstances.
+He stepped back, slammed the apartment door, and locked it.
+And wondered how long it would take for the power to come back on, and how long before Roy started to stink for real.
+
+
+CHAPTER TEN
+
+Rachel heard the screams as she clawed her way out of sleep.
+As usual, shed been underwater in her restless dreams, probing the murky depths for something she could never find.
+Something banged against her apartment wall, and she thought the neighbors might be having one of their cozy little spats. But the screams were muffled and distant, coming from somewhere outside the apartment complex.
+And there were several, a chorus line of wailing, shrieking, and bellowing. A grinding metallic crash, punctuated with broken glass, brought her fully awake. Somewhere down the street, a car horn blared incessantly and then gave way to an abrupt silence that was much too deep for a weekday dawn in Charlotte.
+Rachel rolled into a robe and rose to the window, assuming an auto accident. She had to remove the box fan to get a good look. The street was a mess. Cars were jumbled in a chaotic array, with traffic completely stalled. A city transit bus had slewed to a stop in the intersection. Two service vans had collided, one of them spilling bundles of blue towels from its cargo bay. Steam rose from beneath the hood of a Toyota sedan, and the drivers arm dangled from the window. The hand was deathly still.
+Thats when Rachel realized the only movement on the street was a woman in business suit running awkwardly between the stranded vehicles, one high-heel missing, hair trailing out behind her in tangles.
+No, there were others.
+Chasing the woman.
+The nearest was a man in a khaki uniform shirt with a cloth insignia on the shoulder, like some sort of delivery driver. He slapped against the side of the bus has if not seeing it and staggered for a moment before continuing after the screeching woman. As if drawn by her cries, a man in a scuffed leather jacket dodged between vehicles toward her. His pursuit was blocked by two cars that had collided bumper to bumper, and he scrambled over the hood of an Audi sedan, sending bits of broken glass winking to the street. They were both gaining on the woman, who was too frantic to remove her lone high heel. She hobble-clopped toward the storefront of an electronics repair shop, where an old woman was collapsed against the door.
+Then Rachel noticed the other bodiesat least four that she could see at a glance. She recognized a pink cardigan sweater shed loaned to Mira, and then recognized the long dark hair splayed out around her head where Mira lay prone on the sidewalk near a bus stop.
+Call 9-1-1.
+Rachel reached for her cell phone on the nightstand, although surely the police already knew about an incident this big. But the phone was dead.
+Her grandfather had tried to teach her about firearms, but she had resisted, refusing to buy into the violence of the world. Now she wished she had a weapon. But she didnt know whom to shoot. Or why.
+Rachel shoved the screen out of the window and yelled at the panicked woman, hoping to draw the attention of her attackers. But while the woman turned and looked up, the two men plunged ahead, closing the distance. They were on her in an instant and began tearing at her clothes and hair.
+A rape, in broad daylight?
+But that didnt square with the carnage below, or the dead bodies. This was big. Way big.
+And she remembered the stories about solar flares. She squinted at the rim of flaming orange that burned like a promise across the city skyline.
+Rachel didnt yet realize it, but she was witnessing the glimmer of a new dawn, a world where death claimed its throne and the few survivors could hardly count themselves as lucky. Because the survivors would be alive and nothing more, while others among themthose whod been sparked into a cataclysmic upheaval of evolutionwould be more than alive.
+This was the first light of After.
+Someone pounded on the door.
+
+***
+
+Scott Nicholson is the international bestselling author of more than 20 thrillers, including The Home, Disintegration, Liquid Fear, and Speed Dating with the Dead. His books have appeared in the Kindle Top 100 more than a dozen times in five different countries. Visit his website at www.hauntedcomputer.com. Sign up for the Tao of Boo newsletter for giveaways and free books: http://eepurl.com/tOE89.
+
+Look for the other books in the After post-apocalyptic series! If you read them and enjoy them, please consider writing a review so the series can grow.
+
+AFTER: THE SHOCK
+Book 1 in the post-apocalyptic series
+By Scott Nicholson
+
+A massive solar storm wipes out the earths technological infrastructure and kills billions. As the survivors struggle to adapt, they discover some among them havechange. The first book in the After series.
+Learn more about it at Haunted Computer.
+
+
+
+CHAPTER ONE
+
+There were three of them.
+Shed stopped naming them a week ago. It had been an amusing distraction for a whileand the Good Lord only knew, she needed distractionsbut then theyd all started blending together, the Black-Eyed Susans, the Raisinheads and the Meat Throats.
+Now, though, Rachel Wheeler couldnt resist looking through the grimy drugstore window as she waited, crouched in the litter of baby powder and cellophane.
+Stumpy.
+The one on the right, sitting on the sidewalk bench surrounded by a mountain of bulging plastic bags, was missing his left arm just below the elbow. The wound was swathed in a filthy towel strapped in place with duct tape, stained dark brown at its blunt end.
+Stumpy was waiting for a bus that would never come. Rachel couldnt tell if he was a Zaphead. He might just be another of the schizophrenic homeless, one of the underclass that hadnt even noticed that the world had ended. Although gaunt, he didnt appear particularly motivated to kill, obsessed instead with swatting away the flies that swirled around his stump.
+He was fifty feet away, and she could outrun him easy. All she had to do was run as if her life depended on it. It wouldnt be much of a challenge because her life had depended on it for days.
+A hundred yards down the street, The Beard, the guy staggering back and forth, was almost certainly a Zaphead. His expression was hidden by the unkempt hair, but he was hunched and his fists were clenched, rage curling around whatever strange energy burned inside of him.
+Okay, Beard, youve solved my little dilemma of whether I should head south or head north.
+The mountains were her destination, and they lay to the northwest, but she wasnt willing to risk The Beard.
+The word destination sounded odd in her thoughts, because of the root destiny. Such abstractions were laughable now, but laughter was the only weapon against the fear that sapped the strength from her legs. And she needed her legs.
+Oh, yes, Lord, give me stumps for hands, but please dont mess with my legs.
+In this scary new world, in this After, you had to run, dragging your guilt and fear and all the dark weight of Before.
+Even if shed wanted to head south, where not even hope was an option, Chain Guy had other ideas. He was moving through the smoky haze between a Volvo sedan cattycornered in the intersection and an abandoned police car, its doors flung open like the wings of a spastic, grounded bird as it perched with two wheels on the curb.
+Chain Guy was dressed in a torn leather jacket, despite the late-August heatand in Charlotte, the August heat grabbed your throat and scrubbed you with salt waterand he carried a knapsack. Clearly, he was one of the higher-functioning lunatics. The chain in his right hand trailed out on the asphalt behind him, its faint clink the sole soundtrack to a scene that had once featured rush-hour traffic.
+She ducked lower in the drugstore window, clutching her backpack more closely. The pack was bulging, and shed needed the dried foods shed collected, but now, the comfort items felt more like indulgences that would slow her down and maybe get her killed. 
+Really, toilet paper and tampons, Ray-Ray? Why not grab some hemorrhoid cream and Viagra while youre at it? You cant beat these prices, so you might as well stock up.
+She wondered if she should wait it out, to see whether The Beard and Chain Guy squared off. Maybe while they were busy, she could slip out and head down a perpendicular street. It was likely that one or two Zapheads would be on the prowl, but she didnt want to stay there until dark. The stores front door was smashed in, and other scavengers might show up for this unbeatable, once-in-a lifetime, going-out-of-business sale.
+The sun was still high, but barely visible through the smoke that curled from the downtown high rises. She suspected a bonfire was raging in the football stadium, toothe wind carried the stench of charred meat.
+Chain Guy wrapped loops of his weapon around his forearm until he had a four-foot length. He swung it back and forth, gradually picking up momentum until he was whipping the chain in a circle over his head. He was still about forty yards from The Beard, who still paced back and forth, apparently oblivious to the coming storm.
+As the chain whirred like a slow helicopter blade, a dog bounded out from behind the police cruiser, snarling and yapping. He was a German shepherdlean, dark and hungry. The dog made a beeline for Chain Guy, evidently smelling something he didnt like. But the dog must have sensed the reach of the chain, because he halted and lowered himself onto his forelegs, haunches reared as if poised to attack.
+Get em, boy, Rachel silently cheered, thinking the distraction would give her an opening. She squeezed the straps of her pack, testing the weight and calculating how much it would hinder her speed.
+The dogs lips peeled back as he growled. Chain Guys expression didnt change. He spun the chain faster, almost daring the dog as he headed for The Beard. The shepherd danced forward a few feet and snapped, but Chain Guy kept walking, not breaking stride. The dog apparently didnt like being challenged, so he made a run for Chain Guys ankles.
+The chain lashed out of its orbit and descended with stunning speed, the blow so sudden that Rachel wasnt even sure shed seen it. Then came the thwack as metal hit meat, the chain flaying the dogs rib cage. It emitted one garbled yelp of pain and collapsed. Chain Guy still wore that blank, businesslike expression as he brought the chain around for another blow. This one took out a leg and the shepherd crawled away like a broken spider.
+The sickening attack reminded Rachel they werent playing Ring Around the Rosie here. It was dog eat dog. And, they definitely werent playing. If it came down to it, shed rather Chain Guy eat the dog than eat her.
+If Chain Guy looked to his left, he might have glimpsed her hiding behind the shards of glass in the storefront. Her curiosity was slightly more compelling than her fear, and every bit of information might mean the difference between survival and its opposite. She wasnt sure what the opposite was, but it was worse than death.
+Chain Guy maintained his pace, but he let the chain slow again above his head. Stumpy hadnt moved from his bench, and The Beard still seemed intent on whatever crack in the asphalt had consumed his entire attention for the past minute.
+Or Jesus. Jesus in the oil stain, the rainbow warrior, the light of wisdom.
+Rachel bit her lip to keep from giggling. Dont lose it. Only crazy people lose it, and you know what happens to crazy people.
+Something tumbled from the shelves behind her, near the prescription counter.
+She hadnt checked the aisles after seeing the corpse of a child, although the place had seemed dead. But dead had a new meaning now.
+She tensed, but didnt bolt, because the real threat of Chain Guy outweighed the imaginary threat spawned by a jar falling to the carpet. The Zapheads werent known for subtlety, so there was zero chance of one of them creeping up on her. No, a Zaphead would roll forward like a Cadillac out of hell, fueled by the frenzy zapping and hissing in its brain.
+Chain Guy was busy bearing down on The Beard, so she crawled to the left a few feet and peered around a display of Hallmark cards. A hand stretched out on the floor beside the prescription counter, the fingers twitching.
+Could be a Zapper in the last throes of internal combustion.
+The hand curled once, twice, and then she recognized it as a beckoning motion. A Zaphead wouldnt beckon. It would go for what it wanted, not lure you closer.
+Somebodya humanwas down. And here came the litmus test of After: Did the old codes still apply? Did she still have to love her neighbor? Did she have to treat everyone as a child of God?
+Maybe God wouldnt notice just this once. Maybe she could just sit right here near the door and then make a run for it, gasping prayers.
+Better to ask for forgiveness than for permission, right?
+However, forgiveness probably wasnt a question one wanted to ask of God. Not now, in the After. Rachel tried to look away, she really did, but the hand made another beckoning motion. It looked frail, the fingers knotty and thin. It was not the kind of hand that would wrap around your throat and drag you screaming into the darkness.
+Outside, the chain clanked against the asphalt, as if Chain Guy was working out the kinks and getting ready for business.
+The hand gave one final gesture, this time just the index finger, motioning Closer, closer, closer with an intensity that only silence could fully project.
+Still, she resisted the impulse to help, the love-thy-neighbor credo that had been drummed into her from childhood, sitting bedside with her cancer-stricken mother, volunteering at the Humane Society, joining the Wellspring Fellowships Happy Helpers, and taking counseling classes at UNC-Charlotte. Little Ray-Ray had been on track for a golden-rule life of selfless service. In the Before.
+However, shed been sidetracked.
+She wasnt even sure there was a track anymore, because the train had jumped off into a dark, directionless territory.
+Rachel looked away from the hand and eyed the door. She could probably get twenty yards down the sidewalk before Chain Guy broke his fixation and noticed her, and maybe that would buy her enough of a jump on him. Her legs were young and limber and strong, built by a cycling addiction. She could outrun him.
+Probably.
+Huhhh
+The wheeze came from behind the prescription counter. She jerked around her neck, and the hand now balled into a fist, as if tapping some last reserve of energy. The whisper came again, weak and broken.
+Huhhhhelp
+Goddamn you, God.
+She checked on Chain Guy, still closing in on The Beard, who swayed in obsessed circles. Stumpy sat on the bench as if waiting to feed pigeons. It was just another busy weekday in downtown Charlotte.
+Just another day in After.
+Help. The voice of the hands owner gained volume, and she hissed a Shhh in response as she crawled down the aisle. The last thing she needed was for Zapheads to show up, pissed off that they hadnt been invited to the party.
+Shed long agowell, days ago, but it had seemed like yearsdecided that it was selfish to pray for survival and deliverance, but it was righteous to pray for the strength to help others. Shed also promised to live for Chelsea, to spend all the years that had been taken from her little sistertaken by Rachel.
+But she couldnt think of that now, or she would become paralyzed, accepting her fate. Deserving death. Deserving it because each breath was a selfish act in a world where she had destroyed something beautiful.
+As Rachel drew closer, a rank, sour odor assailed her. Shed smelled her share of corpses, with their heavy, sweet fecunditydecay had become so pervasive in After that only a truly sharp odor had a chance of piercing it. Whatever lay behind the counter had achieved that rare status.
+The arm pulled itself into the gap and she crawled faster, chafing her knees even through the blue jeans she wore. Her backpack was off-balance, banging against her right hip, and she had to navigate an obstacle course of stuffed animals, jars of nutritional supplements, soft drinks, and other artifacts of a lost culture.
+It was darker back here, removed from the sunlight, but not so dark that she had to dig out her flashlight. She wasnt sure she wanted a clear look, anyway, because the sour odor suggested something had turned inside-out.
+Help, the mans voice said again, and she answered, Okay.
+God, Im trusting you here, and if youre leading me to a horrible, painful death, I swear Ill never speak to you again.
+Then she reached the counter and felt concealed enough to rise into a crouch and duck-walk the final ten feet around the counter. The man was curled on his side in a fetal position, wearing a white coat that suggested hed been the pharmacist on duty at some point, back when duty mattered and pulled a weekly paycheck. Resembling a lighter-skinned Gandhi, he was bald and old and wore rounded glasses with wire frames. A pool of vomit explained the stink, and the flies had already migrated from the childs corpse to check out this new taste sensation.
+Youreone of us, he said.
+Yeah, she said, wishing she could summon that caregiver confidence expounded upon in her counseling textbooks. Are you hurt?
+He gave a pained smile, and a wet fleck of vomit appeared in the corner of his mouth. I hurt just fine, thanks.
+Let me help you.
+She reached to check the pulse in his neck, but he shook his head. No, dont save me. For the sake ofall that is holylet me die.
+Great. So he wants me to play Dr. Kevorkian here. Too bad.
+She touched his neck, and he didnt resist. His carotid pulse was a weak flutter. It was a wonder that he even had enough strength left to speak.
+Dont save me. His face curdled with an emotion somewhere between anger and defiance.
+Why did you ask for help, then?
+He rolled his eyes down to his other hand, the one that was curled into a fist around something. I wasnt asking for help. I was offering it.
+His reply startled her. He didnt look like he was in a position to help anything but the maggots. His breathing grew shallower.
+How many are outside? he asked.
+Two or three, she said. Im not sure about one of them.
+He opened his hand, which held an orange prescription vial. Nembutal, he said. The easy way out.
+So, he was the one playing Dr. Kevorkian. Shed seen Nembutal in the animal shelter, where it was used to end the suffering of sick pets. He let the vial roll from his hand and he gave it a weak nudge along the floor, toward her.
+Antiemetics, too, he said.
+Huh? Whats that?
+Dont want to vomit it out before it has a chance to work. His words were slurring now. I should take the old sawbones adviceof Heal thyselfto heart, huh?
+She wondered how many of them hed swallowed. Probably far more than enough, if he knew his trade, and he had the look of experience. In a matter of such importance, hed be dead certain about the dosage levels.
+Im not ready to die, she said.
+None of us were, he wheezed. His eyelids fluttered.
+She checked his pulse again, and she could barely detect the blood making its last sluggish rounds through his circulatory system. At any second, hed fall unconscious, and then his brain would begin the slow process of turning off the lights until the party was over.
+Do youwant me to pray with you? she said. She didnt want to ask if he was saved, because that seemed too judgmental for this most personal of moments.
+Imgood, he said. He nudged the vial toward her. Here. My final request.
+His hand bore a wedding ring, and she wondered about his wife. Had he helped her escape from After? Had he guided her into the next great uncertainty? Maybe hed even tricked her, grinding the pills into powder and spiking her sweet iced tea.
+Take it. May as well let him die feeling helpful.
+Thank you. She collected the vial and he grinned and closed his eyes. She slipped the vial into a side pouch of her backpack. A moist whistle came from his throat, and then he grew quiet.
+Outside, in the street, Chain Guy bellowed in that inhuman manner that meant he was about to indulge in his Number One Priority, following his purpose, as did all beings under Gods high heaven. Even Zapheads.
+She sat with the suicidal pharmacist for another minute until his pulse stopped, and then crawled back to the front of the store.
+
+
+Learn more about After: The Shock at Haunted Computer, order a personally signed paper copy, or buy it at your favorite online bookstore.
+***
+
+AFTER: THE ECHO
+Book 2 in the post-apocalytpic series
+By Scott Nicholson
+
+Six weeks after a massive solar storm wipes out billions, a small group of survivors must face a future that may have no room for them. A group of mutants called Zapheads are evolving to replace humans at the top of the food chain.
+
+
+CHAPTER ONE
+
+The September sun burned the treetops in a kaleidoscope of gold, scarlet, and a purple so Doomsday deep that the forest appeared bruised in spots.
+The air was clean, with much of the haze confined to the eastern horizon behind them, where Charlotte and Winston-Salem had burned to nothing. No one had informed the birds that the world had ended, so their songs and chirrups rang from the high branches. All in all, Rachel Wheeler considered it just another ordinary day in After.
+If you dont think about the dead and the changed. And the next solar storm that could fry us all to madness.
+Her legs were sore, but theyd grown stronger with the miles. DeVontay Jones, the dark-skinned man with the glass eye walking behind her, couldnt even keep pace. Or perhaps he was dawdling so that Stephen could explore like an ordinary boy, dashing to grab a flower here or poke a stick in a mud puddle there. Stephen kicked at the first of autumns fallen leaves, taking joy in the loud scuffing sounds.
+How much further? DeVontay asked Rachel.
+Youre the one with the map.
+I dont care about no numbers, he said in his Philly accent, although its hard edge had softened in the six weeks since the solar flares had erased all borders. Im talking how much more of our lives we got to spend walking in the woods.
+The rest of our lives, Rachel said. With Stephen out of earshot, she could add, Which may not be much longer.
+Miss Optimistic, DeVontay said with sarcasm. Wheres the little pep talk, the prayers, the faith?
+Rachel didnt want to confront faith. Somewhere along the way, the bodies and the carnage and the relentless horror had chewed a ragged hole through the walls of her heart. Any light left inside had leaked out with all the sad inevitability of a ruptured balloon. Where faith had abandoned her, stubbornness had taken up the cross and pushed her toward the mountains.
+Where hope had died, anger had stepped into battle formation.
+I still believe, she said and felt no shame at the lie. She simply believed in something different now.
+Survival.
+Well, I believe we ought to sit down a minute, DeVontay said. You might know where we are, but I wouldnt mind getting a look at the map.
+Dont you dare make a joke about women drivers, Rachel said.
+Wouldnt dream of it. He tried to wink, but the lid dropped only halfway down his glass eye, making the expression more of a creepy leer.
+Stephen! Rachel called.
+The boy had pranced off into the woods, breaking their rule that they should always stay in sight of one another. Not that Rachel was worried. Since leaving the farmhouse five days ago, theyd stuck to the forest roads, only occasionally intersecting a highway or coming across a house. They hadnt seen a Zaphead since then, although once in a while strange chuckling sounds had ridden the breeze from a distance.
+That boy doesnt listen too good, DeVontay said.
+Rachel could tell he was uneasy, because he shrugged the shoulder strap of his rifle down his arm and into position for action. Were safe out here, she said. Nothing for Zapheads to hunt.
+She shut out the memory of the Zapheads shed encountered in Charlotte and how they had swarmed over any survivors, driven to destroy any breathing creature that crossed their paths. But the Zapheadsso named by clever bloggers in the early stages of the solar storms and then picked up by the mainstream mediahad largely stuck to populated areas, which Rachel believed was due to their suppressed intelligence. Lacking any reason to migrate, they stayed where their brains had fried.
+DeVontay, though, had a different theory: the meat was easier.
+Stephen! Rachel called again. The highway ran a good hundred yards to their right, littered with cars and gas-bloated corpses. Stephen knew enough not to head in that direction.
+Guys! Stephen called, somewhere past a wall of autumnal maples and sycamores. I found something.
+Rachels ribs squeezed around her heart. Shed settled into the numb routine of foot travel, weary enough of discovery. Shed discovered the sun could unleash invisible hell upon the world, killing billions and changing others into mindless killers. Shed discovered she was among the few survivors plunged into a world where the technological infrastructure built over decades had been erased. Shed discovered God wasnt nearly as benevolent and constant as shed always believed.
+And now she discovered that she didnt want to take another step. No more surprises, no more challenges to overcome. But she took the step anyway, and then the next.
+And then she was running.
+After finding the rifle back at the farmhouse, DeVontay had given her the pistol, and they had practiced with both weapons until she felt confident with them. Shed fought Zapheads at close range, andin another unwanted discoveryfound their blood was red, too, that for all their savagery, they were not much different than the human survivors.
+Still, if anyone threatened her or Stephen, she was willing to spill their blood again and again and again.
+The thought no longer horrified her. Anger was her last remaining source of motivation, the fire in her belly and the burning in her soul.
+DeVontays long strides moved him past Rachel, and he entered the clearing a good ten seconds before Rachel. When she saw him slow and lower his rifle, she knew there was no danger.
+Plane, Stephen said, and Rachel found herself involuntarily scanning the sky, but all she saw was an uneven layer of late-afternoon clouds.
+The tops of the trees had been sheared off in a great line, branches twisted and skinned naked, white wood exposed to the sun. Fifty yards ahead, an airplane fuselage had gouged into the ground, a long furrow of reddish-brown soil marking the path of its crash landing. One wing was crumpled against the trunk of a massive oak, and the other was nowhere in sight, perhaps cartwheeled into the far pines.
+The plan had a shattered propeller, so Rachel knew it wasnt a jet. It was a commuter plane that held thirty or forty people, what business travelers called puddle jumpers. It had probably been airborne when the solar storms hit, knocking out power and radio contact. The pilot had wrestled the manual controls just skillfully enough to prevent a nose dive, but it was highly unlikely anyone could have survived the crash.
+Damn, DeVontay said.
+Maybe they were the lucky ones, Rachel said. Stephen hadnt registered any shock, more like a boyish wonder. Considering hed nearly lost his mind after his mother died, Rachel took it as a good sign that he was almost normal.
+As normal as anyone could be in After.
+Too bad we cant fly it, Stephen said. Then wed really get to Missippi.
+Rachel and DeVontay had nurtured the illusion that theyd eventually get Stephen to his father, who was almost certainly dead or worse. Rachel no longer felt the slightest guilt at the deception. Guilt was a luxury for the civilized.
+Wonder how many people were in planes when the Big Zap happened? DeVontay said.
+The electromagnetic pulse would have knocked them out of the sky like a giant flyswatter, she said. Like they were talking about on the newscasts, back when all this was just a theory.
+No parachutes, DeVontay said. But I guess if you think its going to crash, you dont get on in the first place.
+What a horrible way to die.
+Rachel had never had a fear of flying, but shed never set foot on a gangway without thinking about the possibility of a crash. And shed decided it wasnt death shed feared, it was the possibility of knowing you were going down and getting several minutes to appreciate the coming impact.
+But isnt that what is happening anyway, to all of us, all the time? Were all headed for it. We just maintain plausible deniability. We know were dying, but just not today. We all want to go to heaven, but not right now. Rinse and repeat as needed.
+Stephen continued toward the plane, transfixed as if it was the first time hed seen one up close, or maybe just enjoying a boyish fascination with destruction. Rachel tugged at his shirt sleeve, but he shook free and moved closer. A small circle of scorched grass surrounded the rear of the plane, but the hull was relatively intact. Luggage lay scattered around the wreckage, one bag torn open to reveal a vivid red dress, another with the heads of golf clubs poking from one end.
+Rachel saw no movement behind the rounded rectangular windows, and she didnt want Stephen exposed to the stench of several dozen decomposing bodies. Even in the shade, the planes interior had probably topped a hundred degrees, roasting the bodies trapped inside.
+Wanna see, Stephen said.
+Let DeVontay check it out first, Rachel said.
+DeVontay lowered his eyebrows, his glass eye glinting drily in the sunlight. Gee, thanks.
+Hey, youre the man of the family, she said.
+They hadnt discussed their odd relationship, but theyd become a family in perhaps the truest sense of the word. Nothing the bible would recognize, certainly, but theyd faced tribulations together that even the Old Testament plagues couldnt rival. They were bound by mutual survival.
+DeVontay headed toward the wreckage, rifle at the ready. Stephen started after him, but Rachel reached out and snagged his shirt, this time keeping a grip. Not so fast, fearless scout.
+DeVontay peered through one of the rounded port windows, then walked around to the front where the nose of the plane had torn loose from the body. Rachel knelt over a green suitcase that had busted open in the crash. A tag around the handle revealed the baggage had been through Atlanta. Rachel briefly considered the privacy of the suitcases owner. Did she have the right to prowl in someones personal history?
+She glanced over at the plane. Beyond it, in the weeds, a sodden stretch of cloth ended in a twisted nub. At the end of the nub, a leather shoe pointed up at the treetops.
+If that were me, Id want someone to use whatever I could offer.
+As she opened the case, Stephen joined her and dug into the clothes, books, and a little zippered bag of makeup. Stephen pulled out a pair of panties and his face curdled in disgust before he flung them away. Yuck.
+His reaction was so much that of an ordinary boya boy from Beforethat Rachel almost smiled. But smiling seemed like sacrilege at this scene of such slaughter.
+She found a long-sleeved blouse in a shade of subdued rose. She held it up over the grimy flannel shirt shed been wearing since theyd left the farmhouse. It looked close to her size. What do you think? she asked Stephen.
+He shrugged. I guess its pretty, if you like that kind of thing.
+She wadded it up and tossed it back in the suitcase. Youre right. No use looking pretty these days.
+Stephen picked up the blouse and held it out to her. His big brown eyes were wide and hopefullike maybe it wouldnt be so bad to pretend things hadnt changed so much. Its pretty. Like something my mom would wear.
+This time she did smile. Okay, she said, lifting one arm and giving an exaggerated sniff of her armpit. Guess this one is getting a little stinky.
+DeVontay emerged from the devastated fuselage, his rifle slung casually over his shoulder. All clear, he said. I think we got us a roof for the night.
+A jolt of horror shot through Rachel. He didnt expect them to sleep among all those bodies, did he?
+DeVontay pointed to the plans nose, which was cracked like an egg and sheared upward. Empty, he said.
+Rachel started to repack the suitcase, and then realized how ridiculous her instinct was. She tucked the blouse under her arm. Five-star accommodations?
+DeVontay glanced up at the sinking sun. I dont like stars. Especially that one.
+Stephen, apparently taking the adult cue that it was okay to prowl through the luggage, ran over to a satchel and unzipped it, throwing clothes and papers into the air. He fell silent and still, staring down into the mess.
+Rachel and DeVontay shared a glance, and DeVontay frowned and shook his head. Go on. Do your counselor thing.
+Aye-yay, Captain.
+Rachel went over to Stephen and saw the baby doll nestled in the satchels contents. Stephen had outgrown his attachment to his baby doll Miss Molly, leaving it with the corpse of a girl to comfort her on her journey to the beyond. But now the loss of his mother showed on his face, a mute, hollow kind of pain.
+Come on, she said, taking him by the shoulder and guiding him to the nose of the plane where they would camp for the night. Shed soon be gathering clothes to bundle into makeshift beds, and then starting a campfire to heat a few cans of Campbells soup with crackers. DeVontay was busy clearing wreckage from the tilted nose of the plane.
+Theyd sleep surrounded by the dead.
+Just another ordinary day in After.
+As Rachel comforted Stephen, she didnt notice the movement in the surrounding forest, or the eyes that watched them settle in for the night.
+
+Learn more about the After series at Haunted Computer, order a personally signed paper copy, or buy it at your favorite online bookstore.
+
+
+Bonus After story!
+
+ALLY, BENEATH THE SKY THAT BURNED
+
+By Joshua Simcox
+
+
+Mackie swallowed a pair of Vicodin with a mouthful of warm Diet Coke and patted his waist for the comforting heft of his Glock, tucked in his jeans and hidden beneath his windbreaker.
+He hadnt needed it since gunning down the last Zaphead about three miles back.
+The Vicodin, however, Mackie always seemed to need.  Even if he was wasnt feeding addiction by chemically soothing his anxieties, prescription pain meds were in high demand in After, and thus served as useful currency.
+One didnt want to spend much time on the highways these days without both weapons and items for bartering.
+Just ahead, he could see the campus begin to emerge from the rows of shops, assorted small businesses, and modest houses that lined both sides of the highway running through this particular stretch of western North Carolina mountains.  Mackie hadnt been here in some time, but even in After, he could see that the campus had lost none of its intoxicating bucolic flavor.
+With its quaint mountain charms and stones-throw proximity to a few ski resorts and a number of popular hiking destinations, Evans-Lawson was a school more popular with outdoorsy slackers than the more studious-minded.  Mackie had belonged to neither groupand neither did Ally, reallybut he missed it here just the same.
+Those days reminded him of things long forgotten in After: possibilities, youthfully nave optimism.
+What came later was something very different.
+Something much uglier.
+And that was even before the solar storms that scorched the sky and turned the world below into a wasteland worthy of a Bad Religion record.
+The storms had shut down the worlds power grid and rendered any device or service dependent on it useless.
+Cell phones, cable, internet.  Cars, even.
+All of it gone.  Functionless.
+Mackie tossed his bikea Wal-Mart cheapie he found in someones back yard a few miles across the county lineaside, dropped his Diet Coke can, adjusted his backpack, pulled his Glock, and loaded a round into the firing chamber.  A pair of decomposed bodies, bloated with rot and saturated in congealed blood the consistency of pancake batter, lay facedown in the gas station parking lot just ahead. Another sat in a dark blue Mazda parked near the front entrance, his head leaning against the drivers side window, smears of blood and liquefied skin staining the glass.  There were no Zapheads nearby as far as Mackie could tell.  The campus would likely be a different story.
+Mackie jogged across the highway and entered the campus from a northwestern angle, his Glock held in a two-handed grip and pointed downward.  The summer session Ally was attending was obviously sparsely populatedotherwise the number of corpses lying on the campus grounds would have numbered in the dozens rather than the sporadic few Mackie encountered as he moved further toward Linvale Residence Hall.
+He couldnt be sure he would find Ally there, assuming she had survived the storm and remained unchanged (a thin prayer at best), but she had made Linvale her home for the previous four semesters, so it made sense to try there first.
+Far more likely, though, that he would find her body lying somewhere here on the campus lawns among the other corpses.
+That was the second-best outcome Mackie could hope for.
+In addition to laying ruin to the worlds technological infrastructure, the solar storm also dropped most of humanitys population dead where they stood and sat.  A few scattered pockets survived, and some had come through relatively unharmed.
+The others became something different.
+Colloquially, these survivors were known as Zapheads, a reference given to the rabid, homicidal rages that possessed them after the solar storm boiled their brains and stripped away all traces of their humanity.
+Mackie had first heard the term used several days earlier by a stocky, middle-aged man Mackie had found trapped by beneath a pickup truck by a frenzied group comprised of varied ages. They were gripped by a rage that Mackie knew had no basis in natural human behavior.  His mind first went to chemical or bacterial agents.  But no, the solar storms obviously had something to do with this, and those were most certainly not the work of terrorists.
+Mackie had saved the man by emptying a magazine into the crowd of Zapheads, but eventually had to send a few rounds into his fellow survivors chest later that evening when he attempted to overpower Mackie and steal the supplies in his backpack.
+It was ammo Mackie regretted having to use, considering that his supply was quickly dwindling and there were assuredly a number of Zapheads left between him and Ally.
+Mackie felt conflicting measures of both nostalgia and revulsion.  The deep, rich green of the campus lawns, the flowering dogwoods, and beautiful stone architecture of the various residence halls and academic buildings stoked the fires of pleasant memories from his days as a student here.  But the sight of scattered corpses and the stench that accompanied them quickly turned those memories to vapor.
+He could feel the Vicodin begin to take hold in his bloodstream; that euphoric flush of warmth and the pleasurable numbness that soon followed.  That was probably why the shuffle of staggered footsteps behind him didnt register immediately, never quite coalesced in his mind as a viable threat until he felt a weight crash into him from behind and an arm snake around his neck, clawing for purchase.
+He felt the warmth of frenzied breaths on his neck before teeth sank into the space between his neck and right shoulder.  The backpack he was wearing proved an ineffective barrier between him and the Zaphead attacking from behind.  Mackie jutted his pelvis forward and then rammed his ass piston-like into the Zapheads gut with the force of a solid punch.  Mackie then gripped the Zapheads forearm and quickly bent forward, driving his right shoulder at his left foot.  The momentum carried the Zaphead over Mackies shoulder and she landed at his feet with a sharp exhalation of breath.
+He was an average martial artist at best, more efficient with a Glock or k-bar knife than his fists or feet, but a few of the techniques he picked up from Kriders men in Tampa had thankfully stuck.
+The Zaphead was a girl, early 20s.  A brunette with a pixie haircut and a dingy grey tank top, a Misfits insignia tattooed on her throat beneath her right jaw.  A punk chick, the type Mackie wouldve been drawn too back in his horny-hound days.  Her eyes were a dry, stoner red and her lips were torn and mangled, most of her teeth ground down to stumps and exposed nerves.
+She had obviously tried chewing through something her teeth werent strong enough to pierce, tearing her mouth to raw hamburger in the process.  Not uncommon behavior in the Zapheads Mackie had come across.
+The bite near Mackies shoulder burned and stung, but it didnt concern him.  Zapheads, as far as anyone could tell, werent infectious, unlike the zombies of popular cinema.
+The girl thrashed and shrieked, and Mackie held his foot down on her stomach to keep her planted.  His Glock fired with a sharp crack and a hole opened in the Zapheads forehead.  Instant silence.
+With its lack of external safeties and its point-and-shoot ease of use, Glocks were ideal weapons in the After, though Mackie had also found them useful in his previous profession. The problem was keeping a steady supply of ammunition, and Mackie had little of that to spare.
+Thats why, when Mackie spotted three other Zapheads ambling about near the rear of a lecture hall building to his left, a short distance ahead, Mackie thought it more prudent to evade them rather than shoot.  The sound of the pistol shot had captured their attention, but with their vision of the area Mackie currently occupied partially obscured by the building, their eyes had yet to locate the source.
+Time to move.
+Unlike other, more sprawling mountain universities located nearby, such as Appalachian State, Evans-Lawson had a relatively small, compact campus.  Traversing it from end to end was the work of 10 minutes at most, and that aspect of the college was either part of its charm or a major detriment depending on which student you asked.  For Mackie, it was a considerable blessing, and as he took off at a jog, he knew he would reach Linvale quickly.
+What he might find when he got there wasnt something he was ready to contemplate just yet.
+He darted forward, moving carefully around fallen corpses; most of them seemed to be students, given their youthful appearance and collegiate-appropriate attire.
+Well, youthful appearance was stretching it, considering the decomposition taking place.  But these were obviously kids, only a few years younger than Mackie himself, cut down inside the comforting bubble of academia before the realties of post-college life would have an opportunity to do the same.  A few of the bodies seemed older30s, maybe even early 40s at a guess.  Whether these were non-traditional students or faculty members, Mackie wasnt sure.
+The constant stench of putrescence was something he hadnt quite adapted to yet and he preferred to keep a wide berth between himself and the decaying bodies scattered on the grass.  Even so, he looked at each one closely to be sure none was Ally.
+He no longer had a line of sight on the other three Zapheads he left behind; hopefully the noise from Mackies Glock had drifted vapor-like across what little remained of their ability to process stimuli and their attentions were now focused elsewhere.  At any rate, now that Mackie was some distance ahead of them, they seemed to pose no threat.
+He could see Linvale just ahead, to the left of the student union and tucked behind another residence hall.  At six stories in height, Linvale was the largest residence hall on campus and one of the few at Evans-Lawson that wasnt co-ed.  Like most other buildings on campus, it was an intricate, neoclassical style stone construction.
+Mackie covered the remaining distance quickly, his back bent in a slight crouch and his eyes scanning rapidly left and right.
+It was almost laughable, this notion that he actually had some idea what he was doing.  Since graduation, he had learned to use a gun and handle himself reasonably well in a fight and he had killed a few peoplenormal people, not just Zapheadsbut he was from an expert at this sort of thing.
+He paid particular attention to each door he passed.  The doors to most buildings at Evans-Lawson were opened on the inside by push bars; while even the highest functioning Zaphead would have some difficulty negotiating a doorknob, it would be simple enough for one to lean his weight against a push bar and stumble outside if he happened to see Mackie through the doors glass inset.
+Situational awareness was a crucial element of self-defense, and though some Zapheadslike the three he spotted just minutes beforemoved at a more languid pace and seemed less observant then their more rabid brethren, Mackie wanted to spot them in advance rather than be caught unaware again.  The Vicodin wasnt helping; Mackies arms felt weightless and the fog of an early-stage narcotic high settled over his head.
+Not the most ideal circumstances for an armed man waist-deep in potential threats on an extraction mission, but he wasnt sure he could handle what lay ahead without a good buzz to soften the edges.
+There was another scattering of corpses on Linvales front lawnmost female, but none of them Ally.  A momentary surge of hope cut through the Vicodin swimming in Mackies bloodstream.  But he realized there was no percentage in getting too excited just yet.  Assuming she was even inside the building and not elsewhere on campus, the most likely fate for Ally was either that she was dead or another member of the Zaphead population.
+Or she could be nowhere near campus.  It was the slimmest of possibilities, but Ally may have left the campus, either alone or with other survivors, to look for help elsewhere.  Though her car was surely as dead as every other at the moment, she may have even tried finding her way back to her parents home, in a county several hours east.
+The thought put shards of ice in Mackies gut.  He knew Ally wouldnt likely last long on the highway, even with traveling companions.
+He wished he could call her, but even if cell phones were functioning, she had changed her number and blocked his several months ago.
+All residence hall doors required a keycard that doubled as student ID for entry.  The glass panes in the front pair of doors and first floor windows remained surprisingly unbroken, but the glass in the doors was reinforced by wire mesh.  No point in trying to shatter it to enter the building.  The first floor dorm room windows were an option, but the blinds were drawn and Mackie wasnt about to enter a room he had no view of from outside.  The sound of breaking glass might also draw other Zapheads.
+The other optionand not one he particularly favoredwas to search the pockets and purses of the corpses lying outside for a keycard.
+But...wait.  The solar storm shut down all power.  Anything powered by electricity is now useless...
+That should mean that the door would open without the need for a keycard, although he might have to force it.
+Mackie gripped the handle, pressed down on the latch with his thumb
+and felt his heart speed up as he pulled the door open smoothly and without even the squeaking of a hinge.
+The lobby was deserted; no corpses on the floor or on either of the couches that formed a right angle across from a television mounted on the wall.
+Allys dorm was on the fourth floor, or at least it used to be.  He hadnt spoken to her in so long that he had no idea if she had changed rooms.  He wouldnt have even known that she was attending this summer session if it hadnt been for a Facebook posting from a friend of a friend, one of the few people in Allys life that hadnt severed all to ties Mackie.
+If shes here, she could be anywhere in the building.  The prospect of searching six floors of dorm rooms was daunting.  Mackie felt tired just thinking about it.
+Shit.
+I guess Ill start there first and go from there. 
+Ally had always seemed to love that particular room and wouldnt likely have given it up.  It was far from a sure bet, but it was a logical place to start.
+Mackie moved carefully up the stairs, his finger perpendicular to the Glocks trigger, and his eyes adjusting slowly to the gloom.  Even though the sun wouldnt set for another couple of hours, without the overhead fluorescent lights, visibility would be low in the stairwell and hallways.
+Mackie hated the idea of entering an area where he had roughly the visual acuity of a fruit bat.  You didnt need to be a film scholar to know that that sort of thing rarely ended well in the movies.
+The stairwell was clear, but the stink of rot told him that there were bodies lying behind the door to the second floor hallway.  He knew he should check to make sure Ally wasnt among them...but no, her dorm room first.
+He jogged further up the stairwell, bypassing the entrance to the third floor hall, no longer cautious about the noise his footfalls made.
+The heat inside Linvale was stifling.  Although summers in the mountains of western North Carolina were considerably cooler than in Florida, where Mackie had spent most of the last two years, the improvement wasnt as significant as he expected.  It was much too hot for even the thin windbreaker he was wearing, but he liked the extra protection of long sleeves and a second layer of fabric.
+Though they werent contagious, a bite from a Zapheadas Punk Chick had so aptly demonstratedwas no less painful for it.
+Mackie quickly covered the remaining stairs beneath the fourth-floor entrance and threw open the door, dashing headlong into the hallway, his eyes trained to the left where Allys room would be, near the end of the hall.
+And plowed face first into a Zaphead that came charging out of the gloom to the right.
+Shit!  Stupid, careless...
+Shitshitshitshitshitshitshit...
+Mackie tumbled backward into the stairwell with the Zaphead clinging to his shirt, spittle spraying in his face.  They fell onto the staircase, the supplies in Mackies backpack jabbing painfully into his spine.  The Zapheads weight pressed down on Mackie, choking off his breath with a force that felt like tons rather than pounds.
+This Zaphead wasnt as dainty as Punk Chick.  This was a linebacker-sized male that obviously put in his time at the gym before the Big Zap.  Here to engage in some extracurricular activities with one of the girls on this hall before the storms hit, no doubt.
+Mackie wedged his right forearm under the Zapheads chin.  He wanted to get the bastards snapping jaws as far from his own face as possible.  It also didnt help that Mackie was holding his Glock in his right hand and had no chance of getting off an effective shot in his current position.  His left hand was pinned beneath the Zapheads weight, so switching the Glock to his other hand was also out of the question.
+A second Zaphead tumbled out of the halls entrance before the door closed shut, and she staggered into the stairwell.  A blonde, slim, her skin a shade too pale.
+Not Ally.
+But not what Mackie needed right now, either.
+Mackie sucked in as much breath as the Zapheads weight would allow and tried lifting his knees for leverage.  Not much luck, but he did manage to raise just enough of the Zapheads weight to wriggle his left hand free.  Mackie slammed his left palm against the Zapheads forehead, forcing his head back just far enough so that Mackie could remove his forearm from the Zapheads throat and press the Glocks barrel against it.
+The female Zaphead stumbled down the stairs.  If she fell on top of them, Mackie knew hed have a hell of time excavating himself from beneath the combined weight of two Zapheads.
+Mackie squeezed the trigger, and felt a spray of blood on his neck and chest.  The Zaphead on top of him gurgled and sputtered, fighting to suck air through his shredded trachea.  Ropes of blood fell from his mouth onto Mackies face.
+The other Zaphead lost her footing on the stairs and fell foreword, aiming straight for Mackie and the dying bastard on top of him.
+Mackie squeezed off a second shot but missed, the bullet striking the convergence point of the walls and ceiling as the girl continued to fall.
+He braced himself as she fell on top of the Zaphead pinning him to the stairs.  The added weight squeezed out what little breath Mackie could hold in his lungs, and he felt certain his backpack would push his spine out through his chest.
+He was also pretty sure he could taste his spleen.
+The girl thrashed and snapped, but couldnt find purchase with the dying Zaphead between her and Mackie.  Mackie reached out with his left hand, grabbed a fistful of hair behind her head, and with his other hand pressed the Glock against her temple.
+The bullet drilled through her skull and sent shards of bone and chunks of brain tissue flying in a splattery burst, like a messy meal heated in a microwave too long.
+It took Mackie several tries and far more time than he felt he had to spare, but he eventually managed to work himself from beneath the two Zapheads.  If there were other Zapheads inside the building, the sounds of struggle and gunfire hadnt alerted them yet.
+Mackie leaned against the stairwell wall and pulled in as much breath as his starving lungs allowed.  His back felt like some kids had used it as a Piata.  When his breathing had found its rhythm again, he pulled himself and opened the hallway door again.  He stepped inside, slower this time, sweeping his Glock left and right.
+No Zapheads.  One female corpse that wasnt Ally lying inside the entrance to the communal bathroom.
+Allys room - or at least the room she had stayed in since the beginning of her freshmen year - was on the left, second to last.  If she was in there, alive and unaffected by the storm, she surely wouldve heard the noise in the stairwell. 
+Mackie tapped on the door with the Glocks barrel and called her name.
+Please, God...
+No response.  But Mackie thought he could hear something stirring inside the room.  Possibly the sound of soft footsteps, but maybe that was just what he wanted to hear.
+The door flew open suddenly, and on the other side was a blonde girl, a foot or so shorter than Mackie, her hair not much longer than Punk Chicks pixie cut.  She was wearing a pale green T-shirt and those tight, stretchy pants Mackie often seen women jog in.  The kind that accentuated curves so well.
+She was gripping a pair of scissors in her left hand, and her wide, wet eyes reflected surprise and uncertainty.
+Who are? she began before Mackie pushed her inside the room.  He stepped inside and closed and locked the door behind him.
+This wasnt Ally, and it wasnt anyone Mackie recognized.  She was still holding the scissorsas a weapon, Mackie was surebut she made no effort to use them in her defense.
+Im looking for Ally.  Ally Williams.  This used to be her room.
+The girl had no time to respond before Mackies eyes fell on a huddled, writhing form buried beneath a blanket in the closet space to the left.
+Oh, God...
+Mackie quickly walked over, ripped away the blanket, and felt his heart nearly punch through the walls of his chest.
+It was Ally, her wrists and ankles bound with duct tape.  A pair of panties were stuffed in her mouth and bound in place by more duct tape.  Her chestnut hair was disheveled and slicked with sweat, and her eyes had the distinctive redness and uncontrolled frenzy of a Zaphead.
+She seemed groggy and sluggish, but that was quickly wearing off, and she began struggling against her binds with more fervor, her mouth working furiously at the panties stuffed inside.
+Mackies insides felt as if they were about to drop through the floor.
+The girl behind him spoke.  Are you...are you Macklin?
+Her turned and stared at her, but not really at her; it seemed more like he was staring through her and into the wall behind.
+And then he was on her, one hand clutching the back of her head, the other jabbing the Glock beneath her chin.
+What...the hell... he spat.  The girl was still holding the scissors, but seemed to have forgotten them.
+She...she kept trying to attack me.  Had to...to restrain her...
+Mackie held her place for a moment, and then let go of her head and lowered the Glock.  He looked back at Ally still huddled in the closet space, her face a mask of demonic contortions.
+Who are you? he asked.  He seemed deflated.
+The girl tried keeping her distance, but that wasnt easy in such a small room.
+Linzie.  Linzie McAllister.
+Lindsey?  Are you her roommate?
+Linzie.  Z-I-E.  No, were friends, but not roommates.  And then she added, unnecessarily, Im here for the summer session, too.
+Mackie said nothing, just kept his eyes on Ally.
+After I taped her up, I started giving her Benadryl I found in one of her drawers, like, to calm her down.  Help her sleep.
+Allys seasonal allergies were brutal.  Of course she would have Benadryl lying around.  
+And apparently, the drugs sedating quality worked on even Zapheads.
+The notion that a Zaphead could even be sedated hadnt yet occurred to Mackie. Maybe there was a cure? But that was too big a problem to think about right now.
+Ive seen what some of these things can do, Mackie said.  How the hell did you get her restrained to begin with?
+Linzies eyes fell.  I had to hit her a few times.  Im sorry, but I had to.  She went crazy kept trying to hurt me.
+Mackie said nothing.  He moved closer to Ally again and took a more careful look at her face.  Beneath strands of damp, lank hair he could see bruises on her forehead.
+Linzie answered his unasked question.  I grabbed a stapler from her desk and hit her with that a few times.  Im sorry, I just
+How did you get the Benadryl in her?
+Just, yknow, forced the capsules down her throat.  Flushed them down with some water.  She bit me when I did that.  Linzie held up a hand, and Mackie could see where Allys teeth had scraped off some flesh on a few of the fingers.
+Do you have any more?
+Dont think so, no.
+Mackie felt a wave of exhaustion consume him.  He stumbled over to the bunk bends near the opposite wall and plunked down on the lower bunk.
+You are Macklin, right? Linzie asked.
+Mackie.  But yeah.
+How did you get here?  Are you alone?
+Mackie placed the Glock beside him on the beds comforter and rubbed his eyes.  Im alone.  I was in the next county over on business when all this shit started.  I knew Ally was here for the summer session, so I wanted to find her, see if she was okay.  My car stopped working when the storm hit, so I walked for a while, and then found a bike.
+Mackie didnt mention that his business in the next county involved paying a visit to a reporter named Julia Stone and warning her away from an investigation she was conducting into the western North Carolina branch of Lucas Kriders operations.
+Part of that warning was to involve rape and a savage beating, but Mackie had no intention of doing either, and he gambled that Krider would never know the difference.
+Mackie had been eager for the job and Krider had no problem giving it to him.  An assignment near his old stomping grounds meant that Mackie might have an opportunity to see Ally again, and despite his earlier promise to keep a respectful distance, Mackie planned to make that opportunity a reality.
+And thanks to that fortuitous Facebook posting, Mackie knew that Ally would be spending a big chunk of her summer at Evans-Lawson.
+He never got the chance to find Julia Stone before the storms came, but that didnt matter now. The sun had a longer reach than even Kriders.
+Linzie still kept her distance but seemed more relaxed now.  How did you make it all the way here on a bike?  Arent there more of those things out there?
+Some.  But it seems people are mostly just dead now.  Mackie reached into his pocket and pulled out two more Vicodin.  Chewed and swallowed.
+Are you hurt?  Linzie eyed the gore painted on Mackies face and clothes.
+Ran into a few of those things out there.  But Im fine.
+How did you know Ally would be here?
+Mackie didnt answer, though he saw no reason not to.  A little Facebook stalking was hardly his greatest sin.  You were both here together when the storms came? he asked.
+Linzie nodded.  I tried to leave a couple of times, but some of those things were roaming in the hall.  Thought it made more sense to wait here for help.
+Mackies eyes hardened.  You were just gonna leave her here?
+I wanted to find help.  I wanted to see what the hell was going on.  The power goes out, our phones stopped working.  I see all these dead bodies out the window on the lawn, and then Ally
+Mackie held up his hand.  I get it.  Im sorry.
+Its those storms that did this, right?
+I think so, yeah.  I think thats how it started.
+Is it like this everywhere?
+Everywhere that Ive seen.
+They both looked over at Ally.  The Benadryl fog was continuing to lift, and she struggled frantically against the tape binding her hands and feet.  An odd, guttural moan rumbled from her throat, but was choked off by the panties stuffed and taped inside her mouth.
+Mackie opened his backpack, rooted through crushed packages of potato chips and Lance crackersthe contents made soggy by a can of Diet Coke that ruptured while he was struggling with the Zapheads in the stairwelland pulled out a syringe filled with clear liquid.
+Whats that?  Linzie asked.
+Morphine.  After the storms, me and a few others raided a hospital nearby.  I thought if I found Ally, but she wasnt, yknow, herself, I could use this to keep her calm while we escaped.
+So, you were, what, just planning to carry her out of here on your back?
+An epically shitty plan, Mackie agreed.  
+He uncapped the syringe and moved toward Ally.  Well, the good news is I wont have to do it alone.  Theres two of us now.
+After tapping the syringe and gently depressing the plunger to remove air bubbles, Mackie jabbed the needle dart-like into Allys arm.
+Her eyes gradually lost focus, and her motions became less spastic as the Morphine took effect.
+Is that safe?  Linzie asked.
+No idea.  Its a safe dose of morphine, but I have no idea if it will interact with the Benadryl you gave her.  Cant exactly Google that now.  But if we wanna carry her out of here, I dont think we have much choice.
+So what now?  We try to leave?
+Mackie sat beside Ally again.  He drew his knees to his chest and let his head fall foreword.
+In a second.  I just...I just need to rest for a little bit.
+Linzie sat on the lower bunk, where Mackie had been just a few moments before.  Did you get anything else while you were at the hospital? she asked.
+Some basic first-aid shit.  Raided a vending machine, too.
+We have some food here, Linzie said.  Some soups and chips.  Ramen noodles, Chef Boyardee.  Ive tried feeding Ally a little bit, but I cant get much in her.  And, yknow, I dont want her to choke.
+Mackie hadnt even thought to ask about when the last time Ally had eaten was.  He felt a sudden rush of gratitude toward Linzie.
+She talked about you some.
+Mackie raised his head.  I cant imagine she wouldve had much good to say.
+I could tell she cared about you.  She was worried, I think.  About the pills, the people you worked for.
+Mackie nodded.  I met Ally my last year here, when she was still a freshman.  I had moved here from Florida for college because I didnt really have the grades for a state university, but I didnt want to go the community college route.  A private college like this was my only option.  
+I saw some brochures, and liked the vibe of this place, the atmosphere.  Thought I might enjoy living in the mountains.  It was expensive, but my parents made it work.
+Was she your first girlfriend here?
+I had slept around a little before, but yeah, pretty much.  I was a couple of months away from graduation, and all I could think about was how I didnt really wanna go home.  Id lie in my room every night and all I could think about was the uncertainty...where do I go from here?  What kind of job will I get?  How do I be...significant.  All the hell I really wanted to do was just stick around campus.
+And then I met Ally, and she gave me a reason to.
+Allys restless motions had all but stopped now, the morphine working its soothing magic.  She still appeared conscious, but Mackie hoped shed fall asleep soon.  He stood up, picked up the blanket from where it had landed when he threw it off Ally earlier, and draped it over again.
+Ally told me you went back to Florida, Linzie said.
+I did, after a couple of years.  Jobs here arent exactly plentiful, and my degree was pretty much useless.  I tried to make it work for awhile, found little scraps of part time employment here and there.  But it was all putting a strain on my relationship with Ally, and I was barely making enough to survive up here.  I went home and starting working construction with an old friend of my dads.
+What about the pain meds?  Ally made it sound like
+Like I had a problem?  Yeah, I think she was right.
+But you dont seem like, yknow, a...junkie.
+Mackie smiled.  Its not like anyone ever found me lying passed out in puddles of my own piss and vomit, if thats you mean.  Doesnt make the problem any less of a problem.
+So how did it happen?
+Mackie took his seat beside Ally again.  He let his hand dangle over her shin.  Linzie recognized affection in the gesture.
+How did I get hooked?  Accident on the job.  Relatively minor, but my doctor wrote a prescription for some low grade Vicodin.  The problem was I kept taking it even after I stopped hurting.
+Doctors wont prescribe that shit indefinitely.  How did you get more after you ran out?
+Mackie smiled again.  You know those people I worked for that Ally was so worried about?  She wasnt talking about my construction job.
+So, what, you started working for a drug dealer?
+Mackie closed his eyes, leaned his head back.  I started working for a man named Lucas Krider.  He was involved with drugs, meth and pills mostly, but not just that.  Prostitution, too.  Typical Dixie Mafia stuff.
+Linzies eyes widened.  Dixie Mafia?  Thats an actual thing?
+Its a little different than what you see on TV, but yeah, it is.
+And thats who you were getting the pills from?
+Mackie sighed.  He didnt want to discuss this any further, but was too exhausted to argue.  He knew they needed to leave soon, but all he wanted to do was sit next to Ally and sleep.
+I was getting the pills from a co-worker, a guy that ripped off a stash from some asshole in Kriders crew.  I wasnt aware of any of that.  But when Krider tracked us down, his plan was to kill us both and as many of our family members as his men could find.  My shithead friend had stolen from him, and I was just as guilty because I was paying him for the pills hed ripped off.
+Mackie bit his lower lip hard, wished the Vicodin in his system could quench his memories of what had gone down in Tampa as easily as it could physical pain.
+But then he decided to extend a little generosity.  Krider was always looking to recruit young new talent, so he decided to give us one of us an opportunity to come work for him and make reparations.  The other would die, along with his family.
+The whole world had gone to shit outside, but if Linzie was aware of anything other than Mackies story, she gave no indication.
+So he made us fight for that one open slot in his crew.  He wanted to see who could earn it, who had the conviction.  Thats the kind of shit he said.  I was always a decent fighter, nothing special, but I could handle myself.  
+But this other guy, he was a drunk and an addict and been for so many years at that point, he was pretty much useless.  Could barely hold down his job with the construction crew.  He was scared, and I just started whaling on him and I didnt stop.  All I could think about was my parents and my sister and Ally.  Krider may not have gone after her, may never have even found out about her, but I just couldnt
+He stopped, closed his eyes again.  I gave that guy a beating that impressed Krider, and then Krider had one of his men shoot him.
+Oh, God, Linzie said.
+And from that moment on, Macklin Dailey found himself gainfully employed, performing the types of services that men of Lucas Kriders stature rarely did with their own hands.
+Youve killed people, Linzie said.  Mackie couldnt tell if she had phrased it as a statement or a question.
+A few.  But mostly it was beatings.  Warnings.  My job was to help Krider protect his territory.
+As recompense for purchasing pain meds stolen from Krider, Mackie spent his first year performing these services for free, though Krider covered his living expenses.  After the first year, Mackie was given a salary.  Far more money than he had ever earned in his life.
+But the real salary was safety for his family.  For Ally.
+A job with Krider wasnt a job you could walk away from without expecting some serious blowback.
+And you can live with that, Linzie said.  With killing people.
+Mackie remembered the night he spent puking his guts out after the first time, and the solid hour he spent in his car holding a pistol to his temple.
+He had come damn close to not living with it.
+I can live with keeping the people I love safe.  Ive never enjoyed any of it.  But if I refuse, Im not the only one that ends up in a drainage ditch somewhere.  This is self-defense and protection for my family.  Thats how I have to look at it.
+Did Ally know?
+I didnt tell her much.  Part of that was to keep her safe, part of it was because I didnt want her to know what Id become.  But she knew things werent right with me.  She did some digging and eventually found out that I was involved with some bad people.  The relationship didnt last much longer after that.
+In spite of the rooms humidity, Linzie wrapped her arms around herself as if huddling against the cold.  How come you never tried to kill Krider?  You were probably close enough to him to do it.
+At the time, that wouldnt have been an option.  He always had people near him, and even if I couldve made it past them, there were plenty more out there like Krider in the same network.  Theres no place I couldve hid from them all.
+But now, with all thats happened, if I make it out of here, Ill go back to Florida, and if hes still alive, Ill put a bullet in him.  If hes a Zaphead now, Ill chain him in a basement somewhere and torture him until he dies of old age.
+Linzie looked confused.  A Zaphead?
+Thats what Ive heard them called.  People that survived the storm but became like...her.  He nodded at Ally.   The morphine had taken her someplace else, and now she looked more peaceful than Mackie had felt in years.  He wasnt sure how much longer it would last, but he had more of the drug if he needed it.
+Mackie pulled Ally close, felt the dampness of her hair soak into his neck.
+We can go soon, he said.  Not sure how many more Zapheads are close by, but I killed two from this floor on my way here.  If we move fast, I think we can get out safely.  I dont much ammo left, but hopefully itll be enough.
+Neither of them acknowledged just how it difficult it would be to leave while carrying a body between them.  And even if either of them could think of a safe place to travel nearby, getting there wasnt likelynot without a working car and with only one magazine of ammo left for Mackies Glock.
+Maybe Allys dorm was the safest place they could be right now.
+Mackies lids closed over his burning, aching eyes.  Was he really this tired?
+A moment later, all was dark.
+
+###
+
+When Mackie awoke, the sun had set, and his mouth had the texture of sandpaper and tasted like a dirt-caked sock.  For one panicked moment, he forgot where he was, and though he vaguely recognized the girl leaning over him, her name escaped him.
+She was holding his Glock.
+He tried to sit up, but the girl pushed him back to the position he had fallen asleep in.
+Its cool, Mackie.  Just stay there for now.
+Linzie. Z-I-E. 
+Mackie turned his head to the left and saw Ally beside him, her wrists and feet still bound, the panties still bunched inside her mouth.  But where Mackie last remembered her as relaxed and docile, the rage now seemed to have returned.  She looked as if she wanted to strip off every shred of her own skin with her teeth.
+The morphine wore off.  How long was I asleep? 
+And why is Linzie
+I wanted to kill her, yknow.  Thats what I was here for actually.
+Mackie wasnt sure he had heard her right.  He tried standing again, but Linzie pointed directly at his face.  Mackie also noticed that she was wearing his backpack.
+Shes robbing me, the bitch...
+Did she even know how to use the Glock?  Not that it was that difficult to figure out, with no safety and all.  Untrained shooter or not, at this range, she could do some damage.
+Linzie, what the hell are
+Craig Everson.
+Something about the name was familiar.  But why would she blurt it out with a gun pointed at his face?
+Stay with me, Mackie.  Cut through your drug fog.  Do you remember Craig Everson?  I need to know you recognize that name.
+He didnt.
+And then he did.
+Suddenly, all the shit happening in the Post-Apocalyptic Solar Storm world outside made a lot more sense than what was happening in this room.
+Craig Everson.  Small time lowlife.  A meth head that made the mistake of getting pinched at a routine traffic stop with Kriders product in the trunk of his car.
+One of the few kills Mackie that hadnt left much of an impression on Mackie.
+I know this doesnt get easier, Macklin.  Youve done this a few times before and youll do it again, but it never gets easier.  Still, I need you to take care of this.  You can leave his family out of it, but I want this guy gone before he opens his mouth and says something well all regret...
+And Mackie had taken care of it.
+Followed him home one night after he made bail and put a round in his forehead while his old lady screamed on the front porch.
+Krider wasnt a big fan of witnesses, but Mackie had been sloppy that night, all the Vicodin in his system softening the edges of good judgment.
+He was an epic screw-up, dont get me wrong, Linzie said.  But he did a lot of good for me and my mom.  And when you took him away, she completely fell apart.  All the shitty men in her life, and here was one that had a problem, sure, but he didnt hit us, did his best to keep the bills paid. Didnt try to stick it where it didnt belong.  When you killed him, she just couldnt handle it.
+I came home one afternoon and found her in the basement.  Shed blown out her liver on booze and pills.
+You can leave the family out of it.
+Sure.
+You...you were his stepdaughter?
+And I suppose I dont need to tell you that Im not a student here, either.  I came here for Ally.  I wanted to take her away from you the same way you took Craig from mom and me.  That was my plan, to be a new girl in the area looking to hang out with some cool college kids.  Then Id just happen to be where Ally was one night and strike up a conversation.  I wanted us to be friends, and then I wanted to kill her and make damn sure you knew that it was all your fault.
+Mackies head spun.  Beside him, Ally thrashed and moaned.
+But how did
+How did I know it was you?  I knew the kind of circles Craig ran in.  So I started asking questions.  Apparently, that got back to Lucas Krider and he came to see me one evening.  He admitted to selling Craig the meth, but he gave me your name and told me you and Craig were running a little something on the side.  There was a disagreement, so you shot him.
+Krider.  The bastard.
+But you know what I think, Mackie?  I think that was just his way of getting back at you for being so sloppy during that hit, for leaving my mom behind as a witness.
+If Linzie didnt kill him, he was going to find Lucas Krider.  If the piece of shit was already dead, he was going to kill him over and over again.
+Anyway, Krider and I sort of got friendly, and I told him how I wanted to take someone special from you because of how you destroyed my family when you killed Craig.  He loved that idea.  He wanted to help.  So he told me all about your parents and your sister.  And all about Ally.
+Thats why Krider had been so eager to give me the Julia Stone assignment.  He knew Id try to see Ally, and Id find out what Linzie had done to her.
+He gives me some money, so I could rent a place up here.  And he tells that hell make sure youre close by on a job.  He knew youd come look for her.  And I think he was hoping that after I killed Ally, one of us would kill the other just to make things a little easier for him.  Either way, I dont think he intended to let us both live.
+Of that, Mackie was certain.
+But what he didnt count on was a change of heart on my part.  As I got to know Ally, I realized that I couldnt punish her for your sins.  I wanted somebody to pay, but I couldnt be like the monster that took Craig away and ruined my life.
+And then... Linzie spread her arms in a sweeping gesture indicating the world outside the dorm room.  All this happens.  The power goes out, people are either dropping dead or turning into raving maniacs.  And now Im actually taking care of the girl I came here to kill.  Waiting to die.  Waiting for help to show up.  Or maybe just trying to run out that door again and let those things have at me.
+Linzie chuckled.  And then, of course, you show up.  And I hear your side of things.  That was important to me, hearing it from you.  And you know what?  I see another stupid junkie that made some bad decisions.  Not much different than Craig, I guess.  He didnt have to die, but then again, he didnt have use a psychotic piece of shit like Lucas Krider to feed his meth habit, either.
+Mackie said nothing.
+I dont quite forgive you.  But Im not all that interested in hurting you anymore, either.
+Linzie stepped over to Allys writing and picked up a few items she had removed from Mackies backpack.  Two morphine syringes and a bottle of Vicodin.  She tossed them to Mackie.
+Im leaving, she said.  I doubt Ill make it back to Florida, but I want to try.  And I want to find Krider and do what you shouldve done in the first place.  If you want to join me, you can.  She nodded at Ally.  But her...you may want to accept the possibility that shell never be what she was before.  Killing her might be the kindest thing you can do for her.  But thats up to you.
+Linzie put her hand on the doorknob and looked over her shoulder at Mackie again.  He felt like he should say something, offer an apology if nothing else, but no words formed in his parched mouth.
+And then Linzie opened the door and stepped out into the hallway, quickly closing the door behind her.
+Mackie pulled Ally close to him and did his best to hold her as her body thrashed and shook.
+He looked at the vials of morphine in his hands.
+Stay or go?
+If he left, Mackie knew he couldnt take Ally with him, knew deep down that there was no cure for what the solar storms had done to her.
+He could end her pain right here.
+End his own, as well.
+They had both been happy here once.  Now they could die here together.  Why not?  What was left out there to hold onto?
+Mackie pulled Ally against him as tightly as he could, pressed his nose against her damp hair.
+He wanted to die.
+He wanted to be with Ally.
+And he wanted to see Lucas Krider dead.
+But now, all he wanted to do was sleep.
+
+
+THE END
+***
+
+Joshua Simcox is a journalist and writer living in western North Carolina.
+
+
+A sample from the Zombie Patrol series by J.R. Rain
+
+On the day that changed his life forever, Lieutenant Commander Joseph Carter fought anxiety as he veered his government vehicle off the freeway.
+He headed toward the naval base in Seal Beach, pondering who and what awaited him. He knew he wasnt supposed to smoke in the car. He lit a cigarette anyway. He told himself that he hadnt done anything wrong. Nothing to worry about. But still...
+Why had he been summoned?
+You know why, he told himself, but he didnt want to think about it now. He inhaled deeply, turned up the radio and opened the cars windows to clear out the tobacco smoke.
+The base was less than ten minutes from the freeway. That meant, the Lieutenant Commander told himself, that he had ten minutes to gather his thoughts. Not that he hadnt been doing so since earlier today when he was first ordered to report to Seal Beach. He wasnt feeling well, and his sunglasses did little to shield the blinding rays that made his head ache even worse. He had little appetite. No surprise there. This morning, hed consumed about a half-gallon of water, which hed later upchucked.
+Must be the flu, he muttered, remembering that his buddy, Mike, had displayed the same symptoms. Thinking of Mike, he glanced in his rearview mirror. Hey, wake up! Hed almost forgotten about Mike, and that was strange. Jesus, his thoughts were scattered.
+Mike didnt move, so Joe tossed an empty water bottle back to wake his comrade. Mike finally sat up, clearly bewildered.
+Were almost there, Joe said. Get your shit together.
+Mike didnt look so hot but did his best to comply.
+Cant afford to get sick, Joe muttered, whether to himself or Mike, he wasnt sure. But Joe decided to squeeze in a clinic visit and ask for some antibiotics while he was on base. That would take care of whatever was ailing them. It was probably just the flu.
+He almost missed the entrance, swerving into the left-turn lane at the last moment. He knew this exit like the back of his hand. How could he have almost missed it?
+Im just distracted and not feeling well, he thought. 
+Its just the flu, he told himself again as he flashed his ID to the guards and was waved through the gate. He veered the car toward base headquarters.
+
+* * *
+
+Lets go over it again, said the Agent in Black.
+Lieutenant Commander Joseph Carter wanted to bury his head in his hands, but he knew better. This agent had now been questioning him for three hours. Joe knew the drill. It could go on for several more if this asshole didnt get the answers he wanted.
+Dont lose your temper, he thought. Show respect. No matter how crappy you feel.
+And Joe was feeling increasingly crappy. He was flat-out sick. He pushed thoughts of the sickness aside and focused on his surroundings, though he did note the location of the nearest wastebasket. Just in case. 
+The office was small and it would have been cozy if he had been there under more pleasant circumstances. The guards outside were the only hint of threat. The problem was that Joe Carter was having a very hard time remembering what had happened two nights ago. His thoughts felt scattered, incoherent, almost as if he was drunk. Or high. Or both.
+The small room and guards outside were also making him feel claustrophobic. God, his head ached, too. He wanted to put on his sunglasses, even though the blinds were closed. The glass of water on the desk sat untouched. Joe was thirsty, yes, but he didnt want to barf all over the office. Then again, maybe it would speed up this whole process.
+Joe sighed. Where do you want me to begin?
+The Agent in Black was seated on the corner of the deska position that allowed him to look down on the Lieutenant Commander. Joe knew all these tactics, but had never had them applied to him. His pristine record in the military spoke for itself. Hed never been in trouble and he didnt think his actions the other night were unwarranted.
+You and your friend were returning to your quarters from the bar, when...?
+I saw what I thought was a meteor, said Joe.
+But it wasnt a meteor.
+No.
+And?
+It landed in the middle of a field.
+Inside the base?
+Yes.
+What did it look like, falling to the ground?
+I just told you. Joe tried to hide his frustration. At first, it looked like a meteor. A falling star. It had a trail. But as it came closer, we realized it was very small, and it was going to hit the ground.
+How small was it? asked the Agent in Black for the hundredth time.
+About the size of a basketball, Joe answered tiredly.
+And you two just ran over to it?
+Yes.
+You didnt think to report an unidentified object landing on military ground?
+No, I...we...werent thinking, I guess. Wed had a few beers...we were off-duty.
+Lieutenant commanders are never completely off-duty.
+Joe Carter remembered that he was supposed to be on leave. I know. It was a mistake.
+So, what did it look like?
+Joe looked longingly at the water. He lit a cigarette instead. He raised his bloodshot eyes to the Agent in Black. It looked like a sphere, I told you. About the size of a football... Joe trailed off. No, that wasnt right.
+A football? The Agent in Black was right on it.
+No, thats not what I meant. Joe Carters brain felt like jelly. He felt truly ill. He frowned. He concentrated. A basketball. I meant it was the size of a basketball.
+You just said football. Which was it?
+A basketball. It was round. I got my words mixed up. Im sorry.
+The Agent in Black regarded his detainee, for a detainee was exactly what Lieutenant Commander Joseph Carter was. For the moment, anyhow. The Agent in Black studied the man below him, and figured the man was either withholding information, or was coming down with something. Or hung-over, which the agent doubted. After all, Carter had been under surveillance for the last forty-three hours, ever since The Incident. 
+In fact, both Lieutenant Commanders Joseph Carter and Mike Mendoza had been watched closelyfollowed, even, from San Diego to Seal Beach. The Agent in Black was slightly surprised that they hadnt been aware of it. At least, they hadnt given any indication of knowing that they were being tailed, other than nearly missing their freeway exit.
+The agent sipped his coffee, and glanced at Carters untouched water. You thirsty? he asked.
+No.
+Silence.
+What did you do when you reached the fallen object?
+Carter sighed. Like I said, we got to it and...we looked around to see where it came from. It just fell out of the sky. We didnt see any aircraft, and no, the wind wasnt blowing, and no, the thing wasnt hot, and yes, it looked like a round rock. Gray in color, but that impression might have been due to the moonlight.
+While the agent watched him closely, the lieutenant commander stood and crossed over to the rooms only window. The guards watched him closely, too. Carter tried to close the blinds just a little more, but couldnt seem to make the damn things work. Blast it! The light was just too damn bright.
+What happened next? the agent calmly asked.
+Frustrated, Carter gave up and faced the Agent in Black. I...I dont remember. Wait. Yes, I bent down to touch it. I know, I know, I know I wasnt supposed to. I was just so curious, you know? So, I touched it. Im sorry. I touched it and a piece broke off in my hand. I showed it to Mike.
+Lieutenant Commander Mendoza?
+Yes.
+And he touched it, too?
+Yes.
+And thats when you decided it might be time to report the incident?
+Yes. I called my commanding officer from my cell phone. But you dicks showed up first, Joe thought to himself. Aloud, he said, You know the drill from there.
+The Agent in Black knew. His CREW had tracked several such Incidents. Over the past two days, small objects had landed on various military sites worldwide. The CREW was on the spot in most locations before anyone else. Lieutenant Commanders Carter and Mendoza were two of the six in the world whod seen the landings firsthand. As well as these two LCs, three witnesses in Mexico City and one in Istanbul were being interrogated.
+There was a knock on the door. 
+Excuse me. The Agent in Black left Carter with his own thoughts.
+Carter and Mendoza got a glimpse of the goon in the hallway and exchanged glances before the door closed.
+In the hall, the agent met with what could have been his clone. You get anything? he asked.
+Not much. Same story.
+The Agent in Black nodded. These two unfortunate LCs knew next to nothing. Neither had top-secret clearance. Even if they had, they wouldnt have had any access to The CREWs intelligence information. What should we do with them?
+The clone spoke. They dont know anything.
+Theyve seen the crash.
+The clone nodded. True, but they arent aware of anything else.
+The Agent in Blacks first priority was to contain this information. No matter what.
+The clone read his mind. Any additional attention to this could be catastrophic.
+The Agent in Black nodded and considered the whole picture. These two had spotless records. Obviously, they were potential lifers for the Navy. Containment of these events also meant silence. The Agent in Black had the authority to lock them up. Hell, he had the authority to make them disappear, too. Few knew the agents real name, and he liked it that way. He was known simply as the Agent in Black, a name that struck fear in those he crossed paths with. Fear was a good thing in his line of business. He and his CREW were above Top Secret; that is, they didnt officially exist. Indeed, few knew of the CREWs existence, including the president. A cabal of intelligence leaders had created the CREW, along with other shadow agencies, to clean up messes just like this one.
+And its a helluva mess, thought the Agent in Black.
+But their disappearance would attract attention. Families didnt need to know, but military colleagues would wonder, even in private. Besides, both men looked ill. Additionally, both men were supposed to be on leave.
+He sighed and made his first mistake. His biggest mistake. Have them sign a confidentiality agreement. Then they can go.
+The clone hid his disagreement. He would never contradict his superior. Or so he thought at the time. Ill draw up the papers.
+
+
+Learn more about the Zombie Patrol series at www.jrrain.com.
+
+
+Other books by Scott Nicholson
+
+THE HOME
+By Scott Nicholson
+A Top 50 bestseller.
+Experiments at a group home for troubled children lead to paranormal activityand the ghosts are from the homes past as an insane asylum. In development as a feature film.
+Learn more about The Home.
+
+MEAT CAMP
+By Scott Nicholson & J.T. Warren
+In a desperate attempt to save their land from tax foreclosure, Delphus Fraley and his daughter open a camp for at-risk kids, with the goal of building character through experience in the Appalachian Mountain outdoors.
+But a strange infection contaminating the camps mess hall soon triggers a violent rampage. As the isolated camp turns into a bloodbath, camp counselor Jenny Usher first fights to save the children, and then finds she must fight to save herself.
+Because this infection doesnt just kill, it brings the dead back to life
+Adapted from Scott Nicholsons original horror screenplay. Read about it on Scotts website.
+
+CREATIVE SPIRIT
+By Scott Nicholson
+After parapsychologist Anna Galloway is diagnosed with metastatic cancer, she has a recurring dream in which she sees her own ghost. The setting of her dream is the historic Korban Manor, which is now an artists retreat in the remote Appalachian Mountains.
+Sculptor Mason Jackson has come to Korban Manor to make a final, all-or-nothing attempt at success before giving up his dreams. When he becomes obsessed with carving Ephram Korbans form out of wood, he questions his motivation but is swept up in a creative frenzy unlike any he has ever known.
+The manor itself has secrets, with fires that blaze constantly in the hearths, portraits of Korban in every room, and deceptive mirrors on the walls. With an October blue moon looming, both the living and the dead learn the true power of their dreams.
+Learn more about the paranormal thriller Creative Spirit.
+
+DISINTEGRATION
+By Scott Nicholson
+A Top 30 bestseller.
+When a mysterious fire destroys his home and kills his young daughter, Jacob Wells is pulled into a downward spiral that draws him ever closer to the past he thought was dead and buried.
+Now his twin brother Joshua is back in town, seeking to settle old scores and claim his half of the Wells birthright. As Jacob and Joshua return to the twisted roles they adopted at the hands of cruel, demanding parents, they wage a war of pride, wealth, and passion.
+But the lines of identity are blurred, because Joshua and Jacob share much more than blood. And the childhood games have become deadly serious.
+Learn more about the psychological thriller Disintegration.
+
+THE RED CHURCH
+Book I in the Sheriff Littlefield Series
+By Scott Nicholson
+For 13-year-old Ronnie Day, life is full of problems: Mom and Dad have separated, his brother Tim is a constant pest, Melanie Ward either loves him or hates him, and Jesus Christ won't stay in his heart. Plus he has to walk past the red church every day, where the Bell Monster hides with its wings and claws and livers for eyes. But the biggest problem is that Archer McFall is the new preacher at the church, and Mom wants Ronnie to attend midnight services with her.
+Sheriff Frank Littlefield hates the red church for a different reason. His little brother died in a freak accident at the church twenty years ago, and now Frank is starting to see his brother's ghost.
+The Days, the Littlefields, and the McFalls are descendants of the original families that settled the rural Appalachian community. Those old families share a secret of betrayal and guilt, and McFall wants his congregation to prove its faith. Because he believes he is the Second Son of God, and that the cleansing of sin must be done in blood.
+"Sacrifice is the currency of God," McFall preaches, and unless Frank and Ronnie stop him, everybody pays.
+Learn more about the real haunted church that inspired The Red Church.
+
+DRUMMER BOY
+Book II in the Sheriff Littlefield Series
+By Scott Nicholson
+On an Appalachian Mountain ridge, three boys hear the rattling of a snare drum deep inside a cave known as "The Jangling Hole," and the wind carries a whispered name.
+It's the eve of a Civil War re-enactment, and the town of Titusville is preparing to host a staged battle. The weekend warriors arent aware they will soon be fighting an elusive army. A troop of Civil War deserters, trapped in the Hole by a long-ago avalanche, is rising from a long slumber, and the war is far from over.
+And one misfit kid is all that stands between the town and a sinister evil force
+Learn more about Drummer Boy and the Appalachian legend that inspired the novel.
+
+THE SKULL RING
+By Scott Nicholson
+Julia Stone will remember, even if it kills her.
+With the help of a therapist, Julia is piecing together childhood memories of the night her father vanished. When Julia finds a silver ring that bears the name "Judas Stone," the past comes creeping back. Someone is leaving strange messages inside her house, even though the door is locked. The local handyman offers help, but he has his own shadowy past. And the cop who investigated her father's disappearance has followed her to the small mountain town of Elkwood.
+Now Julia has a head full of memories, but she doesn't know which are real. Julia's therapist is playing games. The handyman is trying to save her, in more ways than one. And a sinister cult is closing in, claiming ownership of Julia's body and soul . . . .
+Learn more about The Skull Ring and False Recovered Memory Syndrome
+
+SPEED DATING WITH THE DEAD
+By Scott Nicholson
+A paranormal conference at the most haunted hotel in the Southern Appalachian mountainsa mans promise to his late wife that hed summon her spirita daughter whose imagination goes to dark placesand demonic evil lurking in the remote hotels basement, just waiting to be awoken.
+Learn more about Speed Dating with the Dead
+
+KISS ME OR DIE
+By Scott Nicholson
+Richard Coldirons first and last novel follows his metafictional journey through a troubled childhood, where he meets his invisible friend, his other invisible friend...and then some who arent so friendly.
+Richard keeps his cool despite the voices in his head, but hes about to get a new tenant: the Insider, a malevolent soul-hopping spirit that may or may not be born from Richards nightmares and demands a co-writing credit and a little bit of foot-kissing dark worship.
+Now Richard doesnt know which voice to trust. The books been rejected 117 times. The people he loves keep turning up dead. And here comes the woman of his dreams.
+Learn more about Kiss Me or Die
+
+LIQUID FEAR
+By Scott Nicholson
+A Top 20 bestseller.
+When Roland Doyle wakes up with a dead woman in his motel room, the only clue is a mysterious vial of pills bearing the label Take one every 4 hrs or else.
+Ten years before, six people were involved in a secret pharmaceutical trial that left one of them murdered and five unable to remember what happened. Now the experiment is continuing, as Dr. Sebastian Briggs wants to finish his research into fear response and post-traumatic stress disorder.
+Only by taking the mysterious pills can the survivors stave off the creeping phobias and madness that threaten to consume them. But the pills have an unexpected side effectthe survivors start remembering the terrible acts they perpetrated a decade ago. They are lured back to the Monkey House, the remote facility where the original trials took place, and Briggs has prepared it for their arrival.
+Now they are trapped, they each have only one pill left, and cracks are forming in their civilized veneer. After the pills are gone, theres only one option. Or else.
+Read about it at Haunted Computer
+
+CHRONIC FEAR
+By Scott Nicholson
+A Top 20 bestseller.
+Chronic Fear is the second installment of the chilling Fear series, which began with the harrowing Liquid Fear. The story picks up one year after the notorious Monkey House trials, from which the tiny handful of survivors have scattered in the wind. For while the unwitting human guinea pigs are still alive, the experimental drugs to which they were subjected continue to wreak havoc on their emotional stability. World-renowned neurobiologist Dr. Alexis Morgan knows first-hand the horrors of the sadistic experiment: her husband, Mark, was one its victims. As a result, he is plagued by unpredictable bouts of rage and paranoia. Dr. Morgans research into the drug leads her to suspect presidential candidate and U. S. Senator Daniel Burchfield of plotting to gain control of the drug for his own purposes, a power play that is sure to result in countless casualties unless she and three Monkey House survivors can outwit the shadowy figures behind the conspiracyif they dont lose their own sanity first.
+Read the first chapter at Haunted Computer
+
+OCTOBER GIRLS
+By Scott Nicholson
+Crystal doesnt want to be a trailer-trash witch like Momma. Her best friend Bone is only too happy to escape the afterlife and help Crystal break the rules.
+Then a young movie maker comes to Parsons Ford, and he has a very special project in mind: a horror movie starring a real ghost. The movie is rolling, the creatures are stirring, and the brainwashed teenagers are ready to welcome a new star from the other side of the grave.
+Learn more about the paranormal fantasy October Girls
+
+CURSED
+By J.R. Rain and Scott Nicholson
+Albert Shipway is an ordinary guy, an insurance negotiator who likes booze and women and never having to say hes sorry.
+And he thinks this is just another day, another lunch, another order of kung pao chicken. Little does he know that hes about to meet a little old lady who knows his greatest fear. A little old lady who knows whats hiding in his heart.
+In just a matter of minutes, Alberts life turns upside down and he enters a world where magic and evil lurk beneath the fabric of Southern California. And all his choices have brewed a perfect storm of broken hearts, broken promises, shattered families, and a couple of tiny problems. Namely, killer mice and a baby.
+Albert Shipway is finally getting a chance to right some wrongs. That is, if it's not too late.
+Learn more about the urban fantasy Cursed
+
+GHOST COLLEGE
+By Scott Nicholson & J.R. Rain
+First in a new series featuring paranormal investigators Ellen and Monty Drew. Ellen claims to possess a sixth sense but Monty, a former P.I., only believes what he can see. She views their work as a sacred mission while Monty just wants a happy wife and a paycheck.
+Then the Drews are summoned to a Southern California bible college after workers report hearing mysterious voices at night. When they encounter the unhappy ghost of a young girl, Monty's skepticism is shaken, but he resolves to help his wife free the trapped spirit. Their search uncovers the Latin phrase "Non omnis moriar"not all of me shall dieand they learn more about the sites history as a Catholic school destroyed by an earthquake. But a mysterious presence has plans of its own for the young ghost, and Monty and Ellen must go head to head with a Dark Master thats had more than a century of practice in demonic deeds.
+Learn more about Ghost College at Haunted Computer.
+
+THE VAMPIRE CLUB #1: First Bite
+By J.R. Rain & Scott Nicholson
+A group of college students pursue their passion for vampires, but when they discover the real thing, one of them must make the ultimate sacrifice in order to preserve the undead kind. A new vampire series by the author of the Samantha Moon series and the Liquid Fear series.
+
+BAD BLOOD
+By J.R. Rain, Scott Nicholson, and H.T. Night
+People call him Spider. And people come to him when they have a problem. So when teenager Parker Cole approaches Spider at night school, he figures she's just another problem waiting to happen. But then she tells him about her father, who runs a cult called Cloudland based at the foot of mystical Mount Shasta, California. And then she tells Spider about her best friend, who is now dead, her body completely drained of blood. Spider wonders if the death is the work of a fellow vampire...or if he's now the target of a sinister game designed to lure him to Cloudland, where darker mysteries await.
+
+THE HARVEST
+By Scott Nicholson
+It falls from the heavens and crashes to earth in the remote southern Appalachian Mountains.
+The alien roots creep into the forest, drawn by the intoxicating cellular activity of the humus and loam. The creature feeds on the surrounding organisms, exploring, assimilating, and altering the life forms it encounters. Plants wilt from the contact, trees wither, animals become deformed monstrosities, and people become something both more and less than human.
+A telepathic psychology professor, a moonshine-swilling dirt farmer, a wealthy developer, and a bitter recluse team up to take on the otherwordly force that is infecting their town. The authors preferred edition of the 2003 paperback release The Harvest.
+Learn more about the science fiction thriller The Harvest
+
+THE DEAD LOVE LONGER
+By Scott Nicholson
+Private investigator Richard Steele must solve his most difficult case everhis own murderwhile caught between women on both sides of the grave. In a race against time as his spirit slips away, Richard confronts his many, many failings and trusts in a power beyond his understandinglove. His only weapon is faith, and he's running out of bullets. It's going to be a hell of a showdown.
+Learn more about The Dead Love Longer 
+
+CRIME BEAT
+A novella by Scott Nicholson
+Crime doesn't pay...but neither does journalism. When John Moretz takes a job as a reporter in the Appalachian town of Sycamore Shade, a crime spree erupts and circulation increases. Then the first murder victim is found, and soon a serial killer is grabbing headlines. Moretz comes under suspicion, but he stays one step ahead of the police, his fellow reporters, and seemingly even the killer.
+Learn about Crime Beat
+
+BURIAL TO FOLLOW
+A Novella by Scott Nicholson
+When Jacob Ridgehorn dies, it's up to Roby Snow to make sure his soul goes on to the eternal reward. The only way Roby can do that is convince the Ridgehorn family to eat a special pie, but a mysterious figure named Johnny Divine is guarding the crossroads. When peculiar Appalachian Mountain funeral customs get stirred into the mix, Roby has to perform miraclesor else. Novella originally published in the Cemetery Dance anthology "Brimstone Turnpike."
+Learn more about Burial to Follow at the Haunted Computer
+
+FANGS IN VAIN
+By Scott Nicholson
+Sabrina Vickers is on a mission from God. Unfortunately, she's not quite sure what it is.
+All she knows is that her lover Luke is a soulless vampire that she's supposed to save, the forces of evil could be approaching, and her spiritual adviser is a fallen woman who has been falling for the past few hundred years. And, of course, Sabrina has yet to master the set of angel wings God granted her.
+A romantic getaway turns into a showdown that could trigger the start of Armageddon, if Sabrina can't handle her on-the-job training. The first installment of the Sabrina Vickers series features paranormal action, humor, and romantic fun. 
+
+FLOWERS
+By Scott Nicholson
+Features the L. Ron Hubbard Writers of the Future Award grand-prize winner "The Vampire Shortstop" and other tales of fantasy, such as "When You Wear These Shoes" and "In the Heart of November." Includes the Makers series where children control the elements, as well as more tales of magic, romance, and the paranormal.
+Learn more about Flowers and the award-winning "The Vampire Shortstop"
+
+ASHES
+By Scott Nicholson
+A collection of supernatural and paranormal stories by award-winning author Scott Nicholson, including "Homecoming," "The Night is an Ally" and "Last Writes." From the author of THE RED CHURCH, THE SKULL RING, and the story collections FLOWERS and THE FIRST, these stories visit haunted islands, disturbed families, and a lighthouse occupied by Edgar Allan Poe. Exclusive introduction by Jonathan Maberry, author of THE DRAGON FACTORY and GHOST ROAD BLUES, as well as an afterword.
+Learn more about the supernatural stories in Ashes
+
+THE FIRST
+By Scott Nicholson
+A collection of dark fantasy and futuristic stories from award-winning author Scott Nicholson. Dystopia, cyberpunk, and science fiction imbue these stories that visit undiscovered countries and distant times. Includes two bonus essays and Nicholson's first-ever published story, in addition to the four-story Aeropagan cycle.
+Learn more about the fantasy and science fiction stories in The First
+
+ZOMBIE BITS
+By Scott Nicholson
+A collection of zombie stories, from the zombie point-of-view to the shoot-em-up survival brand of apocalyptic horror. Proof that even zombies have a heartBased on the comic book currently in development by Scott Nicholson and Derlis Santacruz. With a bonus story by Jack Kilborn, a comic script, and Jonathan Maberrys "Zombie Apocalypse Survival Scorecard."
+Learn more about Zombie Bits
+
+CURTAINS
+By Scott Nicholson
+A collection of crime and mystery tales from the vaults of Scott Nicholson. Includes "How to Build Your Own Coffin" and Years Best Fantasy & Horror selection "Dog Person," as well as the psychological thrillers "Letters and Lies," "Sewing Circle," and more stories that appeared in magazines such as Crimewave, Cemetery Dance, and Blue Murder. Includes and afterword and a bonus story from bestselling authors J.A. Konrath and Simon Wood.
+Learn more about Curtains: Mystery Stories
+
+GATEWAY DRUG 
+By Scott Nicholson
+After the first hit, there's no turning back. Ten tales of horror and suspense from a bestselling author. A man learns fast cars and fast women don't mix, even when they're dead. A young boy discovers the terrible power of love. A rock musician will do anything for stardom. Bonus contributions from Tim Lebbon and Shane Jiraiya Cummings, as well as the afterword "One Sick Puppy."
+Learn about Gateway Drug
+
+HEAD CASES
+By Scott Nicholson
+Nine stories of psychological suspense and paranoid horror, featuring the first-ever appearance of "Fear Goggles." Collected from the pages of Crimewave, The Psycho Ward, Cemetery Dance, and more, find out what happens when a writer thinks Stephen King is stealing his ideas. Bonus stories by William Meikle and John Everson.
+Learn more about Head Cases
+
+MISSING PIECES
+By Scott Nicholson
+Ten stories of suspense, fantasy, and the supernatural, including The Beaulahville Gospel; Jubilee, Floating Cathedral Song, and Constitution, as well as three stories making their original appearance. View it for Kindle at Amazon US or Amazon UK.
+
+THESE THINGS HAPPENED
+By Scott Nicholson
+It's been a strange life. It's been my life. Features stories, poems, and essays on relationships, romance, writing, and taking oneself far too seriously. Plus some humor. You may laugh, you may cry, you may decide you want to be a writer, too. You may hate me after if it's over. That's okay. You wouldn't be the first. Learn about These Things Happened.
+
+IF I WERE YOUR MONSTER
+Children's book by Scott Nicholson, art by Lee Davis
+Creatures of the night teach a lesson of bravery in this full-color, illustrated bedtime story for all ages. Let vampires, ghosts, scarecrows, and mummies protect your little one from the bullies and mean people of the world. 24 screens or pages. View it at Haunted Computer
+
+TOO MANY WITCHES
+Childrens book by Scott Nicholson, art by Lee Davis
+When Moanica Moonsweep plans a Halloween party, she needs the perfect potion of stinky stew. But when she asks her friends for advice, she ends up with one big mess and lots of hurt feelings. 28 full-color screens or pages. See it at Haunted Computer
+
+DUNCAN THE PUNKIN
+Children's book by Scott Nicholson, art by Sergio Castro
+A momma pumpkin must teach her young pumpkin all about the dangers of Halloween, while a mysterious creature known as Skeerdy-Cat-Crow watches over the pumpkin patch. 30 full-color pages or screens. See it at Haunted Computer
+
+IDA CLAIRE
+By Scott Nicholson, art by Lee Davis
+Little Ida is a handful of feisty fun for her harried dad, bursting with imagination and play while Dad tries to keep up. Features 32 full-color screens. 
+
+SOLOM (UK)
+By Scott Nicholson
+When Katy Logan and her teen daughter Jett move to the remote Southern Appalachian community of Solom, they make fun of the local stories about a horseback preacher who haunts the hills.
+But the residents of Solom know all about the man in the black hat. The Reverend Harmon Smith has come back more than century after his last missionary trip, and he has unfinished business. But first Katy and Jett must be brought into the Smith family, and the farm must be prepared to welcome him home. Author's preferred edition of the 2006 U.S. paperback The Farm.
+
+THE GORGE (UK)
+By Scott Nicholson
+An experimental rafting expedition, an FBI manhunt for a delusional killer, and the worst storm in decades collide in the remote mountain wilderness...and then THEY come out.
+Learn more about The Gorge 
+
+OMNIBUS EDITIONS
+You can also save with the omnibus editions
+Ethereal Messenger (contains The Red Church, Drummer Boy, and Speed Dating With The Dead)
+Mystery Dance (contains Disintegration, Crime Beat, and The Skull Ring, and bonus stories and essays)
+Three Screenplays (The Gorge, Creative Spirit, and The Skull Ring screenplays)
+Ghost Box: Six Supernatural Thrillers (contains The Red Church, Drummer Boy, The Dead Love Longer, Burial to Follow, Creative Spirit, and Speed Dating With The Dead)
+Mad Stacks: Short Stories Box Set (Contains Gateway Drug, Head Cases, and Missing Pieces)
+Bad Stacks: Short Stories Box Set (Contains Ashes, American Horror, and Curtains)
+Odd Stacks: Short Stories Box Set (Contains The First, Flowers, and Zombie Bits)
+
+Table of Contents
+After: First Light
+After: The Shock (Excerpt)
+After: The Echo (Excerpt)
+Ally, Beneath the Sky That Burned (Story by Joshua Simcox)
+Zombie Patrol excerpt (By J.R. Rain)
+About Scott Nicholson
+Other Scott Nicholson Books

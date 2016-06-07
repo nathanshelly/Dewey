@@ -1,5 +1,6 @@
 books*
 !books_genres.p
+!books_subset
 single_genre*
 *.pyc
 *.zip

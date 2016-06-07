@@ -1,5 +1,5 @@
 from bayes import *
-import copy
+import copy, sys
 ########################### Driver functions
 
 def drive_cross_validate():
@@ -7,30 +7,39 @@ def drive_cross_validate():
     folds = 4
     books_path = 'single_genre/'
     genres = [f for f in os.listdir(books_path) if f != '.DS_Store']
-    smoothing_factor = 0.0005
-
-    results, accuracies = cross_validate(genres, folds, books_path, smoothing_factor)
+    # smoothing_factors = [.00005, .00003, .00001, .000005, .000003, .000001]
+    # smoothing_factors = [1.0, 0.5, 0.25, 0.1, 0.01, 0.001, 0.0001]
+    sf = sys.argv[1]
 
     genre_string = ""
     for genre in genres:
         genre_string += genre + '_'
-    f = open('results/' + genre_string + str(folds) + "_fold_" + str(smoothing_factor) + "_smooth", 'w')
-    f.write("Averages: " + str(results) + '\n')
-    f.write("Per-fold accuracies: " + str(accuracies) + '\n')
-    print "Accuracies: ", accuracies
-    print "Results: ", results
+    f = open('results/' + genre_string + str(folds) + "_fold_" + str(sf) + "_smooth", 'w')
+
+    results, accuracies = cross_validate(genres, folds, books_path, float(sf))
+
+    f.write("Averages for smoothing factor of " + str(sf) + ": " + str(results) + '\n')
+
+    # for sf in smoothing_factors:
+    #     results, accuracies = cross_validate(genres, folds, books_path, sf)
+    #     f.write("Averages for smoothing factor of " + str(sf) + ": " + str(results) + '\n')
+
+    f.close()
 
 def drive_cross_validate_multiple():
     folds = 4
+    # books_path = 'books_opened/'
     books_path = 'books_opened/'
-    smoothing_factor = 0.0005
+    smoothing_factor = 0.1
+    # genres = ['Adventure', 'Fantasy', 'Historical', 'Horror', 'Humor', 'Literature', 'Mystery', 'New_Adult', 'Other', 'Romance', 'Science_fiction', 'Teen', 'Themes', 'Thriller', 'Vampires', 'Young_Adult']
+    genres = ['Fantasy', 'Horror']
 
-    macroaverages, metrics = cross_validate_multiple(folds, books_path, smoothing_factor)
+    macroaverages, metrics = cross_validate_multiple_genres(folds, books_path, smoothing_factor, genres)
 
     genre_string = ""
     for genre in macroaverages.keys():
         genre_string += genre + '_'
-    f = open('results/' + genre_string + str(folds) + "_fold_" + str(smoothing_factor) + "_smooth", 'w')
+    f = open('results/' + genre_string + str(folds) + "_fold_" + str(smoothing_factor) + "_smooth_multiple", 'w')
     f.write("Macroaverages: " + str(macroaverages) + '\n')
     f.write("Per-fold metrics: " + str(metrics) + '\n')
     print "Macroaverages: ", macroaverages

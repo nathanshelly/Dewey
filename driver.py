@@ -20,14 +20,21 @@ def drive_cross_validate(folds = 4, books_path = 'books_subset/', smoothing_fact
     print "Macroaverages: ", macroaverages
     print "Per-fold: ", metrics
 
-def drive_classify(training_folder_path, filename):
+def drive_classify(filename):
     """ Drives the classification of a single text. """
     book = loadFile(filename)
     genres = ['Adventure', 'Fantasy', 'Historical', 'Horror', 'Humor', 'Literature', 'Mystery', 'New_Adult', 'Other', 'Romance', 'Science_fiction', 'Teen', 'Themes', 'Thriller', 'Vampires', 'Young_Adult']
 
-    catalogs = generate_numeric_catalog(training_folder_path, [], genres)
+    catalogs = {genre:load('catalogs/' + genre + '.p') for genre in genres}
+    catalogs = smooth(catalogs, word_list(catalogs), 0.1)
+    catalogs = {genre:generate_percentile_catalog(catalog) for genre, catalog in catalogs.iteritems()}
 
-    print classify_text(book, catalogs, len(catalogs.keys()))
+    classifications, probs = classify_text(book, catalogs, len(catalogs.keys()))
+    norm = math.fsum(probs)
+    probs = [p/norm for p in probs]
+
+    for i in range(len(probs)):
+        print "Number " + str(i) + " classification: " + classifications[i] + " (normalized log probability of " + str(probs[i]) + ")"
 
 if __name__ == "__main__":
     mode = sys.argv[1]
@@ -36,6 +43,6 @@ if __name__ == "__main__":
     elif mode == "classify":
         if len(sys.argv) != 3:
             print "Sorry - please supply a filename."
-        drive_classify('books_subset/', sys.argv[2])
+        drive_classify(sys.argv[2])
     else:
         print "Sorry - options are 'cross' or 'classify <filename>'."

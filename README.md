@@ -11,6 +11,6 @@ A subset of our the corpus we used is included in this repo.
 
 To run sample 4-fold cross-validation, run "python driver.py cross". Warning: it may take a while.
 
-To classify a sample text file (ASCII encoding), run "python driver.py classify \<filename\>".
+To classify a sample text file (ASCII encoding), run "python driver.py classify \<filename\>". Classification uses catalogs constructed from our full training corpus.
 
 For the larger corpus we used, please contact us using the information in our report.

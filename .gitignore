@@ -1,3 +1,4 @@
+*.pem
 books*
 !books_genres.p
 !books_subset
@@ -8,3 +9,4 @@ results
 *.pdf
 *.sh
 figures
+test.py

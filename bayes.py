@@ -14,7 +14,7 @@ def generate_numeric_catalog(folder_path, file_name_list, des_genres):
     books_genres = load("books_genres.p")
 
     if not file_name_list:
-        file_name_list = os.listdir(folder_path)
+        file_name_list = [f for f in os.listdir(folder_path) if f != '.DS_Store']
 
     for file_name in file_name_list:
         genres = [genre for genre in books_genres[file_name] if genre in des_genres]
@@ -95,7 +95,7 @@ def classify_text(string_to_classify, dict_of_catalogs, num_genres):
     """ Produces a sorted list of the num_genres most likely genres for a given text. """
     probs_dict = {key: 0 for key in dict_of_catalogs.keys()}
     compute_probabilites(probs_dict, dict_of_catalogs, word_tokenize(string_to_classify))
-    return sorted(probs_dict, key=probs_dict.get, reverse=True)[:num_genres]
+    return sorted(probs_dict, key=probs_dict.get, reverse=True)[:num_genres], sorted(probs_dict.values(), reverse=True)
 
 def compute_probabilites(probs_dict, dict_of_catalogs, words_to_classify):
     """ Computes the probabilities of each genre given a text. """
